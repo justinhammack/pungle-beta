@@ -31,7 +31,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" />
+        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -56,7 +56,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" />
+        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -72,7 +72,7 @@
     <!-- Justin Hammack -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/justin_hammack.jpg" title="Justin Hammack" />
+				<img src="images/justin_hammack.jpg" title="Justin Hammack" width="388" height="240" />
 			</div>
 			<div class="col col_8">
 				<h3>Justin Hammack (<a href="http://about.me/justinhammack" target="_blank" title="Details on http://about.me">contact</a>)</h3>
@@ -87,7 +87,7 @@
 		<!-- Ben Andrews -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/ben_andrews.jpg" title="Ben Andrews" />
+				<img src="images/ben_andrews.jpg" title="Ben Andrews" width="388" height="240" />
 			</div>
 			<div class="col col_8">
 				<h3>Ben Andrews (<a href="http://about.me/bandrews" target="_blank" title="Details on http://about.me" />contact</a>)</h3>
@@ -101,7 +101,7 @@
 		<!-- Madeline Puckette -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/madeline_puckette.jpg" title="Madeline Puckette" />
+				<img src="images/madeline_puckette.jpg" title="Madeline Puckette" width="388" height="240" />
 			</div>
 			<div class="col col_8">
 				<h3>Madeline Puckette (<a href="http://about.me/madelinep" target="_blank" title="Details on http://about.me">contact</a>)</h3>
@@ -115,7 +115,7 @@
 		<!-- Micah Huerta -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/micah_huerta.jpg" title="Micah Huerta" />
+				<img src="images/micah_huerta.jpg" title="Micah Huerta" width="388" height="240" />
 			</div>
 			<div class="col col_8">
 				<h3>Micah Huerta (<a href="mailto:micah@pungle.org">email</a>)</h3>
@@ -129,7 +129,7 @@
 		<!-- Katie Andrews -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/katie_andrews.jpg" title="Katie Andrews" />
+				<img src="images/katie_andrews.jpg" title="Katie Andrews" width="388" height="240" />
 			</div>
 			<div class="col col_8">
 				<h3>Katie Andrews (<a href="mailto:contact@pungle.org">email</a>)</h3>
@@ -143,7 +143,7 @@
 		<!-- Mourad Salji 
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/aboutus_jbh.jpg" title="Mourad Salji" />
+				<img src="images/aboutus_jbh.jpg" title="Mourad Salji" width="388" height="240" />
 			</div>
 			<div class="col col_8">
 				<h3>Mourad Salji (<a href="mailto:contact@pungle.org">email</a>)</h3>

@@ -22,29 +22,6 @@
 
 	<div id="content" class="clearfix">
 		
-		<!-- interactive social media buttons 
-		<div class="twHanger"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://pungle.org" data-text="Hey @JustinHammack, I just pungled a little." data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
-		<div class="fbHanger"><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.facebook.com/pungleDOTorg" layout="button_count" show_faces="false" width="90" font="arial"></fb:like></div> -->
-		
-		<!-- container for propaganda 
-		<div class="row">
-			<div class="col col_5 align_center">
-				<p><a href="sogood.php" title="Learn more!"><img src="images/social_good_icon.jpg" title="The social good movement." /></a></p>
-				<h2><a href="sogood.php" title="Learn more!">AN IDEA ></a></h2>
-				<p>Inspired by a global social good movement, pungle bridges it with our day-to-day lives. <a href="sogood.php" title="Learn more!">Learn More</a></p>
-			</div>
-			<div class="col col_4 align_center">
-				<p><a href="sogood.php" title="Learn more!"><img src="images/anvil_icon.png" title="Social good starts with a tool."/></a></p>
-				<h2><a href="sogood.php" title="Learn more!">THE TOOL ></a></h2>
-				<p>Enabling change requires a tool, so we built the anvil, a shopping interface.</p>
-			</div>
-			<div class="col col_4 align_center">
-				<p><a href="sogood.php" title="Learn more!"><img src="images/icon_set.jpg" title="Here is our progress." /></a></p>
-				<h2><a href="sogood.php" title="Learn more!">RESULTS.</a></h2>
-				<p>Wells are drilled, schools built, education funded, nets distributed, & cows go moo.</p>
-			</div>
-		</div> -->
-		
 		<!-- page description -->
 		<div class="row">
       <div class="col col_13">
@@ -61,7 +38,7 @@
     
 		<div class="row">
 			<div class="col col_13 align_center">
-				<img src="images/the_anvil.png" title="hi"/>
+				<img src="images/the_anvil.png" title="hi" width="1060" height="40" />
 			</div>
 		</div>
 		
@@ -71,7 +48,7 @@
 				<ul id="ulOverview"></ul>				
 			</div>
 			<div class="col col_1">
-				<img style="display: block;" src="images/micro_pungle.png" title="O.o" />
+				<img style="display: block;" src="images/micro_pungle.png" title="O.o" width="52" height="84" />
 			</div>
 		</div>
 		
@@ -119,9 +96,9 @@
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=pungle"></script>
 
 	<!-- version this file to force reload -->
-	<!-- 2/24/11 set v=2 
-	<script src="core/pungle.js?v=2"></script> -->
-	<script src="core/pungle-min.js?v=2"></script>
+	<!-- 2/24/11 set v=2 -->
+	<script src="core/pungle.js?v=2"></script>
+	<!-- <script src="core/pungle-min.js?v=2"></script> -->
 
 	<script type="text/javascript">	$(document).ready(function(){	pungle.init(); }); </script>
 </body>

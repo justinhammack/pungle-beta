@@ -197,12 +197,6 @@ FileETag None
   RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 </IfModule>
 
-# CDN re-write
-#<IfModule mod_rewrite.c>
-#  RewriteEngine On
-#  RewriteRule ^(.*)(jpeg|jpg|gif|bmp|png|mp3)$ http://c27885.r85.cf1.rackcdn.com/$0 [NC,L]
-#</IfModule>
-
 # without -MultiViews, Apache will give a 404 for a rewrite if a folder of the same name does not exist 
 #   e.g. /blog/hello : webmasterworld.com/apache/3808792.htm
 Options -MultiViews 

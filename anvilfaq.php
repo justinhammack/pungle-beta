@@ -30,7 +30,7 @@
       <div class="row">
       	
         <div class="col col_13 align_center">
-        	<img src="images/1060x1.png" title="Ouch!" />
+        	<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         </div>
       	
       </div>  

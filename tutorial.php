@@ -31,7 +31,7 @@
       	
         <div class="col col_13 align_center">
         	<small>Oh, you want the short version? Ok. Click a store, shop, tell your friends, rinse & repeat. Go get 'em tiger.</small>
-        	<img src="images/1060x1.png" title="Ouch!" />
+        	<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         </div>
       	
       </div>  
@@ -41,7 +41,7 @@
         	
         	<p>
         		<h3>step 1 - understand the interface</h3>
-        		<img src="images/step_1.jpg" title="Parts of the page" />
+        		<img src="images/step_1.jpg" title="Parts of the page" width="1060" height="600" />
       		</p>
       		
       	</div>
@@ -52,7 +52,7 @@
         	
         	<p>
         		<h3>step 2 - review the icons</h3>
-        		<img src="images/step_2.jpg" title="How to shop" />
+        		<img src="images/step_2.jpg" title="How to shop" width="1060" height="600" />
       		</p>
       		
       	</div>
@@ -63,7 +63,7 @@
         	
         	<p>
         		<h3>step 3 - add or remove favorite stores</h3>
-        		<img src="images/step_3.jpg" title="Add & remove stores from favorites" />
+        		<img src="images/step_3.jpg" title="Add & remove stores from favorites" width="1060" height="330" />
       		</p>
       		
       	</div>
@@ -74,7 +74,7 @@
         	
         	<p>
         		<h3>step 4 - organize your favorites</h3>
-        		<img src="images/step_4.jpg" title="Drag & drop to organize stores" />
+        		<img src="images/step_4.jpg" title="Drag & drop to organize stores" width="1060" height="140" />
       		</p>
       		
       	</div>
@@ -85,7 +85,7 @@
         	
         	<p>
         		<h3>step 5 - how to start fresh</h3>
-        		<img src="images/step_5.jpg" title="What the buttons do" />
+        		<img src="images/step_5.jpg" title="What the buttons do" width="1060" height="140" />
       		</p>
       		
       	</div>

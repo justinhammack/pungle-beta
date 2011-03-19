@@ -18,9 +18,9 @@
     <script src="core/libs/g.raphael-min.js" type="text/javascript" charset="utf-8"></script> 
     <script src="core/libs/g.pie-min.js" type="text/javascript" charset="utf-8"></script> -->
 		
-		<!-- stylize the graph here -->
-		<style type="text/css">
-			
+	<!-- stylize the graph here -->
+	<style type="text/css">
+	
     </style>
     
 </head>
@@ -39,7 +39,7 @@
     
     <div class="row">
   		<div class="col col_13 align_center">
-  			<img src="images/1060x1.png" title="Stop touching me!" />
+  			<img src="images/1060x1.png" title="Stop touching me!" width="1060" height="1" />
   		</div>        	
   	</div>
   	
@@ -71,17 +71,17 @@
       </div>
       
       <div class="col col_8">
-  			<p><img src="images/goal_water.png" title="Our water goal"/></p>
-  			<p><img src="images/goal_school.png" title="Our school goal"/></p>
-  			<p><img src="images/goal_oxfam.png" title="Our agriculture goal"/></p>
-  			<p><img src="images/goal_nets.png" title="Our health goal"/></p>
+  			<p><img src="images/goal_water.png" title="Our water goal" width="640" height="84" /></p>
+  			<p><img src="images/goal_school.png" title="Our school goal" width="640" height="84" /></p>
+  			<p><img src="images/goal_oxfam.png" title="Our agriculture goal" width="640" height="84" /></p>
+  			<p><img src="images/goal_nets.png" title="Our health goal" width="640" height="84" /></p>
       </div>
       
     </div>
     
     <div class="row">
   		<div class="col col_13 align_center">
-  			<img src="images/1060x1.png" title="Stop touching me!" />
+  			<img src="images/1060x1.png" title="Stop touching me!" width="1060" height="1" />
   		</div>        	
   	</div>
   	
@@ -94,7 +94,7 @@
   	<!-- water projects progress -->
   	<div class="row">
   		<div class="col col_8 clearfix">  			
-      	<img src="images/progresstop_charitywater.png" title="Progress markers for charity: water well." />
+      	<img src="images/progresstop_charitywater.png" title="Progress markers for charity: water well." width="640" height="79" />
   			<div id="progressCWater">
   				
   				<span style="line-height: 43px; margin-right: 35px; font-weight: bold;" class="right">charity: water</span>
@@ -105,7 +105,7 @@
   			
 				<p><br/></p>
 				
-				<img src="images/progresstop_darmang.png" title="Progress markers for project darmang well." />
+				<img src="images/progresstop_darmang.png" title="Progress markers for project darmang well." width="640" height="79" />
   			<div id="progressDarmang">
   				
   				<span style="line-height: 43px; margin-right: 35px; font-weight: bold;" class="right">Project Darmang</span>
@@ -191,7 +191,7 @@
     <div class="row">
   		
     	<div class="col col_8">  			
-      	<img src="images/progresstop_pencilsofpromise.png" title="Progress markers for building a school." />
+      	<img src="images/progresstop_pencilsofpromise.png" title="Progress markers for building a school." width="640" height="79" />
   			<div id="progressPencils">
   			
   				<div id="progressPencilsBar" style="width: 9%"><!-- text --></div>
@@ -215,7 +215,7 @@
     <!-- oxfam america progress -->
     <div class="row">
   		<div class="col col_8">  			
-      	<img src="images/progresstop_oxfam.png" title="Progress markers for planted trees." />
+      	<img src="images/progresstop_oxfam.png" title="Progress markers for planted trees." width="640" height="79" />
   			<div id="progressOxfam">
   			
   				<div id="progressOxfamBar" style="width: 0%"><!-- text --></div>
@@ -238,7 +238,7 @@
     <!-- nothing but nets progress -->
     <div class="row">
   		<div class="col col_8">  			
-      	<img src="images/progresstop_nets.png" title="Progress markers for nets donated." />
+      	<img src="images/progresstop_nets.png" title="Progress markers for nets donated." width="640" height="79" />
   			<div id="progressNets">
   			
   				<div id="progressNetsBar" style="width: 0%"><!-- text --></div>

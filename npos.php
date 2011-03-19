@@ -46,7 +46,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" />
+        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -67,7 +67,7 @@
     		<div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" />
+        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -76,7 +76,7 @@
         <div class="row">
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/charitywater.jpg" title="charity: water" /></p>
+        		<p><img src="images/charitywater.jpg" title="charity: water" width="600" height="400" /></p>
         	</div>
         	
         	<div class="col col_5">
@@ -93,7 +93,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" />
+        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -109,7 +109,7 @@
         	</div>
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/oxfam.jpg" title="Oxfam America" /></p>
+        		<p><img src="images/oxfam.jpg" title="Oxfam America" width="600" height="400" /></p>
         	</div>
         	
         </div>
@@ -117,7 +117,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" />
+        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -125,7 +125,7 @@
         <div class="row">
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/pencilsofpromise.jpg" title="Pencils of Promise" /></p>
+        		<p><img src="images/pencilsofpromise.jpg" title="Pencils of Promise" width="600" height="400" /></p>
         	</div>
         	
         	<div class="col col_5">
@@ -143,7 +143,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" />
+        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -159,7 +159,7 @@
         	</div>
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/nothingbutnets.png" title="Nothing But Nets" /></p>
+        		<p><img src="images/nothingbutnets.png" title="Nothing But Nets" width="600" height="400" /></p>
         	</div>
         	
         </div>
@@ -167,7 +167,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" />
+        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -175,7 +175,7 @@
         <div class="row">
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/projectdarmang.jpg" title="Project Darmang" /></p>
+        		<p><img src="images/projectdarmang.jpg" title="Project Darmang" width="600" height="400" /></p>
         	</div>
         	
         	<div class="col col_5">
