@@ -10,15 +10,15 @@
 <head>
 	<title>pungle - the anvil</title>
 	<meta name="description" content="Tangible social good through online shopping at no cost to our visitors; progress you can see.">
-	<meta name="author" content="pungle.org">
-<?php require("include/head.php"); ?>
+	<meta name="author" content="pungle.me">
+<?php require("/include/head.php"); ?>
 	
-	<link rel="canonical" href="http://pungle.org/anvil.php" />
+	<link rel="canonical" href="http://pungle.me/anvil/" />
 	
 </head>
 
 <body>
-<?php require("include/nav.php"); ?>
+<?php require("/include/nav.php"); ?>
 
 	<div id="content" class="clearfix">
 		
@@ -38,7 +38,7 @@
     
 		<div class="row">
 			<div class="col col_13 align_center">
-				<img src="images/the_anvil.png" title="hi" width="1060" height="40" />
+				<img src="/images/the_anvil.png" title="hi" width="1060" height="40" />
 			</div>
 		</div>
 		
@@ -48,7 +48,7 @@
 				<ul id="ulOverview"></ul>				
 			</div>
 			<div class="col col_1">
-				<img style="display: block;" src="images/micro_pungle.png" title="O.o" width="52" height="84" />
+				<img style="display: block;" src="/images/micro_pungle.png" title="O.o" width="52" height="84" />
 			</div>
 		</div>
 		
@@ -82,14 +82,14 @@
 		
 	</div>
 
-<?php require("include/footer.php"); ?>
+<?php require("/include/footer.php"); ?>
 	
 	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
-	<script>!window.jQuery && document.write('<script src="core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
+	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
   
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js" type="text/javascript"></script>
-	<script>!$.ui && document.write('<script src="core/libs/jquery-ui-1.8.9.min.js" type="text/javascript"><\/script>')</script>
+	<script>!$.ui && document.write('<script src="/core/libs/jquery-ui-1.8.9.min.js" type="text/javascript"><\/script>')</script>
 	
 	<!-- add this scripts -->
 	<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
@@ -97,7 +97,7 @@
 
 	<!-- version this file to force reload -->
 	<!-- 2/24/11 set v=2 -->
-	<script src="core/pungle.js?v=2"></script>
+	<script src="/core/pungle.js?v=2"></script>
 	<!-- <script src="core/pungle-min.js?v=2"></script> -->
 
 	<script type="text/javascript">	$(document).ready(function(){	pungle.init(); }); </script>

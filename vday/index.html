@@ -13,9 +13,9 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Will you be my Valentine? pungle.org!</title>
+  <title>Will you be my Valentine? pungle.me!</title>
   <meta name="description" content="Valentine's wishes for our favorite punglers!">
-  <meta name="author" content="Mr. Meerkat of pungle.org">
+  <meta name="author" content="Mr. Meerkat of pungle.me">
 
   <!--  Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +35,7 @@
 		<div id="hanger">
 			<b>TO: </b><input type="text" id="getName" value="To who?"/>
 			<span class="refresh button" id="updateUrl" title="Click to refresh the link & message! Copy/paste to share.">refresh</span>
-			<input type="text" id="getUrl" value="http://pungle.org/vday/"/>	
+			<input type="text" id="getUrl" value="http://pungle.me/vday/"/>	
 		</div>		
 	</div>
 	
@@ -49,7 +49,7 @@
  		</div> 		
  	</div>
  	
- 	<a id="fdbk_tab" href="http://pungle.org" title="get pungled!" target="_blank">pungle.org</a>
+ 	<a id="fdbk_tab" href="http://pungle.me" title="get pungled!" target="_blank">pungle.me</a>
  	
   </div> <!--! end of #container -->
 
@@ -97,7 +97,7 @@
 				var vdaywho = $.url.param("to").replace(";"," ");
 				$("#victim").html(vdaywho);
 				$("#getName").val(vdaywho);
-				$("#getUrl").val("http://pungle.org/vday/#to=" + vdaywho.replace(" ",";"));
+				$("#getUrl").val("http://pungle.me/vday/#to=" + vdaywho.replace(" ",";"));
 			}			
 			
 			$(".refresh").click(function(){updatevday();});

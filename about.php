@@ -10,13 +10,15 @@
 <head>
     <title>pungle - about us</title>
     <meta name="description" content="Discover the team at pungle, our story and how to contact us.">
-    <meta name="author" content="pungle.org">
-<?php require("include/head.php"); ?>
-
+    <meta name="author" content="pungle.me">
+<?php require("/include/head.php"); ?>
+    
+    <link rel="canonical" href="http://pungle.me/about-us/" />
+    
 </head>
 
 <body>
-<?php require("include/nav.php"); ?>
+<?php require("/include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -31,19 +33,17 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
         
     	<div class="row">
             <div class="col col_13">
-            	<!--<h2>About Us</h2>
-            	 <p><strong>pungle.org</strong> THIS. IS. PUNGLE! (now imagine some muscley dude kicking you into a hole, hahah owned!)</p> -->
             	<p>
           			<a class="fbButtonBig" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on facebook.">Facebook</a>
           			<a class="twButtonBig" href="http://twitter.com/JustinHammack" target="_blank" title="Follow our founder on Twitter.">Twitter</a>          		
-          			<a class="emButtonBig" href="mailto:contact@pungle.org" title="Email us!">Email</a>
+          			<a class="emButtonBig" href="mailto:contact@pungle.me" title="Email us!">Email</a>
           		</p>
             	<p><strong>Philosophy:</strong> pungle brings social good to shopping for our community. We don't fundraise and we're not trying to replace the donations you normally make. Instead, we're asking that you join the global social good movement by making one small change in the the way you shop. Then just sit back, relax and partake in our delectable culture.</p>
             	<p><strong>How it Works:</strong> pungle is a business that collects revenue by promoting vendors through our anvil shopping tool; at absolutely <strong>no expense</strong> to our community. We then manage, invest and/or donate incoming revenue towards the most tangible, progressive and effective causes.</p>
@@ -56,7 +56,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -72,7 +72,7 @@
     <!-- Justin Hammack -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/justin_hammack.jpg" title="Justin Hammack" width="388" height="240" />
+				<img src="/images/justin_hammack.jpg" title="Justin Hammack" width="388" height="240" />
 			</div>
 			<div class="col col_8">
 				<h3>Justin Hammack (<a href="http://about.me/justinhammack" target="_blank" title="Details on http://about.me">contact</a>)</h3>
@@ -87,7 +87,7 @@
 		<!-- Ben Andrews -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/ben_andrews.jpg" title="Ben Andrews" width="388" height="240" />
+				<img src="/images/ben_andrews.jpg" title="Ben Andrews" width="388" height="240" />
 			</div>
 			<div class="col col_8">
 				<h3>Ben Andrews (<a href="http://about.me/bandrews" target="_blank" title="Details on http://about.me" />contact</a>)</h3>
@@ -101,7 +101,7 @@
 		<!-- Madeline Puckette -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/madeline_puckette.jpg" title="Madeline Puckette" width="388" height="240" />
+				<img src="/images/madeline_puckette.jpg" title="Madeline Puckette" width="388" height="240" />
 			</div>
 			<div class="col col_8">
 				<h3>Madeline Puckette (<a href="http://about.me/madelinep" target="_blank" title="Details on http://about.me">contact</a>)</h3>
@@ -115,10 +115,10 @@
 		<!-- Micah Huerta -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/micah_huerta.jpg" title="Micah Huerta" width="388" height="240" />
+				<img src="/images/micah_huerta.jpg" title="Micah Huerta" width="388" height="240" />
 			</div>
 			<div class="col col_8">
-				<h3>Micah Huerta (<a href="mailto:micah@pungle.org">email</a>)</h3>
+				<h3>Micah Huerta (<a href="mailto:micah@pungle.me">email</a>)</h3>
 				<p><em>Back end developer. East coast liaison. Will min/max your dinner order.</em><br/>
 					<br/>
 					I love food, wine, PC games and I'm an extremely talented musician. (ugh)
@@ -129,10 +129,10 @@
 		<!-- Katie Andrews -->
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/katie_andrews.jpg" title="Katie Andrews" width="388" height="240" />
+				<img src="/images/katie_andrews.jpg" title="Katie Andrews" width="388" height="240" />
 			</div>
 			<div class="col col_8">
-				<h3>Katie Andrews (<a href="mailto:contact@pungle.org">email</a>)</h3>
+				<h3>Katie Andrews (<a href="mailto:contact@pungle.me">email</a>)</h3>
 				<p><em>Grass roots advocate. Organizational expert. Good luck charm.</em><br/>
 					<br/>
 					My husband practically invented awesome.
@@ -143,10 +143,10 @@
 		<!-- Mourad Salji 
 		<div class="row">
 			<div class="col col_5">
-				<img src="images/aboutus_jbh.jpg" title="Mourad Salji" width="388" height="240" />
+				<img src="/images/aboutus_jbh.jpg" title="Mourad Salji" width="388" height="240" />
 			</div>
 			<div class="col col_8">
-				<h3>Mourad Salji (<a href="mailto:contact@pungle.org">email</a>)</h3>
+				<h3>Mourad Salji (<a href="mailto:contact@pungle.me">email</a>)</h3>
 				<p><em>International ambassador. The Canadian connection. Male model.</em><br/>
 					<br/>
 					Need your cheese here.					
@@ -163,7 +163,7 @@
 		
     </div>
 
-<?php require("include/footer.php"); ?>
+<?php require("/include/footer.php"); ?>
     
    
     

@@ -4,9 +4,9 @@
 
 <head>
 	
-	<title>pungle.org - injecting social good into online shopping!</title>
+	<title>pungle.me - injecting social good into online shopping!</title>
 	
-	<meta name="description" content="pungle.org is the only bookmark you need for shopping, giving you a birds eye view of the hottest sales at all your favorite stores. Keeping you in the know. Together, punglers are changing the world." />
+	<meta name="description" content="pungle.me is the only bookmark you need for shopping, giving you a birds eye view of the hottest sales at all your favorite stores. Keeping you in the know. Together, punglers are changing the world." />
 	<meta name="keywords" content="pungle, online shopping, sales, specials, store bookmarking, shop online, deals, amazon, buy.com, walmart, endless, macy's, itunes, best buy, overstock, newegg" />
 	<meta charset="UTF-8" />
 	<meta name="ROBOTS" content="ALL">

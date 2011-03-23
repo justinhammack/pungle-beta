@@ -1,9 +1,11 @@
 # Apache configuration file
 # httpd.apache.org/docs/2.2/mod/quickreference.html
 
-# pungle.org specific
+# pungle.me specific
 Redirect 301 /deals/ /
 Redirect 301 /deals.htm /
+
+DirectoryIndex index.php
 
 # Techniques in here adapted from all over, including:
 #   Kroc Camen: camendesign.com/.htaccess
@@ -32,8 +34,6 @@ Redirect 301 /deals.htm /
 #<IfModule mod_headers.c>
 #  Header set Access-Control-Allow-Origin "*"
 #</IfModule>
-
-
 
 
 # allow access from all domains for webfonts
@@ -192,9 +192,37 @@ FileETag None
 #   no-www.org/faq.php?q=class_b
 <IfModule mod_rewrite.c>
   RewriteEngine On
+ 
+  Options +FollowSymLinks
+   
+  RewriteCond %{HTTP_HOST} ^pungle\.org [NC]
+  RewriteRule ^(.*)$ http://pungle.me/$1 [R=301,L]
+  
   RewriteCond %{HTTPS} !=on
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+  
+  # http://net.tutsplus.com/tutorials/other/using-htaccess-files-for-pretty-urls/
+  
+  RewriteCond %{SCRIPT_FILENAME} !-d  
+  RewriteCond %{SCRIPT_FILENAME} !-f
+  
+  RewriteRule ^about-us/terms-of-service/ ./tos.php
+  RewriteRule ^about-us/privacy-policy/ ./privacy.php
+  RewriteRule ^about-us/ ./about.php
+  
+  RewriteRule ^anvil/tutorial/ ./tutorial.php
+  RewriteRule ^anvil/faq/ ./anvilfaq.php
+  RewriteRule ^anvil/(.*)$ ./anvil.php?id=$1
+  
+  RewriteRule ^social-good/cause-portfolio/ ./npos.php
+  RewriteRule ^social-good/goals-progress/ ./progress.php
+  RewriteRule ^social-good/ ./sogood.php
+ 
+  # RewriteRule ^threads/(\d+)*$ ./thread.php?id=$1  
+  # RewriteRule ^search/(.*)$ ./search.php?query=$1
+ 
 </IfModule>
 
 # without -MultiViews, Apache will give a 404 for a rewrite if a folder of the same name does not exist 

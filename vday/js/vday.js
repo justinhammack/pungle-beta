@@ -1,4 +1,4 @@
-/* Author: Mr. Meerkat of pungle.org
+/* Author: Mr. Meerkat of pungle.me
 
 */
 var vdaymsg = [];
@@ -21,7 +21,7 @@ function updatevday() {
 	numRand = Math.floor(Math.random()*14);
 	$("#valentine").html(vdaymsg[numRand]);
 	$("#victim").html(vdaywho);
-	$("#getUrl").val("http://pungle.org/vday/#to=" + vdaywho.replace(" ",";"));
+	$("#getUrl").val("http://pungle.me/vday/#to=" + vdaywho.replace(" ",";"));
 }
 
 /* hash link parse $.url.param(">variable<")modified from: http://ajaxcssblog.com/jquery/url-read-get-variables/ */

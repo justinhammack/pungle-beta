@@ -10,10 +10,10 @@
 <head>
 	<title>pungle - social good & comedy gold</title>
 	<meta name="description" content="pungle helps build a sustainable future for developing nations through the power of online retail .. also we mine comedy gold.">
-	<meta name="author" content="pungle.org">
-<?php require("include/head.php"); ?>
+	<meta name="author" content="pungle.me">
+<?php require("/include/head.php"); ?>
 	
-	<link rel="canonical" href="http://pungle.org/index.php" />
+	<link rel="canonical" href="http://pungle.me" />
 	
 	<style type="text/css">
         #slider {
@@ -28,8 +28,7 @@
             overflow: auto;
             overflow-x: hidden;
             position: relative;
-            clear: left;
-            background: #FFFFFF url(images/content_pane-gradient.gif) repeat-x scroll left bottom;
+            clear: left;            
         }
         
         .scrollContainer div.panel {
@@ -38,8 +37,7 @@
             width: 720px;
         }
         
-        #shade {
-            background: #EDEDEC url(images/shade.jpg) no-repeat 0 0;
+        #shade {            
             height: 50px;
         }
         
@@ -83,16 +81,16 @@
         
         .scrollButtons {
             position: absolute;
-            top: 65px;
+            top: 109px;
             cursor: pointer;
         }
         
         .scrollButtons.left {
-            left: -66px;
+            left: -36px;
         }
         
         .scrollButtons.right {
-            right: -66px;
+            right: -36px;
         }
         
         .hide {
@@ -103,56 +101,34 @@
 </head>
 
 <body>
-<?php require("include/nav.php"); ?>
+<?php require("/include/nav.php"); ?>
 
 	<div id="content" class="clearfix">
 		
-		<!-- interactive social media buttons 
-		<div class="twHanger"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://pungle.org" data-text="Hey @JustinHammack, I just pungled a little." data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
-		<div class="fbHanger"><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.facebook.com/pungleDOTorg" layout="button_count" show_faces="false" width="90" font="arial"></fb:like></div> -->
 		<div class="addthis_toolbox addthis_default_style smHanger">
 			<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://www.facebook.com/pungleDOTorg"></a>
-			<a class="addthis_button_tweet" addthis:url="http://pungle.org" addthis:title="hey @JustinHammack, I just pungled a little."></a>
-			<a class="addthis_counter addthis_pill_style" addthis:url="http://pungle.org"></a>
+			<a class="addthis_button_tweet" addthis:url="http://pungle.me" addthis:title="hey @JustinHammack, I just pungled a little."></a>
+			<a class="addthis_counter addthis_pill_style" addthis:url="http://pungle.me"></a>
 		</div>
 		
 		<!-- introducing pungle -->
 		<div class="row">
 			<div class="col col_5 align_center">
-				<p><a href="anvil.php" title="The Anvil in action!"><img src="images/pungle_webapp.jpg" width="388" height="266" /></a></p>
+				<p><a href="/anvil/" title="The Anvil in action!"><img src="/images/pungle_webapp.jpg" width="388" height="266" /></a></p>
 			</div>
 			<div class="col col_8">
-				<p><a href="sogood.php" title="Learn how to get involved!"><img src="images/jumpstart_charity.png" width="640" height="160"/></a></p>
-				<p><b>100% free. No donations, fundraising, or registration required.</b><br/>punglers help fund innovative charities by shopping though the anvil & reveling in our delectable culture. Interested? <a href="sogood.php" title="Learn how to get involved!">Become a pungler ></a></p>
+				<p><a href="/social-good/" title="Learn how to get involved!"><img src="/images/jumpstart_charity.png" width="640" height="160"/></a></p>
+				<p><b>100% free. No donations, fundraising, or registration required.</b><br/>punglers help fund innovative charities by shopping though the anvil & reveling in our delectable culture. Interested? <a href="/social-good/" title="Learn how to get involved!">Become a pungler ></a></p>
 			</div>
 		</div>
 		
 		<!-- splitsies content -->
 		<div class="row">
             <div class="col col_13 align_center">
-                <img src="images/how_it_works.png" width="1060" height="40" title="i just pungled a little.." />
+                <img src="/images/how_it_works.png" width="1060" height="40" title="i just pungled a little.." />
             </div>
         </div>
   	
-		<!-- container for propaganda 
-		<div class="row">
-			<div class="col col_5 align_center">
-				<p><a href="sogood.php" title="Learn more!"><img src="images/social_good_icon.jpg" title="The social good movement." width="304" height="121" /></a></p>
-				<h2><a href="sogood.php" title="Learn more!">AN IDEA</a></h2>
-				<p>pungle is helping shape the future of global social good by starting with the basics. <a href="sogood.php" title="Learn more!">Learn More ></a></p>
-			</div>
-			<div class="col col_4 align_center">
-				<p><a href="anvil.php" title="The Anvil beckons you."><img src="images/anvil_icon.png" title="Social good starts with a tool." width="120" height="121"/></a></p>
-				<h2><a href="anvil.php" title="The Anvil beckons you.">THE TOOL</a></h2>
-				<p>Participation requires a tool; we built the anvil shopping interface. <a href="anvil.php" title="Check it out!">The Anvil ></a></p>
-			</div>
-			<div class="col col_4 align_center">
-				<p><a href="progress.php" title="See our goals & progress!"><img src="images/icon_set.jpg" title="Here is our progress." width="304" height="120"/></a></p>
-				<h2><a href="progress.php" title="See our goals & progress!">RESULTS</a></h2>
-				<p>Wells are drilled, schools built, nets distributed, & cows go moo. <a href="progress.php" title="See our goals & progress!">See Goals ></a></p>
-			</div>
-		</div> -->
-    
         <!-- container for scroller-->
 		<div class="row">
 			<div class="col col_13">
@@ -171,20 +147,20 @@
                     <div class="scrollContainer">
                       <!-- our individual panels -->
                       <div class="panel align_center" id="zombieapoc">
-                            <p><a href="sogood.php" title="Learn more!"><img src="images/social_good_icon.jpg" title="We are so screwed." width="304" height="121" /></a></p>
+                            <p><a href="/social-good/" title="Learn more!"><img src="/images/social_good_icon.jpg" title="We are so screwed." width="304" height="121" /></a></p>
             				<p><b>Zombie Apocalypse:</b> You know it's inevitable. So just stop trying to fight it.</p>
                       </div>
                       <div class="panel align_center" id="sogood">                            
-                            <p><a href="sogood.php" title="Learn more!"><img src="images/social_good_icon.jpg" title="The social good movement, pungler style." width="304" height="121" /></a></p>
+                            <p><a href="/social-good/" title="Learn more!"><img src="/images/social_good_icon.jpg" title="The social good movement, pungler style." width="304" height="121" /></a></p>
             				<p><b>Social Good:</b> punglers are helping shape the future of global social good by funding & supporting innovative new charities that have a purity of cause and show promising, scalable future growth.</p>
                       </div>
                       <div class="panel align_center" id="funding">
-                            <p><a href="anvil.php" title="The Anvil beckons you."><img src="images/anvil_icon.png" title="Are you always so mousey?" width="120" height="121"/></a></p>				
+                            <p><a href="/anvil/" title="The Anvil beckons you."><img src="/images/anvil_icon.png" title="Are you always so mousey?" width="120" height="121"/></a></p>				
 				            <p><b>The Anvil:</b> capital is raised when punglers shop through the anvil, a bookmarking tool for stores that replaces traditional advertising. Additional swag is available to supplement the campaign.</p>
                       </div>
                       <div class="panel align_center" id="results">
-                            <p><a href="progress.php" title="See our goals & progress!"><img src="images/icon_set.jpg" title="What exactly did pungle do with all the phat loots?" width="304" height="120"/></a></p>
-    					    <p><b>Results:</b> pungle then invests the funds into its portfolio, return on the investment is tracked independently through goals unique to each charity. Wells are drilled, schools built, nets distributed, & cows go moo.<br/><a href="sogood.php" title="You look like you'd make a fantastic pungler!">Get involved ></a></p>   
+                            <p><a href="/social-good/goals-progress/" title="See our goals & progress!"><img src="/images/icon_set.jpg" title="What exactly did pungle do with all the phat loots?" width="304" height="120"/></a></p>
+    					    <p><b>Results:</b> pungle then invests the funds into its portfolio, return on the investment is tracked independently through goals unique to each charity. Wells are drilled, schools built, nets distributed, & cows go moo.<br/><a href="/social-good/" title="You look like you'd make a fantastic pungler!">Get involved ></a></p>   
 				      </div>                      
                     </div>
                   </div>                 
@@ -196,7 +172,7 @@
         <!-- splitsies content -->
 		<div class="row">
             <div class="col col_13 align_center">
-                <img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+                <img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
             </div>
         </div>
         
@@ -204,7 +180,7 @@
 		<div class="row">
 			
 		    <div class="col col_6 align_right">
-				<a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Seriously, lets get you hooked up!"><img style="margin-top: 29px;" src="images/fb_ad.jpg" width="397" height="335" /></a>
+				<a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Seriously, lets get you hooked up!"><img style="margin-top: 29px;" src="/images/fb_ad.jpg" width="397" height="335" /></a>
 			</div>
 			
 		    <div class="col col_7">
@@ -215,17 +191,17 @@
 	
 	</div>
 
-<?php require("include/footer.php"); ?>
+<?php require("/include/footer.php"); ?>
 
 	<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=pungle"></script>
 	
 	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
-	<script>!window.jQuery && document.write('<script src="core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
+	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
     
 	<!-- coda plugins (combine into 1) -->
-	<script src="core/libs/jquery.codaCombined.min.js" type="text/javascript"></script>
+	<script src="/core/libs/jquery.codaCombined.min.js" type="text/javascript"></script>
 	
 	<script type="text/javascript">
 	    $(document).ready(function(){
@@ -256,8 +232,8 @@
             
             // apply our left + right buttons
             $scroll
-              .before('<img class="scrollButtons left" src="images/left_arrow.png" />')
-              .after('<img class="scrollButtons right" src="images/right_arrow.png" />');
+              .before('<img class="scrollButtons left" src="/images/left_arrow.png" />')
+              .after('<img class="scrollButtons right" src="/images/right_arrow.png" />');
             
             // handle nav selection
             function selectNav() {

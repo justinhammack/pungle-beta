@@ -10,13 +10,13 @@
 <head>
     <title>pungle - privacy policy</title>
     <meta name="description" content="pungle's policy on what secrets we know, what we do with them and a baseline for how paranoid you should be.">
-    <meta name="author" content="pungle.org">
-<?php require("include/head.php"); ?>
-
+    <meta name="author" content="pungle.me">
+<?php require("/include/head.php"); ?>
+     <link rel="canonical" href="http://pungle.me/about-us/privacy-policy/" />
 </head>
 
 <body>
-<?php require("include/nav.php"); ?>
+<?php require("/include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -30,17 +30,17 @@
     	<div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
         
     	<div class="row">
             <div class="col col_13">
-            	<h3>pungle.org</h3>
+            	<h3>pungle.me</h3>
             	<p class="align_justify">
             		<br/>
-            		We personally understand the importance of online trust. As such, we value any information you share with us as though it were our own. To better disclose how much we care and to what extent we'll go to protect your privacy, we've provided this Privacy Policy. The information below explains our policy regarding your privacy and the pungle.org website. By visiting pungle.org, you are accepting the practices described in this Privacy Policy.<br/><br/>
+            		We personally understand the importance of online trust. As such, we value any information you share with us as though it were our own. To better disclose how much we care and to what extent we'll go to protect your privacy, we've provided this Privacy Policy. The information below explains our policy regarding your privacy and the pungle.me website. By visiting pungle.me, you are accepting the practices described in this Privacy Policy.<br/><br/>
             	</p>
             	<h3>What information is collected?</h3>
             	<p class="align_justify">
@@ -66,7 +66,7 @@
             		<br/>
             		If you have registered to receive e-mail communications from us and later change your mind, you may contact us to have your name removed from our distribution lists. Or if you would like to verify the data we have received from you or to make corrections to it, you may contact us directly at the e-mail below.<br/>
             		<br/>
-            		Please send an e-mail to: <a href="mailto:info@pungle.org">info@pungle.org</a><br/><br/>
+            		Please send an e-mail to: <a href="mailto:info@pungle.me">info@pungle.me</a><br/><br/>
         		</p>
             	<h3>Gotcha by Your Cookies</h3>
             	<p class="align_justify">
@@ -102,13 +102,13 @@
             	<h3>Not enough, want more?</h3>
             	<p class="align_justify">
             		<br/>
-            		If you made it this far and are still hungry for more information, go to our <a href="about.php">About Us</a> page and contact us immediately.
+            		If you made it this far and are still hungry for more information, go to our <a href="/about-us/">About Us</a> page and contact us immediately.
             	</p>
         	</div>
         </div>
     </div>
 
-<?php require("include/footer.php"); ?>
+<?php require("/include/footer.php"); ?>
 
 </body>
 

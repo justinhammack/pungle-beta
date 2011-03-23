@@ -266,8 +266,8 @@ button {  width: auto; overflow: visible; }
 		margin: 4px 2px;
 		text-indent: -99999px;
 	}
-	.fbButtonLink {background: url('../images/facebook_twitter.png') 0 0;}
-	.twButtonLink {background: url('../images/facebook_twitter.png') 16px 0;}
+	.fbButtonLink {background: url('/images/facebook_twitter.png') 0 0;}
+	.twButtonLink {background: url('/images/facebook_twitter.png') 16px 0;}
 	.fbButtonLink:hover {background-position: 0 16px;}
 	.twButtonLink:hover {background-position: 16px 16px;}
 	.smHanger {
@@ -286,7 +286,7 @@ button {  width: auto; overflow: visible; }
 		top: 9px;
 	} */
 	.anvilIcon {
-		background: url('../images/anvil_icon_plain.png') 0 0;
+		background: url('/images/anvil_icon_plain.png') 0 0;
 		display: block;
 		width: 64px;
 		height: 64px;
@@ -301,9 +301,9 @@ button {  width: auto; overflow: visible; }
 		margin: 12px 3px;
 		text-indent: -99999px;
 	}
-	.twButtonBig {background: url('../images/contact60x90.png') 0 0;}
-	.fbButtonBig {background: url('../images/contact60x90.png') 0 -30px;}
-	.emButtonBig {background: url('../images/contact60x90.png') 0 -60px;}
+	.twButtonBig {background: url('/images/contact60x90.png') 0 0;}
+	.fbButtonBig {background: url('/images/contact60x90.png') 0 -30px;}
+	.emButtonBig {background: url('/images/contact60x90.png') 0 -60px;}
 	.twButtonBig:hover {background-position: -30px 0;}
 	.fbButtonBig:hover {background-position: -30px -30px;}
 	.emButtonBig:hover {background-position: -30px -60px;}
@@ -351,11 +351,11 @@ button {  width: auto; overflow: visible; }
 		width: 640px;
 		height: 43px;
 	}
-	#progressOxfam {background: url('../images/progress_oxfam.png');}
-	#progressPencils {background: url('../images/progress_pencilsofpromise.png');}
-	#progressCWater {background: url('../images/progress_charitywater.png');}
-	#progressDarmang {background: url('../images/progress_darmang.png');}
-	#progressNets {background: url('../images/progress_nets.png');}
+	#progressOxfam {background: url('/images/progress_oxfam.png');}
+	#progressPencils {background: url('/images/progress_pencilsofpromise.png');}
+	#progressCWater {background: url('/images/progress_charitywater.png');}
+	#progressDarmang {background: url('/images/progress_darmang.png');}
+	#progressNets {background: url('/images/progress_nets.png');}
 	
 	#progressOxfamBar, #progressPencilsBar, #progressCWaterBar, #progressDarmangBar, #progressNetsBar {
 		height: 43px;
@@ -363,19 +363,19 @@ button {  width: auto; overflow: visible; }
 		text-align: center;
 		font-weight: bold;		
 	}
-	#progressOxfamBar {background: url('../images/progress_oxfam.png') 640px 0;}
-	#progressPencilsBar {background: url('../images/progress_pencilsofpromise.png') 640px 0;}
-	#progressCWaterBar {background: url('../images/progress_charitywater.png') 640px 0;}
-	#progressDarmangBar {background: url('../images/progress_darmang.png') 640px 0;}
-	#progressNetsBar {background: url('../images/progress_nets.png') 640px 0;}
+	#progressOxfamBar {background: url('/images/progress_oxfam.png') 640px 0;}
+	#progressPencilsBar {background: url('/images/progress_pencilsofpromise.png') 640px 0;}
+	#progressCWaterBar {background: url('/images/progress_charitywater.png') 640px 0;}
+	#progressDarmangBar {background: url('/images/progress_darmang.png') 640px 0;}
+	#progressNetsBar {background: url('/images/progress_nets.png') 640px 0;}
 	
 	
 	
 	/* extend jquery ui icon pack */
-	#content .pungleBlueIcon, #allStores .pungleBlueIcon {background-image: url(../images/ui-icons_2e83ff_256x240.png); }
-	#content .pungleRedIcon, #allStores .pungleRedIcon {background-image: url(../images/ui-icons_cd0a0a_256x240.png); }
-	/* #content .pungleGoldIcon, #allStores .pungleGoldIcon {background-image: url(../images/ui-icons_f0b02a_256x240.png); }
-	#content .pungleGreenIcon, #allStores .pungleGreenIcon {background-image: url(../images/ui-icons_78d271_256x240.png); } */
+	#content .pungleBlueIcon, #allStores .pungleBlueIcon {background-image: url(/images/ui-icons_2e83ff_256x240.png); }
+	#content .pungleRedIcon, #allStores .pungleRedIcon {background-image: url(/images/ui-icons_cd0a0a_256x240.png); }
+	/* #content .pungleGoldIcon, #allStores .pungleGoldIcon {background-image: url(/images/ui-icons_f0b02a_256x240.png); }
+	#content .pungleGreenIcon, #allStores .pungleGreenIcon {background-image: url(/images/ui-icons_78d271_256x240.png); } */
 	#ulOverview .ui-icon { vertical-align: text-bottom; display: inline-block; opacity: 0.8;}
 	#ulOverview .ui-icon:hover { vertical-align: text-bottom; display: inline-block; opacity: 1.0;}
 	#content .ui-icon { display: inline-block; }
@@ -386,7 +386,7 @@ button {  width: auto; overflow: visible; }
 		margin-left: 10px;
 	}
 	#subheader .ui-icon { vertical-align: text-top;}
-	/* #footer .ui-icon:hover { background-image: url(../images/ui-icons_f0b02a_256x240.png); } */
+	/* #footer .ui-icon:hover { background-image: url(/images/ui-icons_f0b02a_256x240.png); } */
 
 
 /* DEFINE FRAMEWORK */
@@ -563,26 +563,26 @@ body { background-color: #181818; }
 .ui-widget { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; }
 .ui-widget .ui-widget { font-size: 1em; }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 16px; }
-.ui-widget-content { border: 1px solid #f0b02a; background: #fdfdfc url(../images/ui-bg_inset-hard_100_fdfdfc_1x100.png) 50% bottom repeat-x; color: #444; }
+.ui-widget-content { border: 1px solid #f0b02a; background: #fdfdfc url(/images/ui-bg_inset-hard_100_fdfdfc_1x100.png) 50% bottom repeat-x; color: #444; }
 .ui-widget-content a { color: #444; }
-.ui-widget-header { border: 1px solid #f0b02a; background: #f0b02a url(../images/ui-bg_highlight-soft_50_f0b02a_1x100.png) 50% 50% repeat-x; color: #444; font-weight: bold; }
+.ui-widget-header { border: 1px solid #f0b02a; background: #f0b02a url(/images/ui-bg_highlight-soft_50_f0b02a_1x100.png) 50% 50% repeat-x; color: #444; font-weight: bold; }
 .ui-widget-header a { color: #444; }
 
 /* Interaction states
 ----------------------------------*/
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #f0b02a; background: #fff2d8 url(../images/ui-bg_highlight-soft_75_fff2d8_1x100.png) 50% 50% repeat-x; font-weight: normal; color: #444; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #f0b02a; background: #fff2d8 url(/images/ui-bg_highlight-soft_75_fff2d8_1x100.png) 50% 50% repeat-x; font-weight: normal; color: #444; }
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #444; text-decoration: none; }
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #f0b02a; background: #ffe6b3 url(../images/ui-bg_highlight-soft_75_ffe6b3_1x100.png) 50% 50% repeat-x; font-weight: normal; color: #444; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #f0b02a; background: #ffe6b3 url(/images/ui-bg_highlight-soft_75_ffe6b3_1x100.png) 50% 50% repeat-x; font-weight: normal; color: #444; }
 .ui-state-hover a, .ui-state-hover a:hover { color: #444; text-decoration: none; }
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #f0b02a; background: #fdfdfc url(../images/ui-bg_highlight-soft_75_fdfdfc_1x100.png) 50% 50% repeat-x; font-weight: normal; color: #444; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #f0b02a; background: #fdfdfc url(/images/ui-bg_highlight-soft_75_fdfdfc_1x100.png) 50% 50% repeat-x; font-weight: normal; color: #444; }
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #444; text-decoration: none; }
 .ui-widget :active { outline: none; }
 
 /* Interaction Cues
 ----------------------------------*/
-.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {border: 1px solid #fad42e; background: #fbec88 url(../images/ui-bg_flat_55_fbec88_40x100.png) 50% 50% repeat-x; color: #363636; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {border: 1px solid #fad42e; background: #fbec88 url(/images/ui-bg_flat_55_fbec88_40x100.png) 50% 50% repeat-x; color: #363636; }
 .ui-state-highlight a, .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #363636; }
-.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #fef1ec url(../images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x; color: #cd0a0a; }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #fef1ec url(/images/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x; color: #cd0a0a; }
 .ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #cd0a0a; }
 .ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #cd0a0a; }
 .ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold; }
@@ -593,14 +593,14 @@ body { background-color: #181818; }
 ----------------------------------*/
 
 /* states and images */
-.ui-icon { width: 16px; height: 16px; background-image: url(../images/ui-icons_444444_256x240.png); }
-.ui-widget-content .ui-icon {background-image: url(../images/ui-icons_444444_256x240.png); }
-.ui-widget-header .ui-icon {background-image: url(../images/ui-icons_444444_256x240.png); }
-.ui-state-default .ui-icon { background-image: url(../images/ui-icons_444444_256x240.png); }
-.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(../images/ui-icons_444444_256x240.png); }
-.ui-state-active .ui-icon {background-image: url(../images/ui-icons_444444_256x240.png); }
-.ui-state-highlight .ui-icon {background-image: url(../images/ui-icons_2e83ff_256x240.png); }
-.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(../images/ui-icons_cd0a0a_256x240.png); }
+.ui-icon { width: 16px; height: 16px; background-image: url(/images/ui-icons_444444_256x240.png); }
+.ui-widget-content .ui-icon {background-image: url(/images/ui-icons_444444_256x240.png); }
+.ui-widget-header .ui-icon {background-image: url(/images/ui-icons_444444_256x240.png); }
+.ui-state-default .ui-icon { background-image: url(/images/ui-icons_444444_256x240.png); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {background-image: url(/images/ui-icons_444444_256x240.png); }
+.ui-state-active .ui-icon {background-image: url(/images/ui-icons_444444_256x240.png); }
+.ui-state-highlight .ui-icon {background-image: url(/images/ui-icons_2e83ff_256x240.png); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon {background-image: url(/images/ui-icons_cd0a0a_256x240.png); }
 
 /* positioning */
 .ui-icon-carat-1-n { background-position: 0 0; }
@@ -795,8 +795,8 @@ body { background-color: #181818; }
 .ui-corner-all { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
 
 /* Overlays */
-.ui-widget-overlay { background: #aaaaaa url(../images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); }
-.ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa url(../images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }/*
+.ui-widget-overlay { background: #aaaaaa url(/images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); }
+.ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa url(/images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }/*
  * jQuery UI Resizable 1.8.9
  *
  * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)

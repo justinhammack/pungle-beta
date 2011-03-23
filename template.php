@@ -10,13 +10,15 @@
 <head>
     <title></title>
     <meta name="description" content="">
-    <meta name="author" content="pungle.org">
-<?php require("include/head.php"); ?>
+    <meta name="author" content="pungle.me">
+<?php require("/include/head.php"); ?>
 
+    <!-- !!MUST SET THIS IMPORTANT!! -->
+    <link rel="canonical" href="http://pungle.me/" />
 </head>
 
 <body>
-<?php require("include/nav.php"); ?>
+<?php require("/include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -45,7 +47,7 @@
         </div>
     </div>
 
-<?php require("include/footer.php"); ?>
+<?php require("/include/footer.php"); ?>
     
 </body>
 

@@ -10,27 +10,29 @@
 <head>
     <title>pungle - nonprofits we work with</title>
     <meta name="description" content="pungle hand picks only the most progressive, transparent and effective nonprofits.">
-    <meta name="author" content="pungle.org">
-<?php require("include/head.php"); ?>
+    <meta name="author" content="pungle.me">
+<?php require("/include/head.php"); ?>
 
-		<!-- need to load the javascript at the top, since we load the graph in-line -->
-		<script src="core/libs/raphael-min.js" type="text/javascript" charset="utf-8"></script> 
-    <script src="core/libs/g.raphael-min.js" type="text/javascript" charset="utf-8"></script> 
-    <script src="core/libs/g.pie-min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="canonical" href="http://pungle.me/social-good/cause-portfolio/" />
+    
+	<!-- need to load the javascript at the top, since we load the graph in-line -->
+	<script src="/core/libs/raphael-min.js" type="text/javascript" charset="utf-8"></script> 
+    <script src="/core/libs/g.raphael-min.js" type="text/javascript" charset="utf-8"></script> 
+    <script src="/core/libs/g.pie-min.js" type="text/javascript" charset="utf-8"></script>
     
     <!-- stylize the graph here -->
-		<style type="text/css">
-			#npoGraph {				
-    		margin: 0 auto;
-    		width: 600px;
-    		height: 340px;
-			}
+	<style type="text/css">
+		#npoGraph {				
+        	margin: 0 auto;
+        	width: 600px;
+        	height: 340px;
+		}
     </style>
     
 </head>
 
 <body>
-<?php require("include/nav.php"); ?>
+<?php require("/include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -46,7 +48,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -67,7 +69,7 @@
     		<div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -76,7 +78,7 @@
         <div class="row">
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/charitywater.jpg" title="charity: water" width="600" height="400" /></p>
+        		<p><img src="/images/charitywater.jpg" title="charity: water" width="600" height="400" /></p>
         	</div>
         	
         	<div class="col col_5">
@@ -93,7 +95,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -109,7 +111,7 @@
         	</div>
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/oxfam.jpg" title="Oxfam America" width="600" height="400" /></p>
+        		<p><img src="/images/oxfam.jpg" title="Oxfam America" width="600" height="400" /></p>
         	</div>
         	
         </div>
@@ -117,7 +119,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -125,7 +127,7 @@
         <div class="row">
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/pencilsofpromise.jpg" title="Pencils of Promise" width="600" height="400" /></p>
+        		<p><img src="/images/pencilsofpromise.jpg" title="Pencils of Promise" width="600" height="400" /></p>
         	</div>
         	
         	<div class="col col_5">
@@ -143,7 +145,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -159,7 +161,7 @@
         	</div>
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/nothingbutnets.png" title="Nothing But Nets" width="600" height="400" /></p>
+        		<p><img src="/images/nothingbutnets.png" title="Nothing But Nets" width="600" height="400" /></p>
         	</div>
         	
         </div>
@@ -167,7 +169,7 @@
         <div class="row">
         	
         	<div class="col col_13 align_center">
-        		<img src="images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
         </div>
@@ -175,7 +177,7 @@
         <div class="row">
         	
         	<div class="col col_8 align_center">
-        		<p><img src="images/projectdarmang.jpg" title="Project Darmang" width="600" height="400" /></p>
+        		<p><img src="/images/projectdarmang.jpg" title="Project Darmang" width="600" height="400" /></p>
         	</div>
         	
         	<div class="col col_5">
@@ -190,7 +192,7 @@
         
     </div>
 
-<?php require("include/footer.php"); ?>
+<?php require("/include/footer.php"); ?>
     
     <script type="text/javascript">
 		

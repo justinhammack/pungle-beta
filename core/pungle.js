@@ -1,4 +1,4 @@
-// pungle.org shopping app scripts (only load on index)
+// pungle.me shopping app scripts (only load on index)
 
 
 /* pungle revealing module pattern */
@@ -6,8 +6,8 @@ var pungle = (function ($) {
 	
 	// namespace variables
 	var storeOrder = [0,29,115,9,4,5]; // default store order if no cookie or hash
-	var imagePath = 'images/'; // set path for images (can swap with CDN)
-	var imageStoresPath = 'data/stores/'; // set path for images (can swap with CDN)
+	var imagePath = '/images/'; // set path for images (can swap with CDN)
+	var imageStoresPath = '/data/stores/'; // set path for images (can swap with CDN)
 	var cookieStore = 'storeorder'; // cookie to hold the user specified store order
 
 	// set up pungle & overview for use
@@ -50,7 +50,7 @@ var pungle = (function ($) {
     	});
     	
 		// we're going to handle the all store list during the ajax call
-		$.ajax({url: 'data/pungle.json', dataType: 'json', success: function(data){
+		$.ajax({url: '/data/pungle.json', dataType: 'json', success: function(data){
 			
 			var htmlStore = ''; // blank variable to hold HTML
 			var todaysDate = new Date(); // we'll need to check for expiring deals
@@ -107,7 +107,7 @@ var pungle = (function ($) {
 		if (remAdd != 0 && remAdd != 1) return;
 		
 		// going to need to open the json file - should be cached
-		$.ajax({url: 'data/pungle.json', dataType: 'json', success: function(data){
+		$.ajax({url: '/data/pungle.json', dataType: 'json', success: function(data){
 			
 			var htmlStore = ''; // blank variable to hold HTML
 			var todaysDate = new Date(); // we'll need to check for expiring deals			
