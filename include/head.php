@@ -18,8 +18,8 @@
     <link rel="apple-touch-icon" href="/anvil_favicon.png">
   
     <!-- CSS : implied media="all" -->
-    <!-- 2/24/11 set v=2 -->
-    <link rel="stylesheet" href="/core/style.css?v=2">
+    <!-- 3/27/11 set v=2 -->
+    <link rel="stylesheet" href="/core/style.css?v=3">
     <!-- <link rel="stylesheet" href="core/style-min.css?v=2"> -->
 
     <!--[if lt IE 9]>
