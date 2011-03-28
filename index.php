@@ -194,7 +194,7 @@
                                 </div>
                             </p>
 				            <!-- <p><img src="/images/whatispungle_05.jpg" title="Get the party started!" width="670" height="249"/></p> -->
-    					    <p><b>Oath of Fealty:</b> <i>"I promise on my life that I will be loyal to pungle against all other temptations!"</i> Seriously though, pungling is easy. Like us on <a href="http://www.facebook.com/pungleDOTorg" title="This is how you can stay updated with awesomeness!" target="_blank">Facebook</a> to get updates then setup the <a href="/anvil/" title="Get started with The Anvil">Anvil</a>.<!-- or <a href="/social-good/" title="Not ready for commitment? Want to read a brick of text?">Learn More</a> about pungle.--></p>   
+    					    <p><b>Oath of Fealty:</b> <i>"I swear on my life that I will be loyal to pungle against all other temptations!"</i> Seriously though, pungling is easy. Like us on <a href="http://www.facebook.com/pungleDOTorg" title="This is how you can stay updated with awesomeness!" target="_blank">Facebook</a> to get updates then setup the <a href="/anvil/" title="Get started with The Anvil">Anvil</a>.<!-- or <a href="/social-good/" title="Not ready for commitment? Want to read a brick of text?">Learn More</a> about pungle.--></p>   
 				      </div>
                     </div>
                   </div>                 
