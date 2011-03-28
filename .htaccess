@@ -4,6 +4,16 @@
 # pungle.me specific
 Redirect 301 /deals/ /
 Redirect 301 /deals.htm /
+#Redirect 301 /about.php /about-us/
+#Redirect 301 /anvil.php /anvil/
+#Redirect 301 /anvilfaq.php /anvil/faq/
+#Redirect 301 /index.php /
+#Redirect 301 /npos.php /social-good/cause-portfolio/
+#Redirect 301 /privacy.php /about-us/privacy-policy/
+#Redirect 301 /progress.php /social-good/goals-progress/
+#Redirect 301 /sogood.php /social-good/
+#Redirect 301 /tos.php /about-us/terms-of-service/
+#Redirect 301 /tutorial.php /anvil/tutorial/
 
 DirectoryIndex index.php
 
@@ -202,7 +212,6 @@ FileETag None
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
-  
   # http://net.tutsplus.com/tutorials/other/using-htaccess-files-for-pretty-urls/
   
   RewriteCond %{SCRIPT_FILENAME} !-d  
@@ -220,7 +229,7 @@ FileETag None
   RewriteRule ^social-good/goals-progress/ ./progress.php
   RewriteRule ^social-good/ ./sogood.php
  
-  # RewriteRule ^threads/(\d+)*$ ./thread.php?id=$1  
+  # RewriteRule ^threads/(\d+)*$ ./thread.php?id=$1
   # RewriteRule ^search/(.*)$ ./search.php?query=$1
  
 </IfModule>

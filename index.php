@@ -17,14 +17,14 @@
 	
 	<style type="text/css">
         #slider {
-            width: 760px;
+            width: 670px;
             margin: 0 auto;
             position: relative;
         }
         
         .scroll {
-            height: 250px;
-            width: 760px;
+            height: 350px;
+            width: 670px;
             overflow: auto;
             overflow-x: hidden;
             position: relative;
@@ -32,9 +32,9 @@
         }
         
         .scrollContainer div.panel {
-            padding: 20px;
-            height: 210px;
-            width: 720px;
+            padding: 0;
+            height: 350px;
+            width: 670px;
         }
         
         #shade {            
@@ -81,21 +81,40 @@
         
         .scrollButtons {
             position: absolute;
-            top: 109px;
+            top: 159px;
             cursor: pointer;
         }
         
         .scrollButtons.left {
-            left: -36px;
+            left: -42px;
         }
         
         .scrollButtons.right {
-            right: -36px;
+            right: -42px;
         }
         
         .hide {
             display: none;
         }
+        
+        #image_map{
+            width:670px;
+            height:255px;
+            background:url(/images/whatispungle_05.jpg) no-repeat;
+            position:relative;            
+        }
+        
+        #image_map a#iMapLink1, #image_map a#iMapLink2 {
+            display:block;
+            position:absolute;
+            width:95px;
+            height:38px;
+            top:15px;
+            right:96px;
+            text-indent: -99999px;     
+        }
+        
+        #image_map a#iMapLink2 { right:88px; top:93px; }
 	</style>
 	
 </head>
@@ -110,64 +129,80 @@
 			<a class="addthis_button_tweet" addthis:url="http://pungle.me" addthis:title="hey @JustinHammack, I just pungled a little."></a>
 			<a class="addthis_counter addthis_pill_style" addthis:url="http://pungle.me"></a>
 		</div>
-		
-		<!-- introducing pungle -->
+	
+
+        <!-- introducing pungle -->
 		<div class="row">
 			<div class="col col_5 align_center">
-				<p><a href="/anvil/" title="The Anvil in action!"><img src="/images/pungle_webapp.jpg" width="388" height="266" /></a></p>
+				<p><a href="/anvil/" title="Bad zombie, no brains!"><img src="/images/zombie_webapp.jpg" width="388" height="327" /></a></p>
 			</div>
 			<div class="col col_8">
-				<p><a href="/social-good/" title="Learn how to get involved!"><img src="/images/jumpstart_charity.png" width="640" height="160"/></a></p>
-				<p><b>100% free. No donations, fundraising, or registration required.</b><br/>punglers help fund innovative charities by shopping though the anvil & reveling in our delectable culture. Interested? <a href="/social-good/" title="Learn how to get involved!">Become a pungler ></a></p>
+				<p><a href="#" class="readMoreImage" title="Learn more about pungle!"><img src="/images/jumpstart_charity.png" width="640" height="160"/></a></p>
+				<p><b>100% of profits go to charity. No donations or fundraising necessary!</b><br/>At pungle.me you can help fund innovative, scalable charities by shopping though the anvil, induldging in alt-swag & reveling in delectable culture.<br/><br/>
+				    <a class="goToAnvilButton right" href="/anvil/" title="100% free to use, pungling for charity is easy!">The Anvil</a><span class="readMoreButton right" title="Scrolling down the page is exhausting, let us help.">Read More</span>
+				</p>
 			</div>
 		</div>
 		
+        
 		<!-- splitsies content -->
-		<div class="row">
+		<div class="row" id="whatispungle">
             <div class="col col_13 align_center">
-                <img src="/images/how_it_works.png" width="1060" height="40" title="i just pungled a little.." />
+                <img src="/images/whatispungleme.png" width="1060" height="40" title="i just pungled a little.." />
             </div>
-        </div>
-  	
+        </div>        
+        
+        
         <!-- container for scroller-->
 		<div class="row">
 			<div class="col col_13">
                 <div id="slider">
                 
-                   <ul class="navigation align_center">
+                  <!-- <ul class="navigation align_center">
                     <li><a href="#zombieapoc">Zombie Apocalypse</a></li>
                     <li><a href="#sogood">Social Good</a></li>
                     <li><a href="#funding">Capital Investment</a></li>
                     <li><a href="#results">Measuring Results</a></li>                    
-                  </ul>
+                  </ul> -->
                       
                   <!-- element with overflow applied -->
                   <div class="scroll">
                     <!-- the element that will be scrolled during the effect -->
                     <div class="scrollContainer">
                       <!-- our individual panels -->
-                      <div class="panel align_center" id="zombieapoc">
-                            <p><a href="/social-good/" title="Learn more!"><img src="/images/social_good_icon.jpg" title="We are so screwed." width="304" height="121" /></a></p>
-            				<p><b>Zombie Apocalypse:</b> You know it's inevitable. So just stop trying to fight it.</p>
-                      </div>
                       <div class="panel align_center" id="sogood">                            
-                            <p><a href="/social-good/" title="Learn more!"><img src="/images/social_good_icon.jpg" title="The social good movement, pungler style." width="304" height="121" /></a></p>
-            				<p><b>Social Good:</b> punglers are helping shape the future of global social good by funding & supporting innovative new charities that have a purity of cause and show promising, scalable future growth.</p>
+                            <p><a href="/social-good/" title="Learn more!"><img src="/images/whatispungle_01.jpg" title="The social good movement, pungler style." width="670" height="249" /></a></p>
+            				<p><b>Social Good:</b> Pungle.me is a business that invests 100% of its profits towards revolutionary charities; we look for a purity of cause and potential for scalable future growth.</p>
+                      </div>
+                      <div class="panel align_center" id="zombieapoc">
+                            <p><a href="/social-good/" title="Learn more!"><img src="/images/whatispungle_02.jpg" title="We are so screwed." width="670" height="249" /></a></p>
+            				<p><b>Zombie Apocalypse:</b> Maybe.<!-- We're screwed unless we team up to jump start the next generation of charities. Who do you think will protect us from legions of undead? --> And that's why we're specifically targetting the next generation of charities. When it comes to zombies, an ounce of prevention is worth a pound of C-4.</p>
                       </div>
                       <div class="panel align_center" id="funding">
-                            <p><a href="/anvil/" title="The Anvil beckons you."><img src="/images/anvil_icon.png" title="Are you always so mousey?" width="120" height="121"/></a></p>				
-				            <p><b>The Anvil:</b> capital is raised when punglers shop through the anvil, a bookmarking tool for stores that replaces traditional advertising. Additional swag is available to supplement the campaign.</p>
+                            <p><a href="/anvil/" title="The Anvil beckons you."><img src="/images/whatispungle_03.jpg" title="Ready to jump straight to the Anvil? Eh?" width="670" height="249"/></a></p>				
+				            <p><b>The Anvil:</b> Our charitable reserves are raised when punglers shop through the anvil (at no charge!), a simple online shopping tool. Ridiculously awesome swag is also available.</p>
                       </div>
                       <div class="panel align_center" id="results">
-                            <p><a href="/social-good/goals-progress/" title="See our goals & progress!"><img src="/images/icon_set.jpg" title="What exactly did pungle do with all the phat loots?" width="304" height="120"/></a></p>
-    					    <p><b>Results:</b> pungle then invests the funds into its portfolio, return on the investment is tracked independently through goals unique to each charity. Wells are drilled, schools built, nets distributed, & cows go moo.<br/><a href="/social-good/" title="You look like you'd make a fantastic pungler!">Get involved ></a></p>   
-				      </div>                      
+                            <p><a href="/social-good/goals-progress/" title="See our goals & progress!"><img src="/images/whatispungle_04.jpg" title="What exactly did pungle do with all the phat loots?" width="670" height="249"/></a></p>
+    					    <p><b>Actual Results:</b> Pungle.me tracks milestones, goals, and progress relative to each charity. We work with charities that have clear, attainable goals where we can make a real impact.</p>   
+				      </div>
+				      <div class="panel align_center" id="joinus">
+                            <p>
+                                <div id="image_map">
+                                    <a href="http://www.facebook.com/pungleDOTorg" id="iMapLink1" title="This is how you can stay updated with awesomeness!" target="_blank">Facebook</a>
+                                    <a href="/anvil/" id="iMapLink2" title="Get started with The Anvil">Anvil</a>                                
+                                </div>
+                            </p>
+				            <!-- <p><img src="/images/whatispungle_05.jpg" title="Get the party started!" width="670" height="249"/></p> -->
+    					    <p><b>Oath of Fealty:</b> <i>"I promise on my life that I will be loyal to pungle against all other temptations!"</i> Seriously though, pungling is easy. Like us on <a href="http://www.facebook.com/pungleDOTorg" title="This is how you can stay updated with awesomeness!" target="_blank">Facebook</a> to get updates then setup the <a href="/anvil/" title="Get started with The Anvil">Anvil</a>.<!-- or <a href="/social-good/" title="Not ready for commitment? Want to read a brick of text?">Learn More</a> about pungle.--></p>   
+				      </div>
                     </div>
                   </div>                 
                   
                 </div>
 			</div>
 		</div>
+		
 		
         <!-- splitsies content -->
 		<div class="row">
@@ -193,9 +228,6 @@
 
 <?php require("/include/footer.php"); ?>
 
-	<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
-	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=pungle"></script>
-	
 	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
 	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
@@ -289,7 +321,7 @@
               offset: offset,
               
               // duration of the sliding effect
-              duration: 500,
+              duration: 650,
               
               // easing - can be used with the easing plugin: 
               // http://gsgd.co.uk/sandbox/jquery/easing/
@@ -312,9 +344,19 @@
             scrollOptions.duration = 1;
             $.localScroll.hash(scrollOptions);
             
+            $('.readMoreButton, .readMoreImage').click(function(){
+				$('html, body').animate({
+					scrollTop: $("#whatispungle").offset().top
+				}, 800);
+			});
+			
 	    });
 	</script> 
     
+	<!-- put this here because it can stall out like a fighter jet going vertical -->
+	<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=pungle"></script>
+	
 </body>
 
 </html>

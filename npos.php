@@ -68,7 +68,7 @@
     		
     		<div class="row">
         	
-        	<div class="col col_13 align_center">
+        	<div id="charityWater" class="col col_13 align_center">
         		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
         	</div>
         	
@@ -92,7 +92,7 @@
         	
         </div>
         
-        <div class="row">
+        <div id="adventure" class="row">
         	
         	<div class="col col_13 align_center">
         		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
@@ -103,20 +103,21 @@
         <div class="row">
         	
         	<div class="col col_5">
-        		<p><h3>Oxfam America</h3></p>
+        		<p><h3>The Adventure Project</h3></p>
+        		<iframe src="http://player.vimeo.com/video/21305603?title=0&amp;byline=0&amp;portrait=0" width="388" height="218" frameborder="0"></iframe>
         		<p>
-        			More than 70 percent of poor people rely on agriculture for their income. But for the world’s estimated 400 million small-scale farmers, farming can also be a tremendously precarious way of life. From helping farmers survive changes in weather to ensuring that they receive a fair price for their crops, Oxfam helps make sure family farmers around the world can earn a decent living.<br/>
-        			<p class="align_right"><a href="http://www.oxfamamerica.org/issues/agriculture" title="Visit Oxfam America" target="_blank">Oxfam America ></a></p>
+        			The Adventure Project increases investments in positive social enterprises around the world. They believe we can end extreme poverty in our lifetime by reinventing how we give and provide solutions that spur economic opportunity, promote dignity, & save lives. <!-- We think they are pretty amazing! Why? Clear scope of cause, scalability, flexibility in their campaign and a positive vision for change. Plus, they are great people who are personally connected to their donators.--> Amazing.<br/>
+        			<p class="align_right"><a href="http://theadventureproject.org" title="Visit The Advneture Project" target="_blank">The Adventure Project ></a></p>
     			</p>
         	</div>
         	
         	<div class="col col_8 align_center">
-        		<p><img src="/images/oxfam.jpg" title="Oxfam America" width="600" height="400" /></p>
+        		<p><img src="/images/adventure_project.jpg" title="The Adventure Project" width="600" height="400" /></p>
         	</div>
         	
         </div>
         
-        <div class="row">
+        <div id="POP" class="row">
         	
         	<div class="col col_13 align_center">
         		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
@@ -142,7 +143,7 @@
         	
         </div>
         
-        <div class="row">
+        <div id="NBN" class="row">
         	
         	<div class="col col_13 align_center">
         		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
@@ -166,7 +167,7 @@
         	
         </div>
         
-        <div class="row">
+        <div id="darmang" class="row">
         	
         	<div class="col col_13 align_center">
         		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
@@ -193,7 +194,11 @@
     </div>
 
 <?php require("/include/footer.php"); ?>
-    
+
+	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
+	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
+	
     <script type="text/javascript">
 		
     window.onload = function () {
@@ -201,7 +206,7 @@
                 r.g.txtattr.font = "13px Arial, Verdana, Helvetica, sans-serif";
                 
                 /* colors 3fb1f3 68dc72 3cece2 e3e948 ff849e cb92e9 ffa250 eb6f4e */
-                var pie = r.g.piechart(220, 170, 150, [25, 30, 15, 5, 25], {strokewidth: "4", colors: ["#3fb1f3", "#68dc72", "#ff849e", "#e3e948", "#cb92e9"], legend: ["%% charity: water", "%% Pencils of Promise", "%% Oxfam America", "%% Nothing But Nets", "%% Project Darmang"], legendpos: "east"});
+                var pie = r.g.piechart(220, 170, 150, [20, 32, 25, 5, 18], {strokewidth: "4", colors: ["#3fb1f3", "#68dc72", "#ff849e", "#e3e948", "#cb92e9"], legend: ["%% charity: water", "%% Pencils of Promise", "%% The Adventure Project", "%% Nothing But Nets", "%% Project Darmang"], legendpos: "east", href: ["#scrollPOP", "#scrollAdventure", "#scrollCharityWater", "#scrollDarmang", "#scrollNBN"]});
                 pie.hover(function () {
                     this.sector.stop();
                     this.sector.scale(1.1, 1.1, this.cx, this.cy);
@@ -217,6 +222,36 @@
                         this.label[1].attr({"font-weight": 400});
                     }
                 });
+        
+        $('a[href=#scrollCharityWater]').click(function(){
+			$('html, body').animate({
+				scrollTop: $("#charityWater").offset().top
+			}, 800);
+		});
+		
+		$('a[href=#scrollPOP]').click(function(){
+			$('html, body').animate({
+				scrollTop: $("#POP").offset().top
+			}, 800);
+		});
+		
+		$('a[href=#scrollAdventure]').click(function(){
+			$('html, body').animate({
+				scrollTop: $("#adventure").offset().top
+			}, 800);
+		});
+		
+		$('a[href=#scrollNBN]').click(function(){
+			$('html, body').animate({
+				scrollTop: $("#NBN").offset().top
+			}, 800);
+		});
+		
+		$('a[href=#scrollDarmang]').click(function(){
+			$('html, body').animate({
+				scrollTop: $("#darmang").offset().top
+			}, 800);
+		});
     };
     
   </script>

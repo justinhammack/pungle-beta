@@ -38,7 +38,7 @@
   	<div class="row">
   		
       <div class="col col_5">
-  			<p><h3>2011 initial Goals</h3></p>
+  			<p><h3>2011 initial charitable goals</h3></p>
       	<p><br/>
       		<ul>
       			<li>Deliver clean water to ~1,250 people.</li>
@@ -204,13 +204,13 @@
   		</div>
   	</div>
   	
-    <!-- oxfam america progress -->
+    <!-- oxfam america progress 
     <div class="row">
   		<div class="col col_8">  			
       	<img src="/images/progresstop_oxfam.png" title="Progress markers for planted trees." width="640" height="79" />
   			<div id="progressOxfam">
   			
-  				<div id="progressOxfamBar" style="width: 0%"><!-- text --></div>
+  				<div id="progressOxfamBar" style="width: 0%"></div>
   				
   			</div>
   			
@@ -225,7 +225,7 @@
   		<div class="col col_13 align_center">
   			
   		</div>
-  	</div>
+  	</div>-->
   	
     <!-- nothing but nets progress -->
     <div class="row">
@@ -255,10 +255,9 @@
   		<div class="col col_13">
   			<small>
   				
-  				* The build a school project is a symbolic cooperative effort with Pencils of Promise and progress is estimated based on funds donated.<br/>
-  				** Trees donated are a symbolic gift to fund Oxfam America’s efforts to create lasting solutions to poverty, hunger, and social injustice in more than 90 countries.
+  				* The build a school project is a symbolic cooperative effort with Pencils of Promise and progress is estimated based on funds donated.<br/>			
   				
-				</small>
+			</small>
   		</div>        	
   	</div>
   	

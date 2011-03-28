@@ -60,7 +60,7 @@
       		<br/>
       		<p>
         		<b>How much money does each store earn for social good?</b><br/>
-        		That's top secret! :p The truth is, every store is different and some arrangements are fairly complicated. In the interest of fairness between stores, we're choosing to keep this information confidential. Any support from a vendor earns them a red heart.
+        		Every store is different and some arrangements are fairly complicated. In the interest of fairness between stores, we're choosing to keep this information confidential. Any support from a vendor earns them a red heart. More importantly, we donate 100% of the profits to charities in our <a href="/social-good/cause-portfolio/" title="Where all the phat loot goes!">cause portfolio</a>.
       		</p>
       		<br/>
       		<p>

@@ -46,10 +46,10 @@
           			<a class="emButtonBig" href="mailto:contact@pungle.me" title="Email us!">Email</a>
           		</p>
             	<p><strong>Philosophy:</strong> pungle brings social good to shopping for our community. We don't fundraise and we're not trying to replace the donations you normally make. Instead, we're asking that you join the global social good movement by making one small change in the the way you shop. Then just sit back, relax and partake in our delectable culture.</p>
-            	<p><strong>How it Works:</strong> pungle is a business that collects revenue by promoting vendors through our anvil shopping tool; at absolutely <strong>no expense</strong> to our community. We then manage, invest and/or donate incoming revenue towards the most tangible, progressive and effective causes.</p>
-            	<p><strong>Ethics:</strong> We aren't perfect, but we're trying to do the right thing. We strive to do business in a more enlightened way, where we take responsibility for the impact of our business on society and the environment.</p>
-            	<p><strong>So what does pungle mean?</strong> It means to make a contribution, plus it sounds catchy.</p>            	
-            	<!--<p>pungle parties in Seattle, WA - creep our profiles below.</p>-->
+            	<p><strong>How it Works:</strong> pungle is a business that collects revenue by promoting vendors through our anvil shopping tool; at absolutely <strong>no expense</strong> to our community. We then manage, invest and/or donate 100% of our profits towards the most tangible, progressive and effective causes.</p>
+            	<p><strong>Ethics:</strong> We aren't perfect, but we're trying to do the right thing. We strive to do business in a more enlightened way, where we take responsibility for the impact of our business on society and the environment while setting the bar impossibly high for our competitors.</p>
+            	<p><strong>Finding Causes:</strong> The selection process for ideal charities isn't something we take lightly. We look for a purity / focus in the scope of the cause, it must also be scalable, innovative and speak towards opportunity rather than guilt. Think you know a candidate? <a href="mailto:contact@pungle.me">Email Us</a>.</p>
+            	<p><strong>So what does pungle mean?</strong> It means to make a contribution, plus it sounds catchy.</p>
         	</div>
         </div>
 		
@@ -108,6 +108,20 @@
 				<p><em>Co-Founder. Master designer. Professional socialite.</em><br/>
 					<br/>
 					In addition to being a designer, I'm an avid FPS gamer and an electro-pop singer. My vocals are featured on a few awesome electronica albums. I also drink wine professionally. Recently, I was awarded a wine sommelier certificate by CoM and placed runner-up in a national blind tasting competition. Salut!
+				</p>
+			</div>
+		</div>
+		
+		<!-- Chad Wasser -->
+		<div class="row">
+			<div class="col col_5">
+				<img src="/images/chad_wasser.jpg" title="Chad Wasser" width="388" height="240" />
+			</div>
+			<div class="col col_8">
+				<h3>Chad Wasser (<a href="mailto:contact@pungle.me">email</a>)</h3>
+				<p><em>Ministry of Satire, Parody, & Civic Discourse</em><br/>
+					<br/>
+					I like abstract strategy mechanics, amateur woodworking, recreational nonviolent conflict, invisible forces, and double short americanos. I live in Seattle, where I touch really fragile things with kid gloves for a living. I put the 'ass' in 'Wasser'.
 				</p>
 			</div>
 		</div>

@@ -6,7 +6,7 @@
 					<p>header</p>					
 				</div>
 			</div> -->
-			<a href="/" title="pungle time!"><img src="/images/pungle_logo.png" width="187" height="50" /></a>
+			<a href="/" title="pungle time!"><img src="/images/pungle_me_logo.png" width="199" height="58" /></a>
 			<div class="header_social">
 				<a class="fbButtonLink" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on facebook.">Facebook</a>
 				<a class="twButtonLink" href="http://twitter.com/JustinHammack" target="_blank" title="Follow our founder on Twitter.">Twitter</a>

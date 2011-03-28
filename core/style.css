@@ -251,7 +251,7 @@ button {  width: auto; overflow: visible; }
 */
 
 	/* Header */
-	#header img { float: left; margin: 17px 0; }
+	#header img { float: left; margin: 13px 0; }
 	#header .header_social { position: absolute; right: 6px; bottom: 2px; }
 	.navAnvil a, .navAnvil a:active, .navAnvil a:visited { color:#51CC3E; }
 	.navAnvil a:hover { color:#f0b02a; }
@@ -308,6 +308,19 @@ button {  width: auto; overflow: visible; }
 	.fbButtonBig:hover {background-position: -30px -30px;}
 	.emButtonBig:hover {background-position: -30px -60px;}
 	
+	/* Index */
+	.goToAnvilButton, .readMoreButton {
+		display: inline-block;
+		width: 156px;
+		height: 40px;
+		margin: 12px 5px;
+		text-indent: -99999px;
+		cursor: pointer;
+	}
+	.goToAnvilButton {background: url('/images/cta_frontpage.png') 0 -40px;}
+	.readMoreButton {background: url('/images/cta_frontpage.png') 156px 40px;}
+	.goToAnvilButton:hover {background-position: 0 0;}
+	.readMoreButton:hover {background-position: 156px 0;}
 	
 	/* Store Overview */
 	#ulOverview { list-style-type: none;  margin: 0; }
