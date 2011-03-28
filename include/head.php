@@ -18,7 +18,7 @@
     <link rel="apple-touch-icon" href="/anvil_favicon.png">
   
     <!-- CSS : implied media="all" -->
-    <!-- 3/27/11 set v=2 -->
+    <!-- 3/27/11 set v=3 -->
     <link rel="stylesheet" href="/core/style.css?v=3">
     <!-- <link rel="stylesheet" href="core/style-min.css?v=2"> -->
 

@@ -96,8 +96,8 @@
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=pungle"></script>
 
 	<!-- version this file to force reload -->
-	<!-- 2/24/11 set v=2 -->
-	<script src="/core/pungle.js?v=2"></script>
+	<!-- 3/27/11 set v=3 -->
+	<script src="/core/pungle.js?v=3"></script>
 	<!-- <script src="core/pungle-min.js?v=2"></script> -->
 
 	<script type="text/javascript">	$(document).ready(function(){	pungle.init(); }); </script>
