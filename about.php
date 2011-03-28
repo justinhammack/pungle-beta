@@ -121,7 +121,7 @@
 				<h3>Chad Wasser (<a href="mailto:contact@pungle.me">email</a>)</h3>
 				<p><em>Ministry of Satire, Parody, & Civic Discourse</em><br/>
 					<br/>
-					I like abstract strategy mechanics, amateur woodworking, recreational nonviolent conflict, invisible forces, and double short americanos. I live in Seattle, where I touch really fragile things with kid gloves for a living. I put the 'ass' in 'Wasser'.
+					I like abstract strategy mechanics, amateur woodworking, recreational nonviolent conflict, invisible forces, and double short americanos. I live in Seattle, where I touch really fragile things with kid gloves for a living.
 				</p>
 			</div>
 		</div>
