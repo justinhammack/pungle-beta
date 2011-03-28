@@ -11,14 +11,14 @@
     <title>pungle - social good program</title>
     <meta name="description" content="How pungle can help shape the social good movement through it's online shopping interface.">
     <meta name="author" content="pungle.me">
-<?php require("/include/head.php"); ?>
+<?php require("include/head.php"); ?>
      
     <link rel="canonical" href="http://pungle.me/social-good/" />
      
 </head>
 
 <body>
-<?php require("/include/nav.php"); ?>
+<?php require("include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -79,7 +79,7 @@
         
     </div>
 
-<?php require("/include/footer.php"); ?>
+<?php require("include/footer.php"); ?>
     
     
 </body>

@@ -11,12 +11,12 @@
     <title>pungle - privacy policy</title>
     <meta name="description" content="pungle's policy on what secrets we know, what we do with them and a baseline for how paranoid you should be.">
     <meta name="author" content="pungle.me">
-<?php require("/include/head.php"); ?>
+<?php require("include/head.php"); ?>
      <link rel="canonical" href="http://pungle.me/about-us/privacy-policy/" />
 </head>
 
 <body>
-<?php require("/include/nav.php"); ?>
+<?php require("include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -108,7 +108,7 @@
         </div>
     </div>
 
-<?php require("/include/footer.php"); ?>
+<?php require("include/footer.php"); ?>
 
 </body>
 

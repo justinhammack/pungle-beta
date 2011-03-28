@@ -11,14 +11,14 @@
     <title>pungle - anvil tutorial</title>
     <meta name="description" content="Learn how to use our signature anvil shopping tool in 5 easy steps.">
     <meta name="author" content="pungle.me">
-<?php require("/include/head.php"); ?>
+<?php require("include/head.php"); ?>
 
     <link rel="canonical" href="http://pungle.me/anvil/tutorial/" />
 
 </head>
 
 <body>
-<?php require("/include/nav.php"); ?>
+<?php require("include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -95,7 +95,7 @@
       
     </div>
 
-<?php require("/include/footer.php"); ?>
+<?php require("include/footer.php"); ?>
     
 </body>
 

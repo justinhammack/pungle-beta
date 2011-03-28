@@ -11,14 +11,14 @@
     <title>pungle - about us</title>
     <meta name="description" content="Discover the team at pungle, our story and how to contact us.">
     <meta name="author" content="pungle.me">
-<?php require("/include/head.php"); ?>
+<?php require("include/head.php"); ?>
     
     <link rel="canonical" href="http://pungle.me/about-us/" />
     
 </head>
 
 <body>
-<?php require("/include/nav.php"); ?>
+<?php require("include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -177,7 +177,7 @@
 		
     </div>
 
-<?php require("/include/footer.php"); ?>
+<?php require("include/footer.php"); ?>
     
    
     

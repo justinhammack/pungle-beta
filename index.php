@@ -11,7 +11,7 @@
 	<title>pungle - social good & comedy gold</title>
 	<meta name="description" content="pungle helps build a sustainable future for developing nations through the power of online retail .. also we mine comedy gold.">
 	<meta name="author" content="pungle.me">
-<?php require("/include/head.php"); ?>
+<?php require("include/head.php"); ?>
 	
 	<link rel="canonical" href="http://pungle.me" />
 	
@@ -120,7 +120,7 @@
 </head>
 
 <body>
-<?php require("/include/nav.php"); ?>
+<?php require("include/nav.php"); ?>
 
 	<div id="content" class="clearfix">
 		
@@ -226,7 +226,7 @@
 	
 	</div>
 
-<?php require("/include/footer.php"); ?>
+<?php require("include/footer.php"); ?>
 
 	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>

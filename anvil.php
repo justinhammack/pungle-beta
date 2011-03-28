@@ -11,14 +11,14 @@
 	<title>pungle - the anvil</title>
 	<meta name="description" content="Tangible social good through online shopping at no cost to our visitors; progress you can see.">
 	<meta name="author" content="pungle.me">
-<?php require("/include/head.php"); ?>
+<?php require("include/head.php"); ?>
 	
 	<link rel="canonical" href="http://pungle.me/anvil/" />
 	
 </head>
 
 <body>
-<?php require("/include/nav.php"); ?>
+<?php require("include/nav.php"); ?>
 
 	<div id="content" class="clearfix">
 		
@@ -82,7 +82,7 @@
 		
 	</div>
 
-<?php require("/include/footer.php"); ?>
+<?php require("include/footer.php"); ?>
 	
 	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>

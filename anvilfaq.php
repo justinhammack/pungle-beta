@@ -11,12 +11,12 @@
     <title>pungle - anvil FAQ</title>
     <meta name="description" content="Answer some frequently asked questions about the anvil.">
     <meta name="author" content="pungle.me">
-<?php require("/include/head.php"); ?>
+<?php require("include/head.php"); ?>
     <link rel="canonical" href="http://pungle.me/anvil/faq/" />
 </head>
 
 <body>
-<?php require("/include/nav.php"); ?>
+<?php require("include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -121,7 +121,7 @@
       
     </div>
 
-<?php require("/include/footer.php"); ?>
+<?php require("include/footer.php"); ?>
 
 	<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=pungle"></script>

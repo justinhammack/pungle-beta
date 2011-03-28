@@ -11,13 +11,13 @@
     <title>pungle - terms of service</title>
     <meta name="description" content="pungle offers services, here are the terms - aka the pungle word.">
     <meta name="author" content="pungle.me">
-<?php require("/include/head.php"); ?>
+<?php require("include/head.php"); ?>
 
     <link rel="canonical" href="http://pungle.me/about-us/terms-of-service/" />
 </head>
 
 <body>
-<?php require("/include/nav.php"); ?>
+<?php require("include/nav.php"); ?>
 
     
     <div id="content" class="clearfix">
@@ -100,7 +100,7 @@
         </div>
     </div>
 
-<?php require("/include/footer.php"); ?>
+<?php require("include/footer.php"); ?>
     
 
 </body>
