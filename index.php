@@ -39,45 +39,7 @@
         
         #shade {            
             height: 50px;
-        }
-        
-        ul.navigation {
-            list-style: none;
-            margin: 0;
-            margin-top: 5px;
-            padding: 0;
-            padding-bottom: 9px;
-        }
-        
-        ul.navigation li {
-            display: inline;
-            margin-right: 10px;
-            margin-left: 10px;
-        }
-        
-        ul.navigation a {
-            background-color: #fff2d8;
-            padding: 4px 12px;            
-            text-decoration: none;
-            /* -webkit-text-stroke: 1px transparent;
-            font: 26px/36px Arial, Verdana, Helvetica, sans-serif; 
-            text-transform: lowercase; */
-            color: #444;
-            border: 1px solid #f0b02a;
-            -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
-        }
-        
-        ul.navigation a:hover {
-            background-color: #ffe6b3;
-        }
-        
-        ul.navigation a.selected {
-            background-color: #fdfdfc;
-        }
-        
-        ul.navigation a:focus {
-            outline: none;
-        }
+        }       
         
         .scrollButtons {
             position: absolute;
@@ -127,18 +89,18 @@
 		<div class="addthis_toolbox addthis_default_style smHanger">
 			<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://www.facebook.com/pungleDOTorg"></a>
 			<a class="addthis_button_tweet" addthis:url="http://pungle.me" addthis:title="hey @JustinHammack, I just pungled a little."></a>
-			<a class="addthis_counter addthis_pill_style" addthis:url="http://pungle.me"></a>
+			<!-- <a class="addthis_counter addthis_pill_style" addthis:url="http://pungle.me"></a> -->
 		</div>
 	
 
         <!-- introducing pungle -->
 		<div class="row">
-			<div class="col col_5 align_center">
-				<p><a href="/anvil/" title="Bad zombie, no brains!"><img src="/images/zombie_webapp.jpg" width="388" height="327" /></a></p>
+			<div class="col col_6 align_center">
+				<p><br/><br/><a href="/anvil/" title="Free to use, pungling for charity is easy!"><img src="/images/pungle_webapp.jpg" width="340" height="233" /></a></p>
 			</div>
-			<div class="col col_8">
-				<p><a href="#" class="readMoreImage" title="Learn more about pungle!"><img src="/images/jumpstart_charity.png" width="640" height="160"/></a></p>
-				<p><b>100% of profits go to charity. No donations or fundraising necessary!</b><br/>At pungle.me you can help fund innovative, scalable charities by shopping though the anvil, induldging in alt-swag & reveling in delectable culture.<br/><br/>
+			<div class="col col_10">
+				<p><br/><a href="#" class="readMoreImage" title="Learn more about pungle!"><img src="/images/jumpstart_charity.png" width="580" height="160"/></a></p>
+				<p><b><!--100% of profits go to charity.-->Free to use. No donations or fundraising necessary!</b><br/>punglers help fund innovative, scalable charities by shopping responsibly through the anvil, indulging in alt-swag & reveling in delectable culture.<br/><br/>
 				    <a class="goToAnvilButton right" href="/anvil/" title="100% free to use, pungling for charity is easy!">The Anvil</a><span class="readMoreButton right" title="Scrolling down the page is exhausting, let us help.">Read More</span>
 				</p>
 			</div>
@@ -147,24 +109,17 @@
         
 		<!-- splitsies content -->
 		<div class="row" id="whatispungle">
-            <div class="col col_13 align_center">
-                <img src="/images/whatispungleme.png" width="1060" height="40" title="i just pungled a little.." />
+            <div class="col col_16 align_center">
+                <img src="/images/whatispungleme.png" width="940" height="40" title="i just pungled a little.." />
             </div>
         </div>        
         
         
         <!-- container for scroller-->
 		<div class="row">
-			<div class="col col_13">
-                <div id="slider">
+			<div class="col col_16">
+                <div id="slider">                
                 
-                  <!-- <ul class="navigation align_center">
-                    <li><a href="#zombieapoc">Zombie Apocalypse</a></li>
-                    <li><a href="#sogood">Social Good</a></li>
-                    <li><a href="#funding">Capital Investment</a></li>
-                    <li><a href="#results">Measuring Results</a></li>                    
-                  </ul> -->
-                      
                   <!-- element with overflow applied -->
                   <div class="scroll">
                     <!-- the element that will be scrolled during the effect -->
@@ -172,7 +127,7 @@
                       <!-- our individual panels -->
                       <div class="panel align_center" id="sogood">                            
                             <p><a href="/social-good/" title="Learn more!"><img src="/images/whatispungle_01.jpg" title="The social good movement, pungler style." width="670" height="249" /></a></p>
-            				<p><b>Social Good:</b> Pungle.me is a business that invests 100% of its profits towards revolutionary charities; we look for a purity of cause and potential for scalable future growth.</p>
+            				<p><b>Social Good:</b> Join other punglers contributing to a measurable impact on the world with every online purchase. Together we are fueling next-gen charities at no extra cost to you.</p>
                       </div>
                       <div class="panel align_center" id="zombieapoc">
                             <p><a href="/social-good/" title="Learn more!"><img src="/images/whatispungle_02.jpg" title="We are so screwed." width="670" height="249" /></a></p>
@@ -180,11 +135,11 @@
                       </div>
                       <div class="panel align_center" id="funding">
                             <p><a href="/anvil/" title="The Anvil beckons you."><img src="/images/whatispungle_03.jpg" title="Ready to jump straight to the Anvil? Eh?" width="670" height="249"/></a></p>				
-				            <p><b>The Anvil:</b> Our charitable reserves are raised when punglers shop through the anvil (at no charge!), a simple online shopping tool. Ridiculously awesome swag is also available.</p>
+				            <p><b>The Anvil:</b> Our charitable reserves are raised when punglers shop through the anvil, a simple online shopping tool. Ridiculously awesome swag & products are also available.</p>
                       </div>
                       <div class="panel align_center" id="results">
                             <p><a href="/social-good/goals-progress/" title="See our goals & progress!"><img src="/images/whatispungle_04.jpg" title="What exactly did pungle do with all the phat loots?" width="670" height="249"/></a></p>
-    					    <p><b>Actual Results:</b> Pungle.me tracks milestones, goals, and progress relative to each charity. We work with charities that have clear, attainable goals where we can make a real impact.</p>   
+    					    <p><b>Actual Results:</b> pungle.me donates profits to charities that have clear, attainable goals where we can make a real impact; tracking milestones, and progress unique to each charity's goals.</p>   
 				      </div>
 				      <div class="panel align_center" id="joinus">
                             <p>
@@ -206,8 +161,8 @@
 		
         <!-- splitsies content -->
 		<div class="row">
-            <div class="col col_13 align_center">
-                <img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
+            <div class="col col_16 align_center">
+                <img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
             </div>
         </div>
         
@@ -215,11 +170,13 @@
 		<div class="row">
 			
 		    <div class="col col_6 align_right">
-				<a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Seriously, lets get you hooked up!"><img style="margin-top: 29px;" src="/images/fb_ad.jpg" width="397" height="335" /></a>
+				<p>
+				    <a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Seriously, lets get you hooked up!"><img style="margin-top: 29px;" src="/images/fb_ad.jpg" width="340" height="287" /></a>
+				</p>
 			</div>
 			
-		    <div class="col col_7">
-				<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/pungleDOTorg" width="556" show_faces="false" stream="true" header="false"></fb:like-box>
+		    <div class="col col_10">
+				<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/pungleDOTorg" width="580" show_faces="false" stream="true" header="false"></fb:like-box>
 			</div>
 			
 		</div>        

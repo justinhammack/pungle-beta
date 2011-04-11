@@ -1,6 +1,7 @@
+    <div id="footer_wrapper">
     <div id="footer" class="clearfix">
         <div class="row">
-        	<div class="col col_2">
+        	<div class="col col_5">
           	<p class="align_center">
           		<a class="fbButtonBig" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on facebook.">Facebook</a>
           		<a class="twButtonBig" href="http://twitter.com/JustinHammack" target="_blank" title="Follow our founder on Twitter.">Twitter</a>          		
@@ -39,10 +40,11 @@
         	</div>        	
         </div>  
         <div class="row">
-        	<div class="col col_13 align_center">
+        	<div class="col col_16 align_center">
         		<small>© 2010 - 2011 pungle, all rights reserved.</small>
         	</div>
         </div>
+    </div>
     </div>
 
 

@@ -23,17 +23,17 @@
     
     <div id="content" class="clearfix">
         <div class="row">
-            <div class="col col_13"><p>13</p></div>
+            <div class="col col_16"><p>13</p></div>
         </div>
 
         <div class="row">
-            <div class="col col_8"><p>8</p>
+            <div class="col col_10"><p>8</p>
                 <div class="row">
-                    <div class="col col_3"><p>3</p></div>
+                    <div class="col col_5"><p>3</p></div>
         	        <div class="col col_5"><p>5</p></div>
 				</div>
             </div>
-            <div class="col col_5"><p style="line-height: 202px;">5</p></div>
+            <div class="col col_6"><p style="line-height: 202px;">5</p></div>
         </div>
 
         <div class="row">
@@ -43,7 +43,7 @@
             <div class="col col_2"><p>2</p></div>
             <div class="col col_2"><p>2</p></div>
             <div class="col col_2"><p>2</p></div>
-            <div class="col col_1"><p>1</p></div>
+            <div class="col col_4"><p>1</p></div>
         </div>
     </div>
 

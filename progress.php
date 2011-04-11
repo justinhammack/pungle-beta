@@ -24,20 +24,20 @@
   <div id="content" class="clearfix">
   	
   	<div class="row">
-  		<div class="col col_13">
+  		<div class="col col_16">
   			<h2>Goals & Progress</h2>
       </div>
     </div>
     
     <div class="row">
-  		<div class="col col_13 align_center">
-  			<img src="/images/1060x1.png" title="Stop touching me!" width="1060" height="1" />
+  		<div class="col col_16 align_center">
+  			<img src="/images/1060x1.png" title="Stop touching me!" width="940" height="1" />
   		</div>        	
   	</div>
   	
   	<div class="row">
   		
-      <div class="col col_5">
+      <div class="col col_6">
   			<p><h3>2011 initial charitable goals</h3></p>
       	<p><br/>
       		<ul>
@@ -62,30 +62,30 @@
 
       </div>
       
-      <div class="col col_8">
-  			<p><img src="/images/goal_water.png" title="Our water goal" width="640" height="84" /></p>
-  			<p><img src="/images/goal_school.png" title="Our school goal" width="640" height="84" /></p>
-  			<p><img src="/images/goal_oxfam.png" title="Our agriculture goal" width="640" height="84" /></p>
-  			<p><img src="/images/goal_nets.png" title="Our health goal" width="640" height="84" /></p>
+      <div class="col col_10">
+  			<p><img src="/images/goal_water.png" title="Our water goal" width="580" height="84" /></p>
+  			<p><img src="/images/goal_school.png" title="Our school goal" width="580" height="84" /></p>
+  			<p><img src="/images/goal_oxfam.png" title="Our agriculture goal" width="580" height="84" /></p>
+  			<p><img src="/images/goal_nets.png" title="Our health goal" width="580" height="84" /></p>
       </div>
       
     </div>
     
     <div class="row">
-  		<div class="col col_13 align_center">
-  			<img src="/images/1060x1.png" title="Stop touching me!" width="1060" height="1" />
+  		<div class="col col_16 align_center">
+  			<img src="/images/1060x1.png" title="Stop touching me!" width="940" height="1" />
   		</div>        	
   	</div>
   	
   	<div class="row">
-  		<div class="col col_13">
+  		<div class="col col_16">
   			<h3>progress / results</h3><br/>
   		</div>        	
   	</div>
   	
   	<!-- water projects progress -->
   	<div class="row">
-  		<div class="col col_8 clearfix">  			
+  		<div class="col col_10 clearfix">  			
       	<img src="/images/progresstop_charitywater.png" title="Progress markers for charity: water well." width="640" height="79" />
   			<div id="progressCWater">
   				
@@ -107,7 +107,7 @@
   			</div>  			
   			
   		</div>
-      <div class="col col_5 clearfix">
+      <div class="col col_6 clearfix">
   			<p><h3>charity:water & project darmang</h3></p>
       	<p class="align_justify"><br/>We have established communication with both charities and are committed to building two wells at this time. Our third well is TBD.</p>
       	<p class="align_justify"><br/>Funding & preparation will happen throughout 2011. Once funded, expected turn around for a functional well is one year to allow for transportation, construction and training.</p>
@@ -115,7 +115,7 @@
       
       <!-- use clearfix to break down to next row without gap -->
       <div class="row">
-      	<div class="col col_1">
+      	<div class="col col_2">
   				<p></p>
   			</div>
       	<div class="col col_3">
@@ -174,7 +174,7 @@
     </div>
     
     <div class="row">
-  		<div class="col col_13 align_center">
+  		<div class="col col_16 align_center">
   			
   		</div>
   	</div>
@@ -182,7 +182,7 @@
     <!-- pencils of promise progress -->
     <div class="row">
   		
-    	<div class="col col_8">  			
+    	<div class="col col_10">  			
       	<img src="/images/progresstop_pencilsofpromise.png" title="Progress markers for building a school." width="640" height="79" />
   			<div id="progressPencils">
   			
@@ -191,7 +191,7 @@
   			</div>
   			
   		</div>
-  		<div class="col col_5">
+  		<div class="col col_6">
   			<p><h3>pencils of promise - school*</h3></p>
       	<p class="align_justify">We've reached out to Pencils of Promise and are discussing which project will best fit our goals in 2011.</p>
       </div>
@@ -199,7 +199,7 @@
     </div>
     
     <div class="row">
-  		<div class="col col_13 align_center">
+  		<div class="col col_16 align_center">
   			
   		</div>
   	</div>
@@ -229,7 +229,7 @@
   	
     <!-- nothing but nets progress -->
     <div class="row">
-  		<div class="col col_8">  			
+  		<div class="col col_10">  			
       	<img src="/images/progresstop_nets.png" title="Progress markers for nets donated." width="640" height="79" />
   			<div id="progressNets">
   			
@@ -238,21 +238,21 @@
   			</div>
   			
   		</div>
-  		<div class="col col_5">
-  			<p><h3>nothing but nets - malaria nets</h3></p>
-      	<p class="align_justify">We purchase nets directly through Nothing but Nets, which handles manufacturing & distribution of the nets. Specific progress coming soon..</p>
+  		<div class="col col_6">
+  			<p><h3>nothing but nets</h3></p>
+      	<p class="align_justify">We purchase malaria nets directly through Nothing but Nets, which handles manufacturing & distribution of the nets. Specific progress coming soon..</p>
       </div>
     </div>
     
     <div class="row">
-  		<div class="col col_13 align_center">
+  		<div class="col col_16 align_center">
   			
   		</div>
   	</div>
   	
     <!-- disclaimer -->
     <div class="row">
-  		<div class="col col_13">
+  		<div class="col col_16">
   			<small>
   				
   				* The build a school project is a symbolic cooperative effort with Pencils of Promise and progress is estimated based on funds donated.<br/>			

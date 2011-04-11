@@ -10,8 +10,8 @@
     <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <!--  Mobile viewport optimized: j.mp/bplateviewport 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">    
 
     <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
     <link rel="shortcut icon" type="image/png" href="/anvil_favicon.png" />

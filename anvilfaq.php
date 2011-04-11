@@ -22,23 +22,28 @@
     <div id="content" class="clearfix">
       
     	<div class="row">
-        <div class="col col_13">
+        <div class="col col_16">
         	<h2>FAQ</h2>
         </div>
       </div>
       
       <div class="row">
       	
-        <div class="col col_13 align_center">
-        	<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        <div class="col col_16 align_center">
+        	<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
         </div>
       	
       </div>  
     	
       <div class="row">
-        <div class="col col_13">
+        <div class="col col_16">
         	
         	<p>
+        		<b>If it's free to use, where does the money come from?</b><br/>
+        		pungle collects advertising revenue by promoting vendors through our anvil shopping tool; at absolutely <strong>no expense</strong> to our community. <!-- Consider it a levy against companies that already pad their prices with a margin, we just reclaim it in the name of social good. Yes, this is a little bit like Robin Hood.--> We also make/source awesome products, check out our store!
+      		</p>
+      		<br/>
+            <p>
         		<b>How do I know if it's working?</b><br/>
         		If the store loads, it's working! Your job is to shop, our job is to take care of all the behind the scene details. Have fun!
       		</p>

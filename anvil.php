@@ -15,16 +15,29 @@
 	
 	<link rel="canonical" href="http://pungle.me/anvil/" />
 	
+	<style type="text/css">
+		body {				
+        	background-color: #181818;        	
+		}
+		#content_wrapper {
+		    display: block;
+	        background-color: #FFF;
+	        padding: 0;
+	        width: 100%;
+		}
+    </style>
+    
 </head>
 
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="content_wrapper">
 	<div id="content" class="clearfix">
 		
-		<!-- page description -->
-		<div class="row">
-      <div class="col col_13">
+	<!-- page description -->
+	<div class="row">
+      <div class="col col_16">
       	<!-- AddThis Button BEGIN -->
 				<div style="width: 148px;" class="addthis_toolbox addthis_default_style addthis_32x32_style right">
 					<a class="addthis_button_preferred_1"></a>
@@ -37,30 +50,30 @@
     </div>
     
 		<div class="row">
-			<div class="col col_13 align_center">
-				<img src="/images/the_anvil.png" title="hi" width="1060" height="40" />
+			<div class="col col_16 align_center">
+				<img src="/images/the_anvil.png" title="hi" width="940" height="40" />
 			</div>
 		</div>
 		
 		<!-- container for overview to hold store buttons -->
 		<div class="row">
-			<div id="overviewContainer" class="col col_12">
+			<div id="overviewContainer" class="col col_16">
 				<ul id="ulOverview"></ul>				
 			</div>
-			<div class="col col_1">
+			<!-- <div class="col col_1">
 				<img style="display: block;" src="/images/micro_pungle.png" title="O.o" width="52" height="84" />
-			</div>
+			</div> -->
 		</div>
 		
 		<!-- container for all stores -->		
 		<div class="row">
-			<div class="col col_8">
+			<div class="col col_10">
 				
 				<!-- <span id="getUrl" style="display: inline-block;">big fat long link needs to fit over here</span> -->
 				
 				<div id="allStoresAccordion">
 					
-					<h3><a href="#">all stores</a></h3>
+					<h3><a href="#">More Stores</a></h3>
 					<ul id="allStores"></ul>
 					
 				</div>
@@ -71,17 +84,18 @@
 				</p>
 				
 			</div>
-			<div class="col col_5">
+			<div class="col col_6">
 				<p class="align_justify">
 					<span class="pungleRedIcon ui-icon ui-icon-heart" title="Social good is enabled."></span> Social Good 
 					<span class="pungleBlueIcon ui-icon ui-icon-tag" title="Deal details would go here."></span> Deal Link<br/>
-					<small><!-- TL;DR Click Amazon --><strong><a href="tutorial.php" title="View our 5-step picture guide">Go to 5-Step Tutorial ></a></strong> The anvil is a customizable shopping interface; your starting point for epic shopping adventures.  There are two pieces to this pie, an overview area for store buttons and an 'all stores' container with a list of, well, all our stores.  The overview saves and holds your favorite online stores for easy access.  To choose stores you want added to the overview, find them in the all stores container and click the plus sign.  Likewise, to remove a store, click the minus sign.  The 'clear stores' button will remove all stores in your overview and 'restore defaults' will reset your overview to the original stores.  When you're ready for an adventure, click a store button or deal icon and away you go.  Stores do not have to be added to your overview to visit them, you can shop directly from the all stores container.</small>
+					<!-- TL;DR Click Amazon <strong><a href="tutorial.php" title="View our 5-step picture guide">5-Step Tutorial ></a></strong> -->
 				</p>
 			</div>
 		</div>		
 		
 	</div>
-
+    </div>
+    
 <?php require("include/footer.php"); ?>
 	
 	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->

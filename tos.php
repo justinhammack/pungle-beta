@@ -22,20 +22,20 @@
     
     <div id="content" class="clearfix">
         <div class="row">
-            <div class="col col_13">
+            <div class="col col_16">
             	<h2>Terms of Service</h2>
             </div>
         </div>
     	
     	<div class="row">
         	
-        	<div class="col col_13 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="1060" height="1" />
+        	<div class="col col_16 align_center">
+        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
         	</div>
         	
         </div>
     	<div class="row">
-            <div class="col col_13">
+            <div class="col col_16">
             	
             	<p class="align_justify">            		
             		pungle.me is owned in whole by pungle. The provisions of this policy that apply to pungle.me also apply to pungle.<br/>

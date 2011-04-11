@@ -17,8 +17,9 @@ var pungle = (function ($) {
 		
 		// create all stores object
 		$('#allStoresAccordion').accordion({
+			active: false,
 			autoHeight: false,
-			collapsible: false,
+			collapsible: true,
 			// active: false,
 			clearStyle: true
 		});
