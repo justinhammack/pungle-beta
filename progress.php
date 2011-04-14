@@ -86,10 +86,10 @@
   	<!-- water projects progress -->
   	<div class="row">
   		<div class="col col_10 clearfix">  			
-      	<img src="/images/progresstop_charitywater.png" title="Progress markers for charity: water well." width="640" height="79" />
+      	<img src="/images/progresstop_charitywater.png" title="Progress markers for charity: water well." width="580" height="76" />
   			<div id="progressCWater">
   				
-  				<span style="line-height: 43px; margin-right: 35px; font-weight: bold;" class="right">charity: water</span>
+  				<span style="line-height: 42px; margin-right: 35px; font-weight: bold;" class="right">charity: water</span>
   				
   				<div id="progressCWaterBar" style="width: 11%"><!-- text --></div>
   			
@@ -97,18 +97,18 @@
   			
 				<p><br/></p>
 				
-				<img src="/images/progresstop_darmang.png" title="Progress markers for project darmang well." width="640" height="79" />
+				<img src="/images/progresstop_darmang.png" title="Progress markers for project darmang well." width="580" height="76" />
   			<div id="progressDarmang">
   				
-  				<span style="line-height: 43px; margin-right: 35px; font-weight: bold;" class="right">Project Darmang</span>
+  				<span style="line-height: 42px; margin-right: 35px; font-weight: bold;" class="right">Project Darmang</span>
   				
-  				<div id="progressDarmangBar" style="width: 9%"><!-- text --></div>
+  				<div id="progressDarmangBar" style="width: 14%"><!-- text --></div>
   				
   			</div>  			
   			
   		</div>
       <div class="col col_6 clearfix">
-  			<p><h3>charity:water & project darmang</h3></p>
+  			<p><h3>charity:water &<br/> project darmang</h3></p>
       	<p class="align_justify"><br/>We have established communication with both charities and are committed to building two wells at this time. Our third well is TBD.</p>
       	<p class="align_justify"><br/>Funding & preparation will happen throughout 2011. Once funded, expected turn around for a functional well is one year to allow for transportation, construction and training.</p>
       </div>
@@ -175,7 +175,7 @@
     
     <div class="row">
   		<div class="col col_16 align_center">
-  			
+  			<br/>
   		</div>
   	</div>
   	
@@ -183,7 +183,7 @@
     <div class="row">
   		
     	<div class="col col_10">  			
-      	<img src="/images/progresstop_pencilsofpromise.png" title="Progress markers for building a school." width="640" height="79" />
+      	<img src="/images/progresstop_pencilsofpromise.png" title="Progress markers for building a school." width="580" height="76" />
   			<div id="progressPencils">
   			
   				<div id="progressPencilsBar" style="width: 9%"><!-- text --></div>
@@ -200,7 +200,7 @@
     
     <div class="row">
   		<div class="col col_16 align_center">
-  			
+  			<br/>
   		</div>
   	</div>
   	
@@ -230,7 +230,7 @@
     <!-- nothing but nets progress -->
     <div class="row">
   		<div class="col col_10">  			
-      	<img src="/images/progresstop_nets.png" title="Progress markers for nets donated." width="640" height="79" />
+      	<img src="/images/progresstop_nets.png" title="Progress markers for nets donated." width="580" height="76" />
   			<div id="progressNets">
   			
   				<div id="progressNetsBar" style="width: 0%"><!-- text --></div>

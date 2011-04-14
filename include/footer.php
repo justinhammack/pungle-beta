@@ -1,7 +1,7 @@
     <div id="footer_wrapper">
     <div id="footer" class="clearfix">
         <div class="row">
-        	<div class="col col_5">
+        	<div class="col col_3">
           	<p class="align_center">
           		<a class="fbButtonBig" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on facebook.">Facebook</a>
           		<a class="twButtonBig" href="http://twitter.com/JustinHammack" target="_blank" title="Follow our founder on Twitter.">Twitter</a>          		
@@ -14,9 +14,9 @@
         	<div class="col col_3">
           	<p>
           		<small>
-            		<a href="/anvil/" title="The Anvil beckons you!"><b>The Anvil</b></a><br/>
-          			<a href="/anvil/tutorial/" title="Learn how to use the anvil in 5 easy steps."><span class="ui-icon ui-icon-lightbulb"></span> 5-Step Tutorial</a><br/>
-            		<a href="/anvil/faq/" title="Answers to some common questions."><span class="ui-icon ui-icon-help"></span> FAQ</a>
+            		<a href="/anvil/" title="The Anvil beckons you!"><b>The Anvil</b></a><br/>            		
+					<a href="http://pungle.storenvy.com/" title="Shop for pungle swag & other fun loot!"><span class="ui-icon ui-icon-cart"></span> Store / Loot</a><br/>
+          			<a href="/anvil/tutorial/" title="Learn how to use the anvil in 5 easy steps."><span class="ui-icon ui-icon-lightbulb"></span> 5-Step Tutorial</a>
           		</small>
           	</p>
         	</div>
@@ -33,15 +33,26 @@
           	<p>
           		<small>
           			<a href="/about-us/" title="Who are the people behind the scenes?"><b>About Us</b></a><br/>
-            		<a href="/about-us/terms-of-service/" title="Terms of Service"><span class="ui-icon ui-icon-script"></span> Terms of Service</a><br/>
-            		<a href="/about-us/privacy-policy/" title="Privacy Policy"><span class="ui-icon ui-icon-locked"></span> Privacy Policy</a>
+            		<a href="/anvil/faq/" title="Answers to some common questions."><span class="ui-icon ui-icon-help"></span> FAQ</a>
           		</small>
           	</p>
-        	</div>        	
+        	</div>
+        	<div class="col col_2">
+          	<p>
+          		<small>
+          			<a href="/" title="Back to pungle time!"><span class="ui-icon ui-icon-home"></span> <b>Home</b></a><br/>
+          		    <a href="http://blog.pungle.me" title="A piñata of awesome content!"><span class="ui-icon ui-icon-signal-diag"></span> <b>Blog</b></a>
+          		</small>
+          	</p>
+        	</div>
         </div>  
         <div class="row">
         	<div class="col col_16 align_center">
-        		<small>© 2010 - 2011 pungle, all rights reserved.</small>
+        		<small>
+        		    © 2010 - 2011 <a href="/" title="pungle time!">pungle</a>, all rights reserved.
+        		    <a href="/about-us/terms-of-service/" title="Terms of Service"><span class="ui-icon ui-icon-script"></span> Terms of Service </a>
+        		    <a href="/about-us/privacy-policy/" title="Privacy Policy"><span class="ui-icon ui-icon-locked"></span> Privacy Policy </a>        		            		    
+    		    </small>
         	</div>
         </div>
     </div>

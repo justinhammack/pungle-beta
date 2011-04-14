@@ -17,8 +17,11 @@
 			<nav>
 				<ul class="navigation">
 					<li>
-					    <a <?php if ($pfile=="anvil.php") { ?>class="navAnvil navSelected"<?php } else { ?>class="navAnvil"<?php } ?>class="navAnvil" href="/anvil/" title="our signature shopping tool">Go Pungle</a>
+					    <a <?php if ($pfile=="anvil.php") { ?>class="navAnvil navSelected"<?php } else { ?>class="navAnvil"<?php } ?> href="/anvil/" title="our signature shopping tool">Go Pungle</a>
 					    <ul>
+					        <li>
+					            <a href="http://pungle.storenvy.com/" title="Shop for pungle swag & other fun loot!">Store / Loot</a>
+					        </li>
 					        <li>
 					            <a <?php if ($pfile=="tutorial.php") { ?>class="subSelected"<?php } ?> href="/anvil/tutorial/" title="Learn how to use the anvil in 5 easy steps.">5-Step Tutorial</a>
 					        </li>					        
@@ -42,6 +45,9 @@
 					            <a <?php if ($pfile=="anvilfaq.php") { ?>class="subSelected"<?php } ?> href="/anvil/faq/" title="Answers to some common questions.">FAQ</a>
 					        </li>					        
 					    </ul>
+				    </li>
+				    <li>
+					    <a href="http://blog.pungle.me" title="A piñata of awesome content!">Blog</a>					    
 				    </li>
 				</ul>
 			</nav>

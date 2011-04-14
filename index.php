@@ -95,14 +95,14 @@
 
         <!-- introducing pungle -->
 		<div class="row">
-			<div class="col col_6 align_center">
-				<p><br/><br/><a href="/anvil/" title="Free to use, pungling for charity is easy!"><img src="/images/pungle_webapp.jpg" width="340" height="233" /></a></p>
-			</div>
-			<div class="col col_10">
-				<p><br/><a href="#" class="readMoreImage" title="Learn more about pungle!"><img src="/images/jumpstart_charity.png" width="580" height="160"/></a></p>
-				<p><b><!--100% of profits go to charity.-->Free to use. No donations or fundraising necessary!</b><br/>punglers help fund innovative, scalable charities by shopping responsibly through the anvil, indulging in alt-swag & reveling in delectable culture.<br/><br/>
-				    <a class="goToAnvilButton right" href="/anvil/" title="100% free to use, pungling for charity is easy!">The Anvil</a><span class="readMoreButton right" title="Scrolling down the page is exhausting, let us help.">Read More</span>
+			<div class="col col_6">
+				<p><br/><br/><a href="#" class="readMoreImage" title="Learn more about pungle!"><img src="/images/PUawesometext340x60.jpg" width="340" height="60"/></a></p>
+				<p><br/>Pungling is responsible shopping; where your puchases help make the world a better place.<br/><br/><b><!--100% of profits go to charity.--><!-- Free to use. -->Free to use. No donations or fundraising!</b><br/><br/>
+				    <span class="readMoreButton left" title="Scrolling down the page is exhausting, let us help.">Read More</span><a class="goToAnvilButton left" href="/anvil/" title="100% free to use, pungling for charity is easy!">The Anvil</a>
 				</p>
+			</div>
+			<div class="col col_10 align_center">
+				<p><br/><br/><a href="/anvil/" title="Free to use, pungling is easy!"><img src="/images/PUkittycorn580x280.jpg" width="580" height="280" /></a></p>
 			</div>
 		</div>
 		
@@ -127,7 +127,7 @@
                       <!-- our individual panels -->
                       <div class="panel align_center" id="sogood">                            
                             <p><a href="/social-good/" title="Learn more!"><img src="/images/whatispungle_01.jpg" title="The social good movement, pungler style." width="670" height="249" /></a></p>
-            				<p><b>Social Good:</b> Join other punglers contributing to a measurable impact on the world with every online purchase. Together we are fueling next-gen charities at no extra cost to you.</p>
+            				<p><b>Social Good:</b> Join other punglers in contributing to a measurable impact on the world with every online purchase. Together we are fueling next-gen charities at no extra cost to you.</p>
                       </div>
                       <div class="panel align_center" id="zombieapoc">
                             <p><a href="/social-good/" title="Learn more!"><img src="/images/whatispungle_02.jpg" title="We are so screwed." width="670" height="249" /></a></p>

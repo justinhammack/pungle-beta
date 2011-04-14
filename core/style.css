@@ -419,8 +419,8 @@ button {  width: auto; overflow: visible; }
 
 	/* goals & progress */
 	#progressOxfam, #progressPencils, #progressCWater, #progressDarmang, #progressNets {
-		width: 640px;
-		height: 43px;
+		width: 580px;
+		height: 42px;
 	}
 	#progressOxfam {background: url('/images/progress_oxfam.png');}
 	#progressPencils {background: url('/images/progress_pencilsofpromise.png');}
@@ -429,16 +429,16 @@ button {  width: auto; overflow: visible; }
 	#progressNets {background: url('/images/progress_nets.png');}
 	
 	#progressOxfamBar, #progressPencilsBar, #progressCWaterBar, #progressDarmangBar, #progressNetsBar {
-		height: 43px;
-		line-height: 43px;
+		height: 42px;
+		line-height: 42px;
 		text-align: center;
 		font-weight: bold;		
 	}
-	#progressOxfamBar {background: url('/images/progress_oxfam.png') 640px 0;}
-	#progressPencilsBar {background: url('/images/progress_pencilsofpromise.png') 640px 0;}
-	#progressCWaterBar {background: url('/images/progress_charitywater.png') 640px 0;}
-	#progressDarmangBar {background: url('/images/progress_darmang.png') 640px 0;}
-	#progressNetsBar {background: url('/images/progress_nets.png') 640px 0;}
+	#progressOxfamBar {background: url('/images/progress_oxfam.png') 580px 0;}
+	#progressPencilsBar {background: url('/images/progress_pencilsofpromise.png') 580px 0;}
+	#progressCWaterBar {background: url('/images/progress_charitywater.png') 580px 0;}
+	#progressDarmangBar {background: url('/images/progress_darmang.png') 580px 0;}
+	#progressNetsBar {background: url('/images/progress_nets.png') 580px 0;}
 	
 	
 	

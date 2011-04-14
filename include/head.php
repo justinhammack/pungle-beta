@@ -4,8 +4,8 @@
     <meta name="google-site-verification" content="md946IN13FSC3e2OGYEp6nV146DZr0wlyWEoJWWth8A" />
     
     <meta property="og:title" content="I'm a pungler!" />
-    <meta property="og:description" content="pungle is the perfect marriage of savvy shopping & social good." />
-    <meta property="og:image" content="http://pungle.me/images/facebook_share2.jpg" />
+    <meta property="og:description" content="Pungling is responsible shopping; where your puchases help make the world a better place." />
+    <meta property="og:image" content="http://pungle.me/images/PRfbshareimage312x280.jpg" />
 
     <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
