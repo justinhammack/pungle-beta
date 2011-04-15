@@ -22,7 +22,7 @@
 
     
     <div id="content" class="clearfix">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col col_16"><p>13</p></div>
         </div>
 
@@ -44,7 +44,7 @@
             <div class="col col_2"><p>2</p></div>
             <div class="col col_2"><p>2</p></div>
             <div class="col col_4"><p>1</p></div>
-        </div>
+	        </div> -->
     </div>
 
 <?php require("include/footer.php"); ?>

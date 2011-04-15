@@ -2,7 +2,8 @@
 	<div id="header_wrapper">
 		<div id="header" class="clearfix">
 			
-			<a href="/" title="pungle time!"><img src="/images/pungle_me_logo.png" width="199" height="58" /></a>
+			<!-- <a id="headerImage" href="/" title="pungle time!">pungle<img src="/images/pungle_me_logo.png" width="199" height="58" /></a> -->
+			<a class="headerBanner" href="/" title="pungle time!">pungle</a>
 			<div class="header_social">
 				<a class="fbButtonLink" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on facebook.">Facebook</a>
 				<a class="twButtonLink" href="http://twitter.com/JustinHammack" target="_blank" title="Follow our founder on Twitter.">Twitter</a>

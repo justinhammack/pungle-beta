@@ -100,8 +100,8 @@ ul, ol { margin-left: 1.8em; }
 ol { list-style-type: decimal; }
 
 /* Navigation Setup */
-nav { background-color:#333; display:block; position: absolute; right: 52px; bottom: 0px;
-	  -moz-border-radius-topright: 6px; border-top-right-radius: 6px; -moz-border-radius-topleft: 6px; border-top-left-radius: 6px; }
+nav { background-color:#333; display:block; position: absolute; right: 52px; bottom: 0px; z-index: 10000; 
+	  -moz-border-radius-topright: 6px; border-top-right-radius: 6px; -moz-border-radius-topleft: 6px; border-top-left-radius: 6px;  }
 nav ul, nav li { margin: 0; } 
 nav ul li { float:left; padding: 5px 5px;  border-right: 1px solid #222;}
 nav ul li:last-child { border-right: none; }
@@ -124,8 +124,7 @@ nav ul.navigation li ul {
     margin-top: 6px;
     padding: 1px;    
     background-color:#222;    
-    -moz-border-radius-bottomright: 5px; border-bottom-right-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px;
-    z-index: 10000;
+    -moz-border-radius-bottomright: 5px; border-bottom-right-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px;    
     display: none;
 }
 nav ul.navigation li:hover ul { display: block; }
@@ -312,6 +311,15 @@ button {  width: auto; overflow: visible; }
 	a.navAnvil, a.navAnvil:active, a.navAnvil:visited { color:#51CC3E; }
 	a.navAnvil:hover { color:#f0b02a; }
 	#subheader a { margin-left:18px; }
+	.headerBanner { 
+		background: url('/images/pungle_me_logo.png');
+		display: block;
+		width: 199px;
+		height: 58px;
+		float: left;
+		margin: 13px 0;
+		text-indent: -99999px;		
+	}
 	
 	/* Header &  Footer */
 	.fbButtonLink, .twButtonLink {

@@ -77,7 +77,7 @@
 			<div class="col col_10">
 				<h3>Justin Hammack (<a href="http://about.me/justinhammack" target="_blank" title="Details on http://about.me">contact</a>)</h3>
 				<p>
-					<em>Founder. Lead developer. Scotch drinking anti-socialite.</em><br/>
+					<em>Lead developer & pungle evangelist. Scotch drinking anti-socialite.</em><br/>
 					<br/>
 					I'm an entrepreneur, vegetarian foodie, coffee addict, ex-pro PC gamer, lover of cult movies, and driver of insane turbo-2.0L. I'm based out of Seattle, where the pungle secrets are kept. Yes, I'd love to grab some happy hour, glad you asked.
 				</p>
@@ -91,7 +91,7 @@
 			</div>
 			<div class="col col_10">
 				<h3>Ben Andrews (<a href="http://about.me/bandrews" target="_blank" title="Details on http://about.me" />contact</a>)</h3>
-				<p><em>Co-Founder. Director of propaganda. Puts the sass in sassy.</em><br/>
+				<p><em>Director of marketing & propaganda. Puts the sass in sassy.</em><br/>
 					<br/>
 					I grew up playing the original Nintendo. My generation invented gaming, sorry, you can't top that. I have an elementary school degree in Oregon Trail. You know what, forget this, I can't be bothered to talk too much about myself, because frankly I'm busy being unbelievably awesome. How awesome am I? <a href="http://www.google.com/images?q=unicorns" target="_blank">THIS AWESOME</a>
 				</p>
@@ -105,7 +105,7 @@
 			</div>
 			<div class="col col_10">
 				<h3>Madeline Puckette (<a href="http://about.me/madelinep" target="_blank" title="Details on http://about.me">contact</a>)</h3>
-				<p><em>Co-Founder. Master designer. Professional socialite.</em><br/>
+				<p><em>Master designer. Professional socialite.</em><br/>
 					<br/>
 					In addition to being a designer, I'm an avid FPS gamer and an electro-pop singer. My vocals are featured on a few awesome electronica albums. I also drink wine professionally. Recently, I was awarded a wine sommelier certificate by CoM and placed runner-up in a national blind tasting competition. Salut!
 				</p>
