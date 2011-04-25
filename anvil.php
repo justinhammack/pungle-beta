@@ -115,6 +115,14 @@
 	<!-- <script src="core/pungle-min.js?v=2"></script> -->
 
 	<script type="text/javascript">	$(document).ready(function(){	pungle.init(); }); </script>
+	
+	<!-- hello bar! -->
+	<script type="text/javascript" src="//www.hellobar.com/hellobar.js"></script>
+    <script type="text/javascript">
+        new HelloBar(13923,15304);
+    </script>
+
+
 </body>
 
 </html>

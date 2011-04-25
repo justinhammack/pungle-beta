@@ -103,9 +103,12 @@ ol { list-style-type: decimal; }
 nav { background-color:#333; display:block; position: absolute; right: 52px; bottom: 0px; z-index: 10000; 
 	  -moz-border-radius-topright: 6px; border-top-right-radius: 6px; -moz-border-radius-topleft: 6px; border-top-left-radius: 6px;  }
 nav ul, nav li { margin: 0; } 
-nav ul li { float:left; padding: 5px 5px;  border-right: 1px solid #222;}
+nav ul li { float:left; padding: 5px;  border-right: 1px solid #222;}
+nav ul li.parentNav { padding: 5px 12px 5px 5px; }
 nav ul li:last-child { border-right: none; }
+nav ul.navigation li.parentNav > a { background: url('/images/arrow.gif') no-repeat center right; }
 nav ul li a, nav ul li a:active, nav ul li a:visited { display:block; padding:3px 8px; color: #DDD;}
+nav ul.navigation li.parentNav a, nav ul.navigation li.parentNav a:active, nav ul.navigation li.parentNav a:visited { padding:3px 15px 3px 8px; }
 nav ul li a:hover, nav ul li.active a { 
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -319,7 +322,7 @@ button {  width: auto; overflow: visible; }
 		float: left;
 		margin: 13px 0;
 		text-indent: -99999px;		
-	}
+	}	
 	
 	/* Header &  Footer */
 	.fbButtonLink, .twButtonLink {
@@ -338,6 +341,7 @@ button {  width: auto; overflow: visible; }
 		position: absolute;
 		right: 15px;
 		top: 15px;
+		z-index: 5000;
 	}
 	/* .twHanger {
 		position: absolute;
@@ -483,12 +487,12 @@ body { background-color: #FFF; }
 
 #header_wrapper, #subheader_wrapper, #footer_wrapper {
 	display: block;
-	background-color: #000;
+	background-color: #000;	
 	/* margin-bottom: 32px; */
 	padding: 0;
 	width: 100%;
 }
-
+#header_wrapper { background: url('/images/header_bg.png') repeat-x; }
 #subheader_wrapper { display: none; background-color: #181818; }
 #footer_wrapper { background-color: #181818; }
 

@@ -17,20 +17,26 @@
 			
 			<nav>
 				<ul class="navigation">
-					<li>
-					    <a <?php if ($pfile=="anvil.php") { ?>class="navAnvil navSelected"<?php } else { ?>class="navAnvil"<?php } ?> href="/anvil/" title="our signature shopping tool">Go Pungle</a>
+					<li class="parentNav">
+					    <a class="navAnvil" href="/anvil/">Go Pungle</a>
 					    <ul>
 					        <li>
-					            <a href="http://pungle.storenvy.com/" title="Shop for pungle swag & other fun loot!">Store / Loot</a>
+					            <a <?php if ($pfile=="anvil.php") { ?>class="subSelected"<?php } ?> href="/anvil/" title="Our signature shopping tool.">The Anvil</a>
+					        </li>
+					        <li>
+					            <a href="http://pungle.storenvy.com/" title="Shop at the pungle store for sweet loot!">Goods / Loot</a>
 					        </li>
 					        <li>
 					            <a <?php if ($pfile=="tutorial.php") { ?>class="subSelected"<?php } ?> href="/anvil/tutorial/" title="Learn how to use the anvil in 5 easy steps.">5-Step Tutorial</a>
 					        </li>					        
 					    </ul>
 				    </li>					
-					<li>
-					    <a <?php if ($pfile=="sogood.php") { ?>class="navSelected"<?php } ?> href="/social-good/" title="Learn more about our social good campaign.">Our Vision</a>
+					<li class="parentNav">
+					    <a href="/social-good/">Our Vision</a>
 					    <ul>
+					        <li>
+					            <a <?php if ($pfile=="sogood.php") { ?>class="subSelected"<?php } ?> href="/social-good/" title="Learn more about our social good campaign.">Social Good</a>
+					        </li>
 					        <li>
 					            <a <?php if ($pfile=="npos.php") { ?>class="subSelected"<?php } ?> href="/social-good/cause-portfolio/" title="See what Nonprofits we currently fund.">Cause Portfolio</a>
 					        </li>
@@ -39,9 +45,12 @@
 					        </li>
 					    </ul>
 				    </li>
-				    <li>
-					    <a <?php if ($pfile=="about.php") { ?>class="navSelected"<?php } ?> href="/about-us/" title="Who are the people behind the scenes?">About Us</a>
+				    <li class="parentNav">
+					    <a href="/about-us/">About Us</a>
 					    <ul>
+					        <li>
+					            <a <?php if ($pfile=="about.php") { ?>class="subSelected"<?php } ?> href="/about-us/" title="Who are the people behind the scenes?">Vigilantes</a>
+					        </li>
 					        <li>
 					            <a <?php if ($pfile=="anvilfaq.php") { ?>class="subSelected"<?php } ?> href="/anvil/faq/" title="Answers to some common questions.">FAQ</a>
 					        </li>					        

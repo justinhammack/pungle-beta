@@ -86,24 +86,25 @@
 
 	<div id="content" class="clearfix">
 		
-		<div class="addthis_toolbox addthis_default_style smHanger">
-			<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://www.facebook.com/pungleDOTorg"></a>
-			<a class="addthis_button_tweet" addthis:url="http://pungle.me" addthis:title="hey @JustinHammack, I just pungled a little."></a>
-			<!-- <a class="addthis_counter addthis_pill_style" addthis:url="http://pungle.me"></a> -->
-		</div>
-	
-
-        <!-- introducing pungle -->
+		<!-- introducing pungle -->
 		<div class="row">
 			<div class="col col_6">
-				<p><br/><br/><a href="#" class="readMoreImage" title="Learn more about pungle!"><img src="/images/PUawesometext340x60.jpg" width="340" height="60"/></a></p>
-				<p><br/>Pungling is responsible shopping; where your puchases help make the world a better place.<br/><br/><b><!--100% of profits go to charity.--><!-- Free to use. -->Free to use. No donations or fundraising!</b><br/><br/>
-				    <span class="readMoreButton left" title="Scrolling down the page is exhausting, let us help.">Read More</span><a class="goToAnvilButton left" href="/anvil/" title="100% free to use, pungling for charity is easy!">The Anvil</a>
+				<p><br/><br/><br/><a href="#" class="readMoreImage" title="Learn more about pungle!"><img src="/images/PUawesometext340x60.jpg" width="340" height="60"/></a></p>
+				<p><br/>Shop at pungle to transform ordinary purchases into pure awesome. Build a better world, mock incompetence & feel good about yourself!<!--Pungling is responsible shopping; where your puchases help make the world a better place.--><br/><br/><b><!--100% of profits go to charity.--><!-- Free to use. -->Most major stores supported. Free to use.</b><br/><br/>
+				    <!-- <span class="readMoreButton left" title="Scrolling down the page is exhausting, let us help.">Read More</span><a class="goToAnvilButton left" href="/anvil/" title="100% free to use, pungling for charity is easy!">The Anvil</a>-->
 				</p>
 			</div>
 			<div class="col col_10 align_center">
 				<p><br/><br/><a href="/anvil/" title="Free to use, pungling is easy!"><img src="/images/PUkittycorn580x280.jpg" width="580" height="280" /></a></p>
 			</div>
+		</div>
+		
+		
+		<!-- social media hangar -->
+		<div class="addthis_toolbox addthis_default_style smHanger">
+			<a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:url="http://www.facebook.com/pungleDOTorg"></a>
+			<a class="addthis_button_tweet" addthis:url="http://pungle.me" addthis:title="hey @JustinHammack, I just pungled a little."></a>
+			<!-- <a class="addthis_counter addthis_pill_style" addthis:url="http://pungle.me"></a> -->
 		</div>
 		
         
@@ -126,20 +127,20 @@
                     <div class="scrollContainer">
                       <!-- our individual panels -->
                       <div class="panel align_center" id="sogood">                            
-                            <p><a href="/social-good/" title="Learn more!"><img src="/images/whatispungle_01.jpg" title="The social good movement, pungler style." width="670" height="249" /></a></p>
+                            <p><a href="#zombieapoc" title="Learn more!"><img src="/images/whatispungle_01.jpg" title="The social good movement, pungler style." width="670" height="249" /></a></p>
             				<p><b>Social Good:</b> Join other punglers in contributing to a measurable impact on the world with every online purchase. Together we are fueling next-gen charities at no extra cost to you.</p>
                       </div>
                       <div class="panel align_center" id="zombieapoc">
-                            <p><a href="/social-good/" title="Learn more!"><img src="/images/whatispungle_02.jpg" title="We are so screwed." width="670" height="249" /></a></p>
+                            <p><a href="#funding" title="Learn more!"><img src="/images/whatispungle_02.jpg" title="We are so screwed." width="670" height="249" /></a></p>
             				<p><b>Zombie Apocalypse:</b> Maybe.<!-- We're screwed unless we team up to jump start the next generation of charities. Who do you think will protect us from legions of undead? --> And that's why we're specifically targetting the next generation of charities. When it comes to zombies, an ounce of prevention is worth a pound of C-4.</p>
                       </div>
                       <div class="panel align_center" id="funding">
-                            <p><a href="/anvil/" title="The Anvil beckons you."><img src="/images/whatispungle_03.jpg" title="Ready to jump straight to the Anvil? Eh?" width="670" height="249"/></a></p>				
-				            <p><b>The Anvil:</b> Our charitable reserves are raised when punglers shop through the anvil, a simple online shopping tool. Ridiculously awesome swag & products are also available.</p>
+                            <p><a href="#results" title="The Anvil beckons you."><img src="/images/whatispungle_03.jpg" title="Ready to jump straight to the Anvil? Eh?" width="670" height="249"/></a></p>				
+				            <p><b>The Anvil:</b> Our charitable reserves are raised when punglers shop through the anvil, a simple online shopping tool with stores you're familiar with. Pungler loot/swag is also available.</p>
                       </div>
                       <div class="panel align_center" id="results">
-                            <p><a href="/social-good/goals-progress/" title="See our goals & progress!"><img src="/images/whatispungle_04.jpg" title="What exactly did pungle do with all the phat loots?" width="670" height="249"/></a></p>
-    					    <p><b>Actual Results:</b> pungle.me donates profits to charities that have clear, attainable goals where we can make a real impact; tracking milestones, and progress unique to each charity's goals.</p>   
+                            <p><a href="#joinus" title="See our goals & progress!"><img src="/images/whatispungle_04.jpg" title="What exactly did pungle do with all the phat loots?" width="670" height="249"/></a></p>
+    					    <p><b>Actual Results:</b> Pungle donates profits to charities that have clear, attainable goals where we can make a real impact; tracking milestones, and progress unique to each charity's goals.</p>   
 				      </div>
 				      <div class="panel align_center" id="joinus">
                             <p>
@@ -159,14 +160,14 @@
 		</div>
 		
 		
-        <!-- splitsies content -->
+        <!-- splitsies content 
 		<div class="row">
             <div class="col col_16 align_center">
                 <img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
             </div>
-        </div>
+        </div> -->
         
-        <!-- container for call to actions-->
+        <!-- container for call to actions
 		<div class="row">
 			
 		    <div class="col col_6 align_right">
@@ -179,7 +180,7 @@
 				<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/pungleDOTorg" width="580" show_faces="false" stream="true" header="false"></fb:like-box>
 			</div>
 			
-		</div>        
+		</div> -->       
 	
 	</div>
 
@@ -314,6 +315,12 @@
 	<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=pungle"></script>
 	
+	<!-- super rad hello bar -->
+	<script type="text/javascript" src="//www.hellobar.com/hellobar.js"></script>
+    <script type="text/javascript">
+        new HelloBar(13923,15302);
+    </script>
+
 </body>
 
 </html>
