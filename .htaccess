@@ -219,6 +219,8 @@ FileETag None
   
   RewriteRule ^about-us/terms-of-service/ ./tos.php
   RewriteRule ^about-us/privacy-policy/ ./privacy.php
+  RewriteRule ^about-us/contact/ ./contact.php
+  RewriteRule ^about-us/our-team/ ./team.php
   RewriteRule ^about-us/ ./about.php
   
   RewriteRule ^anvil/tutorial/ ./tutorial.php

@@ -90,7 +90,7 @@
 		<div class="row">
 			<div class="col col_6">
 				<p><br/><br/><br/><a href="#" class="readMoreImage" title="Learn more about pungle!"><img src="/images/PUawesometext340x60.jpg" width="340" height="60"/></a></p>
-				<p><br/>Shop at pungle to transform ordinary purchases into pure awesome. Build a better world, mock incompetence & feel good about yourself!<!--Pungling is responsible shopping; where your puchases help make the world a better place.--><br/><br/><b><!--100% of profits go to charity.--><!-- Free to use. -->Most major stores supported. Free to use.</b><br/><br/>
+				<p><br/>Shop at pungle to transform ordinary purchases into pure awesome. Build a better world, mock the incompetent & feel good about yourself!<!--Pungling is responsible shopping; where your puchases help make the world a better place.--><br/><br/><b><!--100% of profits go to charity.--><!-- Free to use. -->Free to use. Most major stores supported.</b><br/><br/>
 				    <!-- <span class="readMoreButton left" title="Scrolling down the page is exhausting, let us help.">Read More</span><a class="goToAnvilButton left" href="/anvil/" title="100% free to use, pungling for charity is easy!">The Anvil</a>-->
 				</p>
 			</div>
