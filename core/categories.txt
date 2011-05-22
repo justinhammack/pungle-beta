@@ -1,0 +1,20 @@
+ 1 Accessories
+20 Art/Photo
+ 2 Automotive
+ 3 Books
+ 4 Clothing
+ 5 Computer/Office
+ 6 Electronics
+ 7 Family/Kids
+19 Food/Drink
+ 9 Gifts/Flowers
+10 Health/Beauty
+11 Home/Garden
+12 Hosting/Domains
+13 Music/Movies
+15 Pet Supplies
+16 Shopping Malls
+17 Sports/Fitness
+ 8 Toys/Hobbies
+18 Travel/Hotels
+14 Video Games

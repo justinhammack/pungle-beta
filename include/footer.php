@@ -1,3 +1,4 @@
+    </div> <!-- end content wrapper -->
     <div id="footer_wrapper">
     <div id="footer" class="clearfix">
         <div class="row">

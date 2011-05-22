@@ -14,25 +14,12 @@
 <?php require("include/head.php"); ?>
 	
 	<link rel="canonical" href="http://pungle.me/anvil/" />
-	
-	<style type="text/css">
-		body {				
-        	background-color: #181818;        	
-		}
-		#content_wrapper {
-		    display: block;
-	        background-color: #FFF;
-	        padding: 0;
-	        width: 100%;
-		}
-    </style>
-    
+
 </head>
 
 <body>
 <?php require("include/nav.php"); ?>
 
-    <div id="content_wrapper">
 	<div id="content" class="clearfix">
 		
 	<!-- page description -->
@@ -94,7 +81,6 @@
 		</div>		
 		
 	</div>
-    </div>
     
 <?php require("include/footer.php"); ?>
 	
