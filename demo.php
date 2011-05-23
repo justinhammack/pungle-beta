@@ -15,6 +15,25 @@
 	
 	<link rel="canonical" href="http://pungle.me/anvil/" />
 
+    <style type="text/css">
+        table { width: 100%; border-collapse: collapse; margin: 0 0 1em; font-size: 10px; line-height: 13px; }
+        thead th { background: #f0b02a; color: #fff; font-size:12px; line-height: 14px; }
+        tbody th { text-align: left; font-size:14px; line-height: 26px; }
+        table th, table td { border: 1px solid #ddd; padding: 2px 5px; }
+        
+        .odd, .r1 { background: #fff; }
+        .even, .r2 { background: #eee; }
+        .r3 { background: #ebebeb; }
+        .search { font-weight:  bold; }
+        
+        input:-moz-placeholder {
+            color: #EEE;
+        }
+        
+        .ui-widget, .ui-button-text { font-size: 12px; }        
+        
+    </style>
+    
 </head>
 
 <body>
@@ -39,246 +58,107 @@
 		<div class="col col_16">
 			<form>
 			    
-			    <input type="text" id="search">			
-			    
+			    <input type="text" placeholder="Search.." id="storeSearch">
 			    <select id="dropList">
 			        
-			        <option value="" selected="selected">All</option>
-			        <option value="gmail">Gmail</option>
+			        <option value="" selected="selected">ALL</option>
+			        <option value="">Accessories</option>
+			        <option value="">Art & Photo</option>
+			        <option value="">Automotive</option>
+			        <option value="">Books</option>
+			        <option value="">Clothing</option>
+			        <option value="">Computer & Office</option>
+			        <option value="">Electronics</option>
+			        <option value="">Family & Kids</option>
+			        <option value="">Food & Drink</option>
+			        <option value="">Gifts & Flowers</option>
+			        <option value="">Health & Beauty</option>
+			        <option value="">Home & Garden</option>
+			        <option value="">Hosting & Domains</option>
+		            <option value="">Music & Movies</option>
+	                <option value="">Pet Supplies</option>
+                    <option value="">Super Stores</option>
+                    <option value="">Sports & Fitness</option>
+                    <option value="">Toys & Hobbies</option>
+                    <option value="">Travel & Hotels</option>
+                    <option value="">Video Games</option>
 			        
 		        </select>
 		        
-		        <input type="checkbox" id="tagFav" value="FAV" /> Favorites<br />
-                <input type="checkbox" id="tagAffl" value="AFFL" /> Affiliate
+		        <span id="storeCheckboxs">
+		            <input type="checkbox" id="tagAffl" value="AFFL" /><label for="tagAffl">=]</label><input type="checkbox" id="tagFav" value="FAV" /><label for="tagFav"><3</label>
+		        </span>
 		        
-	        </form> <br/>
-		    <table id="table_example">
-			<thead>
-				<tr>
-					<th width="30%">Email</th>
-					<th width="10%">Id</th>
-					<th width="10%">Phone</th>
-					<th width="10%">Total</th>
-					<th width="10%">Ip</th>
-					<th width="10%">Url</th>
-					<th width="10%">Time</th>
-					<th width="10%">ISO Date</th>
-					<th width="10%">UK Date</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th>devo@flexomat.com</th>
+	        </form>
+	    </div>
+	</div>
+	
+	
+	
 
-					<td>66672</td>
-					<td>941-964-8535</td>
-					<td>$2482.79</td>
-					<td>172.78.200.124</td>
-
-					<td>http://gmail.com</td>
-					<td>15:10</td>
-
-					<td>1988/12/14</td>
-					<td>14/12/1988</td>
-				</tr>
-
-				<tr>
-					<th>henry@mountdev.net</th>
-
-					<td>35889</td>
-
-					<td>941-964-9543</td>
-					<td>$2776.09</td>
-					<td>119.232.182.142</td>
-					<td>http://www.gmail.com</td>
-					<td>3:54</td>
-
-					<td>FAV</td>
-
-					<td>19/1/1974</td>
-				</tr>
-
-				<tr>
-					<th>christian@reno.gov</th>
-					<td>60021</td>
-					<td>941-964-5617</td>
-
-					<td>$2743.41</td>
-					<td>167.209.64.181</td>
-					<td>http://www.dotnet.ca</td>
-					<td>10:58</td>
-					<td>2000/3/25</td>
-					<td>25/3/2000</td>
-
-				</tr>
-
-				<tr>
-					<th>muffins@donuts.com</th>
-					<td>17927</td>
-					<td>941-964-9511</td>
-					<td>$2998.18</td>
-
-					<td>210.214.231.182</td>
-
-					<td>http://google.se</td>
-					<td>21:22</td>
-					<td>Afflstd>
-					<td>FAV</td>
-				</tr>
-
-				<tr>
-					<th>muffins@reno.gov</th>
-
-					<td>76375</td>
-					<td>941-964-2757</td>
-					<td>affl</td>
-					<td>220.222.93.171</td>
-
-					<td>http://www.samba.org</td>
-					<td>15:22</td>
-
-					<td>1988/4/4</td>
-					<td>4/4/1988</td>
-				</tr>
-
-				<tr>
-
-					<th>mendez@gmail.com</th>
-					<td>45834</td>
-					<td>941-964-2575</td>
-
-					<td>$2805.46</td>
-					<td>228.170.245.253</td>
-					<td>http://flexomat.com</td>
-
-					<td>11:31</td>
-					<td>1975/12/12</td>
-					<td>12/12/1975</td>
-
-				</tr>
-
-				<tr>
-					<th>dev@gmail.com</th>
-
-					<td>20022</td>
-					<td>941-964-4967</td>
-					<td>$3296.54</td>
-					<td>175.248.70.240</td>
-
-					<td>http://www.flexomat.com</td>
-					<td>4:27</td>
-
-					<td>2002/7/3</td>
-					<td>3/7/2002</td>
-				</tr>
-
-				<tr>
-					<th>foo@polyester.se</th>
-
-					<td>55977</td>
-
-					<td>941-964-745</td>
-					<td>$2953.73</td>
-					<td>222.114.227.156</td>
-					<td>http://www.donuts.com</td>
-					<td>23:49</td>
-
-					<td>1977/8/4</td>
-
-					<td>4/8/1977</td>
-				</tr>
-
-				<tr>
-					<th>adam@aftonbladet.se</th>
-					<td>38867</td>
-					<td>941-964-6302</td>
-
-					<td>$1949.27</td>
-					<td>116.241.143.196</td>
-					<td>http://flexomat.com</td>
-					<td>23:35</td>
-					<td>1995/7/27</td>
-					<td>27/7/1995</td>
-
-				</tr>
-
-				<tr>
-					<th>devo@donuts.com</th>
-					<td>51426</td>
-					<td>941-964-1234</td>
-					<td>$1067.00</td>
-
-					<td>88.96.149.82</td>
-
-					<td>http://www.polyester.se</td>
-					<td>15:17</td>
-					<td>1986/1/5</td>
-					<td>5/1/1986</td>
-				</tr>
-
-
-				<tr>
-					<th>henry@samba.org</th>
-
-					<td>40859</td>
-					<td>941-964-4856</td>
-					<td>$3401.19</td>
-					<td>68.152.250.74</td>
-
-					<td>http://www.flexomat.com</td>
-					<td>4:36</td>
-
-					<td>1990/3/7</td>
-					<td>7/3/1990</td>
-				</tr>
-
-				<tr>
-
-					<th>found@dotnet.ca</th>
-					<td>23986</td>
-					<td>941-964-2686</td>
-
-					<td>$1393.52</td>
-					<td>98.102.181.138</td>
-					<td>http://lostnfound.org</td>
-
-					<td>5:51</td>
-					<td>1993/7/22</td>
-					<td>22/7/1993</td>
-
-				</tr>
-
-				<tr>
-					<th>carl@fish.org</th>
-
-					<td>73392</td>
-					<td>941-964-5792</td>
-					<td>$3876.04</td>
-					<td>246.234.182.243</td>
-
-					<td>http://www.google.se</td>
-					<td>6:52</td>
-
-					<td>1984/7/14</td>
-					<td>14/7/1984</td>
-				</tr>
-
-				<tr>
-					<th>found@mountdev.net</th>
-
-					<td>03519</td>
-
-					<td>941-964-1599</td>
-					<td>$1176.48</td>
-					<td>104.212.122.177</td>
-					<td>http://donutsx.com</td>
-					<td>18:52</td>
-
-					<td>2000/8/6</td>
-
-					<td>6/8/2000</td>
-				</tr>
+	
+	
+	
+	<div class="row">
+		<div class="col col_16">
+		    
+	        <div style="height: 300px; overflow:auto; overflow-y:scroll;">
+	        
+		    <table>
+    			<thead>
+    				<tr>
+    					<th width="20%">STORE</th>
+    					<th width="70%">DESCRIPTION</th>
+    					<th width="5%" title="High impact shopping!">=]</th>
+    					<th width="5%" title="Favorite a store!"><3</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr id="noresults">
+		                <td colspan="4">No Results</td>		                
+	                </tr>
+    			    <tr>
+    					<th>4 Wheel Parts</th>
+    					<td>Serving the needs off-road enthusiasts for over 40 years as the nations largest distributor of 4x4 parts and accessories for trucks, Jeeps, and SUV's.</td>
+    					<td>AFFL</td>
+    					<td>FAV</td>
+    				</tr>
+    				<tr>
+    					<th>Advance Auto Parts</th>
+    					<td>Your source for quality auto parts, advice and accessories. Shop online for home delivery or pick up at a location near you.</td>
+    					<td>AFFL</td>
+    					<td>FAV</td>
+    				</tr>
+    				<tr>
+    					<th>Alternative Apparel</th>
+    					<td>Premier casual lifestyle apparel brand, delivering the best quality and value in fashion basics.</td>
+    					<td>AFFL</td>
+    					<td>FAV</td>
+    				</tr>
+    				<tr>
+    					<th>Amazon</th>
+    					<td>The earth's biggest selection of books, magazines, music, DVDs, videos, electronics, computers, software, apparel & just about anything else.</td>
+    					<td>AFFL</td>
+    					<td>FAV</td>
+    				</tr>
+    				<tr>
+    					<th>BTC Elements</th>
+    					<td>Fresh, inspiring fashion designs that are both earth friendly and ethically sourced.</td>
+    					<td>AFFL</td>
+    					<td>FAV</td>
+    				</tr>
+    				<tr>
+    					<th>Busted Tees</th>
+    					<td>Funny t-shirts on American Apparel, hip t-shirt designs and retro vintage styles.</td>
+    					<td>AFFL</td>
+    					<td>FAV</td>
+    				</tr>
+    			</tbody>
 			</table>
+			
+			
+		</div>
+			
 		</div>
 	</div>
 		
@@ -334,14 +214,23 @@
 	<script src="/core/pungle.js?v=3"></script> -->
 	<!-- <script src="core/pungle-min.js?v=2"></script> -->
     
-	<script src="/core/libs/jquery.quicksearch.js"></script>
+	<script src="/core/libs/jquery.ui.selectmenu.js"></script>
+	<script src="/core/jquery.quicksearch.js"></script>
 	
 	<script type="text/javascript">
 	    $(document).ready(function(){
-	        qsStores = $('input#search').quicksearch('table tbody tr');
+	        qsStores = $('input#storeSearch').quicksearch('table tbody tr', {
+	            noResults: '#noresults',
+				stripeRows: ['odd', 'even']
+	        });
+	        
 	        $('select#dropList,input#tagFav,input#tagAffl').bind('change', function() {
 	            qsStores.sorted();
             });
+            
+            $('select#dropList').selectmenu();
+            $( "#storeCheckboxs" ).buttonset();            
+            
 	        /* pungle.init(); */	        
 	    });
 	</script>
