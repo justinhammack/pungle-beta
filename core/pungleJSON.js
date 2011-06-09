@@ -1,3 +1,4 @@
+var pungleJSON = 
 { "store": [
 	{
 		"id": 78,
@@ -351,7 +352,7 @@
 	},
 	{
 		"id": 17,
-		"tags": [1,20,3,4,5,6,7,8,10,11,13,14,15,17,19],
+		"tags": [1,20,3,4,5,6,7,8,10,11,13,14,15,16,17,19],
 		"name": "Buy.com",
 		"desc": "Low Prices on 8 Million+ Items",
 		"link": "http://affiliate.buy.com/fs-bin/click?id=GU*lP9Glm/0&offerid=212696.10000236&type=3&subid=0",
@@ -433,7 +434,7 @@
 	},
 	{
 		"id": 89,
-		"tags": [5,7],
+		"tags": [20,7],
 		"name": "Discount School Supply",
 		"desc": "Lowest prices on school supplies and equipment for early childhood educators, caregivers and parents of young children.",
 		"link": "http://www.dpbolvw.net/click-4147908-10665101",
@@ -505,7 +506,7 @@
 		"id": 108,
 		"tags": [1,4],
 		"name": "Ecolissa",
-		"desc": "Fashionable eco friendly and vegan women’s clothing and accessories.",
+		"desc": "Fashionable eco friendly and vegan womens clothing and accessories.",
 		"link": "http://www.ecolissa.com/?Click=206",
 		"img": "ecolissa.png",
 		"aff": true,
@@ -925,7 +926,7 @@
 	},
 	{
 		"id": 33,
-		"tags": [1,4,6,7,10,11,8,16],
+		"tags": [1,4,7,10,11,8,16],
 		"name": "Kohl's",
 		"desc": "Expect Great Things when you shop Kohl's for apparel, shoes, accessories, home products and more.",
 		"link": "http://gan.doubleclick.net/gan_click?lid=41000000000387007&pubid=21000000000316594",

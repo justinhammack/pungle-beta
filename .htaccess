@@ -231,6 +231,10 @@ FileETag None
   RewriteRule ^social-good/goals-progress/ ./progress.php
   RewriteRule ^social-good/ ./sogood.php
  
+  RewriteRule ^inject/ ./injector.php
+  
+  RewriteRule ^bookmarklet/ ./bookmarklet.php
+  
   # RewriteRule ^threads/(\d+)*$ ./thread.php?id=$1
   # RewriteRule ^search/(.*)$ ./search.php?query=$1
  

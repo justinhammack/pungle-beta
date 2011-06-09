@@ -87,7 +87,7 @@ h1 a:hover, h2 a:hover { color: #f0b02a; }
 /* h1 { font-size: 68px; line-height: 72px; letter-spacing: -1px; color: #f0b02a; text-transform: uppercase; } */
 h1 { font-size: 42px; line-height: 48px; letter-spacing: -1px; color: #f0b02a; text-transform: uppercase; }
 h2 { font-size: 42px; line-height: 48px; letter-spacing: -1px; color: #444; text-transform: uppercase; }
-h3 { font: 26px/36px Helvetica, Arial, Verdana, sans-serif; color: #444; text-transform: lowercase; }
+h3 { font: 26px/36px Helvetica, Arial, Verdana, sans-serif; color: #444;}
 
 /* always force a scrollbar in non-IE */ 
 html { overflow-y: scroll; }
@@ -456,8 +456,7 @@ button {  width: auto; overflow: visible; }
 	#progressCWaterBar {background: url('/images/progress_charitywater.png') 580px 0;}
 	#progressDarmangBar {background: url('/images/progress_darmang.png') 580px 0;}
 	#progressNetsBar {background: url('/images/progress_nets.png') 580px 0;}
-	
-	
+		
 	
 	/* extend jquery ui icon pack */
 	#content .pungleBlueIcon, #allStores .pungleBlueIcon {background-image: url(/images/ui-icons_2e83ff_256x240.png); }
@@ -475,6 +474,39 @@ button {  width: auto; overflow: visible; }
 	}
 	#subheader .ui-icon { vertical-align: text-top;}
 	/* #footer .ui-icon:hover { background-image: url(/images/ui-icons_f0b02a_256x240.png); } */
+
+
+    button.dribbble {
+      background: #f2c768;
+      background: -moz-linear-gradient(top, #f2c768 0, #f2c768 50%, #f2c055 50%, #f2c055 100%);
+      background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#f2c768), to(#f2c055));
+      border: 0;
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+      color: #735b28;
+      font-family: "helvetica neue", helvetica, arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1;
+      padding: 10px 0 12px 0;
+      text-align: center;
+      text-shadow: 0px 2px 3px #ffd26e;
+      width: 150px;
+    }
+
+    button.dribbble:hover {
+      background: #e3b656;
+      background: -moz-linear-gradient(top, #e3b656 0, #e3b656 50%, #deab3e 50%, #deab3e 100%);
+      background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#e3b656), to(#deab3e));
+      cursor: pointer;
+    }
+
+    button.dribbble:active {
+      background: #c99f44;
+      background: -moz-linear-gradient(top, #c99f44 0, #c99f44 50%, #c2922b 50%, #c2922b 100%);
+      background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#c99f44), to(#c2922b));
+    }
 
 
 /* 960 framework http://gridr.atomeye.com/?c=16&cw=40&cm=20&om=10 */

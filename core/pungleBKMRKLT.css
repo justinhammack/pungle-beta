@@ -1,0 +1,39 @@
+#hellobar-wrapper{height:30px;margin:0;overflow:visible;padding:0;position:relative;width:100%;z-index:2}
+
+#hellobar-container{font-size:14px;font-weight:normal;height:30px;line-height:30px;margin:0;overflow:visible;padding:0;position:relative;text-align:center;width:100%;z-index:1000}
+
+#hellobar-container a,#hellobar-container a:link,#hellobar-container a:visited,#hellobar-container a:hover{font-size:14px;padding:0;border:none;text-decoration:underline}
+
+#hellobar-container a:hover{text-decoration:none}
+
+#hellobar-shadow{position:absolute;bottom:-8px;left:0;width:100%;height:8px;line-height:8px;overflow:hidden;background:url(//assets-hellobar-com.s3.amazonaws.com/system/modules/hellobar/lib/shadow.png)}
+
+a#hellobar-logo,a#hellobar-logo:link,a#hellobar-logo:visited{background:url(//assets-hellobar-com.s3.amazonaws.com/system/modules/hellobar/lib/logo.png);height:0;left:20px;overflow:hidden;padding:22px 0 0;position:absolute;top:3px;width:44px}
+
+.hellobar-light-images a#hellobar-logo,.hellobar-light-images a#hellobar-logo:link,.hellobar-light-images a#hellobar-logo:visited{background:url(//assets-hellobar-com.s3.amazonaws.com/system/modules/hellobar/lib/logo-light.png)}
+
+#hellobar-wrapper.hellobar-left a#hellobar-logo,#hellobar-wrapper.hellobar-left a#hellobar-logo:link,#hellobar-wrapper.hellobar-left a#hellobar-logo:visited{left:auto;right:20px}
+
+a#hellobar-close,a#hellobar-close:link,a#hellobar-close:visited{background-image:url(//assets-hellobar-com.s3.amazonaws.com/system/modules/hellobar/lib/up.png);background-position:0 0;display:block;height:0;overflow:hidden;padding:19px 0 0 0;position:absolute;right:20px;top:6px;width:18px;z-index:10;border:none}
+
+.hellobar-light-images a#hellobar-close,.hellobar-light-images a#hellobar-close:link,.hellobar-light-images a#hellobar-close:visited{background-image:url(//assets-hellobar-com.s3.amazonaws.com/system/modules/hellobar/lib/up-light.png)}
+
+#hellobar-wrapper.hellobar-left a#hellobar-close,#hellobar-wrapper.hellobar-left a#hellobar-close:link,#hellobar-wrapper.hellobar-left a#hellobar-close:visited{right:auto;left:20px}
+
+a#hellobar-close:hover{background-position:0 -19px;padding:20px 0 0;border:none}
+
+a#hellobar-open,a#hellobar-open:link,a#hellobar-open:visited{background-image:url(//assets-hellobar-com.s3.amazonaws.com/system/modules/hellobar/lib/down.png);background-repeat:no-repeat;background-position:center 53px;display:block;height:0;overflow:hidden;padding:80px 0 0;position:absolute;right:10px;top:-96px;width:35px;z-index:100;box-shadow:0 0 5px rgba(0,0,0,0.35);-moz-box-shadow:0 0 5px rgba(0,0,0,0.35);-webkit-box-shadow:0 0 5px rgba(0,0,0,0.35);-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Color=#e5e5e5,direction=120,strength=3)";filter:progid:DXImageTransform.Microsoft.Shadow(Color=#e5e5e5,direction=120,strength=3);-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;border-width:3px;border-style:solid}
+
+.hellobar-light-images a#hellobar-open,.hellobar-light-images a#hellobar-open:link,.hellobar-light-images a#hellobar-open:visited{background-image:url(//assets-hellobar-com.s3.amazonaws.com/system/modules/hellobar/lib/down-light.png)}
+
+#hellobar-wrapper.hellobar-left a#hellobar-open,#hellobar-wrapper.hellobar-left a#hellobar-open:link,#hellobar-wrapper.hellobar-left a#hellobar-open:visited{right:auto;left:10px}
+
+a#hellobar-open:hover{padding:80px 0 0;border-width:3px;border-style:solid}
+
+#hellobar-container{font-family:Arial Black,Gadget,sans-serif;background:#f0b12a;color:#444444}
+
+#hellobar-container a,#hellobar-container a:link,#hellobar-container a:visited{color:#ffffff}
+
+a#hellobar-open,a#hellobar-open:link,a#hellobar-open:visited{background-color:#f0b12a;border-color: #ffffff}
+
+a#hellobar-open:hover{background-color:rgb(255,215,80)}

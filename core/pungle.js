@@ -1,28 +1,23 @@
 // pungle.me shopping app scripts (only load on index)
 
-
 /* pungle revealing module pattern */
 var pungle = (function ($) {
 	
-	// namespace variables
-	var storeOrder = [0,29,115,9,4,5]; // default store order if no cookie or hash
+	
+    // namespace variables
+	var storeOrder = [];
+	var storeOrderDefault = [0,29,115,9,4,5]; // default store order if no cookie or hash
 	var imagePath = '/images/'; // set path for images (can swap with CDN)
 	var imageStoresPath = 'http://c190157.r57.cf1.rackcdn.com/'; // set path for images (can swap with CDN)
 	var cookieStore = 'storeorder'; // cookie to hold the user specified store order
-
+    
+	
 	// set up pungle & overview for use
 	function init() {
 		
 		// use CSS for image properties.. background and object sizes image_props.png, one object for all properties (handle, deal, no deal, normal i, social good i)
 		
-		// create all stores object
-		$('#allStoresAccordion').accordion({
-			active: false,
-			autoHeight: false,
-			collapsible: true,
-			// active: false,
-			clearStyle: true
-		});
+		var htmlStore = ''; // blank variable to hold HTML		
 		
 		// create linked sortable lists after data is loaded (does order matter?)
 		$("#ulOverview").sortable({
@@ -33,8 +28,14 @@ var pungle = (function ($) {
 			helper: 'clone',
 			placeholder: 'storePlaceHolder',			
 			handle: '.storeButtonUtility',
-			update: function() { $.cookie(cookieStore, $("#ulOverview").sortable("toArray"), { expires: 365, path: "/" }); /*$.pungleUpdateURL();*/ }
+			update: function() { $.cookie(cookieStore, $("#ulOverview").sortable("toArray"), { expires: 365, path: "/" }); updateStoreOrder(); }
 		});
+		
+		// setup drop down menu
+		$('select#dropList').selectmenu();
+        
+		// setup check boxes for affiliate / favorites
+		$('#storeCheckbox').buttonset(); 
 		
 		// setup clear store button
 		$("#buttonClearStores").button({
@@ -49,183 +50,168 @@ var pungle = (function ($) {
         }).click(function() { 
         	restoreDefaults();
     	});
-    	
-		// we're going to handle the all store list during the ajax call
-		$.ajax({url: '/data/pungle.json', dataType: 'json', success: function(data){
+		
+		// parse the database, setup all stores
+		$.each(pungleJSON.store, function(entryIndex, entry) {
 			
-			var htmlStore = ''; // blank variable to hold HTML
-			var todaysDate = new Date(); // we'll need to check for expiring deals
-			
-			$('#allStores').empty(); // clear overview (just in case)
-			
-			// parse the database
-			$.each(data.store, function(entryIndex, entry) {
+			// is the store live?
+			if(entry['live']){				
+			    
+			    // setup the list object				
+				htmlStore = '<tr><th><a href="/inject/#id=' + entry['id'] + '" target="_blank" title="' + entry['name'] + '">' + entry['name'] + '</a></th>';
+				htmlStore += '<td>' + entry['desc'] + '<span class="hidden">';
+			    
+				$.each(entry['tags'], function(tagsIndex, tags) {
+				    htmlStore += 'c' + tags + '|';
+				});
 				
-				// is the store live?
-				if(entry['live']){
-					// setup the list object
-					htmlStore = '<li><a href="' + entry['link'] + '" target="_blank" title="' + entry['desc'] + '">' + entry['name'] + '</a>';
-					
-					// check if they are an affiliate or not
-					if(entry['aff']) htmlStore += '<span class="pungleRedIcon ui-icon ui-icon-heart" title="Social good is enabled."></span>';
-					
-					// check if there are any deals
-					if(entry['deals'] && (entry['deals'] != '')){
-						$.each(entry['deals'], function(dealsIndex, deals){
-							var startsDate = new Date(deals['starts']);
-							var expiresDate = new Date(deals['expires']);
-							
-							// check if the deal is current
-							if(startsDate <= todaysDate && expiresDate > todaysDate) htmlStore += '<a href="' + deals['link'] + '" title="' + deals['what'] + '" target="_blank"><span class="pungleBlueIcon ui-icon ui-icon-tag"></span></a>';							
-						});
-					}
-					
-					// add / remove store should be a funciton call! (to simplify scalability, not that list objects are modified..)
-					htmlStore += '<span id="listS' + entry['id'] + '" class="addStore pungleBlueIcon ui-icon ui-icon-plusthick" title="Add Store to Overview"></span>';
-					
-					// add store to accordion
-					$('#allStores').append(htmlStore);
-					
-					// event to add store to overview
-					$("#listS" + entry['id']).click(function () {
-						pungle.modStoreOverview(entry['id'], 1);
-					});
-				}
-			});			
-			
-			// import all the stores to overview
-			getStoreOrder();
-			
-		}}); // end ajax call
+			    htmlStore += '</span></td><td>';
+			    
+				// check if they are an affiliate or not
+				if(entry['aff']) htmlStore += '<div class="afflImage">AFFL</div>';
+				
+				htmlStore += '</td>';				
+				
+				// add / remove store should be a funciton call! (to simplify scalability, not that list objects are modified..)
+				htmlStore += '<td><div id="listS' + entry['id'] + '"  class="favNoImage" title="Add/remove your favorites!"></div></td></tr>';
+				
+				// add store to accordion
+				$('#allStores').append(htmlStore);
+				
+				// event to add store to overview
+				$("#listS" + entry['id']).click(function () {
+				    pungle.modStoreOverview(entry['id']);				    
+				});				
+				
+			}
+		});			
+		
+		// setup quick search
+		qsStores = $('input#storeSearch').quicksearch('table tbody tr', {
+            noResults: '#noresults',
+			stripeRows: ['odd', 'even']
+        });
+	    
+        // bind quick search update to all fields
+        $('select#dropList,input#tagFav,input#tagAffl').bind('change', function() {
+            qsStores.sorted();
+        });
+        
+        // import all the stores to overview
+		getStoreOrder();
 		
 	}
 	
-	// modify store to overview
-	// remAdd 0 to remove, 1 to add
+	
+	// modify store to overview	
 	// we might need to have the ability to pass an array to this function..	
-	function modStoreOverview(storeIDs, remAdd) {
+	function modStoreOverview(storeID) {
 		
-		if (remAdd != 0 && remAdd != 1) return;
+	    // if the store is already favorited
+		if ( jQuery.inArray(storeID, storeOrder) > -1 ) {
+		    
+		    // remove the store from the overview
+        	$('#pS' + storeID).remove();
+        	
+        	// adjust the list fav icon
+        	$('#listS' + storeID).removeClass('favImage').addClass('favNoImage').empty();
+        	
+		}
 		
-		// going to need to open the json file - should be cached
-		$.ajax({url: '/data/pungle.json', dataType: 'json', success: function(data){
-			
-			var htmlStore = ''; // blank variable to hold HTML
-			var todaysDate = new Date(); // we'll need to check for expiring deals			
-			var storeIndex; // variable to hold json index position
-			var storeIDArray = []; // create array object, which we'll pass to funciton
-			
-			// we need to check to see if we were passed an array or a singleton
-			// else then convert a single variable into an array
-			if($.isArray(storeIDs) == false) storeIDArray[0] = storeIDs;
-			else storeIDArray = storeIDs;			
-			
-			// $.each(storeIDArray, function(storeIDIndex, storeIDValue){
-			// we are going to go through the array manually
-			for ( var i=0, len=storeIDArray.length; i<len; ++i ) {
-			
-				storeIndex = null; // reset the variable to null
-				
-				// search the json array for matching id so we know the index #
-				for( var item in data.store ) {
-					if( data.store[item]['id'] == storeIDArray[i]) {
-	            		storeIndex = item;
-	            		break; // assume first found wins            
-	        		}
-	    		}
-	    		
-	    		// check if store is live
-	    		if (storeIndex!=null && data.store[storeIndex]['live']){
-	    			
-		    		// are we adding a store? make sure we actually found the index #
-		    		if (remAdd==1) {
-		    			
-		    			htmlStore = '<li id="pS' + data.store[storeIndex]['id'] + '" class="storeButton">';
-		    			htmlStore += '<a href="' + data.store[storeIndex]['link'] + '" title="' + data.store[storeIndex]['desc'] + '" target="_blank"><img class="storeLink" src="' + imageStoresPath + data.store[storeIndex]['img'] + '" /></a>';
-		    			htmlStore += '<span class="storeButtonUtility">';
-		    			htmlStore += '<span class="ui-icon ui-icon-arrow-4" title="Drag & Drop"></span>';
-		    			htmlStore += '</span>';
-		    			htmlStore += '<span class="storeButtonBottom">';
-		    			
-		    			// check if they are an affiliate or not
-						if(data.store[storeIndex]['aff']) htmlStore += '<span class="pungleRedIcon ui-icon ui-icon-heart" title="Social good is enabled."></span>';
-						
-		    			if(data.store[storeIndex]['deals'] && (data.store[storeIndex]['deals'] != '')){
-							$.each(data.store[storeIndex]['deals'], function(dealsIndex, deals){
-								var startsDate = new Date(deals['starts']);
-								var expiresDate = new Date(deals['expires']);
-							
-								// check if the deal is current
-								if(startsDate <= todaysDate && expiresDate > todaysDate) htmlStore += '<a href="' + deals['link'] + '" title="' + deals['what'] + '" target="_blank"><span class="pungleBlueIcon ui-icon ui-icon-tag"></span></a>';							
-							});
-						}						
-		    				
-						htmlStore += '</span>';
-		    			htmlStore += '</li>';
-		    			
-		    			// add the store to the page!
-		    			$('#ulOverview').append(htmlStore);
-		    			
-		    			// adjust the all stores button +/-
-		    			htmlStore = '<span id="listS' + data.store[storeIndex]['id'] + '" class="addStore pungleRedIcon ui-icon ui-icon-minusthick" title="Remove Store from Overview"></span>';
-		    			$('#listS' + data.store[storeIndex]['id']).replaceWith(htmlStore);
-		    			(function(data) {	    				
-	    					$("#listS" + data).click(function () {
-		    					pungle.modStoreOverview(data, 0);
-	    					});
-	    				})(data.store[storeIndex]['id']);
-		    			
-		    		}
-		    		
-		    		// otherwise we are removing a store.. still need to make sure we have index #
-		    		else {
-		    			
-		    			// remove the store from the overview
-		    			$('#pS' + data.store[storeIndex]['id']).remove();
-		    			
-		    			// adjust the all stores button +/- htmll
-		    			htmlStore = '<span id="listS' + data.store[storeIndex]['id'] + '" class="addStore pungleBlueIcon ui-icon ui-icon-plusthick" title="Add Store to Overview"></span>';
-		    			$('#listS' + data.store[storeIndex]['id']).replaceWith(htmlStore);
-		    			
-		    			// rebind the click
-		    			$("#listS" + data.store[storeIndex]['id']).click(function () { pungle.modStoreOverview(data.store[storeIndex]['id'], 1); });
-		    		}	    		
-		    		
-	    		}
+		// else search db and add as favorite
+		else {
+		    
+		    var htmlStore = ''; // blank variable to hold HTML
+		    
+    		// loop to search database for store's unique ID
+    		for ( var i=0, len=pungleJSON.store.length; i<len; ++i ){
+    		    
+    		    // else found ID is not a favorite yet
+    		    if( pungleJSON.store[i].id == storeID && pungleJSON.store[i].live == true ) {
+    		        
+    		        // build the button for the overview
+    		        htmlStore = '<li id="pS' + pungleJSON.store[i].id + '" class="storeButton">';
+        			htmlStore += '<a href="/inject/#id=' + pungleJSON.store[i].id + '" title="' + pungleJSON.store[i].desc + '" target="_blank"><img class="storeLink" src="' + imageStoresPath + pungleJSON.store[i].img + '" /></a>';
+        			htmlStore += '<span class="storeButtonUtility">';
+        			htmlStore += '<span class="ui-icon ui-icon-arrow-4" title="Drag & Drop"></span>';
+        			htmlStore += '</span>';
+        			htmlStore += '<span class="storeButtonBottom">';        			
+        			
+    				if( pungleJSON.store[i].aff ) htmlStore += '<span class="pungleRedIcon ui-icon ui-icon-heart" title="High impact donations enabled."></span>';
+    				
+    				htmlStore += '</span>';
+        			htmlStore += '</li>';        			
+        			
+        			$('#ulOverview').append(htmlStore);
+        			
+    		        // adjust the list fav icon
+        	        $('#listS' + storeID).removeClass('favNoImage').addClass('favImage').html('FVS');
+        	        
+    		        // if we're here, we found it, no need to search the rest of the DB
+    		        break;
+    		    }
+    		}
     		
-	    	} // end of each statement, all stores adjusted
-	    	
-    		// update the cookie with the new order
-    		$.cookie(cookieStore, $("#ulOverview").sortable("toArray"), { expires: 365, path: "/" });
-    		
-    		// update the store order variable
-    		updateStoreOrder();
-    		
-    		// update the custom url
-    		// updateURL();
-			
-		}}); // end ajax
+	    }
+		
+		// update the cookie with the new order
+		$.cookie(cookieStore, $("#ulOverview").sortable("toArray"), { expires: 365, path: "/" });
+		
+		// update the store order variable
+		updateStoreOrder();
+		
+		// update the sort table
+		qsStores.cache();
+		
 	}
+	
 	
 	// passes ids to injector for dom clicks
-	/* function shopNow(storeID, dealID) {
-		if (storeID!=null && storeID!="" && dealID==null) { // store click-through (no deal ref)
-			window.open("http://" + window.location.hostname + "/injector.php#Store=" + storeID);
-		}
-		else if (storeID!=null && storeID!="" && dealID!="") { // deal click-through
-			window.open("http://" + window.location.hostname + "/injector.php#Store=" + storeID + "&Deal=" + dealID);
-		}
-		else { alert("Store is unbound.. (no linky)"); } // no idea why its not bound to anything, wtf? ok, error thrown
-	} */
+	function shopNow(storeID) {
+		
+	    var storeLINK = null;
+	    var storeTIMER = 2500;
+	    
+	    var storeFound = false;	    
+	    var storeHtml = 'uhm.. yeah, our bad? store not found. <br/><br/><a href="http://pungle.me/">go back to pungle.me</a><br/><br/>';
+	    
+	    for ( var i=0, len=pungleJSON.store.length; i<len; ++i ){
+    		// else found ID is not a favorite yet
+    	    if( pungleJSON.store[i].id == storeID && pungleJSON.store[i].live == true ) {
+    	        storeFound = true;    	        
+    	        storeLINK = pungleJSON.store[i].link;
+    	        
+    	        if(pungleJSON.store[i].aff === true) {
+    	            storeHtml = '<h3 style="color: #f0b02a;">Enjoy ' + pungleJSON.store[i].name + ' pungle style!</h3><br/>Leaving so soon!? The party is just getting started...<br/><br/>';
+    	        }
+    	        else {
+    	            storeHtml = '<h3>' + pungleJSON.store[i].name + ' = plain old shopping..</h3><br/>Don\'t worry, we\'re adding new stores all the time!<br/><br/>';
+    	            storeTIMER = 3750;
+    	        }
+    	        
+    	        // found, break out
+    	        break;
+    	    }    	    
+    	}
+    	
+    	if (storeFound == true) $("#pungleSteps").html(storeHtml);
+    	
+    	else $("#pungleSteps").html(storeHtml);
+    	
+    	return {storeLINK:storeLINK, storeTIMER:storeTIMER};
+	}
+	
 	
 	// check & load the store order variable to build the overview
 	function getStoreOrder() {
 		
 		var cStore = $.cookie(cookieStore); // fetch the cookie if it exists for store order
+		var storeOrderImport = [];
 		
 		// logic: check hash, then cookie, else keep default store order
-		if ($.url.param("s") && $.url.param("s") != ' ') {
+		/* if ($.url.param("s") && $.url.param("s") != ' ') {
 			
+		    // BROKEN CAN'T CHANGE STOREORDER VARIABLE
 			storeOrder = $.url.param("s").split(";"); // get the store order in the URL hash
 			
 			$.each(storeOrder, function(hashIndex, hashValue) {
@@ -244,38 +230,48 @@ var pungle = (function ($) {
 			
 			$.cookie(cookieStore, storeOrder, { expires: 365, path: "/" }); // save imported hash as cookie
 			
-		}
+		} */
 		
 		// set storeOrder to cookie
-		else if (cStore) { 
+		if (cStore) { 
 			
-			storeOrder = cStore.split(",");
+		    var cArrayStore = cStore.split(",");
 			
-			$.each(storeOrder, function(hashIndex, hashValue) {
+			$.each(cArrayStore, function(hashIndex, hashValue) {
 				
-				storeOrder[hashIndex] = hashValue.replace("pS", "");
+				storeOrderImport[hashIndex] = parseInt(hashValue.replace("pS", ""));
 				
 			});			
 			
-		} 
+		}
 		
-		// add the store objects to overview		
+		else storeOrderImport = storeOrderDefault;
 		
-		modStoreOverview(storeOrder, 1);
+		$.each(storeOrderImport, function(hashIndex, hashValue) {
+		   modStoreOverview(hashValue); 
+		});		
 		
 		window.location.hash = "#"; // we made it this far, clear that hash!
 	}
 	
+	
 	// update the variable store order
 	function updateStoreOrder() {
-		storeOrder = $("#ulOverview").sortable("toArray");
+		var storeOrderString = $("#ulOverview").sortable("toArray");		
+		
+		storeOrder.length = 0;
+		
+		$.each(storeOrderString, function(hashIndex, hashValue) {
 			
-		$.each(storeOrder, function(hashIndex, hashValue) {
+			storeOrder[hashIndex] = parseInt(hashValue.replace("pS", ""));
 			
-			storeOrder[hashIndex] = hashValue.replace("pS", "");
-			
-		});		
+		});
+		
+		// update the custom url (should just attach it to the above function?)
+		updateBookmarklet();
+		
 	}
+	
 	
 	// adds hook to bookmark this page if possible
 	function addFavorite() {
@@ -284,9 +280,19 @@ var pungle = (function ($) {
 		else{ alert("Sorry! Your browser doesn't support this function."); }
 	}
 	
+	
 	// this clears off the overview for the user and resets the cookie
 	function clearStores() {
-		modStoreOverview(storeOrder, 0);
+		
+	    var storeOrderClear = $("#ulOverview").sortable("toArray");
+		
+		$.each(storeOrderClear, function(hashIndex, hashValue) {
+			
+		    modStoreOverview(parseInt(hashValue.replace("pS", "")));
+			
+		});
+	    
+		// storeOrder.length = 0; // verify storeOrder empty
 		$.cookie(cookieStore, null, {path: "/"}); // clear the cookie
 		window.location.hash = "#"; // just to be safe we clear any hash
 	}
@@ -298,9 +304,10 @@ var pungle = (function ($) {
 		window.location.reload();
 	}
 	
+	
 	// updates the html for current charity and stores in overview
-	function updateURL() {
-		var customURL = "http://" + window.location.hostname + "&s="; // build URL for hash update
+	function updateBookmarklet() {
+		/* var customURL = "http://" + window.location.hostname + "&s="; // build URL for hash update
 		// var storeArray = $("#ulOverview").sortable("toArray");
 		$.each($("#ulOverview").sortable("toArray"), function(index, value) {
 			if (index == 0) { customURL += parseInt(value.substring(2), 10); }
@@ -308,18 +315,58 @@ var pungle = (function ($) {
 		});
 		
 		// $("#getUrl").val(customURL);
-		$("#getUrl").html(customURL);
+		$("#getUrl").html(customURL); */
+		
+		/* var benalmanScript = 'javascript:(function(e,a,g,h,f,c,b,d){if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){c=a.createElement("script");c.type="text/javascript";c.src="http://ajax.googleapis.com/ajax/libs/jquery/"+g+"/jquery.min.js";c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d=="loaded"||d=="complete")){h((f=e.jQuery).noConflict(1),b=1);f(c).remove()}};a.documentElement.childNodes[0].appendChild(c)}})(window,document,"1.3.2",function($,L){pungleBKMRKLTSavedStores=[' + storeOrder + '];var jsCodePungleBKMRKLT=document.createElement("script");jsCodePungleBKMRKLT.setAttribute("src","http://localhost/core/pungleBKMRKLT.js");document.body.appendChild(jsCodePungleBKMRKLT);});'; */
+		
+		var pungleScript = "javascript:(function(){var w=500,h=225,l=Math.round((screen.width-w)/2),t=Math.round((screen.height-h)/2),d=document,s=w.getSelection?w.getSelection():d.title;if(s=='')s=d.title;window.ft=window.open('http://localhost/bookmarklet/#id="+storeOrder+"','','left='+l+',top='+(t>0?t:0)+',width='+w+',height='+h+',personalbar=0,toolbar=0,scrollbars=0,resizable=1');})();";
+		
+		// $('#pungleBookmarklet').replaceWith(insertBookmarklet);
+		$('#pungleBookmarklet').attr('href', pungleScript);
+		
 	}
 	
+	
+	function bookmarklet() {
+	    
+	    var storesBookmarklet = $.url.param("id").split(",");
+	    var buttonHtml = '';
+	    
+	    // loop to search database for store's unique ID
+    	$.each(storesBookmarklet, function(hashIndex, hashValue) {
+    	    
+	    	for ( var i=0, len=pungleJSON.store.length; i<len; ++i ){
+    		    
+    		    // else found ID is not a favorite yet
+    		    if( pungleJSON.store[i].id == hashValue && pungleJSON.store[i].live == true ) {
+    		        
+    		        buttonHtml += '<button class="dribbble">' + pungleJSON.store[i].name + '</button>';
+    		        
+        			// if we're here, we found it, no need to search the rest of the DB
+    		        break;
+    		        
+    		    }
+    		    
+    		}
+    		
+    	});
+    	
+    	$('#bookmarkletButtons').html(buttonHtml);
+		
+	}
+	
+	
 	return {
-		init:init,		
-		modStoreOverview:modStoreOverview
-		// test_wonder:test_wonder
+		init:init,
+		clearStores:clearStores,
+		shopNow:shopNow,
+		bookmarklet:bookmarklet,
+		modStoreOverview:modStoreOverview		
 	}
 }(jQuery));
 
 
-/* hash link parse $.url.param(">variable<")modified from: http://ajaxcssblog.com/jquery/url-read-get-variables/ */
+/* hash link parse $.url.param(">variable<") modified from: http://ajaxcssblog.com/jquery/url-read-get-variables/ */
 (function ($) {
 	$.url = {};
 	$.extend($.url, {

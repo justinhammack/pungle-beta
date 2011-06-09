@@ -142,8 +142,8 @@
 			val = $(this).val();
 				/* ADDED TO CAPTURE MULTIPLE FIELDS */
 				if ($('select#dropList').val() !== "") { val += ' ' + $('select#dropList').val(); }
-				if ($('#tagFav:checked').val()) { val += ' ' + $('#tagFav:checked').val(); }
-				if ($('#tagAffl:checked').val()) { val += ' ' + $('#tagAffl:checked').val(); }
+				if ($('input#tagFav:checked').val()) { val += ' ' + $('input#tagFav:checked').val(); }
+				if ($('input#tagAffl:checked').val()) { val += ' ' + $('input#tagAffl:checked').val(); }
 			e.trigger();
 			return this;
 		}
