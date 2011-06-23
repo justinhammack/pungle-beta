@@ -9,40 +9,45 @@
           		<a class="emButtonBig" href="mailto:contact@pungle.me" title="Email us!">Email</a>
           	</p>
         	</div>
-        	<div class="col col_2">
-        		<p><a class="anvilIcon" href="/anvil/" title="Strike the anvil!">The Anvil</a></p>
-        	</div>
+        	<div class="col col_1">
+        		<p></p>
+        	</div>        	
         	<div class="col col_3">
           	<p>
           		<small>
-            		<a href="/anvil/" title="The Anvil beckons you!"><b>The Anvil</b></a><br/>            		
-					<a href="http://pungle.storenvy.com/" title="Shop for pungle swag & other fun loot!"><span class="ui-icon ui-icon-cart"></span> Store / Loot</a><br/>
-          			<a href="/anvil/tutorial/" title="Learn how to use the anvil in 5 easy steps."><span class="ui-icon ui-icon-lightbulb"></span> 5-Step Tutorial</a>
+          			<a href="/" title="Back to pungle time!"><span class="ui-icon ui-icon-home pungleWhiteIcon"></span><b> Home</b></a><br/>
+          		    <a href="/shop/" title="Go to our shopping tool!"><span class="ui-icon ui-icon-cart pungleWhiteIcon"></span><b> Shop</b></a><br/>
+          			<a href="http://blog.pungle.me" title="A piñata of awesome content!"><span class="ui-icon ui-icon-signal-diag pungleWhiteIcon"></span><b> Blog</b></a>          		    
           		</small>
           	</p>
         	</div>
         	<div class="col col_3">
           	<p>
           		<small>
-            		<a href="/social-good/" title="Learn more about our social good campaign."><b>Social Good</b></a><br/>
-          			<a href="/social-good/cause-portfolio/" title="See what Nonprofits we currently fund."><span class="ui-icon ui-icon-folder-open"></span> Cause Portfolio</a><br/>
-            		<a href="/social-good/goals-progress/" title="Check out our goals and track our progress."><span class="ui-icon ui-icon-image"></span> Goals & Progress</a>
+            		<b>Learn More</b><br/>
+          			<a href="/how-it-works/" title="Find out how you are helping nonprofits."><span class="ui-icon ui-icon-lightbulb pungleWhiteIcon"></span> How It Works</a><br/>
+            		<a href="/tutorial/" title="Learn how to use the anvil in 5 easy steps."><span class="ui-icon ui-icon-video pungleWhiteIcon"></span> Shop Tutorial</a><br/>
+            		<a href="/cause-portfolio/" title="See what Nonprofits we currently fund."><span class="ui-icon ui-icon-folder-open pungleWhiteIcon"></span> Results Portfolio</a><br/>
           		</small>
           	</p>
         	</div>
         	<div class="col col_3">
           	<p>
           		<small>
-          			<a href="/about-us/" title="Who are the people behind the scenes?"><b>About Us</b></a><br/>
-            		<a href="/anvil/faq/" title="Answers to some common questions."><span class="ui-icon ui-icon-help"></span> FAQ</a>
+          		    <b>Top Secret</b><br/>
+          			<a href="/faq/" title="Answers to some common questions."><span class="ui-icon ui-icon-help pungleWhiteIcon"></span> FAQ</a><br/>
+          		    <a href="/financial/" title="Get the gory details on our financial policy."><span class="ui-icon ui-icon-image pungleWhiteIcon"></span> Financial</a><br/>            		
+            		<a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!"><span class="ui-icon ui-icon-heart pungleWhiteIcon"></span> KTLO Store</a><br/>
           		</small>
           	</p>
         	</div>
-        	<div class="col col_2">
+        	<div class="col col_3">
           	<p>
           		<small>
-          			<a href="/" title="Back to pungle time!"><span class="ui-icon ui-icon-home"></span> <b>Home</b></a><br/>
-          		    <a href="http://blog.pungle.me" title="A piñata of awesome content!"><span class="ui-icon ui-icon-signal-diag"></span> <b>Blog</b></a>
+            		<b>Company</b><br/>
+            		<a href="/about-us/" title="Do you love reading mission statements?"><span class="ui-icon ui-icon-suitcase pungleWhiteIcon"></span> About Pungle</a><br/>
+            		<a href="/about-us/our-team/" title="Who are the people behind the scenes?"><span class="ui-icon ui-icon-person pungleWhiteIcon"></span> Our Team</a><br/>
+            		<a href="/about-us/contact/" title="Contact us, it's super pal time!"><span class="ui-icon ui-icon-comment pungleWhiteIcon"></span> Contact Us</a><br/>
           		</small>
           	</p>
         	</div>
@@ -51,8 +56,8 @@
         	<div class="col col_16 align_center">
         		<small>
         		    © 2010 - 2011 <a href="/" title="pungle time!">pungle</a>, all rights reserved.
-        		    <a href="/about-us/terms-of-service/" title="Terms of Service"><span class="ui-icon ui-icon-script"></span> Terms of Service </a>
-        		    <a href="/about-us/privacy-policy/" title="Privacy Policy"><span class="ui-icon ui-icon-locked"></span> Privacy Policy </a>        		            		    
+        		    <a href="/about-us/terms-of-service/" title="Terms of Service"><span class="ui-icon ui-icon-script pungleWhiteIcon"></span> Terms of Service </a>
+        		    <a href="/about-us/privacy-policy/" title="Privacy Policy"><span class="ui-icon ui-icon-locked pungleWhiteIcon"></span> Privacy Policy </a>        		            		    
     		    </small>
         	</div>
         </div>

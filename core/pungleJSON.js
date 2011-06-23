@@ -1009,10 +1009,10 @@ var pungleJSON =
 		"tags": [4],
 		"name": "Lucky Brand",
 		"desc": "Jeans, Men's & Women's Clothing & Designer Denim.",
-		"link": "http://click.linksynergy.com/fs-bin/click?id=GU*lP9Glm/0&offerid=206610.10000285&type=3&subid=0",
+		"link": "http://www.luckybrand.com/",
 		"img": "luckybrand.png",
-		"aff": true,
-		"live": true
+		"aff": false,
+		"live": false
 	},
 	{
 		"id": 7,

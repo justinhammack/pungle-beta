@@ -130,7 +130,7 @@
 			</div>
 		</div>
 		
-		<!-- Katie Andrews -->
+		<!-- Katie Andrews 
 		<div class="row">
 			<div class="col col_6">
 				<img src="/images/katie_andrews.jpg" title="Katie Andrews" width="340" height="210" />
@@ -143,6 +143,7 @@
 				</p>
 			</div>
 		</div>
+		-->
 		
 		<!-- Mourad Salji 
 		<div class="row">

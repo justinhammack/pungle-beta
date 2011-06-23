@@ -4,6 +4,9 @@
 # pungle.me specific
 Redirect 301 /deals/ /
 Redirect 301 /deals.htm /
+Redirect 301 /anvil/faq/ /faq/
+Redirect 301 /anvil/ /shop/
+
 #Redirect 301 /about.php /about-us/
 #Redirect 301 /anvil.php /anvil/
 #Redirect 301 /anvilfaq.php /anvil/faq/
@@ -224,14 +227,17 @@ FileETag None
   RewriteRule ^about-us/ ./about.php
   
   RewriteRule ^anvil/tutorial/ ./tutorial.php
-  RewriteRule ^anvil/faq/ ./anvilfaq.php
-  RewriteRule ^anvil/(.*)$ ./anvil.php?id=$1
+  RewriteRule ^faq/ ./anvilfaq.php
+  
+  RewriteRule ^shop/(.*)$ ./anvil.php?id=$1
   
   RewriteRule ^social-good/cause-portfolio/ ./npos.php
   RewriteRule ^social-good/goals-progress/ ./progress.php
   RewriteRule ^social-good/ ./sogood.php
  
   RewriteRule ^inject/ ./injector.php
+  
+  RewriteRule ^financial/ ./financial.php
   
   RewriteRule ^bookmarklet/ ./bookmarklet.php
   
