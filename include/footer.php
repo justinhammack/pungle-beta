@@ -37,7 +37,7 @@
           		    <b>Top Secret</b><br/>
           			<a href="/faq/" title="Answers to some common questions."><span class="ui-icon ui-icon-help pungleWhiteIcon"></span> FAQ</a><br/>
           		    <a href="/financial/" title="Get the gory details on our financial policy."><span class="ui-icon ui-icon-image pungleWhiteIcon"></span> Financial</a><br/>            		
-            		<a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!"><span class="ui-icon ui-icon-heart pungleWhiteIcon"></span> KTLO Store</a><br/>
+            		<a href="http://pungle.storenvy.com/" title="Help 'keep the lights on', shop for sweet pungle loot!"><span class="ui-icon ui-icon-heart pungleWhiteIcon"></span> KTLO Store</a><br/>
           		</small>
           	</p>
         	</div>

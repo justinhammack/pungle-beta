@@ -25,7 +25,7 @@
         
         <div class="row">
             <div class="col col_16">
-            	<h2>Our Team</h2>            	
+            	<h1>Our Team</h1>
         	</div>
         </div>
         

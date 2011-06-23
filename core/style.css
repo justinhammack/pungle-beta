@@ -559,7 +559,71 @@ button {  width: auto; overflow: visible; }
       background: -moz-linear-gradient(top, #6ac944 0, #6ac944 50%, #55c22b 50%, #55c22b 100%);
       background: -webkit-gradient(linear, 0% 50%, 0% 51%, from(#6ac944), to(#55c22b));
     }
+    
+    #mbp {
+        background: #e3e3e3;
+        border: 1px solid #bbb;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        -moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+        -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+        box-shadow: inset 0 0 1px 1px #f6f6f6;
+        color: #333;
+        font-family: "helvetica neue", helvetica, arial, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 58px;
+        padding: 8px 0 9px;        
+        text-shadow: 0 1px 0 #fff;
+        height: 58px;
+        width: 156px;
+    }
+    
+    #mbpRating {
+        display: inline-block;
+        background: #7fbf4d;
+        background: -moz-linear-gradient(top, #7fbf4d 0%, #63a62f 100%);
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7fbf4d), to(#63a62f));
+        border: 1px solid #63a62f;
+        border-bottom: 1px solid #5b992b;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
+        -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+        box-shadow: inset 0 1px 0 0 #96ca6d;
+        color: #fff;
+        font-family: "helvetica neue", helvetica, arial, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 41px;
+        padding: 7px 0 8px 0;
+        margin: 0 9px 0 8px;
+        text-align: center;
+        text-shadow: 0 -1px 0 #4c9021;
+        width: 137px;
+        height: 41px;
+    }
+    
+    #mbpRating:hover {
+        background: #76b347;
+        background: -moz-linear-gradient(top, #76b347 0%, #5e9e2e 100%);
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#76b347), to(#5e9e2e));
+        -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+        -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+        box-shadow: inset 0 1px 0 0 #8dbf67;
+        cursor: pointer;
+    }
 
+    #mbpRating:active {
+        border: 1px solid #5b992b;
+        border-bottom: 1px solid #538c27;
+        -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee;
+        -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee;
+        box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eee;
+    }
+    
 
 /* 960 framework http://gridr.atomeye.com/?c=16&cw=40&cm=20&om=10 */
 /*	16-column layout
