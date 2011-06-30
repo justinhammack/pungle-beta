@@ -1,5 +1,8 @@
     </div> <!-- end content wrapper -->
     <div id="footer_wrapper">
+    
+    <div id="subfooter"></div>
+    
     <div id="footer" class="clearfix">
         <div class="row">
         	<div class="col col_3">

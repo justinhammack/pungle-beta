@@ -325,7 +325,7 @@ button {  width: auto; overflow: visible; }
 	a.navAnvil, a.navAnvil:active, a.navAnvil:visited { font-weight: bold; }
 	a.navAnvil:hover { color:#f0b02a; }
 	#subheader a { margin-left:18px; }
-	.headerBanner { 
+	.headerBanner, .headerBannerInterior { 
 		background: url('/images/PUpungle_logo.png');
 		display: block;
 		width: 298px;
@@ -333,6 +333,11 @@ button {  width: auto; overflow: visible; }
 		float: left;
 		margin: 10px 0;
 		text-indent: -99999px;		
+	}
+	.headerBannerInterior {
+	    background: url('/images/pungle_logo_int.png');
+	    width: 139px;
+	    height: 41px;	    
 	}	
 	
 	/* Header &  Footer */
@@ -386,7 +391,7 @@ button {  width: auto; overflow: visible; }
 	.twButtonBig:hover {background-position: -30px 0;}
 	.fbButtonBig:hover {background-position: -30px -30px;}
 	.emButtonBig:hover {background-position: -30px -60px;}
-	
+	.hideH1 { display: inline-block; text-indent: -99999px; }
 
 	/* Index */
 	.goToAnvilButton, .readMoreButton {
@@ -405,6 +410,9 @@ button {  width: auto; overflow: visible; }
 	    background: #FFF;
 	    -moz-border-radius: 10px;
         border-radius: 10px;
+        -webkit-box-shadow: 0 0 3px #003b74;
+	    -moz-box-shadow: 0 0 3px #003b74;
+	    box-shadow: 0 0 3px #003b74;
         width: 300px;
         padding: 20px;
 	}
@@ -447,7 +455,7 @@ button {  width: auto; overflow: visible; }
  	#allStores li:hover {background: #ffe6b3;}
 
 
-	/* goals & progress */
+	/* goals & progress 
 	#progressOxfam, #progressPencils, #progressCWater, #progressDarmang, #progressNets {
 		width: 580px;
 		height: 42px;
@@ -469,7 +477,7 @@ button {  width: auto; overflow: visible; }
 	#progressCWaterBar {background: url('/images/progress_charitywater.png') 580px 0;}
 	#progressDarmangBar {background: url('/images/progress_darmang.png') 580px 0;}
 	#progressNetsBar {background: url('/images/progress_nets.png') 580px 0;}
-		
+	*/	
 	
 	/* extend jquery ui icon pack */
 	#footer .pungleWhiteIcon { background-image: url(/images/ui-icons_FFF_BLUE_256x240.png); }
@@ -632,7 +640,8 @@ button {  width: auto; overflow: visible; }
 	1     2      3      4      5      6      7      8      9      10     11     12     13     14     15     16
 	40px  100px  160px  220px  280px  340px  400px  460px  520px  580px  640px  700px  760px  820px  880px  940px	
 */
-body { background-color: transparent; /* #036ac9; background: #E1E2DA url('/images/bg-tile2.png') top left fixed repeat; */ }
+html { background: #003B74 url('/images/PU_interior_bg.png') top left fixed repeat; }
+body { background: transparent url('/images/PU_int_watertile.png') bottom center scroll repeat-x; /* #036ac9; background: #E1E2DA url('/images/bg-tile2.png') top left fixed repeat; */ }
 
 #header, #subheader, #subheader a, #subheader a:active, #subheader a:visited {color: #CCC; }
 #footer, #footer a, #footer a:active, #footer a:visited {color: #95C0FD;}
@@ -645,13 +654,13 @@ body { background-color: transparent; /* #036ac9; background: #E1E2DA url('/imag
 	padding: 0;
 	width: 100%;
 }
-#header_wrapper { /* background: url('/images/PU_interior_header.png') repeat-x; */ }
-#subheader_wrapper { display: none; background-color: transparent; /* #181818; */ }
-#footer_wrapper { background-color: transparent; /* #036ac9 F0F0F0 */ }
+#header_wrapper { background: url('/images/PU_interior_header.png') repeat-x; }
+#subheader_wrapper { display: none; background-color: transparent; }
+#footer_wrapper { position: relative; background: #003B74 url('/images/PU_footer_bg.png') top left scroll repeat; }
 
 #content_wrapper {
-    display: block;
-    background-color: transparent; /* #c7ebff; */
+    display: block;    
+    background: transparent url('/images/PU_interior_island.png') bottom center scroll no-repeat; /* #c7ebff; */
     padding: 0;
     width: 100%;
 }
@@ -660,27 +669,66 @@ body { background-color: transparent; /* #036ac9; background: #E1E2DA url('/imag
 	padding: 0 10px;
 	margin: 0 auto;
 	width: 940px;
-	height: 140px;
+	height: 61px;
 	position: relative;
 	background-color: transparent;
 }
 
-#subheader {    
+/* #subheader {    
 	padding: 14px 10px;
 	margin: 0 auto;
 	height: 24px;
 	width: 940px;
 	background-color: transparent;
-}
+} */
 
-#content, #footer {
+#subheader, #content, #footer {
 	position: relative;
 	margin: 0 auto;
 	padding: 10px 0px; 
 	width: 960px;
 }
 
+#subheader {
+    background-color: transparent;
+    height: 78px; 
+}
+
+#subheader h1 {    
+    display: inline-block;
+    font: 40px/57px Arial, "helvetica neue", Helvetica, Verdana, sans-serif;
+    color: #003B74;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 1px #DDD;
+    -webkit-text-stroke: 1px transparent;
+    padding-left: 52px;
+}
+
+#subheader.img { vertical-align: middle; }
+
+#content {
+    background: #FFFFFF url('/images/bg-grey-top-white-bottom.gif') top left scroll repeat-x;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 3px #003b74;
+	-moz-box-shadow: 0 0 3px #003b74;
+	box-shadow: 0 0 3px #003b74;	
+}
+
 #footer {padding: 0;}
+
+#subfooter {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: -50px;
+    z-index: 5000;
+    background: url('/images/PU_interior_footer.png') repeat-x;
+}
 
 .col {
 	margin-left:10px; 

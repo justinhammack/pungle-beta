@@ -18,12 +18,12 @@
 	<style type="text/css">
 	    .indexMission { font-size: 14px; line-height: 22px;}
 	    
-	    html { background: #036ac9 url('/images/PUbg_tile30x1080.png') repeat-x; }
+	    html { background: #003B74 url('/images/PU_frontpage_bg.png') top left scroll repeat-x; }
 	    
 	    body {
             padding: 0;
             margin: 0;
-            background: url('/images/PUbg1800x1080.jpg') no-repeat center top;
+            background: url('/images/PU_frontpage.jpg') no-repeat center 325px;
             
             width: 100%;
             display: table;
@@ -31,8 +31,31 @@
         
         #content_wrapper {
             height: 940px;
+            background: none;
         }
         
+        #content {
+            background: none;
+            -webkit-box-shadow: none;
+	        -moz-box-shadow: none;
+	        box-shadow: none;
+        }
+        
+        nav {
+            -webkit-box-shadow: 0 0 3px #003b74;
+	        -moz-box-shadow: 0 0 3px #003b74;
+	        box-shadow: 0 0 3px #003b74;
+        }
+        
+        #header_wrapper { background: none; }
+        
+        #header {
+	        height: 140px;
+	    }
+        
+	    #subfooter {display: none;}
+	    #footer_wrapper { background: none; }
+	    
         #mce-FNAME { margin-top: 5px; width: 293px; }
         #mce-EMAIL { margin-top: 5px; width: 220px; }
         
@@ -52,15 +75,14 @@
 		<!-- text header -->
 	    <div class="row">
 	        
-	        <div class="col col_4">
+	        <div class="col col_10">
+	            <br/><img src="/images/maximize_power.png" width="580" height="44" alt="Maximize your buying power." title="Maximize your buying power." />
 	            <br/>
-	        </div>
-	        
-	        <div class="col col_6">
-	            <br/><img src="/images/PU_tagline322x108.png" width="322" height="108" alt="Maximize your buying power." title="Maximize your buying power." /><br/>
-	            <p>
-	                <span style="font: 24px/34px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;" class="align_justify">Turn your purchases into high impact donations. <b>100% free.</b></span>
-	            </p>
+	            <br/><img src="/images/100percentfree.png" width="580" height="22" alt="100% free." title="100% free." />
+	            
+	            <!-- <p>
+	                <span style="font: 22px/34px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;" class="align_justify">Turn your purchases into high impact donations. <b>100% free.</b></span>
+	            </p> -->
 	            <p>
 	                <b>Ready to save the world?</b>
 	            </p>
@@ -68,7 +90,7 @@
 	        
 	        <div class="col indexForm">
 	            <img src="/images/PU_step1.png" width="169" height="28" alt="Step 1" title="Step 1"/><br/>
-	            <small>Signup for the exclusive insider scoop.</small>
+	            <small>Sign up to receive exclusive updates, discounts and early access to the official release.</small>
 	            <!-- Begin MailChimp Signup Form -->
 	            
                     <script type="text/javascript">
@@ -93,7 +115,7 @@
                                     <!-- <label for="mce-EMAIL">Email Address <strong class="note-required">*</strong></label> -->
                                     
                                     <input type="text" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">                                    
-                                    <input type="submit" value="Signup" name="subscribe" id="mc-embedded-subscribe" class="signup">
+                                    <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="signup">
                                 </div>
                                 <!-- <div class="mc-field-group">
                                     

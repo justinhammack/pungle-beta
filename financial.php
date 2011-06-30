@@ -67,8 +67,8 @@
         <div class="row">
         	
         	<div class="col col_16 align_justify">
-        	    <p><b>Maximum Buying Power (MBP)</b> is the percentage of <a href="/shop/" title="Shop Tool">Shop Tool</a> income donated. Think of it as the overall donation efficiency.</p>
-        		<p><b>100% MBP</b> Pungle would love to be able to donate every penny raised through the Shop Tool and with your help we can! Raise the MBP when you shop at the <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!">Pungle KTLO Store</a> <i>'keep the lights on'</i>. 100% MBP donation efficiency is possible if we can offset all operating costs through alternative income. So why not buy a sweet piece of loot and show your support today? It's a win-win scenario!</p>
+        	    <p><b>Maximum Buying Power (MBP)</b> is the actual percentage of <a href="/shop/" title="Shop Tool">Shop Tool</a> income donated. Think of it as the overall donation efficiency.</p>
+        		<p><b>100% MBP</b> Pungle wants to donate every penny raised through the Shop Tool and with your help we can! Raise the MBP when you shop at the <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!">Pungle KTLO Store</a> <i>'keep the lights on'</i>. 100% MBP donation efficiency is possible if we can offset all operating costs through alternative income. Why not show your support and buy a sweet piece of loot today? (at least take a peek at our offerings) It's a win-win scenario!</p>
         	</div>
         	
         </div>
@@ -87,7 +87,7 @@
 <p>
 <pre class="prettyprint">
 <br/>    /**
-    **  Donation Transparency :: Yup, it really is this simple..
+    **  Donation Transparency :: Yup, it really is this simple.
     **/<br/>
         /* The income & expenses expressed as variables. */
         SHOP = ' income from Shop Tool '
