@@ -8,7 +8,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
-    <title>pungle - contact</title>
+    <title>pungle - contact us</title>
     <meta name="description" content="Contact us? What, you want to chat? Mmmkay.">
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
@@ -20,24 +20,15 @@
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>Contact</b> Us</h1></div>
+        </div>
+    </div>
     
     <div id="content" class="clearfix">
        
         <div class="row">
-            <div class="col col_16">
-            	<h2>Contact</h2>            	
-        	</div>
-        </div>
-        
-        <div class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
-        </div>
-        
-    	<div class="row">
             <div class="col col_16">
             	<p>
           			<a class="fbButtonBig" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on facebook.">Facebook</a>

@@ -8,26 +8,25 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
-    <title>pungle - anvil tutorial</title>
-    <meta name="description" content="Learn how to use our signature anvil shopping tool in 5 easy steps.">
+    <title>pungle - shop tool tutorial</title>
+    <meta name="description" content="Learn how to use our shopping tool in 5 easy steps.">
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
 
-    <link rel="canonical" href="http://pungle.me/anvil/tutorial/" />
+    <link rel="canonical" href="http://pungle.me/tutorial/" />
 
 </head>
 
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>Shop</b> Tutorial</h1></div>
+        </div>
+    </div>
     
     <div id="content" class="clearfix">
-      
-    	<div class="row">
-        <div class="col col_16">
-        	<h2>5-Step Tutorial</h2>
-        </div>
-      </div>
       
       <div class="row">
       	

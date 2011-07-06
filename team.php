@@ -20,22 +20,13 @@
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>Our</b> Team</h1></div>
+        </div>
+    </div>
     
     <div id="content" class="clearfix">
-        
-        <div class="row">
-            <div class="col col_16">
-            	<h1>Our Team</h1>
-        	</div>
-        </div>
-        
-        <div class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
-        </div>
         
         <div class="row">
         	
@@ -130,7 +121,7 @@
 			</div>
 		</div>
 		
-		<!-- Katie Andrews 
+		<!-- Katie Andrews -->
 		<div class="row">
 			<div class="col col_6">
 				<img src="/images/katie_andrews.jpg" title="Katie Andrews" width="340" height="210" />
@@ -139,11 +130,11 @@
 				<h3>Katie Andrews (<a href="mailto:contact@pungle.me">email</a>)</h3>
 				<p><em>Grass roots advocate. Organizational expert. Good luck charm.</em><br/>
 					<br/>
-					No one ever wrote a description for me. Fear my wrath.
+					If you received it in the mail, it's very likely from me. ;)
 				</p>
 			</div>
 		</div>
-		-->
+		
 		
 		<!-- Mourad Salji 
 		<div class="row">

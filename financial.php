@@ -8,7 +8,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
-    <title>Financial Details | pungle.me</title>
+    <title>pungle - financial details</title>
     <meta name="description" content="Financial details. Transparency on where donations come from and what you can do to increase them.">
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
@@ -27,21 +27,13 @@
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>Financial</b> Details</h1></div>
+        </div>
+    </div>
     
     <div id="content" class="clearfix">
-        <div class="row">
-            
-            <div class="col col_16"><h1>Financial</h1></div>
-            
-        </div>
-        
-        <div class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
-        </div>
         
         <div class="row">
         	

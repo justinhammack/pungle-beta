@@ -13,7 +13,7 @@
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
 
-    <link rel="canonical" href="http://pungle.me/social-good/cause-portfolio/" />
+    <link rel="canonical" href="http://pungle.me/cause-portfolio/" />
     
 	<!-- need to load the javascript at the top, since we load the graph in-line -->
 	<script src="/core/libs/raphael-min.js" type="text/javascript" charset="utf-8"></script> 
@@ -34,34 +34,23 @@
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>Results</b> Portfolio</h1></div>
+        </div>
+    </div>
     
     <div id="content" class="clearfix">
         
-
-      
-        <div class="row">        
-        	<div class="col col_16">
-        		<h2>Cause Portfolio</h2>
-        	</div>
-        </div>
-        
-        <div class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
-        </div>
-    	
         <!-- build graph of distribution -->
       	<div class="row">
       		<div class="col col_10">
   					<div id="npoGraph"></div>
       		</div> 
   				<div class="col col_6">
-  					<p><br/><h3>Portfolio distribution</h3></p>
+  					<p><br/><h3>Portfolio Distribution</h3></p>
       			<p>Interactive visualization showing how pungle currently allocates funding to nonprofits through our social good campaign.<br/><br/>
-      				Distribution ratios are subject to change depending on current campaign goals and progress; allowing pungle to redirect funding as necessary to meet milestones and/or respond to critical events.
+      				Diagram represents the actual statistics gathered by our Shopping Tool. Ratios are subject to change to redirect funding as necessary to meet milestones and/or respond to critical events.
       			</p>
       		</div>
     		</div>

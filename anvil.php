@@ -8,12 +8,12 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
-	<title>pungle - the anvil</title>
+	<title>pungle - shop tool</title>
 	<meta name="description" content="Tangible social good through online shopping at no cost to our visitors; progress you can see.">
 	<meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
 	
-	<link rel="canonical" href="http://pungle.me/anvil/" />
+	<link rel="canonical" href="http://pungle.me/shop/" />
 
     <style type="text/css">
         table { width: 100%; border-collapse: collapse; margin: 0 0 1em; font-size: 10px; line-height: 13px; }
@@ -59,27 +59,27 @@
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>Shop</b> Tool</h1></div>
+        </div>
+    </div>
+    
 	<div id="content" class="clearfix">
 		
 	
-	<div class="row">
-      <div class="col col_16">
-      		<!-- <div style="width: 148px;" class="addthis_toolbox addthis_default_style addthis_32x32_style right">
-				<a class="addthis_button_preferred_1"></a>
-				<a class="addthis_button_preferred_2"></a>
-				<a class="addthis_button_preferred_3"></a>					
-				<a class="addthis_button_compact"></a>
-			</div> -->
+	<!-- <div class="row">
+      <div class="col col_16">      		
       	<a id="pungleBookmarklet" class="right" href="">bookmarklet</a>
 		<h2>The Anvil</h2>
       </div>
-    </div>
+    </div> 
     
     <div class="row">
 		<div class="col col_16 align_center">
 			<img src="/images/the_anvil.png" title="hi" width="940" height="40" />
 		</div>
-	</div>
+	</div> -->
     
 	<!-- container for overview to hold store buttons -->
 	<div class="row">

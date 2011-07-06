@@ -28,13 +28,13 @@
 					            <a href="http://pungle.storenvy.com/" title="Pungle loot to show off your hero status!">Store</a>					    
 				            </li> -->
 					        <li>
-					            <a <?php if ($pfile=="howitworks.php") { ?>class="subSelected"<?php } ?> href="/learn-more/how-it-works/" title="Find out how you are helping nonprofits.">How It Works</a>
+					            <a <?php if ($pfile=="sogood.php") { ?>class="subSelected"<?php } ?> href="/how-it-works/" title="Find out how you are helping nonprofits.">How It Works</a>
 					        </li>
 				            <li>
-					            <a <?php if ($pfile=="tutorial.php") { ?>class="subSelected"<?php } ?> href="/learn-more/tutorial/" title="Learn how to use the shopping tool.">Shop Tutorial</a>
+					            <a <?php if ($pfile=="tutorial.php") { ?>class="subSelected"<?php } ?> href="/tutorial/" title="Learn how to use the shopping tool.">Shop Tutorial</a>
 					        </li>					        
 				            <li>
-					            <a <?php if ($pfile=="npos.php") { ?>class="subSelected"<?php } ?> href="/learn-more/cause-portfolio/" title="See the Nonprofits and progress.">Results Portfolio</a>
+					            <a <?php if ($pfile=="npos.php") { ?>class="subSelected"<?php } ?> href="/cause-portfolio/" title="See the Nonprofits and progress.">Results Portfolio</a>
 					        </li>
 					        <!-- <li>
 					            <a <?php if ($pfile=="about.php") { ?>class="subSelected"<?php } ?> href="/about-us/" title="Who are the people behind the scenes?">About Pungle</a>
@@ -51,7 +51,7 @@
 					    </ul>
 				    </li>
 				    <li>
-					    <a href="http://blog.pungle.me" title="Facts, Opinions, Comics, Satire.">Blog</a>
+					    <a href="http://blog.pungle.me" title="Facts, Opinions, Comics, Satire." target="_blank">Blog</a>
 				    </li>
 					<!-- <li class="parentNav">
 					    <a href="/social-good/">Learn More</a>

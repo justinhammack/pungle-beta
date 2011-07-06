@@ -8,34 +8,25 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
-    <title>pungle - anvil FAQ</title>
+    <title>pungle - FAQ</title>
     <meta name="description" content="Answer some frequently asked questions about the anvil.">
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
-    <link rel="canonical" href="http://pungle.me/anvil/faq/" />
+    <link rel="canonical" href="http://pungle.me/faq/" />
 </head>
 
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>Faq</b></h1></div>
+        </div>
+    </div>
     
     <div id="content" class="clearfix">
       
-    	<div class="row">
-        <div class="col col_16">
-        	<h2>FAQ</h2>
-        </div>
-      </div>
-      
-      <div class="row">
-      	
-        <div class="col col_16 align_center">
-        	<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        </div>
-      	
-      </div>  
-    	
-      <div class="row">
+    <div class="row">
         <div class="col col_16">
         	
         	<p>

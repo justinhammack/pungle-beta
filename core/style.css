@@ -102,15 +102,20 @@ ol { list-style-type: decimal; }
 
 /* Navigation Setup */
 nav { 
-    background-color:#FFF; display:block; position: absolute; right: 52px; bottom: 40px; z-index: 10000; 
+    background-color: transparent;    
+    display:block; 
+    position: absolute; 
+    right: 52px; 
+    bottom: 0px;
+    z-index: 10000; 
 	-moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
 	line-height: 20px; font-size: 14px;
 }
-nav ul, nav li { margin: 0; } 
-nav ul li { float:left; padding: 8px 0 8px 10px; }
-nav ul li.parentNav { padding: 8px 17px 8px 10px; }
+nav ul, nav li { margin: 0; }
+nav ul li { float:left; padding: 8px 8px 13px 10px; }
+nav ul li.parentNav { padding: 8px 7px 13px 0px; }
 nav ul.navigation li.parentNav > a { background: url('/images/arrow.gif') no-repeat center right; }
 nav ul li a, nav ul li a:active, nav ul li a:visited { display:block; padding:0 8px; color: #444; font-weight: bold; font: 20px/26px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;}
 nav ul.navigation li.parentNav a, nav ul.navigation li.parentNav a:active, nav ul.navigation li.parentNav a:visited { padding:0 15px 0 8px; }
@@ -119,24 +124,24 @@ nav ul li a:hover, nav ul li.active a {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     background-color:#222;
-    box-shadow:1px 1px 2px #444;*/
+    box-shadow:1px 1px 2px #444;*/    
     color:#f0b02a;    
 }
 nav ul.navigation li { position: relative; }
 nav ul.navigation li ul {
     /* background: #5c5449 url(images/global/dd_top_border.png) no-repeat 0 0; */
-    top: 36px;
+    top: 40px;
     left: 5px;
-    border: 1px solid #EEE;
+    border: 1px solid #467CAE;
     position: absolute;
     width: 130px;
     margin-top: 6px;
     padding: 1px;    
     background-color:#FFF;
     -moz-border-radius-bottomright: 5px; border-bottom-right-radius: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-left-radius: 5px;
-    -moz-box-shadow: 1px 1px 2px #CCC;
+    /* -moz-box-shadow: 1px 1px 2px #CCC;
     -webkit-box-shadow: 1px 1px 2px #CCC;
-    box-shadow: 1px 1px 2px #CCC;
+    box-shadow: 1px 1px 2px #CCC;*/    
     display: none;
 }
 nav ul.navigation li:hover ul { display: block; }
@@ -331,13 +336,14 @@ button {  width: auto; overflow: visible; }
 		width: 298px;
 		height: 120px;
 		float: left;
-		margin: 10px 0;
+		margin: 15px 0 5px;
 		text-indent: -99999px;		
 	}
 	.headerBannerInterior {
 	    background: url('/images/pungle_logo_int.png');
 	    width: 139px;
-	    height: 41px;	    
+	    height: 41px;	   
+	    margin: 10px 0 10px; 
 	}	
 	
 	/* Header &  Footer */
@@ -656,7 +662,7 @@ body { background: transparent url('/images/PU_int_watertile.png') bottom center
 }
 #header_wrapper { background: url('/images/PU_interior_header.png') repeat-x; }
 #subheader_wrapper { display: none; background-color: transparent; }
-#footer_wrapper { position: relative; background: #003B74 url('/images/PU_footer_bg.png') top left scroll repeat; }
+#footer_wrapper { position: relative; background: #003B74 url('/images/PU_footer_bg.png') top left scroll repeat; padding-bottom: 50px;}
 
 #content_wrapper {
     display: block;    
@@ -685,7 +691,7 @@ body { background: transparent url('/images/PU_int_watertile.png') bottom center
 #subheader, #content, #footer {
 	position: relative;
 	margin: 0 auto;
-	padding: 10px 0px; 
+	padding: 10px 10px; 
 	width: 960px;
 }
 
@@ -708,7 +714,7 @@ body { background: transparent url('/images/PU_int_watertile.png') bottom center
 
 #content {
     background: #FFFFFF url('/images/bg-grey-top-white-bottom.gif') top left scroll repeat-x;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     margin-bottom: 20px;
     -webkit-border-radius: 5px;
 	-moz-border-radius: 5px;

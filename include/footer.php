@@ -20,7 +20,7 @@
           		<small>
           			<a href="/" title="Back to pungle time!"><span class="ui-icon ui-icon-home pungleWhiteIcon"></span><b> Home</b></a><br/>
           		    <a href="/shop/" title="Go to our shopping tool!"><span class="ui-icon ui-icon-cart pungleWhiteIcon"></span><b> Shop</b></a><br/>
-          			<a href="http://blog.pungle.me" title="A piñata of awesome content!"><span class="ui-icon ui-icon-signal-diag pungleWhiteIcon"></span><b> Blog</b></a>          		    
+          			<a href="http://blog.pungle.me" title="A piñata of awesome content!" target="_blank"><span class="ui-icon ui-icon-signal-diag pungleWhiteIcon"></span><b> Blog</b></a>          		    
           		</small>
           	</p>
         	</div>
@@ -40,7 +40,7 @@
           		    <b>Top Secret</b><br/>
           			<a href="/faq/" title="Answers to some common questions."><span class="ui-icon ui-icon-help pungleWhiteIcon"></span> FAQ</a><br/>
           		    <a href="/financial/" title="Get the gory details on our financial policy."><span class="ui-icon ui-icon-image pungleWhiteIcon"></span> Financial</a><br/>            		
-            		<a href="http://pungle.storenvy.com/" title="Help 'keep the lights on', shop for sweet pungle loot!"><span class="ui-icon ui-icon-heart pungleWhiteIcon"></span> KTLO Store</a><br/>
+            		<a href="http://pungle.storenvy.com/" title="Help 'keep the lights on', shop for sweet pungle loot!" target="_blank"><span class="ui-icon ui-icon-heart pungleWhiteIcon"></span> KTLO Store</a><br/>
           		</small>
           	</p>
         	</div>

@@ -45,7 +45,13 @@
             -webkit-box-shadow: 0 0 3px #003b74;
 	        -moz-box-shadow: 0 0 3px #003b74;
 	        box-shadow: 0 0 3px #003b74;
+	        right: 52px; 
+            bottom: 84px;
+            background-color:#FFF;
         }
+        nav ul li { float:left; padding: 8px 8px 8px 10px; }
+        nav ul li.parentNav { padding: 8px 7px 8px 0px; }
+        nav ul.navigation li ul { top: 36px; }
         
         #header_wrapper { background: none; }
         
@@ -54,7 +60,7 @@
 	    }
         
 	    #subfooter {display: none;}
-	    #footer_wrapper { background: none; }
+	    #footer_wrapper { margin-top: 50px; background: none; }
 	    
         #mce-FNAME { margin-top: 5px; width: 293px; }
         #mce-EMAIL { margin-top: 5px; width: 220px; }

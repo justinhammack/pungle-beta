@@ -8,12 +8,12 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
-    <title>pungle - social good program</title>
+    <title>pungle - how it works</title>
     <meta name="description" content="How pungle can help shape the social good movement through it's online shopping interface.">
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
      
-    <link rel="canonical" href="http://pungle.me/social-good/" />
+    <link rel="canonical" href="http://pungle.me/how-it-works/" />
     
     <style type="text/css">
         #slider {
@@ -85,13 +85,17 @@
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>How</b> it Works</h1></div>
+        </div>
+    </div>
     
     <div id="content" class="clearfix">
         
     	<div class="row">
             <div class="col col_16">
-            	<h2>Social Good</h2>
-            	<br/>
+                <br/><br/>
             	<img src="/images/PUcautionarytale940x700.jpg" alt="social fail" title="Cautionary tale!" width="940" height="700" />	
             </div>
         </div>

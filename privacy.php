@@ -18,26 +18,17 @@
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>Privacy</b> Policy</h1></div>            
+        </div>
+    </div>
     
     <div id="content" class="clearfix">
         
     	<div class="row">
             <div class="col col_16">
-            	<h2>Privacy Policy</h2>
-            </div>
-        </div>
-    	
-    	<div class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
-        </div>
-        
-    	<div class="row">
-            <div class="col col_16">
-            	<h3>pungle.me</h3>
+            	<h3>Pungle.me</h3>
             	<p class="align_justify">
             		<br/>
             		We personally understand the importance of online trust. As such, we value any information you share with us as though it were our own. To better disclose how much we care and to what extent we'll go to protect your privacy, we've provided this Privacy Policy. The information below explains our policy regarding your privacy and the pungle.me website. By visiting pungle.me, you are accepting the practices described in this Privacy Policy.<br/><br/>

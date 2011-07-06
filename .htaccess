@@ -5,7 +5,11 @@
 Redirect 301 /deals/ /
 Redirect 301 /deals.htm /
 Redirect 301 /anvil/faq/ /faq/
+Redirect 301 /anvil/tutorial/ /tutorial/
 Redirect 301 /anvil/ /shop/
+Redirect 301 /social-good/cause-portfolio/ /cause-portfolio/
+Redirect 301 /social-good/goals-progress/ /cause-portfolio/
+Redirect 301 /social-good/ /how-it-works/
 
 #Redirect 301 /about.php /about-us/
 #Redirect 301 /anvil.php /anvil/
@@ -226,14 +230,15 @@ FileETag None
   RewriteRule ^about-us/our-team/ ./team.php
   RewriteRule ^about-us/ ./about.php
   
-  RewriteRule ^anvil/tutorial/ ./tutorial.php
+  RewriteRule ^tutorial/ ./tutorial.php
+  
   RewriteRule ^faq/ ./anvilfaq.php
   
   RewriteRule ^shop/(.*)$ ./anvil.php?id=$1
   
-  RewriteRule ^social-good/cause-portfolio/ ./npos.php
-  RewriteRule ^social-good/goals-progress/ ./progress.php
-  RewriteRule ^social-good/ ./sogood.php
+  RewriteRule ^cause-portfolio/ ./npos.php
+  
+  RewriteRule ^how-it-works/ ./sogood.php
  
   RewriteRule ^inject/ ./injector.php
   
@@ -241,6 +246,7 @@ FileETag None
   
   RewriteRule ^bookmarklet/ ./bookmarklet.php
   
+  # RewriteRule ^social-good/goals-progress/ ./progress.php
   # RewriteRule ^threads/(\d+)*$ ./thread.php?id=$1
   # RewriteRule ^search/(.*)$ ./search.php?query=$1
  
