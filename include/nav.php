@@ -8,7 +8,7 @@
 			?>
 			
 			<!-- <a id="headerImage" href="/" title="pungle time!">pungle<img src="/images/pungle_me_logo.png" width="199" height="58" /></a> -->
-			<?php if ($pfile=="index.php") { ?> <a href="/" title="Time to save the world.."><h1 class="headerBanner">Save the World</h1></a> <?php }
+			<?php if ($pfile=="index.php") { ?> <a href="/" title="Time to save the world.."><h1 class="headerBannerInterior">Save the World</h1></a> <?php }
 			else { ?> <a class="headerBannerInterior" href="/" title="Time to save the world..">pungle</a> <?php } ?>
 			
 			<!-- <div class="header_social">
@@ -16,6 +16,13 @@
 				<a class="twButtonLink" href="http://twitter.com/JustinHammack" target="_blank" title="Follow our founder on Twitter.">Twitter</a>
 			</div> -->
 			
+			<?php if ($pfile!="index.php") { ?>
+    			<!-- MBP frame on top bar -->
+    			<div id="mbp">            
+    			    <a id="mbpRating" href="/financial/" title="Current donation efficiency, help us raise it.">35% MBP</a>
+                </div>
+            <?php } ?>
+            
 			<nav>
 				<ul class="navigation">
 					<li>

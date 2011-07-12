@@ -318,8 +318,8 @@ var pungle = (function ($) {
 		$("#getUrl").html(customURL); */
 		
 		/* var benalmanScript = 'javascript:(function(e,a,g,h,f,c,b,d){if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){c=a.createElement("script");c.type="text/javascript";c.src="http://ajax.googleapis.com/ajax/libs/jquery/"+g+"/jquery.min.js";c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d=="loaded"||d=="complete")){h((f=e.jQuery).noConflict(1),b=1);f(c).remove()}};a.documentElement.childNodes[0].appendChild(c)}})(window,document,"1.3.2",function($,L){pungleBKMRKLTSavedStores=[' + storeOrder + '];var jsCodePungleBKMRKLT=document.createElement("script");jsCodePungleBKMRKLT.setAttribute("src","http://localhost/core/pungleBKMRKLT.js");document.body.appendChild(jsCodePungleBKMRKLT);});'; */
-		
-		var pungleScript = "javascript:(function(){var w=500,h=225,l=Math.round((screen.width-w)/2),t=Math.round((screen.height-h)/2),d=document,s=w.getSelection?w.getSelection():d.title;if(s=='')s=d.title;window.ft=window.open('http://localhost/bookmarklet/#id="+storeOrder+"','','left='+l+',top='+(t>0?t:0)+',width='+w+',height='+h+',personalbar=0,toolbar=0,scrollbars=0,resizable=1');})();";
+		var bookHeight = 165 + (40 * Math.ceil(storeOrder.length / 3));
+		var pungleScript = "javascript:(function(){var w=510,h="+bookHeight+",l=Math.round((screen.width-w)/2),t=Math.round((screen.height-h)/2),d=document,s=w.getSelection?w.getSelection():d.title;if(s=='')s=d.title;window.ft=window.open('http://localhost/bookmarklet/#id="+storeOrder+"','','left='+l+',top='+(t>0?t:0)+',width='+w+',height='+h+',personalbar=0,toolbar=0,scrollbars=0,resizable=1');})();";
 		
 		// $('#pungleBookmarklet').replaceWith(insertBookmarklet);
 		$('#pungleBookmarklet').attr('href', pungleScript);

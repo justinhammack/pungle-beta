@@ -31,7 +31,7 @@
         <div class="row">
         	
         	<div class="col col_16">
-        		<p><strong><em><a href="http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn't_read" target="_blank" title="Too long; didn't read. Gimme a one sentence summary.">TL;DR</a> ex-gamers founded pungle to make up for their wretched ways.</em></strong></p>
+        		<p><strong><em><a href="http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn't_read" target="_blank" title="Too long; didn't read. Gimme a one sentence summary.">TL;DR</a> gamers founded pungle to make up for their wretched ways.</em></strong></p>
         	</div>
         	
         </div>

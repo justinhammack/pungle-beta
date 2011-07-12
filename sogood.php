@@ -95,8 +95,8 @@
         
     	<div class="row">
             <div class="col col_16">
-                <br/><br/>
-            	<img src="/images/PUcautionarytale940x700.jpg" alt="social fail" title="Cautionary tale!" width="940" height="700" />	
+                <br/><br/><br/>
+            	<img src="/images/howpungleworks_inforgraphic.jpg" alt="social fail" title="Cautionary tale!" width="940" height="1739" />	
             </div>
         </div>
         

@@ -48,7 +48,7 @@
                 
                 <p>
                     <div id="mbp" style="margin: 0 auto;">
-                    <div id="mbpRating">38% MBP</div>
+                    <div id="mbpRating">35% MBP</div>
                     </div>
                 </p>
                 
@@ -60,7 +60,7 @@
         	
         	<div class="col col_16 align_justify">
         	    <p><b>Maximum Buying Power (MBP)</b> is the actual percentage of <a href="/shop/" title="Shop Tool">Shop Tool</a> income donated. Think of it as the overall donation efficiency.</p>
-        		<p><b>100% MBP</b> Pungle wants to donate every penny raised through the Shop Tool and with your help we can! Raise the MBP when you shop at the <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!">Pungle KTLO Store</a> <i>'keep the lights on'</i>. 100% MBP donation efficiency is possible if we can offset all operating costs through alternative income. Why not show your support and buy a sweet piece of loot today? (at least take a peek at our offerings) It's a win-win scenario!</p>
+        		<br/><p><b>100% MBP</b> Pungle wants to donate every penny raised through the Shop Tool and with your help we can! Raise the MBP when you shop at the <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!">Pungle KTLO Store</a> <i>'keep the lights on'</i>. 100% MBP donation efficiency is possible if we can offset all operating costs through alternative income. Why not show your support and buy a sweet piece of loot today? It's a win-win scenario!</p>
         	</div>
         	
         </div>
@@ -111,7 +111,7 @@
         		<p><b>EXPENSES</b> means operational expenses hard capped at 65% of total gross income. This guarantees a minimum of 35% MBP. If expenses exceed the hard cap, it comes out of our pockets. Operational expenses cover all costs of doing business.</p>        		
         		<p>
         		    <small>
-                        * Pungle reserves the right to update the functions on this page at any time without notice.<br/>
+                        * Pungle reserves the right to update the functions on this page at any time.<br/>
                         ** MBP is as accurate as possible but should be seen as a 'best fit' estimation given the real-time data available.
                     </small>
                 </p>

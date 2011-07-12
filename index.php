@@ -23,7 +23,7 @@
 	    body {
             padding: 0;
             margin: 0;
-            background: url('/images/PU_frontpage.jpg') no-repeat center 325px;
+            background: url('/images/PUkittycorn_frontpage.jpg') no-repeat center 453px;
             
             width: 100%;
             display: table;
@@ -41,7 +41,7 @@
 	        box-shadow: none;
         }
         
-        nav {
+        /* nav {
             -webkit-box-shadow: 0 0 3px #003b74;
 	        -moz-box-shadow: 0 0 3px #003b74;
 	        box-shadow: 0 0 3px #003b74;
@@ -57,7 +57,7 @@
         
         #header {
 	        height: 140px;
-	    }
+	    } */
         
 	    #subfooter {display: none;}
 	    #footer_wrapper { margin-top: 50px; background: none; }
@@ -81,17 +81,15 @@
 		<!-- text header -->
 	    <div class="row">
 	        
-	        <div class="col col_10">
-	            <br/><img src="/images/maximize_power.png" width="580" height="44" alt="Maximize your buying power." title="Maximize your buying power." />
-	            <br/>
-	            <br/><img src="/images/100percentfree.png" width="580" height="22" alt="100% free." title="100% free." />
+	        <div class="col col_10 align_center">
+	            <img src="/images/PUmaximizepower.png" width="480" height="336" alt="Maximize your buying power." title="Maximize your buying power." />	            
 	            
 	            <!-- <p>
 	                <span style="font: 22px/34px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;" class="align_justify">Turn your purchases into high impact donations. <b>100% free.</b></span>
-	            </p> -->
+	            </p> 
 	            <p>
 	                <b>Ready to save the world?</b>
-	            </p>
+	            </p>-->
 	        </div>
 	        
 	        <div class="col indexForm">
