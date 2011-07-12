@@ -36,7 +36,7 @@
             margin: 0;            
         }
        
-        .dribbble { margin: 4px; }
+        .dribbble { margin: 4px; line-height: 16px; float: left; }
         
         #bookmarkletUtility {
             margin: 4px;
@@ -157,6 +157,7 @@
         #headerbook #mbp { height: 31px; width: 90px; float: right; margin: 6px 3px; padding: 4px 0 4px 0; }
         #headerbook #storeBtnFrame { height: 31px; float: right; padding: 4px 0 4px 0; }
         
+        .smallButton { font-size: 10px; }
     </style>
     
 </head>
