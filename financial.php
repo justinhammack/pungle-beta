@@ -8,7 +8,7 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
-    <title>pungle - financial details</title>
+    <title>pungle - financial transparency</title>
     <meta name="description" content="Financial details. Transparency on where donations come from and what you can do to increase them.">
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
@@ -29,7 +29,7 @@
 
     <div id="subheader" class="clearfix">
         <div class="row">
-            <div class="col col_16"><h1 style="display: inline-block"><b>Financial</b> Details</h1></div>
+            <div class="col col_16"><h1 style="display: inline-block"><b>Financial</b> Transparency</h1></div>
         </div>
     </div>
     
@@ -38,7 +38,7 @@
         <div class="row">
         	
         	<div class="col col_16">
-        		<br/><h3>MBP Explained</h3>
+        		<br/><h3>PIR Explained</h3>
         	</div>
         	
         </div>
@@ -48,7 +48,7 @@
                 
                 <p>
                     <div id="mbp" style="margin: 0 auto;">
-                    <div id="mbpRating">35% MBP</div>
+                    <div id="mbpRating">35% PIR</div>
                     </div>
                 </p>
                 
@@ -59,8 +59,8 @@
         <div class="row">
         	
         	<div class="col col_16 align_justify">
-        	    <p><b>Maximum Buying Power (MBP)</b> is the actual percentage of <a href="/shop/" title="Shop Tool">Shop Tool</a> income donated. Think of it as the overall donation efficiency.</p>
-        		<br/><p><b>100% MBP</b> Pungle wants to donate every penny raised through the Shop Tool and with your help we can! Raise the MBP when you shop at the <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!">Pungle KTLO Store</a> <i>'keep the lights on'</i>. 100% MBP donation efficiency is possible if we can offset all operating costs through alternative income. Why not show your support and buy a sweet piece of loot today? It's a win-win scenario!</p>
+        	    <p><b>Pungler Impact Rating (PIR)</b> is the efficiency of the <a href="/shop/" title="Shop Tool">Shop Tool</a>. We guarantee a minimum of 35%. Our goal is 100%!</p>
+        		<p><b>100% PIR</b> - To reach our goal we'll need to offset operating costs through alternative income. You can help raise the PIR by shopping at the <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!">Pungle KTLO Store</a> <i>'keep the lights on'</i>.  Why not show your support and buy a sweet piece of loot today? It's a win-win scenario!</p>
         	</div>
         	
         </div>
@@ -68,7 +68,7 @@
         <div class="row">
         	
         	<div class="col col_16">
-        		<br/><h3>How to Calculate Donations</h3>
+        		<h3>How to Calculate Donations for PIR</h3>
         	</div>
         	
         </div>
@@ -81,13 +81,13 @@
 <br/>    /**
     **  Donation Transparency :: Yup, it really is this simple.
     **/<br/>
-        /* The income & expenses expressed as variables. */
+        /* First the income & expenses are expressed as variables. */
         SHOP = ' income from Shop Tool '
         KTLO = ' income from KTLO Store "keep the lights on" '
-        EXPENSES = ' capped at 65% of gross income ' /* guarantees at least 35% MBP */<br/>        
+        EXPENSES = ' capped at 65% of gross income ' /* guarantees at least 35% PIR */<br/>        
         /* How we calculate the donation amount: */
         if (EXPENSES > KTLO) then DONATIONS = SHOP + KTLO - EXPENSES
-        else DONATIONS = SHOP /* 100% MBP donation efficiency!! woohoo! */<br/>
+        else DONATIONS = SHOP /* 100% PIR donation efficiency!! woohoo! */<br/>
 </pre>
 </p>
         	</div>
@@ -106,13 +106,14 @@
         	
         	<div class="col col_16 align_justify">
         		<p><b>DONATIONS</b> means the total amount of donations made by pungle on behalf of its users.</p>
-        	    <p><b>SHOP</b> means the Shop Tool, a free to use web application/service offered on this site. Users shop at 3rd party stores where pungle generates revenue through affiliate marketing and in turn donates the income to high impact causes.</p>        		
-        		<p><b>KTLO</b> means <i>'keep the lights on'</i> and refers to the pungle brand store which offers products which help offset operating costs. Allowing up to 100% of Shop Tool income to be donated if all expenses are paid by KTLO products! =)</p>        		
-        		<p><b>EXPENSES</b> means operational expenses hard capped at 65% of total gross income. This guarantees a minimum of 35% MBP. If expenses exceed the hard cap, it comes out of our pockets. Operational expenses cover all costs of doing business.</p>        		
+        	    <p><b>SHOP</b> means the Shop Tool, a free to use web application/service offered on this site. Users shop at 3rd party stores where pungle generates revenue through marketing and in turn donates the income to high impact causes.</p>        		
+        		<p><b>KTLO</b> means <i>'keep the lights on'</i> and refers to the pungle brand store which offers products which help offset operating costs. With the goal to allow up to 100% of Shop Tool income to be donated if all expenses are paid by KTLO products! =)</p>        		
+        		<p><b>EXPENSES</b> means operational expenses hard capped at 65% of total gross income. This guarantees a minimum of 35% PIR. If expenses exceed the hard cap, it comes out of our pockets. Operational expenses cover all costs of doing business.</p>        		
         		<p>
         		    <small>
+                        <br/>
                         * Pungle reserves the right to update the functions on this page at any time.<br/>
-                        ** MBP is as accurate as possible but should be seen as a 'best fit' estimation given the real-time data available.
+                        ** PIR is as accurate as possible but should be seen as a 'best fit' estimation based on the data available.
                     </small>
                 </p>
         	</div>        	

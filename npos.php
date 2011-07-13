@@ -36,7 +36,7 @@
 
     <div id="subheader" class="clearfix">
         <div class="row">
-            <div class="col col_16"><h1 style="display: inline-block"><b>Results</b> Portfolio</h1></div>
+            <div class="col col_16"><h1 style="display: inline-block"><b>Cause</b> Progress</h1></div>
         </div>
     </div>
     

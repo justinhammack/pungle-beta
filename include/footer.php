@@ -30,7 +30,7 @@
             		<b>Learn More</b><br/>
           			<a href="/how-it-works/" title="Find out how you are helping nonprofits."><span class="ui-icon ui-icon-lightbulb pungleWhiteIcon"></span> How It Works</a><br/>
             		<a href="/tutorial/" title="Learn how to use the anvil in 5 easy steps."><span class="ui-icon ui-icon-video pungleWhiteIcon"></span> Shop Tutorial</a><br/>
-            		<a href="/cause-portfolio/" title="See what Nonprofits we currently fund."><span class="ui-icon ui-icon-folder-open pungleWhiteIcon"></span> Results Portfolio</a><br/>
+            		<a href="/cause-portfolio/" title="See what Nonprofits we currently fund."><span class="ui-icon ui-icon-folder-open pungleWhiteIcon"></span> Cause Progress</a><br/>
           		</small>
           	</p>
         	</div>

@@ -332,6 +332,12 @@ var pungle = (function ($) {
 	    var storesBookmarklet = $.url.param("id").split(",");
 	    var buttonHtml = '';
 	    
+	    pungleAutocomplete = new Array();
+	    
+        for(var i=0; i<pungleJSON.store.length; i++){
+            pungleAutocomplete[i] = { value:pungleJSON.store[i].id, label:pungleJSON.store[i].name };
+        }
+	    
 	    // loop to search database for store's unique ID
     	$.each(storesBookmarklet, function(hashIndex, hashValue) {
     	    
@@ -340,11 +346,11 @@ var pungle = (function ($) {
     		    // else found ID is not a favorite yet
     		    if( pungleJSON.store[i].id == hashValue && pungleJSON.store[i].live == true ) {
     		        
-    		        buttonHtml += '<button class="dribbble';
+    		        buttonHtml += '<a class="dribbble';
     		        
     		        if( pungleJSON.store[i].name.length > 14) { buttonHtml += ' smallButton'; }
     		        
-    		        buttonHtml += '">' + pungleJSON.store[i].name + '</button>';
+    		        buttonHtml += '" href="/inject/#id=' + pungleJSON.store[i].id + '" title="' + pungleJSON.store[i].desc + '" target="_blank">' + pungleJSON.store[i].name + '</a>';
     		        
         			// if we're here, we found it, no need to search the rest of the DB
     		        break;
@@ -357,6 +363,17 @@ var pungle = (function ($) {
     	
     	$('#bookmarkletButtons').html(buttonHtml);
 		
+    	$(".dribbble, #addRemoveStores, #storeBtn, #mbpRating").click(function() { window.close(); });
+    	
+    	$( "#quickSearch" ).autocomplete({
+			source: pungleAutocomplete,
+			minLength: 2,
+			autoFocus: true,
+			select: function(event, ui) {
+			    window.open('http://' + document.domain + '/inject/#id=' + ui.item.value);
+			    window.close();
+			}
+		});
 	}
 	
 	

@@ -36,7 +36,7 @@
             margin: 0;            
         }
        
-        .dribbble { margin: 4px; line-height: 16px; float: left; }
+        .dribbble { margin: 3px; line-height: 16px; float: left; }
         
         #bookmarkletUtility {
             margin: 4px;
@@ -157,7 +157,8 @@
         #headerbook #mbp { height: 31px; width: 90px; float: right; margin: 6px 3px; padding: 4px 0 4px 0; }
         #headerbook #storeBtnFrame { height: 31px; float: right; padding: 4px 0 4px 0; }
         
-        .smallButton { font-size: 10px; }
+        .dribbble.smallButton { font-size: 10px; line-height: 16px; }
+        
     </style>
     
 </head>
@@ -166,7 +167,7 @@
     
     <div id="headerbook">
         
-        <a href="http://pungle.me" title="Time to save the world in the name of social good!" target="_blank" ><h1 class="headerBannerInterior">Social Good</h1></a>
+        <a href="/" title="Time to save the world in the name of social good!" target="_blank" ><h1 class="headerBannerInterior">Social Good</h1></a>
         
         <div id="storeBtnFrame">            
     	    
@@ -178,7 +179,7 @@
         
         <div id="mbp">            
     	    
-            <a id="mbpRating" href="/financial/" title="Current donation efficiency, help us raise it." target="_blank">35% pIR</a>
+            <a id="mbpRating" href="/financial/" title="Current donation efficiency, help us raise it." target="_blank">35% PIR</a>
             
         </div>
         
@@ -188,7 +189,7 @@
         
         <div class="row">
             <div id="bookmarkletUtility" class="clearfix">
-                <input type="text" id="quickSearch"><a id="addRemoveStores" href="http://pungle.me/shop/" title="Return to pungle to add/remove stores." target="_blank">Add/Remove Stores</a>
+                <input type="text" id="quickSearch"><a id="addRemoveStores" href="/shop/" title="Return to pungle to add/remove stores." target="_blank">Add/Remove Stores</a>
             </div>
             <div id="bookmarkletButtons"></div>
         </div>
@@ -200,6 +201,9 @@
     <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
 	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script> 
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js" type="text/javascript"></script>
+	<script>!$.ui && document.write('<script src="/core/libs/jquery-ui-1.8.9.min.js" type="text/javascript"><\/script>')</script>
 	
     <script src="/core/pungleJSON.js"></script>
 	<script src="/core/pungle.js?v=3"></script>

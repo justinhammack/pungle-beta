@@ -17,9 +17,9 @@
 			</div> -->
 			
 			<?php if ($pfile!="index.php") { ?>
-    			<!-- MBP frame on top bar -->
+    			<!-- PIR frame on top bar -->
     			<div id="mbp">            
-    			    <a id="mbpRating" href="/financial/" title="Current donation efficiency, help us raise it.">35% MBP</a>
+    			    <a id="mbpRating" href="/financial/" title="Current donation efficiency, help us raise it.">35% PIR</a>
                 </div>
             <?php } ?>
             
@@ -29,7 +29,7 @@
 					    <a class="navAnvil" title="Maximize your impact when you shop online." href="/shop/">Shop</a>					    
 				    </li>				    
 				    <li class="parentNav">
-					    <a href="#">Learn More</a>
+					    <a href="/how-it-works/">Learn More</a>
 					    <ul>
 					        <!-- <li>
 					            <a href="http://pungle.storenvy.com/" title="Pungle loot to show off your hero status!">Store</a>					    
@@ -41,7 +41,7 @@
 					            <a <?php if ($pfile=="tutorial.php") { ?>class="subSelected"<?php } ?> href="/tutorial/" title="Learn how to use the shopping tool.">Shop Tutorial</a>
 					        </li>					        
 				            <li>
-					            <a <?php if ($pfile=="npos.php") { ?>class="subSelected"<?php } ?> href="/cause-portfolio/" title="See the Nonprofits and progress.">Results Portfolio</a>
+					            <a <?php if ($pfile=="npos.php") { ?>class="subSelected"<?php } ?> href="/cause-portfolio/" title="See the Nonprofits and progress.">Cause Progress</a>
 					        </li>
 					        <!-- <li>
 					            <a <?php if ($pfile=="about.php") { ?>class="subSelected"<?php } ?> href="/about-us/" title="Who are the people behind the scenes?">About Pungle</a>
