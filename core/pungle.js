@@ -68,7 +68,7 @@ var pungle = (function ($) {
 			    htmlStore += '</span></td><td>';
 			    
 				// check if they are an affiliate or not
-				if(entry['aff']) htmlStore += '<div class="afflImage">AFFL</div>';
+				if(entry['aff']) htmlStore += '<div class="afflImage" title="High impact shopping enabled!">AFFL</div>';
 				
 				htmlStore += '</td>';				
 				
@@ -137,7 +137,7 @@ var pungle = (function ($) {
         			htmlStore += '</span>';
         			htmlStore += '<span class="storeButtonBottom">';        			
         			
-    				if( pungleJSON.store[i].aff ) htmlStore += '<span class="pungleRedIcon ui-icon ui-icon-heart" title="High impact donations enabled."></span>';
+    				// if( pungleJSON.store[i].aff ) htmlStore += '<span class="pungleRedIcon ui-icon ui-icon-heart" title="High impact donations enabled."></span>';
     				
     				htmlStore += '</span>';
         			htmlStore += '</li>';        			
@@ -173,7 +173,7 @@ var pungle = (function ($) {
 	    var storeTIMER = 2500;
 	    
 	    var storeFound = false;	    
-	    var storeHtml = 'uhm.. yeah, our bad? store not found. <br/><br/><a href="http://pungle.me/">go back to pungle.me</a><br/><br/>';
+	    var storeHtml = 'uhm.. yeah. store not found. our bad?<br/><br/><a href="http://pungle.me/">go back to pungle.me</a><br/><br/>';
 	    
 	    for ( var i=0, len=pungleJSON.store.length; i<len; ++i ){
     		// else found ID is not a favorite yet
@@ -182,7 +182,7 @@ var pungle = (function ($) {
     	        storeLINK = pungleJSON.store[i].link;
     	        
     	        if(pungleJSON.store[i].aff === true) {
-    	            storeHtml = '<h3 style="color: #f0b02a;">Enjoy ' + pungleJSON.store[i].name + ' pungle style!</h3><br/>Leaving so soon!? The party is just getting started...<br/><br/>';
+    	            storeHtml = '<h3 style="color: #f0b02a;">Enjoy ' + pungleJSON.store[i].name + ' served with Cookies & Karma!</h3><br/>Leaving so soon!? The party is just getting started...<br/><br/>';
     	        }
     	        else {
     	            storeHtml = '<h3>' + pungleJSON.store[i].name + ' = plain old shopping..</h3><br/>Don\'t worry, we\'re adding new stores all the time!<br/><br/>';

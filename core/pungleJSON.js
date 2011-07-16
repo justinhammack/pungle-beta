@@ -1611,7 +1611,7 @@ var pungleJSON =
 		"tags": [1],
 		"name": "Tom's Shoes",
 		"desc": "Shoe makers founded on a simple premise: For every pair you purchase, TOMS will give a pair of shoes to a child in need. One for One.",
-		"link": "http://www.tkqlhce.com/click-4147908-10619288",
+		"link": "http://www.toms.com/",
 		"img": "toms.png",
 		"aff": true,
 		"live": true

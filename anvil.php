@@ -67,6 +67,12 @@
 	    
 	    #pungleBookmarklet.dribbble, #pungleBookmarklet.dribbble:hover, #pungleBookmarklet.dribbble:visited, #pungleBookmarklet.dribbble:active {color: #716028;}
 	    
+	    .tagFavIcon, .tagAfflIcon { text-indent: -999999px; }
+	    .tagFavIcon { background-image: url('/images/star16x16g.png'); background-position: center; background-repeat: no-repeat; }
+	    .tagAfflIcon { background-image: url('/images/highfive16x16g.png'); background-position: center; background-repeat: no-repeat; }
+	    .tagFavIcon.ui-state-active { background-image: url('/images/star16x16.png'); background-position: center; background-repeat: no-repeat; }
+	    .tagAfflIcon.ui-state-active { background-image: url('/images/highfive16x16.png'); background-position: center; background-repeat: no-repeat; }
+	    
     </style>
     
 </head>
@@ -144,7 +150,7 @@
                 <option value="c14|">Video Games</option>
 		        
 	        </select><span id="storeCheckbox">
-	            <input type="checkbox" id="tagAffl" value="AFFL" /><label for="tagAffl" title="Show only pungle-ready stores." >=]</label><input type="checkbox" id="tagFav" value="FVS" /><label for="tagFav" title="Show only your favorite stores." ><3</label>
+	            <input type="checkbox" id="tagAffl" value="AFFL" /><label class="tagAfflIcon" for="tagAffl" title="Show only high impact stores." >=]</label><input type="checkbox" id="tagFav" value="FVS" /><label class="tagFavIcon" for="tagFav" title="Show only your favorite stores." ><3</label>
 	        </span>
 	        
 	        <button id="buttonClearStores" title="Clear all favorite stores from overview.">Clear Favorites</button>
