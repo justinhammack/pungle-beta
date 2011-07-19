@@ -44,7 +44,10 @@
         
         <!-- build graph of distribution -->
       	<div class="row">
-      		<div class="col col_10">
+      		<div class="col col_16">
+      		    <i>Pungle takes the hard work out of finding & supporting great causes!</i>
+      		</div>
+      	    <div class="col col_10">
   					<div id="npoGraph"></div>
       		</div> 
   				<div class="col col_6">
@@ -57,13 +60,165 @@
     		
     		<div class="row">
         	
-        	<div id="charityWater" class="col col_16 align_center">
+        	<div class="col col_16 align_center">
         		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
         	</div>
         	
         </div>
-    
-        <!-- charity discussion below -->        
+        
+        <!-- empowerment -->
+        <div id="EMP" class="row">
+            <div class="col col_5 align_center">
+                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+            </div>
+            <div class="col col_11 justify">
+                <h3>Empowerment</h3>
+                <p>  
+                    <b>Goal: </b>To create social enterprises that strengthen individuals and communities by providing solutions that spur economic opportunity, promote dignity, & save lives.
+                </p>
+                <p>                    
+                    <b>Campaign: </b>In Kenya $1 invested in agricultural pumps creates $15 in profits & wages; creating a snowball effect that ends poverty @ about $60/person.
+                </p>
+                <p>
+                    <b>NPO: <a href="http://theadventureproject.org/" target="_blank">The Aventure Project</a></b>
+                </p>
+            </div>
+        </div>
+        
+        <!-- potable water -->
+        <div id="POT" class="row">
+            <div class="col col_5 align_center">
+                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+            </div>
+            <div class="col col_11 justify">
+                <h3>Potable Water</h3>
+                <p>  
+                    <b>Goal: </b>To provide clean water as a basic human right to the ~1 BILLION people who don't have access to it. To be used for drinking, agriculture and sanitation.
+                </p>
+                <p>                    
+                    <b>Campaign: </b>Train technicians, build wells & develop sustainable water infastructure for developing nations @ $20/person or $5,000/village.
+                </p>
+                <p>
+                    <b>NPO: <a href="http://www.charitywater.org/" target="_blank">charity: water</a></b>
+                </p>
+            </div>
+        </div>
+        
+        <!-- technology -->
+        <div id="TEC" class="row">
+            <div class="col col_5 align_center">
+                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+            </div>
+            <div class="col col_11 justify">
+                <h3>Technology</h3>
+                <p>                    
+                    <b>Results: </b>
+                </p>
+                <p>  
+                    <b>Purpose: </b>
+                </p>
+                <p>
+                    <b>NPO: <a href="" target="_blank"></a></b>
+                </p>
+            </div>
+        </div>
+        
+        <!-- clean energy -->
+        <div id="CLE" class="row">
+            <div class="col col_5 align_center">
+                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+            </div>
+            <div class="col col_11 justify">
+                <h3>Clean Energy</h3>
+                <p>                    
+                    <b>Results: </b>
+                </p>
+                <p>  
+                    <b>Purpose: </b>
+                </p>
+                <p>
+                    <b>NPO: <a href="" target="_blank"></a></b>
+                </p>
+            </div>
+        </div>
+        
+        <!-- nature -->
+        <div id="NAT" class="row">
+            <div class="col col_5 align_center">
+                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+            </div>
+            <div class="col col_11 justify">
+                <h3>Nature</h3>
+                <p>                    
+                    <b>Results: </b>
+                </p>
+                <p>  
+                    <b>Purpose: </b>
+                </p>
+                <p>
+                    <b>NPO: <a href="" target="_blank"></a></b>
+                </p>
+            </div>
+        </div>
+        
+        <!-- education -->
+        <div id="EDU" class="row">
+            <div class="col col_5 align_center">
+                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+            </div>
+            <div class="col col_11 justify">
+                <h3>Education</h3>
+                <p>                    
+                    <b>Goal: </b>To create the best possible opportunities for our students to succeed by providing the necessary tools to teachers and classrooms in need.
+                </p>
+                <p>  
+                    <b>Campaign: </b>Varies. Multiple projects handled simultaneously. ~$100-$500/classroom.
+                </p>
+                <p>
+                    <b>NPO: <a href="http://www.donorschoose.org/" target="_blank">Donors Choose</a></b>
+                </p>
+            </div>
+        </div>
+        
+        <!-- vaccinations -->
+        <div id="VAC" class="row">
+            <div class="col col_5 align_center">
+                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+            </div>
+            <div class="col col_11 justify">
+                <h3>Vaccinations</h3>
+                <p>                    
+                    <b>Results: </b>
+                </p>
+                <p>  
+                    <b>Purpose: </b>
+                </p>
+                <p>
+                    <b>NPO: <a href="" target="_blank"></a></b>
+                </p>
+            </div>
+        </div>
+        
+        <!-- carbon emissions -->
+        <div id="CAR" class="row">
+            <div class="col col_5 align_center">
+                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+            </div>
+            <div class="col col_11 justify">
+                <h3>Carbon Emissions</h3>
+                <p>                    
+                    <b>Goal: </b>To offset Pungle's carbon emissions that can not be reduced further.
+                </p>
+                <p>  
+                    <b>Campaign: </b>Carbon footprint is 1.02 tonnes CO2 @ $10.22/mo
+                </p>
+                <p>
+                    <b>NPO: <a href="http://www.carbonfund.org" target="_blank">Carbon Fund</a></b>
+                </p>
+            </div>
+        </div>
+        
+        <!-- charity discussion below         
         <div class="row">
         	
         	<div class="col col_10 align_center">
@@ -95,7 +250,7 @@
         		<p><h3>The Adventure Project</h3></p>
         		<iframe src="http://player.vimeo.com/video/21305603?title=0&amp;byline=0&amp;portrait=0" width="340" height="191" frameborder="0"></iframe>
         		<p>
-        			The Adventure Project increases investments in positive social enterprises around the world. They believe we can end extreme poverty in our lifetime by reinventing how we give and provide solutions that spur economic opportunity, promote dignity, & save lives. <!-- We think they are pretty amazing! Why? Clear scope of cause, scalability, flexibility in their campaign and a positive vision for change. Plus, they are great people who are personally connected to their donators.--> Amazing.<br/>
+        			The Adventure Project increases investments in positive social enterprises around the world. They believe we can end extreme poverty in our lifetime by reinventing how we give and provide solutions that spur economic opportunity, promote dignity, & save lives. Amazing.<br/>
         			<p class="align_right"><a href="http://theadventureproject.org" title="Visit The Advneture Project" target="_blank">The Adventure Project ></a></p>
     			</p>
         	</div>
@@ -178,7 +333,7 @@
         		</p>
         	</div>
         	
-        </div>
+        </div>-->
         
     </div>
 
@@ -195,7 +350,7 @@
                 r.g.txtattr.font = "13px Arial, Verdana, Helvetica, sans-serif";
                 
                 /* colors 3fb1f3 68dc72 3cece2 e3e948 ff849e cb92e9 ffa250 eb6f4e */
-                var pie = r.g.piechart(180, 170, 150, [20, 32, 25, 5, 18], {strokewidth: "4", colors: ["#3fb1f3", "#68dc72", "#ff849e", "#e3e948", "#cb92e9"], legend: ["%% charity: water", "%% Pencils of Promise", "%% The Adventure Project", "%% Nothing But Nets", "%% Project Darmang"], legendpos: "east", href: ["#scrollPOP", "#scrollAdventure", "#scrollCharityWater", "#scrollDarmang", "#scrollNBN"]});
+                var pie = r.g.piechart(180, 170, 150, [14, 14, 14, 14, 14, 14, 14, 2], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#42e4de", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Empowerment", "%% Potable Water", "%% Technology", "%% Clean Energy", "%% Nature", "%% Education", "%% Vaccinations", "%% Carbon Offset"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollCLE", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCAR"]});
                 pie.hover(function () {
                     this.sector.stop();
                     this.sector.scale(1.1, 1.1, this.cx, this.cy);
@@ -212,33 +367,51 @@
                     }
                 });
         
-        $('a[href=#scrollCharityWater]').click(function(){
+        $('a[href=#scrollEMP]').click(function(){
 			$('html, body').animate({
-				scrollTop: $("#charityWater").offset().top
+				scrollTop: $("#EMP").offset().top
 			}, 800);
 		});
 		
-		$('a[href=#scrollPOP]').click(function(){
+		$('a[href=#scrollPOT]').click(function(){
 			$('html, body').animate({
-				scrollTop: $("#POP").offset().top
+				scrollTop: $("#POT").offset().top
 			}, 800);
 		});
 		
-		$('a[href=#scrollAdventure]').click(function(){
+		$('a[href=#scrollTEC]').click(function(){
 			$('html, body').animate({
-				scrollTop: $("#adventure").offset().top
+				scrollTop: $("#TEC").offset().top
 			}, 800);
 		});
 		
-		$('a[href=#scrollNBN]').click(function(){
+		$('a[href=#scrollCLE]').click(function(){
 			$('html, body').animate({
-				scrollTop: $("#NBN").offset().top
+				scrollTop: $("#CLE").offset().top
 			}, 800);
 		});
 		
-		$('a[href=#scrollDarmang]').click(function(){
+		$('a[href=#scrollNAT]').click(function(){
 			$('html, body').animate({
-				scrollTop: $("#darmang").offset().top
+				scrollTop: $("#NAT").offset().top
+			}, 800);
+		});
+		
+		$('a[href=#scrollEDU]').click(function(){
+			$('html, body').animate({
+				scrollTop: $("#EDU").offset().top
+			}, 800);
+		});
+		
+		$('a[href=#scrollVAC]').click(function(){
+			$('html, body').animate({
+				scrollTop: $("#VAC").offset().top
+			}, 800);
+		});
+		
+		$('a[href=#scrollCAR]').click(function(){
+			$('html, body').animate({
+				scrollTop: $("#CAR").offset().top
 			}, 800);
 		});
     };

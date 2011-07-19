@@ -94,37 +94,37 @@
     <div id="content" class="clearfix">
         
     	<div class="row">
-            <div class="col col_16">
+            <div class="col col_16 align_center">
                 <br/><br/><br/>
-            	<img src="/images/howpungleworks_inforgraphic.jpg" alt="social fail" title="Cautionary tale!" width="940" height="1739" />	
+            	<img src="/images/howpungleworks.png" alt="how it works infographic" title="Cautionary tale!" width="900" height="975" />	
             </div>
         </div>
         
         <div class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
+            <div class="col col_10 align_right">
+                <h3>Pretty easy, eh? Let's get you setup..</h3>
+            </div>
+            <div class="col col_6">
+                <a class="dribbble" href="/shop/" title="Setup the shopping tool!">Shop Tool ></a>
+            </div>
         </div>
         
-        <!-- container for scroller-->
+        <!-- container for scroller
 		<div class="row">
 			<div class="col col_16">
                 <div id="slider">                
                 
-                  <!-- element with overflow applied -->
-                  <div class="scroll">
-                    <!-- the element that will be scrolled during the effect -->
+                <div class="scroll">
+                    
                     <div class="scrollContainer">
-                      <!-- our individual panels -->
+                      
                       <div class="panel align_center" id="sogood">                            
                             <p><a href="#zombieapoc" title="Learn more!"><img src="/images/whatispungle_01.jpg" title="The social good movement, pungler style." width="670" height="249" /></a></p>
             				<p><b>Social Good:</b> Join other punglers in contributing to a measurable impact on the world with every online purchase. Together we are fueling next-gen charities at no extra cost to you.</p>
                       </div>
                       <div class="panel align_center" id="zombieapoc">
                             <p><a href="#funding" title="Learn more!"><img src="/images/whatispungle_02.jpg" title="We are so screwed." width="670" height="249" /></a></p>
-            				<p><b>Zombie Apocalypse:</b> Maybe.<!-- We're screwed unless we team up to jump start the next generation of charities. Who do you think will protect us from legions of undead? --> And that's why we're specifically targetting the next generation of charities. When it comes to zombies, an ounce of prevention is worth a pound of C-4.</p>
+            				<p><b>Zombie Apocalypse:</b> Maybe. And that's why we're specifically targetting the next generation of charities. When it comes to zombies, an ounce of prevention is worth a pound of C-4.</p>
                       </div>
                       <div class="panel align_center" id="funding">
                             <p><a href="#results" title="The Anvil beckons you."><img src="/images/whatispungle_03.jpg" title="Ready to jump straight to the Anvil? Eh?" width="670" height="249"/></a></p>				
@@ -141,8 +141,8 @@
                                     <a href="/anvil/" id="iMapLink2" title="Get started with The Anvil">Anvil</a>                                
                                 </div>
                             </p>
-				            <!-- <p><img src="/images/whatispungle_05.jpg" title="Get the party started!" width="670" height="249"/></p> -->
-    					    <p><b>Oath of Fealty:</b> <i>"I swear on my life that I will be loyal to pungle against all other temptations!"</i> Seriously though, pungling is easy. Like us on <a href="http://www.facebook.com/pungleDOTorg" title="This is how you can stay updated with awesomeness!" target="_blank">Facebook</a> to get updates then setup the <a href="/anvil/" title="Get started with The Anvil">Anvil</a>.<!-- or <a href="/social-good/" title="Not ready for commitment? Want to read a brick of text?">Learn More</a> about pungle.--></p>   
+				            
+    					    <p><b>Oath of Fealty:</b> <i>"I swear on my life that I will be loyal to pungle against all other temptations!"</i> Seriously though, pungling is easy. Like us on <a href="http://www.facebook.com/pungleDOTorg" title="This is how you can stay updated with awesomeness!" target="_blank">Facebook</a> to get updates then setup the <a href="/anvil/" title="Get started with The Anvil">Anvil</a>.
 				      </div>
                     </div>
                   </div>                 
@@ -150,8 +150,9 @@
                 </div>
 			</div>
 		</div>
+		-->
 		
-    	<!-- social good program explained -->
+    	<!-- social good program explained 
     	<div class="row">
             <div class="col col_6 align_center">
             	<p><a href="/social-good/cause-portfolio/" title="Check out the awesome nonprofits we work with!"><img src="/images/social_good_icon.jpg" width="304" height="121" /></a></p>
@@ -160,7 +161,7 @@
             	
             	<p><img src="/images/an_idea.png" title="An Idea" width="296" height="54" /></p>
             	<p><strong>Inspired by a global social good movement, pungle is taking action. </strong></p>
-            	<p class="align_justify"><!--As the Internet evolves, it's reach increases and the world shrinks.  Today we can see what's happening, in real time, nearly anywhere on the planet.  As we rejoice in our technological revolution, we are at a crossroads where we can no longer stand in the shadow of blissful ignorance. -->Through technology pungle provides the opportunity to make a difference globally. Right now there are people without access to some very basic human needs: clean water, education, large scale disease prevention, agriculture and fundamental human rights. We accomplish this by working with next generation nonprofits that deliver tangible results.<br/><br/><a href="/social-good/cause-portfolio/" title="Check out the awesome nonprofits we work with!">Check out the Nonprofits ></a></p></p>
+            	<p class="align_justify">Through technology pungle provides the opportunity to make a difference globally. Right now there are people without access to some very basic human needs: clean water, education, large scale disease prevention, agriculture and fundamental human rights. We accomplish this by working with next generation nonprofits that deliver tangible results.<br/><br/><a href="/social-good/cause-portfolio/" title="Check out the awesome nonprofits we work with!">Check out the Nonprofits ></a></p></p>
             	
         	</div>
         </div>
@@ -173,10 +174,11 @@
             	
             	<p><img src="/images/the_tool.png" title="The Tool" width="337" height="54" /></p>
             	<p><strong>Enabling change requires a tool, so we built the anvil shopping interface.</strong></p>
-            	<p class="align_justify"><!-- Like an anvil, the beauty is in it's simplicity. -->Pungle leverages its network of online retailers to convert advertising dollars into social good when shopping through the Anvil. Stores currently enabled for our social good program are marked with a heart. Don't even worry about it, we'll manage the relationships, you just sit back and shop. <!-- We have the chance to power one of the greatest social good movements in history through the colossus that is online retail.  How? Use the anvil, it's that simple. A small change in how you shop online can help power a massive shift in social good. where you start your online shopping adventures enables great change globally. So, where to start?-->  Remember to bookmark the anvil or make it your homepage. <!--, then just shop through pungle and we'll take care of the rest.< or even put a shortcut on your desktop if you're into that sort of thing. The anvil exists, but without someone striking down upon it with a hammer, nothing happens.--><br/><br/><a href="/anvil/" title="The Anvil beckons you.">Let's head over to The Anvil ></a></p></p>
+            	<p class="align_justify">Pungle leverages its network of online retailers to convert advertising dollars into social good when shopping through the Anvil. Stores currently enabled for our social good program are marked with a heart. Don't even worry about it, we'll manage the relationships, you just sit back and shop. Remember to bookmark the anvil or make it your homepage.<br/><br/><a href="/anvil/" title="The Anvil beckons you.">Let's head over to The Anvil ></a></p></p>
             	
         	</div>
         </div>
+        
         
         <div class="row">
             <div class="col col_6 align_center">
@@ -186,20 +188,22 @@
             	
             	<p><img src="/images/results.png" title="Results" width="296" height="54" /></p>
             	<p><strong>Wells are drilled, schools built, education funded, & nets distributed.</strong></p>
-            	<p class="align_justify">Fundamental human rights include a secure livelihood, basic social services, safety, a voice, and equality. For clean water, wells are just the start. Water projects lead to sanitation training, installed latrines and simple hand-washing stations. By building schools, a dedication to lasting education remains a part of our campaign. Concerning global health, malaria is a big problem with a simple solution, bed nets.  The nets can reduce transmission of malaria by as much as 90%.  As for agricultural development, small-scale farmers around the world receive supplies and support for developing sustainable farming methods.  We want to see actual results and not just a dollar amount being thrown at a problem. <!-- Rather than just throwing money at charities, we're going to hold them accountable for results!--><br/><br/><a href="/social-good/goals-progress/" title="How are we going to get there? Find out.">See our goals, progress and results ></a></p>
+            	<p class="align_justify">Fundamental human rights include a secure livelihood, basic social services, safety, a voice, and equality. For clean water, wells are just the start. Water projects lead to sanitation training, installed latrines and simple hand-washing stations. By building schools, a dedication to lasting education remains a part of our campaign. Concerning global health, malaria is a big problem with a simple solution, bed nets.  The nets can reduce transmission of malaria by as much as 90%.  As for agricultural development, small-scale farmers around the world receive supplies and support for developing sustainable farming methods.  We want to see actual results and not just a dollar amount being thrown at a problem.<br/><br/><a href="/social-good/goals-progress/" title="How are we going to get there? Find out.">See our goals, progress and results ></a></p>
             	
         	</div>
         </div>
+        
+        -->
         
     </div>
 
 <?php require("include/footer.php"); ?>
     
-    <!-- coda plugins (combine into 1) -->
-	<script src="/core/libs/jquery.codaCombined.min.js" type="text/javascript"></script>
+    <!-- coda plugins (combine into 1) 
+	<script src="/core/libs/jquery.codaCombined.min.js" type="text/javascript"></script> -->
 	
 	<script type="text/javascript">
-	    $(document).ready(function(){
+	    /* $(document).ready(function(){
             
 	        // when the DOM is ready...
             
@@ -313,7 +317,7 @@
 				}, 800);
 			});
 			
-	    });
+	    }); */
 	</script> 
     
 </body>

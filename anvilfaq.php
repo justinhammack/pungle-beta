@@ -29,64 +29,72 @@
     <div class="row">
         <div class="col col_16">
         	
+            <h3>Shopping</h3>
         	<p>
         		<b>If it's free to use, where does the money come from?</b><br/>
-        		pungle collects advertising revenue by promoting vendors through our anvil shopping tool; at absolutely <strong>no expense</strong> to our community. <!-- Consider it a levy against companies that already pad their prices with a margin, we just reclaim it in the name of social good. Yes, this is a little bit like Robin Hood.--> We also make/source awesome products, check out our store!
+        		Pungle collects advertising revenue by promoting vendors through our shopping tool; at absolutely <b>no expense</b> to our community. We also make/source our own awesome products, check out our <a href="http://pungle.storenvy.com/" target="_blank" title="Pungle Products!">Pungle Products</a>!
       		</p>
       		<br/>
             <p>
         		<b>How do I know if it's working?</b><br/>
-        		If the store loads, it's working! Your job is to shop, our job is to take care of all the behind the scene details. Have fun!
+        		You should see a verification page and if the store loads, it's working! Your job is to shop, our job is to take care of all the behind the scene details. Don't worry, have fun!
       		</p>
       		<br/>
       		<p>
         		<b>What if the store I want to shop at isn't listed?</b><br/>
-        		Just let us know and we'll start working towards building a relationship with your favorite store and get them on the anvil ASAP.
+        		Just let us know and we'll start building a relationship with your favorite store to get them onboard ASAP.
       		</p>
       		<br/>
       		<p>
-        		<b>Can I shop at stores that don't have a heart?</b><br/>
-        		Stores with a heart are the only ones currently contributing to our social good campaign, however, this changes on a day to day basis. For the most part, you should just pick your favorite stores and let us manage the relationships! It's more important that you remember to always shop through the anvil.
+      		    <b>What is this <img src="/images/highfive24x24.png">?</b><br/>
+      		    That is the high-five symbol indicating we have an agreement with that vendor. When you make a purchase at one of these stores a portion of the proceeds goes to one of the causes we are currently supporting. <i>p.s. High fives are better than handshakes.</i>
       		</p>
       		<br/>
       		<p>
-        		<b>What exactly does social good enabled mean?</b><br/>
-        		That in some way the vendor is contributing to our social good campaign when you visit their site through our anvil tool. The details can vary greatly depending on the vendor and our arrangement with them.
+        		<b>Can I shop at stores that don't have a high five?</b><br/>
+        		Stores with a high five are the only ones currently contributing to our causes, however, this can change on a day to day basis. For the most part, you should just pick your favorite stores, setup your bookmarklet and let us manage the relationships! It's more important that you remember to always shop through our tool.
+      		</p>      		
+      		<br/>
+      		<h3>Causes</h3>
+      		<p>
+        		<b>How do you select the nonprofits for each cause?</b><br/>
+        		To maximize the effectiveness of the donations, we keep a tight grasp on only the most focused nonprofits having discrete and measurable goals without a lot of top-heavy bureaucracy. In order for this to work, our list of nonprofits and causes need to be in line with things you want changed. Let us know if you don't see the causes most important to you.
       		</p>
       		<br/>
       		<p>
-        		<b>How much money does each store earn for social good?</b><br/>
-        		Every store is different and some arrangements are fairly complicated. In the interest of fairness between stores, we're choosing to keep this information confidential. Any support from a vendor earns them a red heart. More importantly, we donate 100% of the profits to charities in our <a href="/social-good/cause-portfolio/" title="Where all the phat loot goes!">cause portfolio</a>.
+        		<b>How much money does each store earn for the causes?</b><br/>
+        		Every store is different and some arrangements are fairly complicated. In the interest of fairness between stores, we're choosing to keep this information confidential. Any support from a vendor earns them a high five.
       		</p>
       		<br/>
       		<p>
         		<b>What causes are you currently supporting?</b><br/>
-        		Check out our <a href="/social-good/cause-portfolio/" title="See what Nonprofits we currently fund.">cause portfolio</a> for up to date distribution ratios.
-      		</p>
-      		<br/>
-      		<p>
-        		<b>What progress has been made so far?</b><br/>
-        		Great question, see our <a href="/social-good/goals-progress/" title="Check out our goals and track our progress.">goals & progress</a> page for more information!
-      		</p>
+        		Check out our <a href="/cause-portfolio/" title="See what Nonprofits we currently fund.">Causes & Progress</a> page for up to date details.
+      		</p>      		
       		<br/>
       		<p>
       			<b>How do I know you're not hoarding all the money?</b><br/>
-      			We're a legitimate business in Seattle, WA. You can view actual results on our <a href="/social-good/goals-progress/" title="Check out our goals and track our progress.">goals & progress</a> page. Also, we're pretty transparent with who's who on our <a href="/about-us/" title="Who?">about us</a> page. If you're still in doubt, visit our <a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="pungle facebook">facebook page</a> and ask our crazy fans if we're trustworthy.
+      			We're a legitimate business in Seattle, WA. You can view actual results on our <a href="/cause-portfolio/" title="Check out our goals and track our progress.">Causes & Progress</a> page. Also, we're pretty transparent with our <a href="/financial/" title="Financial Details">Financial Details</a>. If you're still in doubt, visit our <a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="pungle facebook">facebook page</a> and ask our crazy fans if we're trustworthy.
       		</p>      		
       		<br/>
       		<p>
       			<b>Can I deduct for pungling on my taxes?</b><br/>
-      			Sorry, social good is a gesture, not an actual donation and isn't tax deductable. You'll have to do it the old fashioned way, donate your own money (which is tax deductable) to a charity directly.
+      			Sorry, social good is a gesture, not an actual donation and isn't tax deductable. You'll have to do it the old fashioned way.
+      		</p>
+      		<br/>
+      		<h3>Pungle</h3>
+      		<p>
+        		<b>Can I donate to pungle?</b><br/>
+        		That would be awesome, but why donate when you can get something in return? We offer <a href="http://pungle.storenvy.com/" target="_blank" title="Pungle Products!">Pungle Products</a> which allow us to Keep the lights on by offseting operating costs. Please buy a bunch of pungle shirts and wear them in crowded areas. Then tell your facebook friends about us and our attractive shirts. Also coming soon is the ability to donate directly to the nonprofits, allowing you to join the Pungle community in group donating!
       		</p>
       		<br/>
       		<p>
-        		<b>Can I donate to pungle?</b><br/>
-        		Thanx for asking, but we don't take donations. We'll have some swag up pretty soon. Also coming soon is the ability to donate directly to the charities for our specific campaigns.
+        		<b>Why do you make your own products? Seems hard..</b><br/>
+        		Pungle is more than a shopping tool, we are a growing community interested in forging a more sustainable consumer culture. Not only do we need to get our name out there with some Pungle branded loot, we are exploring new types of vendor/supplier relationships and making the entire manufacturing chain transparent. <a href="http://blog.pungle.me/post/6591012568/pungle-high-five-t-shirt" target="_blank" title="T-Shirt Infographic">Check out how our High-Five t-shirts were made.</a>
       		</p>
       		<br/>
       		<p>
         		<b>This is crazy exciting, how else can I help?</b><br/>
-        		First, make sure you 'like' our <a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="pungle facebook">facebook page</a> to stay updated. Next, get your friends and family involved, <b>share pungle</b> with anyone that will listen. Then come back to our <a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="pungle facebook">facebook page</a> to brag about how many people you've turned on to pungle so we can praise you.
+        		First, make sure you 'like' our <a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="pungle facebook">facebook page</a> to stay updated. Next, get your friends and family involved, <b>share pungle</b> with anyone that will listen. Then come back to our <a href="http://www.facebook.com/pungleDOTorg" target="_blank" title="pungle facebook">facebook page</a> to brag about how many people you've turned on to Pungle so we can praise you.
         		<!-- AddThis Button BEGIN -->
 						<div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="http://pungle.me" addthis:title="it's pungle time!" addthis:description="social good via online retail">
 							<a class="addthis_button_preferred_1"></a>
@@ -104,12 +112,12 @@
       		<br/>
       		<p>
         		<b>I want to work for pungle. Hire me, pls, k, thx.</b><br/>
-        		That's not a question! We're not hiring at the moment, but if you want to volunteer some time to show off your mad skills... <a href="/about-us/">Contact us</a>.
+        		That's not a question! Feel free to send us your resume or volunteer for internship here: <a href="/about-us/contact/">Contact Us</a>.
       		</p>
       		<br/>
       		<p>
-        		<b>Where do I get help or make a suggestion?</b><br/>
-        		Please <a href="mailto:info@pungle.me">contact us</a> immediately!
+        		<b>Where do I get help or make a suggestion or complain?</b><br/>
+        		Please <a href="mailto:info@pungle.me">email us</a> immediately!
       		</p>
       		
       	</div>
