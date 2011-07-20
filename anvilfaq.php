@@ -107,7 +107,7 @@
       		<br/>
       		<p>
         		<b>When will you be in Canada or the UK?</b><br/>
-        		Soon! For the beta release we are just in the US, but we have plans for Canada and UK!
+        		Soon! For the beta release we are just in the US, but we have plans for Canada and UK! We are also constructing our main offices in Minecraft. Tours available soon.
       		</p>
       		<br/>
       		<p>

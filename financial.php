@@ -60,7 +60,7 @@
         	
         	<div class="col col_16 align_justify">
         	    <p><b>Pungler Impact Rating (PIR)</b> is the efficiency of the <a href="/shop/" title="Shop Tool">Shop Tool</a>. We guarantee a minimum of 35%. Our goal is 100%!</p>
-        		<p><b>100% PIR</b> - To reach our goal we'll need to offset operating costs through alternative income. You can help raise the PIR by shopping at the <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!">Pungle KTLO Store</a> <i>'keep the lights on'</i>.  Why not show your support and buy a sweet piece of loot today? It's a win-win scenario!</p>
+        		<p><b>100% PIR</b> - To reach our goal we'll need to offset operating costs through alternative income. You can help raise the PIR by shopping for <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!">Pungle Products</a>. Why not show your support and help <i>keep the lights on</i>? It's a win-win scenario!</p>
         	</div>
         	
         </div>
@@ -83,10 +83,10 @@
     **/<br/>
         /* First the income & expenses are expressed as variables. */
         SHOP = ' income from Shop Tool '
-        KTLO = ' income from KTLO Store "keep the lights on" '
+        PROD = ' income from Pungle Products '
         EXPENSES = ' capped at 65% of gross income ' /* guarantees at least 35% PIR */<br/>        
         /* How we calculate the donation amount: */
-        if (EXPENSES > KTLO) then DONATIONS = SHOP + KTLO - EXPENSES
+        if (EXPENSES > PROD) then DONATIONS = SHOP + PROD - EXPENSES
         else DONATIONS = SHOP /* 100% PIR donation efficiency!! woohoo! */<br/>
 </pre>
 </p>
@@ -107,8 +107,8 @@
         	<div class="col col_16 align_justify">
         		<p><b>DONATIONS</b> means the total amount of donations made by pungle on behalf of its users.</p>
         	    <p><b>SHOP</b> means the Shop Tool, a free to use web application/service offered on this site. Users shop at 3rd party stores where pungle generates revenue through marketing and in turn donates the income to high impact causes.</p>        		
-        		<p><b>KTLO</b> means <i>'keep the lights on'</i> and refers to the pungle brand store which offers products which help offset operating costs. With the goal to allow up to 100% of Shop Tool income to be donated if all expenses are paid by KTLO products! =)</p>        		
-        		<p><b>EXPENSES</b> means operational expenses hard capped at 65% of total gross income. This guarantees a minimum of 35% PIR. If expenses exceed the hard cap, it comes out of our pockets. Operational expenses cover all costs of doing business.</p>        		
+        		<p><b>PROD</b> means Pungle Products and refers to the pungle brand items we sell to help offset operating costs and <i>'keep the lights on'</i>. The goal is to allow up to 100% of Shop Tool income to be donated if all expenses are paid by Pungle Products! =)</p>        		
+        		<p><b>EXPENSES</b> means operational expenses hard capped at 65% of total gross income. This guarantees a minimum of 35% PIR. If expenses exceed the hard cap, it comes out of our pockets. Operational expenses cover all costs of doing business. (utilities, servers, development, etc.)</p>        		
         		<p>
         		    <small>
                         <br/>

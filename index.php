@@ -23,7 +23,7 @@
 	    body {
             padding: 0;
             margin: 0;
-            background: url('/images/PUkittycorn_frontpage.jpg') no-repeat center 453px;
+            background: url('/images/PUkittycorn_frontpage.jpg') center 402px no-repeat;
             
             width: 100%;
             display: table;
@@ -60,7 +60,7 @@
 	    } */
         
 	    #subfooter {display: none;}
-	    #footer_wrapper { margin-top: 50px; background: none; }
+	    #footer_wrapper { margin-top: 135px; background: none; }
 	    
         #mce-FNAME { margin-top: 5px; width: 293px; }
         #mce-EMAIL { margin-top: 5px; width: 220px; }
@@ -82,14 +82,18 @@
 	    <div class="row">
 	        
 	        <div class="col col_10 align_center">
-	            <img src="/images/PUmaximizepower.png" width="480" height="336" alt="Maximize your buying power." title="Maximize your buying power." />	            
+	            <br/>
+	            <img src="/images/PU_headline448x197.png" width="448" height="197" alt="Save the world." title="Save the world." />	            
 	            
-	            <!-- <p>
-	                <span style="font: 22px/34px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;" class="align_justify">Turn your purchases into high impact donations. <b>100% free.</b></span>
-	            </p> 
+	            <p>
+	                <span style="font: 16px/23px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;">Use our <a style="color: #0664bb" href="/shop/" title="Shopping Tool">Shopping Tool</a> to turn your<br/> purchases into donations.</span>
+	            </p>
+	            
+	            <!--
 	            <p>
 	                <b>Ready to save the world?</b>
-	            </p>-->
+	            </p>            
+                -->
 	        </div>
 	        
 	        <div class="col indexForm">
@@ -146,7 +150,7 @@
 	                <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=179859935402175&amp;xfbml=1"></script><fb:like href="https://www.facebook.com/pungleDOTorg" send="false" width="300" show_faces="true" font="arial"></fb:like>
 	                
 	            <img src="/images/PU_step3.png" width="270" height="28" alt="Step 3" title="Step 3" class="imageBuffer" />	            
-	            <a style="margin: 0 75px;" class="dribbble" href="/shop/" title="Setup the shopping tool!">Next ></a>
+	            <a style="margin: 0 75px;" class="dribbble" href="/tutorial/" title="Setup the shopping tool!">Next ></a>
 	        </div>
 		</div>
 		
@@ -206,10 +210,11 @@
 	    });
 	</script> 
     
-	<!-- put this here because it can stall out like a fighter jet going vertical -->
+	<!-- put this here because it can stall out like a fighter jet going vertical 
 	<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=pungle"></script>
-
+    -->
+    
     <!-- mail chimp script -->
     <script type="text/javascript">
         var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';

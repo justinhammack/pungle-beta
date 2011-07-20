@@ -69,7 +69,7 @@
         <!-- empowerment -->
         <div id="EMP" class="row">
             <div class="col col_5 align_center">
-                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+                <img src="/images/ci_empowerment256x256.png" width="256" height="256" alt="empowerment icon" />
             </div>
             <div class="col col_11 justify">
                 <h3>Empowerment</h3>
@@ -77,7 +77,7 @@
                     <b>Goal: </b>To create social enterprises that strengthen individuals and communities by providing solutions that spur economic opportunity, promote dignity, & save lives.
                 </p>
                 <p>                    
-                    <b>Campaign: </b>In Kenya $1 invested in agricultural pumps creates $15 in profits & wages; creating a snowball effect that ends poverty @ about $60/person.
+                    <b>Campaign: </b>~$60/person, creates opportunity to end poverty for an individual by providing agricultural tools. Rate of economic stimulation projected at 15($N).
                 </p>
                 <p>
                     <b>NPO: <a href="http://theadventureproject.org/" target="_blank">The Aventure Project</a></b>
@@ -88,7 +88,7 @@
         <!-- potable water -->
         <div id="POT" class="row">
             <div class="col col_5 align_center">
-                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+                <img src="/images/ci_water256x256.png" width="256" height="256" alt="potable water icon" />
             </div>
             <div class="col col_11 justify">
                 <h3>Potable Water</h3>
@@ -96,7 +96,7 @@
                     <b>Goal: </b>To provide clean water as a basic human right to the ~1 BILLION people who don't have access to it. To be used for drinking, agriculture and sanitation.
                 </p>
                 <p>                    
-                    <b>Campaign: </b>Train technicians, build wells & develop sustainable water infastructure for developing nations @ $20/person or $5,000/village.
+                    <b>Campaign: </b>$20/person or $5,000/village, trains technicians, build wells & creates sustainable water infastructure.
                 </p>
                 <p>
                     <b>NPO: <a href="http://www.charitywater.org/" target="_blank">charity: water</a></b>
@@ -107,37 +107,18 @@
         <!-- technology -->
         <div id="TEC" class="row">
             <div class="col col_5 align_center">
-                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+                <img src="/images/ci_technology256x256.png" width="256" height="256" alt="technology icon" />
             </div>
             <div class="col col_11 justify">
                 <h3>Technology</h3>
                 <p>                    
-                    <b>Results: </b>
+                    <b>Goal: </b>To support development & distribution of innovative, life-changing technologies.
                 </p>
                 <p>  
-                    <b>Purpose: </b>
+                    <b>Campaign: </b>$30/unit, provides solar powered light and electricity for remote areas.
                 </p>
                 <p>
-                    <b>NPO: <a href="" target="_blank"></a></b>
-                </p>
-            </div>
-        </div>
-        
-        <!-- clean energy -->
-        <div id="CLE" class="row">
-            <div class="col col_5 align_center">
-                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
-            </div>
-            <div class="col col_11 justify">
-                <h3>Clean Energy</h3>
-                <p>                    
-                    <b>Results: </b>
-                </p>
-                <p>  
-                    <b>Purpose: </b>
-                </p>
-                <p>
-                    <b>NPO: <a href="" target="_blank"></a></b>
+                    <b>NPO: <a href="http://kopernik.info/" target="_blank">Kopernik</a></b>
                 </p>
             </div>
         </div>
@@ -145,18 +126,18 @@
         <!-- nature -->
         <div id="NAT" class="row">
             <div class="col col_5 align_center">
-                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+                <img src="/images/ci_nature256x256.png" width="256" height="256" alt="nature icon" />
             </div>
             <div class="col col_11 justify">
                 <h3>Nature</h3>
                 <p>                    
-                    <b>Results: </b>
+                    <b>Goal: </b>To preserve the plants, animals and natural ecosystems that represent the diversity of life on Earth. To leave a sustainable world for future generations.
                 </p>
                 <p>  
-                    <b>Purpose: </b>
+                    <b>Campaign: </b>$1/tree to restore the endangered Antlantic Forest of Brazil.
                 </p>
                 <p>
-                    <b>NPO: <a href="" target="_blank"></a></b>
+                    <b>NPO: <a href="http://www.plantabillion.org/" target="_blank">Plant a Billion Trees</a></b>
                 </p>
             </div>
         </div>
@@ -164,7 +145,7 @@
         <!-- education -->
         <div id="EDU" class="row">
             <div class="col col_5 align_center">
-                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+                <img src="/images/ci_education256x256.png" width="256" height="256" alt="education icon" />
             </div>
             <div class="col col_11 justify">
                 <h3>Education</h3>
@@ -172,7 +153,7 @@
                     <b>Goal: </b>To create the best possible opportunities for our students to succeed by providing the necessary tools to teachers and classrooms in need.
                 </p>
                 <p>  
-                    <b>Campaign: </b>Varies. Multiple projects handled simultaneously. ~$100-$500/classroom.
+                    <b>Campaign: </b>~$100-$500/classroom, multiple projects handled simultaneously.
                 </p>
                 <p>
                     <b>NPO: <a href="http://www.donorschoose.org/" target="_blank">Donors Choose</a></b>
@@ -183,34 +164,34 @@
         <!-- vaccinations -->
         <div id="VAC" class="row">
             <div class="col col_5 align_center">
-                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+                <img src="/images/ci_vaccinations256x256.png" width="256" height="256" alt="vaccination icon" />
             </div>
             <div class="col col_11 justify">
                 <h3>Vaccinations</h3>
                 <p>                    
-                    <b>Results: </b>
+                    <b>Goal: </b>To stop the spread of life threatening infectous diseases through prevention or cure administered by immunization.
                 </p>
                 <p>  
-                    <b>Purpose: </b>
+                    <b>Campaign: </b>$1/person for vaccinations against meningitis, measles, polio and other deadly epidemics.
                 </p>
                 <p>
-                    <b>NPO: <a href="" target="_blank"></a></b>
+                    <b>NPO: <a href="http://www.doctorswithoutborders.org/" target="_blank">Doctors Without Borders</a></b>
                 </p>
             </div>
         </div>
         
-        <!-- carbon emissions -->
-        <div id="CAR" class="row">
+        <!-- clean energy -->
+        <div id="CLE" class="row">
             <div class="col col_5 align_center">
-                <img src="/images/256icon.png" width="256" height="256" alt="PLACEHOLDER" />
+                <img src="/images/ci_carbondioxide256x256.png" width="256" height="256" alt="carbon emissions icon" />
             </div>
             <div class="col col_11 justify">
-                <h3>Carbon Emissions</h3>
+                <h3>Clean Energy</h3>
                 <p>                    
-                    <b>Goal: </b>To offset Pungle's carbon emissions that can not be reduced further.
+                    <b>Goal: </b>To offset carbon emissions that can not be reduced further. This offsets 100% of your carbon emissions while using Pungle.
                 </p>
                 <p>  
-                    <b>Campaign: </b>Carbon footprint is 1.02 tonnes CO2 @ $10.22/mo
+                    <b>Campaign: </b>$1 offsets 220.5 lbs CO2. 
                 </p>
                 <p>
                     <b>NPO: <a href="http://www.carbonfund.org" target="_blank">Carbon Fund</a></b>
@@ -350,7 +331,7 @@
                 r.g.txtattr.font = "13px Arial, Verdana, Helvetica, sans-serif";
                 
                 /* colors 3fb1f3 68dc72 3cece2 e3e948 ff849e cb92e9 ffa250 eb6f4e */
-                var pie = r.g.piechart(180, 170, 150, [14, 14, 14, 14, 14, 14, 14, 2], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#42e4de", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Empowerment", "%% Potable Water", "%% Technology", "%% Clean Energy", "%% Nature", "%% Education", "%% Vaccinations", "%% Carbon Offset"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollCLE", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCAR"]});
+                var pie = r.g.piechart(180, 170, 150, [15, 15, 15, 15, 15, 15, 10], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Empowerment", "%% Potable Water", "%% Technology", "%% Nature", "%% Education", "%% Vaccinations", "%% Clean Energy"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCLE"]});
                 pie.hover(function () {
                     this.sector.stop();
                     this.sector.scale(1.1, 1.1, this.cx, this.cy);

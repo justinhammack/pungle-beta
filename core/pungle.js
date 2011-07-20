@@ -6,7 +6,7 @@ var pungle = (function ($) {
 	
     // namespace variables
 	var storeOrder = [];
-	var storeOrderDefault = [0,29,115,9,4,5]; // default store order if no cookie or hash
+	var storeOrderDefault = [0,140,115,114,84,5]; // default store order if no cookie or hash
 	var imagePath = '/images/'; // set path for images (can swap with CDN)
 	var imageStoresPath = 'http://c190157.r57.cf1.rackcdn.com/'; // set path for images (can swap with CDN)
 	var cookieStore = 'storeorder'; // cookie to hold the user specified store order

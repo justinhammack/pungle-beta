@@ -73,6 +73,20 @@
 	    .tagFavIcon.ui-state-active { background-image: url('/images/star16x16.png'); background-position: center; background-repeat: no-repeat; }
 	    .tagAfflIcon.ui-state-active { background-image: url('/images/highfive16x16.png'); background-position: center; background-repeat: no-repeat; }
 	    
+	    #dragit { 
+	        display: none;
+	        background: transparent url('/images/bookmarklet_drag206x109.png') center center no-repeat;
+	        width: 206px;
+	        height: 109px;
+	        position: absolute;
+	        right: 5px;
+	        bottom: 15px;
+	        z-index: 8000;
+        }
+        
+        #pungleBookmarklet { position: relative; z-index: 9000; }
+        #pungleBookmarklet.dribbble:hover #dragit { display: block; }
+        
     </style>
     
 </head>
@@ -81,11 +95,13 @@
 <?php require("include/nav.php"); ?>
 
     <div id="subheader" class="clearfix">
-        <div class="row">
+        <div class="row" style="overflow: visible;">
             <div class="col col_6"><h1 style="display: inline-block"><b>Shop</b> Tool</h1></div>
-            <div class="col col_10" style="padding-top: 8px;">
+            <div class="col col_10" style="padding-top: 8px; overflow: visible;">
                 <img style="align: middle;" src="/images/PU_bookmarklet_text.png" width="187" height="30" alt="After setting up your stores, drag the button to your bookmarks.">
-                <a id="pungleBookmarklet" class="dribbble" style="display: inline-block; margin-left: 0px;" title="Shop bookmarklet, drag to your bookmark bar!"  href="#" >+ Shop Pungle</a>                
+                <a id="pungleBookmarklet" class="dribbble" style="display: inline-block; margin-left: 0px;" title="Shop bookmarklet, drag to your bookmark bar!"  href="#" >+ Pungle
+                    <span id="dragit"></span>
+                </a>                
             </div>
         </div>
     </div>

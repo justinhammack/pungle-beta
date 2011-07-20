@@ -171,17 +171,17 @@
         
         <div id="storeBtnFrame">            
     	    
-            <a id="storeBtn" href="http://pungle.storenvy.com" title="Shop at the pungle store to raise the pIR!" target="_blank">
-                <img style="float: left; margin-right: 4px; vertical-align: middle;" src="/images/highfive24x24.png" width="24" height="24" />PUNGLE STORE
+            <a id="storeBtn" href="http://pungle.storenvy.com" title="Shop at the pungle store to raise the PIR!" target="_blank">
+                <img style="float: left; margin-right: 4px; vertical-align: middle;" src="/images/highfive24x24.png" width="24" height="24" />Pungle Products
             </a>
             
         </div>
         
-        <div id="mbp">            
+        <!-- <div id="mbp">            
     	    
             <a id="mbpRating" href="/financial/" title="Current donation efficiency, help us raise it." target="_blank">35% PIR</a>
             
-        </div>
+        </div> -->
         
     </div>
     

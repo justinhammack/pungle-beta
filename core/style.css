@@ -143,6 +143,7 @@ nav ul.navigation li ul {
     -webkit-box-shadow: 1px 1px 2px #CCC;
     box-shadow: 1px 1px 2px #CCC;*/    
     display: none;
+    z-index: 10000;
 }
 nav ul.navigation li:hover ul { display: block; }
 /* nav ul.navigation li:hover a { color: #FABE00; } */
