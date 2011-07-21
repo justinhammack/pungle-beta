@@ -20,6 +20,11 @@
 <body>
 <?php require("include/nav.php"); ?>
 
+    <div id="subheader" class="clearfix">
+        <div class="row">
+            <div class="col col_16"><h1 style="display: inline-block"><b>BOLD</b> SUBJECT</h1></div>
+        </div>
+    </div>
     
     <div id="content" class="clearfix">
         <!-- <div class="row">

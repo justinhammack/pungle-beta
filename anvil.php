@@ -108,7 +108,7 @@
     
 	<div id="content" class="clearfix">
 		
-	<a id="KTLOStore" href="http://pungle.storenvy.com/" target="_blank" title="Help us keep the lights on; shop at the pungle store!">KTLO Store</a>
+	<a id="KTLOStore" href="http://pungle.storenvy.com/" target="_blank" title="Help us keep the lights on; buy pungle products!">Pungle Products</a>
 	<!-- <div class="row">
       <div class="col col_16">      		
       	<a id="pungleBookmarklet" class="right" href="">bookmarklet</a>
@@ -219,7 +219,7 @@
 	<!-- version this file to force reload -->
 	<!-- 3/27/11 set v=3 -->
 	<script src="/core/pungleJSON.js"></script>
-	<script src="/core/pungle.js?v=3"></script>
+	<script src="/core/pungle.js?v=4"></script>
 	    
 	<script src="/core/libs/jquery.ui.selectmenu.js"></script>
 	<script src="/core/jquery.quicksearch.js"></script>

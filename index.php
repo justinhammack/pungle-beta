@@ -8,8 +8,8 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
-	<title>Save the world! | pungle.me</title>
-	<meta name="description" content="The apocalypse is imminent.. it's time to save the world! Join pungle.me to maximize your impact.">
+	<title>Social Good! | pungle.me</title>
+	<meta name="description" content="Social good that's free, easy, and makes a difference when shopping online.">
 	<meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
 	
@@ -41,24 +41,6 @@
 	        box-shadow: none;
         }
         
-        /* nav {
-            -webkit-box-shadow: 0 0 3px #003b74;
-	        -moz-box-shadow: 0 0 3px #003b74;
-	        box-shadow: 0 0 3px #003b74;
-	        right: 52px; 
-            bottom: 84px;
-            background-color:#FFF;
-        }
-        nav ul li { float:left; padding: 8px 8px 8px 10px; }
-        nav ul li.parentNav { padding: 8px 7px 8px 0px; }
-        nav ul.navigation li ul { top: 36px; }
-        
-        #header_wrapper { background: none; }
-        
-        #header {
-	        height: 140px;
-	    } */
-        
 	    #subfooter {display: none;}
 	    #footer_wrapper { margin-top: 135px; background: none; }
 	    
@@ -83,22 +65,17 @@
 	        
 	        <div class="col col_10 align_center">
 	            <br/>
-	            <img src="/images/PU_headline448x197.png" width="448" height="197" alt="Save the world." title="Save the world." />	            
+	            <img src="/images/PU_headline448x197.png" width="448" height="197" alt="Save the World" title="Save the World" />	            
 	            
 	            <p>
 	                <span style="font: 16px/23px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;">Use our <a style="color: #0664bb" href="/shop/" title="Shopping Tool">Shopping Tool</a> to turn your<br/> purchases into donations.</span>
 	            </p>
 	            
-	            <!--
-	            <p>
-	                <b>Ready to save the world?</b>
-	            </p>            
-                -->
 	        </div>
 	        
 	        <div class="col indexForm">
 	            <img src="/images/PU_step1.png" width="169" height="28" alt="Step 1" title="Step 1"/><br/>
-	            <small>Sign up to receive exclusive updates, discounts and early access to the official release.</small>
+	            <small>Sign up to get exclusive goodies & treats we only share with our favorite people.</small>
 	            <!-- Begin MailChimp Signup Form -->
 	            
                     <script type="text/javascript">
@@ -112,26 +89,12 @@
                             <fieldset>
                                 
                                 <div class="mc-field-group">
-                                    
-                                    <!-- <label for="mce-FNAME">First Name </label> -->
-                                    
                                     <input type="text" placeholder="Full Name" value="" name="FNAME" class="" id="mce-FNAME">
-                                    
                                 </div>
                                 <div class="mc-field-group">
-                                    
-                                    <!-- <label for="mce-EMAIL">Email Address <strong class="note-required">*</strong></label> -->
-                                    
                                     <input type="text" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">                                    
                                     <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="signup">
                                 </div>
-                                <!-- <div class="mc-field-group">
-                                    
-                                    <label for="mce-LNAME">Last Name </label>
-                                    
-                                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                                    
-                                </div> -->
                 		        <div id="mce-responses">
                 		            
                 		            <div class="response" id="mce-error-response" style="display:none"></div>

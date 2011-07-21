@@ -4,8 +4,8 @@
     <meta name="google-site-verification" content="md946IN13FSC3e2OGYEp6nV146DZr0wlyWEoJWWth8A" />
     
     <meta property="og:title" content="I'm a pungler!" />
-    <meta property="og:description" content="Pungling is responsible shopping; where your puchases help make the world a better place." />
-    <meta property="og:image" content="http://pungle.me/images/PRfbshareimage312x280.jpg" />
+    <meta property="og:description" content="Where social good is free, easy, and makes a difference." />
+    <meta property="og:image" content="http://pungle.me/images/PRfbshareimage72x72.jpg" />
 
     <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -19,7 +19,7 @@
   
     <!-- CSS : implied media="all" -->
     <!-- 4/15/11 set v=4 -->
-    <link rel="stylesheet" href="/core/style.css?v=4">
+    <link rel="stylesheet" href="/core/style.css?v=5">
     <!-- <link rel="stylesheet" href="core/style-min.css?v=2"> -->
 
     <!--[if lt IE 9]>

@@ -246,6 +246,8 @@ FileETag None
   
   RewriteRule ^bookmarklet/ ./bookmarklet.php
   
+  RewriteRule ^survey/ ./survey-7-20.php
+  
   # RewriteRule ^social-good/goals-progress/ ./progress.php
   # RewriteRule ^threads/(\d+)*$ ./thread.php?id=$1
   # RewriteRule ^search/(.*)$ ./search.php?query=$1

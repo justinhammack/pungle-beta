@@ -8,7 +8,7 @@
 			?>
 			
 			<!-- <a id="headerImage" href="/" title="pungle time!">pungle<img src="/images/pungle_me_logo.png" width="199" height="58" /></a> -->
-			<?php if ($pfile=="index.php") { ?> <a href="/" title="Time to save the world.."><h1 class="headerBannerInterior">Save the World</h1></a> <?php }
+			<?php if ($pfile=="index.php") { ?> <a href="/" title="Social Good"><h1 class="headerBannerInterior">Social Good</h1></a> <?php }
 			else { ?> <a class="headerBannerInterior" href="/" title="Time to save the world..">pungle</a> <?php } ?>
 			
 			<!-- <div class="header_social">
