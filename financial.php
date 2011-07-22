@@ -60,7 +60,7 @@
         	
         	<div class="col col_16 align_justify">
         	    <p><b>Pungler Impact Rating (PIR)</b> is the efficiency of the <a href="/shop/" title="Shop Tool">Shop Tool</a>. We guarantee a minimum of 35%. Our goal is 100%!</p>
-        		<p><b>100% PIR</b> - To reach our goal we'll need to offset operating costs through alternative income. You can help raise the PIR by shopping for <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!">Pungle Products</a>. Why not show your support and help <i>keep the lights on</i>? It's a win-win scenario!</p>
+        		<p><b>100% PIR</b> - To reach our goal we'll need to offset operating costs through alternative income. You can help raise the PIR by shopping for <a href="http://pungle.storenvy.com/" title="Help keep the lights on, shop for sweet pungle loot!" target="_blank">Pungle Products</a>. Why not show your support and help <i>keep the lights on</i>? It's a win-win scenario!</p>
         	</div>
         	
         </div>

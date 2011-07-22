@@ -28,71 +28,32 @@
     
     <div id="content" class="clearfix">
       
+        <div class="row">
+            <div class="col col_16 align_center">
+                <br/><br/>
+                <iframe width="853" height="510" src="http://www.youtube.com/embed/qeyHQrszeC8?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        
       <div class="row">
       	
         <div class="col col_16">
-        	<small>Oh, you want the short version? Ok. Click a store, shop, tell your friends, rinse & repeat. Go get 'em tiger.
-        	    <br/><br/>
-        	    <b>TEXT BRICK (video coming soon):</b> The anvil is a customizable shopping interface; your starting point for epic shopping adventures.  There are two pieces to this pie, an overview area for store buttons and an 'all stores' container with a list of, well, all our stores.  The overview saves and holds your favorite online stores for easy access.  To choose stores you want added to the overview, find them in the all stores container and click the plus sign.  Likewise, to remove a store, click the minus sign.  The 'clear stores' button will remove all stores in your overview and 'restore defaults' will reset your overview to the original stores.  When you're ready for an adventure, click a store button or deal icon and away you go.  Stores do not have to be added to your overview to visit them, you can shop directly from the all stores container.
-        	</small>
-        	<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
+        	<br/><br/>
+        	<b>Read Along:</b>
+    	    <ol>
+    	        <li>This is the Pungle shopping tool setup page</li>
+    	        <li>The large store buttons at the top are your favorite stores. you can change their order by dragging them by the + icon in their upper right corner.</li>
+    	        <li>You can add and remove stores as you please by clicking the star icon in the list of stores below.</li>
+    	        <li>The high five icon indicates if that store has an agreement with pungle that will result in a high impact donation.</li>
+    	        <li>When you get your favorite stores selected, and ordered how you like, simply drag the (SHOP PUNGLE) button up to your bookmarks in your brower's window.</li>
+    	        <li>By clicking this bookmark, your personalized pungle shop tool will open, displaying your favorited stores in your chosen sequence.</li>
+    	        <li>When you'd like to use the tool for shopping, simply open it and click through to the site of your choice. That's all it takes. Any purchases you make in that visit will create a percentage-based high impact donation to the causes in our portfolio.</li>
+    	        <li>(Click through to Amazon)</li>
+    	        <li>You can still shop from any of the other stores by using the search tool, (TYPE "DICK"  Click through to Dick's Sporting Goods)</li>
+    	        <li>Its as easy as that. Set up your tool, and start pungling today.</li>
+    	    </ol>        	
         </div>
       	
-      </div>  
-    	
-      <div class="row">
-        <div class="col col_16">
-        	
-        	<p>
-        		<h3>step 1 - understand the interface</h3>
-        		<img src="/images/step_1.jpg" title="Parts of the page" width="940" height="532" />
-      		</p>
-      		
-      	</div>
-      </div>
-      
-      <div class="row">
-        <div class="col col_16">
-        	
-        	<p>
-        		<h3>step 2 - review the icons</h3>
-        		<img src="/images/step_2.jpg" title="How to shop" width="940" height="532" />
-      		</p>
-      		
-      	</div>
-      </div>
-      
-      <div class="row">
-        <div class="col col_16">
-        	
-        	<p>
-        		<h3>step 3 - add or remove favorite stores</h3>
-        		<img src="/images/step_3.jpg" title="Add & remove stores from favorites" width="940" height="293" />
-      		</p>
-      		
-      	</div>
-      </div>
-      
-      <div class="row">
-        <div class="col col_16">
-        	
-        	<p>
-        		<h3>step 4 - organize your favorites</h3>
-        		<img src="/images/step_4.jpg" title="Drag & drop to organize stores" width="940" height="124" />
-      		</p>
-      		
-      	</div>
-      </div>
-      
-      <div class="row">
-        <div class="col col_16">
-        	
-        	<p>
-        		<h3>step 5 - how to start fresh</h3>
-        		<img src="/images/step_5.jpg" title="What the buttons do" width="940" height="124" />
-      		</p>
-      		
-      	</div>
       </div>
       
     </div>

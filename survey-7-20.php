@@ -39,7 +39,7 @@
 
                 
                 <input type="text" placeholder="<?php echo $placeHOLDER; ?>" id="emailForm">                
-                <input type="submit" class="signup" id="submitEmail" value="Update">
+                <input type="submit" class="signup" id="submitEmail" value="Submit">
 
                 <?php if ($showREF == true) { ?>
                     <br/><a href="/survey/?id=<?php echo $id; ?>">Link</a>
@@ -68,7 +68,7 @@
                         <b>Contest Rules & Regulations</b><br/>
                         1. Agreement: No purchase is necessary to enter the Contest. The act of entering the Contest constitutes acceptance of the Contest Rules and decisions of the Contest judge.<br/>
                         2. Sponsor(s): The Contest Sponsor is Pungle, LLC.<br/>
-                        3. Eligibility: The Contest is open to legal residents in the United States of America, 18 years of age and older, except for employees or contractors of the Contest Sponsor(s) or their advertising or promotional agencies or affiliates, and immediate families of or any one living with any employee or contractor of the Contest Sponsor(s) or their advertising or promotional agencies or affiliates. The Contest is void where prohibited by law. Contestants who reside in areas where the Contest is prohibited by law may participate in the Contest but will be ineligible for the prizes. Facsimiles and illegible entries are not acceptable. Chances of winning depend on the total number of eligible entries received. One entry per person.<br/>
+                        3. Eligibility: The Contest is open to legal residents in the United States of America, 18 years of age and older, except for employees or contractors of the Contest Sponsor(s) or their advertising or promotional agencies or affiliates, and immediate families of or any one living with any employee or contractor of the Contest Sponsor(s) or their advertising or promotional agencies or affiliates. The Contest is void where prohibited by law. Contestants who reside in areas where the Contest is prohibited by law may participate in the Contest but will be ineligible for the prizes. Facsimiles and illegible entries are not acceptable. Chances of winning depend on the total number of eligible entries received. One entry per person per household.<br/>
                         4. Contest Instructions: To enter, contestants must a) Fille out the survey found on this page.<br/>
                         5. Contest Period: This Contest runs July 20 – September 1, 2011. On September 1, 2011 at or around noon, a random draw of all eligible entries submitted will take place. The selected contestant will be contacted by a representative of Pungle and announced on our Facebook Page.<br/>
                         6. Prize(s): One winner will be chosen from all entries collected for the contest prize.   The prize for this contest will be a $20 Amazon Gift Card.<br/>
