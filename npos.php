@@ -80,7 +80,7 @@
                     <b>Campaign: </b>~$60/person, creates opportunity to end poverty for an individual by providing agricultural tools. Rate of economic stimulation projected at 15($N).
                 </p>
                 <p>
-                    <b>NPO: <a href="http://theadventureproject.org/" target="_blank">The Aventure Project</a></b>
+                    <b>NPO: <a href="http://theadventureproject.org/" target="_blank">The Adventure Project</a></b>
                 </p>
             </div>
         </div>
@@ -96,7 +96,7 @@
                     <b>Goal: </b>To provide clean water as a basic human right to the ~1 BILLION people who don't have access to it. To be used for drinking, agriculture and sanitation.
                 </p>
                 <p>                    
-                    <b>Campaign: </b>$20/person or $5,000/village, trains technicians, build wells & creates sustainable water infastructure.
+                    <b>Campaign: </b>$20/person or $5,000/village, trains technicians, build wells & creates sustainable water infrastructure.
                 </p>
                 <p>
                     <b>NPO: <a href="http://www.charitywater.org/" target="_blank">charity: water</a></b>
@@ -134,7 +134,7 @@
                     <b>Goal: </b>To preserve the plants, animals and natural ecosystems that represent the diversity of life on Earth. To leave a sustainable world for future generations.
                 </p>
                 <p>  
-                    <b>Campaign: </b>$1/tree to restore the endangered Antlantic Forest of Brazil.
+                    <b>Campaign: </b>$1/tree to restore the endangered Atlantic Forest of Brazil.
                 </p>
                 <p>
                     <b>NPO: <a href="http://www.plantabillion.org/" target="_blank">Plant a Billion Trees</a></b>
@@ -169,7 +169,7 @@
             <div class="col col_11 justify">
                 <h3>Vaccinations</h3>
                 <p>                    
-                    <b>Goal: </b>To stop the spread of life threatening infectous diseases through prevention or cure administered by immunization.
+                    <b>Goal: </b>To stop the spread of life threatening infectious diseases through prevention or cure administered by immunization.
                 </p>
                 <p>  
                     <b>Campaign: </b>$1/person for vaccinations against meningitis, measles, polio and other deadly epidemics.

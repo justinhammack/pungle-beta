@@ -41,20 +41,33 @@
         	<br/><br/>
         	<b>Read Along:</b>
     	    <ol>
-    	        <li>This is the Pungle shopping tool setup page</li>
-    	        <li>The large store buttons at the top are your favorite stores. you can change their order by dragging them by the + icon in their upper right corner.</li>
+    	        <li>This is the Pungle shopping tool setup page.</li>
+    	        <li>The large store buttons at the top are your favorite stores. You can change their order by dragging them by the + icon in their upper right corner.</li>
     	        <li>You can add and remove stores as you please by clicking the star icon in the list of stores below.</li>
     	        <li>The high five icon indicates if that store has an agreement with pungle that will result in a high impact donation.</li>
-    	        <li>When you get your favorite stores selected, and ordered how you like, simply drag the (SHOP PUNGLE) button up to your bookmarks in your brower's window.</li>
-    	        <li>By clicking this bookmark, your personalized pungle shop tool will open, displaying your favorited stores in your chosen sequence.</li>
-    	        <li>When you'd like to use the tool for shopping, simply open it and click through to the site of your choice. That's all it takes. Any purchases you make in that visit will create a percentage-based high impact donation to the causes in our portfolio.</li>
-    	        <li>(Click through to Amazon)</li>
-    	        <li>You can still shop from any of the other stores by using the search tool, (TYPE "DICK"  Click through to Dick's Sporting Goods)</li>
+    	        <li>When you get your favorite stores selected, and ordered how you like, simply drag the bookmark button up to your bookmark bar.</li>
+    	        <li>By clicking this bookmark, your personalized pungle shop tool will open, displaying your favorite stores in your chosen sequence.</li>
+    	        <li>When you change your favorites, delete the old bookmark, and drag the new bookmark button to your bookmark bar.</li>
+    	        <li>To use the shop tool, simply open your browser, click the pungle bookmark and click through to the site of your choice.</li>
+    	        <li>That's all it takes. Any purchases you make in that visit will create a percentage-based high impact donation to the causes in our portfolio.</li>
+    	        <li>You can still shop from any of the other stores by using the search tool.</li>
     	        <li>Its as easy as that. Set up your tool, and start pungling today.</li>
     	    </ol>        	
         </div>
+    </div>
+    
+    <div class="row">
       	
-      </div>
+        <div class="col col_10 align_right">
+            <br/>
+            <h3>Done watching the video? Let's get started.</h3>
+        </div>
+        <div class="col col_6">
+            <br/>
+            <a class="dribbble" href="/shop/" title="Go to Shopping Tool">Shop Tool ></a>
+        </div>
+        
+    </div>
       
     </div>
 

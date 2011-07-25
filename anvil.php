@@ -200,7 +200,17 @@
 			
 		</div>
 	</div>
-		
+	
+	
+	<div class="row">
+        <div class="col col_10 align_right">
+            <h3>Want to watch the tutorial?</h3>
+        </div>
+        <div class="col col_6">
+            <a class="dribbble" href="/tutorial/" title="Check out the tutorial">Tutorial ></a>
+        </div>
+    </div>
+    
 	</div>
     
 <?php require("include/footer.php"); ?>
