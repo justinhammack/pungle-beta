@@ -35,10 +35,23 @@
             </div>
         </div>
         
+        <div class="row">
+      	
+            <div class="col col_10 align_right">
+                <br/>
+                <h3>Done watching the video? Let's get started.</h3>
+            </div>
+            <div class="col col_6">
+                <br/>
+                <a class="dribbble" href="/shop/" title="Go to Shopping Tool">Shop Tool ></a>
+            </div>
+        
+        </div>
+        
       <div class="row">
       	
         <div class="col col_16">
-        	<br/><br/>
+        	<br/>
         	<b>Read Along:</b>
     	    <ol>
     	        <li>This is the Pungle shopping tool setup page.</li>
@@ -54,19 +67,6 @@
     	        <li>Its as easy as that. Set up your tool, and start pungling today.</li>
     	    </ol>        	
         </div>
-    </div>
-    
-    <div class="row">
-      	
-        <div class="col col_10 align_right">
-            <br/>
-            <h3>Done watching the video? Let's get started.</h3>
-        </div>
-        <div class="col col_6">
-            <br/>
-            <a class="dribbble" href="/shop/" title="Go to Shopping Tool">Shop Tool ></a>
-        </div>
-        
     </div>
       
     </div>

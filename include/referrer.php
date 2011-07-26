@@ -9,6 +9,8 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $id = null;
 $showREF = false;
 $placeHOLDER = "Enter Email";
+$referralCount = null;
+$flashNotice = "";
 
 foreach ($survey as $key => $value) {
     if ($ip == $survey[$key][user_ip]) {
@@ -25,9 +27,9 @@ if (isset($_GET["update"])) {
         if (preg_match($regex, $update)) {
             $survey[$id][email] = $update;
             file_put_contents($jsonPATH, json_encode($survey));
-            echo "Updated email address.<br/>";
+            $flashNotice = "Updated email address.<br/>";
         }
-        else echo "Can not update email, invalid address.<br/>";
+        else $flashNotice = "Can not update email, invalid address.<br/>";
     }
     elseif ($id === null) {
         foreach ($survey as $key => $value) {
@@ -43,10 +45,10 @@ if (isset($_GET["update"])) {
             array_push($survey, $newuser);
             $id = array_search($newuser, $survey);
             file_put_contents($jsonPATH, json_encode($survey));
-            echo "Share link created.<br/>";
+            $flashNotice = "Share link created.<br/>";
         }
         // don't save bad email addresses
-        else echo "Unacceptable email address.<br/>";
+        else $flashNotice = "Unacceptable email address.<br/>";
     }
 }
 // if an ID is specified and we didn't find a user IP
@@ -55,13 +57,13 @@ elseif (isset($_GET["id"]) && $id === null) $id = $_GET["id"];
 
 // ************* LOGIC *************
 if (isset($id)) {
-    echo "Found ID: $id<br/>";
+    // echo "Found ID: $id<br/>";
     
     // check if they are they are the original user
     if (isset($update) || $survey[$id][user_ip] == $ip) {
         $showREF = true;
         $placeHOLDER = $survey[$id][email];
-        echo "You have ", count($survey[$id][referrals]) ," referrals.";
+        $referralCount = count($survey[$id][referrals]);
     }                            
     // else they are a possible referral, check for original user
     elseif ($survey[$id] && !in_array($ip, $survey[$id][referrals])) {

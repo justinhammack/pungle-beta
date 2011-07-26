@@ -13,17 +13,24 @@
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
 
+    <meta property="og:title" content="Are you feeling lucky?" />
+    <meta property="og:description" content="10 questions for a chance to win $20 at Amazon. Pretty easy, eh?" />
+    <meta property="og:image" content="http://pungle.me/images/PRfbshareimage72x72.jpg" />
+    
     <!-- !!MUST SET THIS IMPORTANT!! -->
     <link rel="canonical" href="http://pungle.me/survey/" />
 
     <style type="text/css">
         #emailForm { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius:4px; height:20px; border:1px solid #ccc; padding:3px 0 1px 5px; line-height: normal; margin-top: 5px; width: 200px; }
         #submitEmail { width: 85px; }
+        #shareStyle { background: transparent url('/images/PU_srvy_bg940x393.png') no-repeat; width: 940px; height: 393px; }
+        .catMenus { font-size: 26px; line-height: 1; margin-left: 6px; font-weight: bold; }
     </style>
 </head>
 
 <body>
 <?php require("include/nav.php"); ?>
+<?php include 'include/referrer.php'; ?>
 
     <div id="subheader" class="clearfix">
         <div class="row">
@@ -32,35 +39,139 @@
     </div>
     
     <div id="content" class="clearfix">
+        
         <div class="row">
-            <div class="col col_16">
-                <?php include 'include/referrer.php'; ?>
+            <div class="col col_5 align_center">
                 <br/>
-
-                
-                <input type="text" placeholder="<?php echo $placeHOLDER; ?>" id="emailForm">                
-                <input type="submit" class="signup" id="submitEmail" value="Submit">
-
-                <?php if ($showREF == true) { ?>
-                    <br/><a href="/survey/?id=<?php echo $id; ?>">Link</a>
-                <?php } ?>
-                
-                <br/><br/>
-                <iframe src="https://spreadsheets.google.com/spreadsheet/embeddedform?formkey=dHI2Z3ZhNW1qV0s3UGFHT1NVLU8zR2c6MQ" width="940" height="623" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <p>
+                    <a href="#explore" title="Explore Pungle.me"><img src="/images/PU_srvy_ship64x64.png" width="64" height="64" title="Explore Pungle.me" /></a>
+                    <h3>Explore</h3>
+                    Follow the steps below to <br/>explore and learn about Pungle.me.
+                    <!-- Review the <a href="/how-it-works/" title="Learn More" target="_blank">Learn More</a> pages.<br/>
+                    Set up the Pungle.me <a href="/shop/" title="Shop Tool" target="_blank">Shop Tool</a>. -->
+                </p>
+            </div>
+            <div class="col col_6 align_center">
+                <br/>
+                <p>
+                    <a href="#survey" title="Take the Survey"><img src="/images/PU_srvy_survey64x64.png" width="64" height="64" title="Take the Survey" /></a>
+                    <h3>Survey</h3>
+                    Take the survey below for a<br/> chance to win $20 at Amazon.
+                </p>
+            </div>
+            <div class="col col_5 align_center">
+                <br/>
+                <p>
+                    <a href="#share" title="Share to increase odds of winning"><img src="/images/PU_srvy_twitterbird64x64.png" width="64" height="64" title="Share to increase odds of winning" /></a>
+                    <h3>Share</h3>
+                    Increase your chances of winning<br/> by sharing this survey.
+                </p>
             </div>
         </div>
-
-        <div class="row">
+        
+        <div class="row" id="explore">
             <div class="col col_16">
-                <h3><i>Share to increase your odds of winning!</i></h3>
+                <p><img src="/images/1060x1.png" width="1600" height="1" /></p>
+                <br/>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col col_10">
+                <iframe width="560" height="349" src="http://www.youtube.com/embed/qeyHQrszeC8?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col col_6">
                 <p>
-                    <br/>Enter your email to generate a personalized link you can share on Facebook & Twitter. Every person you send our way earns you an extra chance to win. Easily double your odds with a just a few clicks!<br/>
+                    <!-- <img style="vertical-align: middle;" src="/images/PU_srvy_ship64x64.png" width="64" height="64" title="Expore Pungle.me" /> -->
+                    <span class="catMenus">Explore</span>
+                </p>
+                <br/>
+                <ul>
+                    <li>Watch Tutorial Video</li>
+                    <li>Setup Pungle.me <a href="/shop/" title="Shop Tool" target="_blank">Shop Tool</a></li>
+                    <li>Visit <a href="/how-it-works/" title="How it Works" target="_blank">How it Works</a></li>
+                    <li>Visit <a href="/cause-portfolio/" title="Cause Progress" target="_blank">Cause Progress</a></li>                    
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row" id="survey">
+            <div class="col col_16">
+                <p><img src="/images/1060x1.png" width="1600" height="1" /></p>
+                <br/>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col col_16 align_center">
+                <p>
+                    <!-- <img style="vertical-align: middle;" src="/images/PU_srvy_survey64x64.png" width="64" height="64" title="Take the Survey" /> -->
+                    <span class="catMenus">Survey</span>
+                </p>
+                <br/>
+                <iframe src="https://spreadsheets.google.com/spreadsheet/embeddedform?formkey=dHI2Z3ZhNW1qV0s3UGFHT1NVLU8zR2c6MQ" width="940" height="2150" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+        </div>
+        
+        <div class="row" id="share">
+            <div class="col col_16">
+                <p><img src="/images/1060x1.png" width="1600" height="1" /></p>
+                <br/>
+            </div>
+        </div>
+        
+        <div class="row" id="shareStyle">
+            <div class="col col_16 align_center">
+                <br/>
+                <!-- <img src="/images/PU_srvy_socialgood304x121.png" width="304" height="121" title="Social Good Sharing" /> -->
+                <p>
+                    <img style="display: inline; vertical-align: middle;" src="/images/PU_srvy_twitterbird64x64.png" width="64" height="64" title="Share to increase odds of winning" />
+                    <span class="catMenus">Share</span>
+                    <br/>
+                    <?php if ($flashNotice != "") { ?>
+                        <h3 style="color: #FF0000;"><?php echo $flashNotice; ?></h3>
+                    <?php } ?>
+                    
+                    <?php if ($showREF == true) { ?>
+                        <div style="width:300px; margin:0 auto" class="addthis_toolbox addthis_default_style addthis_32x32_style align_center"
+                            addthis:url="http://pungle.me/survey/?id=<?php echo $id; ?>"
+                            addthis:title="Are you feeling lucky? 10 Questions for a chance at $20 to Amazon.">                            
+                            <a class="addthis_button_facebook"></a>
+                            <a class="addthis_button_twitter"></a>
+                            <a class="addthis_button_compact"></a>
+                            <i style="font-size: 18px; line-height: 32px;">You have <?php echo $referralCount; ?> referrals.</i>
+                        </div>
+                        <small>
+                            <a href="/survey/?id=<?php echo $id; ?>" title="Unique Share Link">http://pungle.me/survey/?id=<?php echo $id; ?></a>
+                        </small>
+                        <br/>                        
+                        
+                    
+                        <script type="text/javascript"> var addthis_share = { templates: { twitter: '{{title}} {{url}}' } }; </script>
+                    <?php } ?>
+                    <br/>
+                    <b>Increase Your Chances of Winning</b><br/>
+                    <br/>
+                    For every referral you increase your chances of winning.<br/>                    
+                    Generate a unique share link by entering your email below.<br/>
+                    <br/>
+                    
+                    <input type="text" placeholder="<?php echo $placeHOLDER; ?>" id="emailForm">                
+                    <input type="submit" class="signup" id="submitEmail" value="Submit">
+                    
                     
                     
                 </p>
             </div>            
         </div>
-
+        
+        <div class="row">
+            <div class="col col_16">
+                <p><img src="/images/1060x1.png" width="1600" height="1" /></p>
+                <br/>
+            </div>
+        </div>
+        
         <div class="row">
             <div class="col col_16 align_justify">
                 <p>
@@ -72,7 +183,8 @@
                         4. Contest Instructions: To enter, contestants must a) Fille out the survey found on this page.<br/>
                         5. Contest Period: This Contest runs July 20 – September 1, 2011. On September 1, 2011 at or around noon, a random draw of all eligible entries submitted will take place. The selected contestant will be contacted by a representative of Pungle and announced on our Facebook Page.<br/>
                         6. Prize(s): One winner will be chosen from all entries collected for the contest prize.   The prize for this contest will be a $20 Amazon Gift Card.<br/>
-                        7. Other: All information collected will be used for the purposes of administering the Contest and for Contest Sponsor’s internal marketing purposes only and will not be sold or rented to third parties. All personal information collected by the Contest Sponsor(s) will be kept in accordance with our privacy policy, which can be found in the footer below. All decisions of the Contest judge are final. The Contest is governed by the laws of Washington and the laws of the United States of America applicable therein. The Contest Sponsor(s) reserve the right to cancel or modify the Contest or the Contest Rules at any time without notice. The Contest Sponsor(s) reserve the right to substitute any prize or portion of the prize with a prize of equal or greater value. All prizes are awarded as-is and no warranties or guarantees are implied or expressed. All prizes are non-transferable and are not convertible to cash. The Contest Sponsor(s) are not liable for any errors or negligence that may arise in connection with this Contest.
+                        7. Other: All information collected will be used for the purposes of administering the Contest and for Contest Sponsor’s internal marketing purposes only and will not be sold or rented to third parties. All personal information collected by the Contest Sponsor(s) will be kept in accordance with our privacy policy, which can be found in the footer below. All decisions of the Contest judge are final. The Contest is governed by the laws of Washington and the laws of the United States of America applicable therein. The Contest Sponsor(s) reserve the right to cancel or modify the Contest or the Contest Rules at any time without notice. The Contest Sponsor(s) reserve the right to substitute any prize or portion of the prize with a prize of equal or greater value. All prizes are awarded as-is and no warranties or guarantees are implied or expressed. All prizes are non-transferable and are not convertible to cash. The Contest Sponsor(s) are not liable for any errors or negligence that may arise in connection with this Contest.<br/>
+                        8. Share: The share tool allows the contestant to generate a unique URL which Pungle will use to track referrals. Pungle increases the contestants chances of winning for every unique referral that takes the survey.
                     </small>
                 </p>
             </div>
@@ -84,23 +196,44 @@
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
 	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script> 
-  
+    
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js" type="text/javascript"></script>
 	<script>!$.ui && document.write('<script src="/core/libs/jquery-ui-1.8.9.min.js" type="text/javascript"><\/script>')</script>
-
+    
+	<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=pungle"></script>
+    
     <script type="text/javascript">
 	    $(document).ready(function(){
 	        
 	        $("input#emailForm").keyup(function(event) {
 	            if (event.keyCode == '13') window.location = "/survey/?update=" + $('input#emailForm').val();
 	            $("input#submitEmail").click(function() { 
-	                window.location = "/survey/?update=" + $('input#emailForm').val();
+	                window.location = "/survey/?update=" + $('input#emailForm').val() + "#share";
 	            });
 	        });
 	        
-	    });	    
-	</script>
+	        $('a[href=#explore]').click(function(){
+    			$('html, body').animate({
+    				scrollTop: $("#explore").offset().top
+    			}, 800);
+		    });
 		    
+		    $('a[href=#survey]').click(function(){
+    			$('html, body').animate({
+    				scrollTop: $("#survey").offset().top
+    			}, 800);
+		    });
+		    
+		    $('a[href=#share]').click(function(){
+    			$('html, body').animate({
+    				scrollTop: $("#share").offset().top
+    			}, 800);
+		    });
+		    
+		});
+	</script>
+
 </body>
 
 </html>
