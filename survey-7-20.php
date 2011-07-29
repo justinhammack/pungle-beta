@@ -23,35 +23,50 @@
     <style type="text/css">
         #emailForm { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius:4px; height:20px; border:1px solid #ccc; padding:3px 0 1px 5px; line-height: normal; margin-top: 5px; width: 200px; }
         #submitEmail { width: 85px; }
-        #shareStyle { background: transparent url('/images/PU_srvy_bg940x393.png') no-repeat; width: 940px; height: 393px; }
+        /* #shareStyle { background: transparent url('/images/PU_srvy_bg940x393.png') no-repeat; width: 940px; height: 393px; } */
         .catMenus { font-size: 26px; line-height: 1; margin-left: 6px; font-weight: bold; }
     </style>
 </head>
 
 <body>
-<?php require("include/nav.php"); ?>
+
 <?php include 'include/referrer.php'; ?>
 
     <div id="subheader" class="clearfix">
         <div class="row">
-            <div class="col col_16"><h1 style="display: inline-block"><b>SURVEY</b> TIME</h1></div>
+            <div class="col col_16 align_center"><h1 style="display: inline-block"><b>CONTEST:</b> $50 Amazon & ltd. T-Shirt</h1></div>
         </div>
     </div>
     
     <div id="content" class="clearfix">
         
         <div class="row">
+            <div class="col col_16 align_center">
+                <br/>
+                <br/>
+                <span class="catMenus">Pungle needs your help! Reward for lucky adventurer!</span>
+                <p>Follow along to participate, 5-10 minutes of your time for a chance to win sweet loot. =]</p>
+            </div>
+        </div>
+        
+        <!-- <div class="row">
             <div class="col col_5 align_center">
                 <br/>
                 <p>
                     <a href="#explore" title="Explore Pungle.me"><img src="/images/PU_srvy_ship64x64.png" width="64" height="64" title="Explore Pungle.me" /></a>
                     <h3>Explore</h3>
                     Follow the steps below to <br/>explore and learn about Pungle.me.
-                    <!-- Review the <a href="/how-it-works/" title="Learn More" target="_blank">Learn More</a> pages.<br/>
-                    Set up the Pungle.me <a href="/shop/" title="Shop Tool" target="_blank">Shop Tool</a>. -->
                 </p>
             </div>
             <div class="col col_6 align_center">
+                <br/>
+                <p>
+                    <a href="#share" title="Share to increase odds of winning"><img src="/images/PU_srvy_twitterbird64x64.png" width="64" height="64" title="Share to increase odds of winning" /></a>
+                    <h3>Share</h3>
+                    Increase your chances of winning<br/> by sharing this survey.
+                </p>
+            </div>            
+            <div class="col col_5 align_center">
                 <br/>
                 <p>
                     <a href="#survey" title="Take the Survey"><img src="/images/PU_srvy_survey64x64.png" width="64" height="64" title="Take the Survey" /></a>
@@ -59,74 +74,89 @@
                     Take the survey below for a<br/> chance to win $20 at Amazon.
                 </p>
             </div>
-            <div class="col col_5 align_center">
-                <br/>
-                <p>
-                    <a href="#share" title="Share to increase odds of winning"><img src="/images/PU_srvy_twitterbird64x64.png" width="64" height="64" title="Share to increase odds of winning" /></a>
-                    <h3>Share</h3>
-                    Increase your chances of winning<br/> by sharing this survey.
-                </p>
-            </div>
-        </div>
-        
-        <div class="row" id="explore">
+        </div> -->
+        <div class="row">
             <div class="col col_16">
-                <p><img src="/images/1060x1.png" width="1600" height="1" /></p>
-                <br/>
+                <p><img src="/images/940x15.png" width="940" height="15" /></p>
             </div>
         </div>
         
         <div class="row">
-            <div class="col col_10">
-                <iframe width="560" height="349" src="http://www.youtube.com/embed/qeyHQrszeC8?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+            <div class="col col_16 align_center">
+                <span class="catMenus">Allow myself to introduce..  Myself.. ಠ_ಠ</span>
             </div>
-            <div class="col col_6">
+        </div>
+        
+        <div class="row">
+            <div class="col col_16">
+                <p><img src="/images/940x15.png" width="940" height="15" /></p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col col_16 align_center">
+                <p>
+                    <img src="/images/howpungleworks.png" width="900" height="975" title="How pungle works" />
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col col_16">
+                <p><img src="/images/940x15.png" width="940" height="15" /></p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col col_16 align_center">
                 <p>
                     <!-- <img style="vertical-align: middle;" src="/images/PU_srvy_ship64x64.png" width="64" height="64" title="Expore Pungle.me" /> -->
-                    <span class="catMenus">Explore</span>
+                    <span class="catMenus">Quick Tutorial Video (81s.)</span>
                 </p>
                 <br/>
+                <iframe width="640" height="390" src="http://www.youtube.com/embed/qeyHQrszeC8?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+                <!-- <br/>
                 <ul>
                     <li>Watch Tutorial Video</li>
                     <li>Setup Pungle.me <a href="/shop/" title="Shop Tool" target="_blank">Shop Tool</a></li>
                     <li>Visit <a href="/how-it-works/" title="How it Works" target="_blank">How it Works</a></li>
                     <li>Visit <a href="/cause-portfolio/" title="Cause Progress" target="_blank">Cause Progress</a></li>                    
-                </ul>
+                </ul> -->
             </div>
         </div>
         
-        <div class="row" id="survey">
+        <div class="row">
             <div class="col col_16">
-                <p><img src="/images/1060x1.png" width="1600" height="1" /></p>
-                <br/>
+                <p><img src="/images/940x15.png" width="940" height="15" /></p>
             </div>
         </div>
         
         <div class="row">
             <div class="col col_16 align_center">
-                <p>
-                    <!-- <img style="vertical-align: middle;" src="/images/PU_srvy_survey64x64.png" width="64" height="64" title="Take the Survey" /> -->
-                    <span class="catMenus">Survey</span>
+                <p><span class="catMenus">Ready to try Pungle.me?</span>
+                    <br/>
+                    <br/>
+                    Give it a test drive, we want to know what you think about what we have so far.<br/>
+                    Don't forget to come back, you still have a few objectives to complete!
+                    <br/>
+                    <br/>
+                    <a style="margin: 0 auto;" class="dribbble" href="/shop/" target="_blank" title="Try out the pungle shop tool.">Make It So ></a>
                 </p>
-                <br/>
-                <iframe src="https://spreadsheets.google.com/spreadsheet/embeddedform?formkey=dHI2Z3ZhNW1qV0s3UGFHT1NVLU8zR2c6MQ" width="940" height="2150" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
         </div>
         
         <div class="row" id="share">
             <div class="col col_16">
-                <p><img src="/images/1060x1.png" width="1600" height="1" /></p>
-                <br/>
+                <p><img src="/images/940x15.png" width="940" height="15" /></p>
             </div>
         </div>
         
         <div class="row" id="shareStyle">
-            <div class="col col_16 align_center">
-                <br/>
+            <div class="col col_16 align_center">                
                 <!-- <img src="/images/PU_srvy_socialgood304x121.png" width="304" height="121" title="Social Good Sharing" /> -->
                 <p>
                     <img style="display: inline; vertical-align: middle;" src="/images/PU_srvy_twitterbird64x64.png" width="64" height="64" title="Share to increase odds of winning" />
-                    <span class="catMenus">Share</span>
+                    <span class="catMenus">Share? <small><b>(<font style="color: #1BE600;">optional</font>)</b></small></span>
                     <br/>
                     <?php if ($flashNotice != "") { ?>
                         <h3 style="color: #FF0000;"><?php echo $flashNotice; ?></h3>
@@ -167,8 +197,19 @@
         
         <div class="row">
             <div class="col col_16">
-                <p><img src="/images/1060x1.png" width="1600" height="1" /></p>
-                <br/>
+                <p><img src="/images/940x15.png" width="940" height="15" /></p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col col_16 align_center">
+                <iframe src="https://spreadsheets.google.com/spreadsheet/embeddedform?formkey=dHI2Z3ZhNW1qV0s3UGFHT1NVLU8zR2c6MQ" width="940" height="2150" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col col_16">
+                <p><img src="/images/940x15.png" width="940" height="15" /></p>
             </div>
         </div>
         
@@ -182,7 +223,7 @@
                         3. Eligibility: The Contest is open to legal residents in the United States of America, 18 years of age and older, except for employees or contractors of the Contest Sponsor(s) or their advertising or promotional agencies or affiliates, and immediate families of or any one living with any employee or contractor of the Contest Sponsor(s) or their advertising or promotional agencies or affiliates. The Contest is void where prohibited by law. Contestants who reside in areas where the Contest is prohibited by law may participate in the Contest but will be ineligible for the prizes. Facsimiles and illegible entries are not acceptable. Chances of winning depend on the total number of eligible entries received. One entry per person per household.<br/>
                         4. Contest Instructions: To enter, contestants must a) Fille out the survey found on this page.<br/>
                         5. Contest Period: This Contest runs July 20 – September 1, 2011. On September 1, 2011 at or around noon, a random draw of all eligible entries submitted will take place. The selected contestant will be contacted by a representative of Pungle and announced on our Facebook Page.<br/>
-                        6. Prize(s): One winner will be chosen from all entries collected for the contest prize.   The prize for this contest will be a $20 Amazon Gift Card.<br/>
+                        6. Prize(s): One winner will be chosen from all entries collected for the contest prize.   The prize for this contest will be a $50 Amazon Gift Card & a Pungle.me Limited Edition T-Shirt.<br/>
                         7. Other: All information collected will be used for the purposes of administering the Contest and for Contest Sponsor’s internal marketing purposes only and will not be sold or rented to third parties. All personal information collected by the Contest Sponsor(s) will be kept in accordance with our privacy policy, which can be found in the footer below. All decisions of the Contest judge are final. The Contest is governed by the laws of Washington and the laws of the United States of America applicable therein. The Contest Sponsor(s) reserve the right to cancel or modify the Contest or the Contest Rules at any time without notice. The Contest Sponsor(s) reserve the right to substitute any prize or portion of the prize with a prize of equal or greater value. All prizes are awarded as-is and no warranties or guarantees are implied or expressed. All prizes are non-transferable and are not convertible to cash. The Contest Sponsor(s) are not liable for any errors or negligence that may arise in connection with this Contest.<br/>
                         8. Share: The share tool allows the contestant to generate a unique URL which Pungle will use to track referrals. Pungle increases the contestants chances of winning for every unique referral that takes the survey.
                     </small>
@@ -213,7 +254,7 @@
 	            });
 	        });
 	        
-	        $('a[href=#explore]').click(function(){
+	        /* $('a[href=#explore]').click(function(){
     			$('html, body').animate({
     				scrollTop: $("#explore").offset().top
     			}, 800);
@@ -229,7 +270,7 @@
     			$('html, body').animate({
     				scrollTop: $("#share").offset().top
     			}, 800);
-		    });
+		    }); */
 		    
 		});
 	</script>

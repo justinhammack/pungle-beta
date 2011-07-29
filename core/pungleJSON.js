@@ -1613,7 +1613,7 @@ var pungleJSON =
 		"desc": "Shoe makers founded on a simple premise: For every pair you purchase, TOMS will give a pair of shoes to a child in need. One for One.",
 		"link": "http://www.toms.com/",
 		"img": "toms.png",
-		"aff": true,
+		"aff": false,
 		"live": true
 	},
 	{

@@ -121,8 +121,17 @@
 			<img src="/images/the_anvil.png" title="hi" width="940" height="40" />
 		</div>
 	</div> -->
-    
-	<!-- container for overview to hold store buttons -->
+
+    <div class="row">
+        <div class="col col_16 align_center">
+            <div style="display: inline-block; line-height: 24px; padding-top: 1px;">Pick a Cause: </div>
+            <div style="display: inline-block; vertical-align: top;" id="causeRadio">
+	            <input type="radio" id="radioEMP" name="radio" value="EMP" checked="checked" /><label for="radioEMP">Empowerment</label><input type="radio" id="radioPOT" name="radio" value="POT" /><label for="radioPOT">Potable Water</label><input type="radio" id="radioTEC" name="radio" value="TEC" /><label for="radioTEC">Technology</label><input type="radio" id="radioNAT" name="radio" value="NAT" /><label for="radioNAT">Nature</label><input type="radio" id="radioEDU" name="radio" value="EDU" /><label for="radioEDU">Education</label><input type="radio" id="radioVAC" name="radio" value="VAC" /><label for="radioVAC">Vaccination</label><input type="radio" id="radioCLE" name="radio" value="CLE" /><label for="radioCLE">Clean Energy</label>
+            </div>
+            <br/><br/>            
+        </div>
+    </div>
+	<!-- container for overview to hold store buttons -->	
 	<div class="row">
 		<div id="overviewContainer" class="col col_16">
 			<ul id="ulOverview"></ul>				
@@ -237,7 +246,9 @@
 	<script type="text/javascript">
 	    $(document).ready(function(){
 	        
-	        pungle.init();	        
+	        pungle.init();
+
+	        $( "#causeRadio" ).buttonset();	        
 	        
 	    });	    
 	</script>

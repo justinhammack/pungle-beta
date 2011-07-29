@@ -64,12 +64,12 @@
 	    <div class="row">
 	        
 	        <div class="col col_10 align_center">
-	            <br/>
-	            <img src="/images/PU_headline448x197.png" width="448" height="197" alt="Save the World" title="Save the World" />	            
+	            <br/><br/><br/>
+	            <img src="/images/PU_headline446x130.png" width="446" height="130" alt="Use our shopping tool to support the causes you choose." title="Use our shopping tool to support the causes you choose." />	            
 	            
-	            <p>
+	            <!-- <p>
 	                <span style="font: 16px/23px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;">Use our <a style="color: #0664bb" href="/shop/" title="Shopping Tool">Shopping Tool</a> to turn your<br/> purchases into donations.</span>
-	            </p>
+	            </p> -->
 	            
 	        </div>
 	        
