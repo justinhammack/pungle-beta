@@ -14,7 +14,7 @@
 <?php require("include/head.php"); ?>
 
     <meta property="og:title" content="Are you feeling lucky?" />
-    <meta property="og:description" content="10 questions for a chance to win $20 at Amazon. Pretty easy, eh?" />
+    <meta property="og:description" content="10 questions for a chance to win $50 at Amazon plus a rad limited edition t-shirt. Pretty easy, eh?" />
     <meta property="og:image" content="http://pungle.me/images/PRfbshareimage72x72.jpg" />
     
     <!-- !!MUST SET THIS IMPORTANT!! -->
@@ -34,7 +34,7 @@
 
     <div id="subheader" class="clearfix">
         <div class="row">
-            <div class="col col_16 align_center"><h1 style="display: inline-block"><b>CONTEST:</b> $50 Amazon & ltd. T-Shirt</h1></div>
+            <div class="col col_16 align_center"><!-- <h1 style="display: inline-block"><b>CONTEST:</b> $50 Amazon & ltd. T-Shirt</h1>--> <br/></div>
         </div>
     </div>
     
@@ -44,8 +44,13 @@
             <div class="col col_16 align_center">
                 <br/>
                 <br/>
-                <span class="catMenus">Pungle needs your help! Reward for lucky adventurer!</span>
-                <p>Follow along to participate, 5-10 minutes of your time for a chance to win sweet loot. =]</p>
+                <p>
+                    <img src="/images/PU_feedbacksurvey523x134.png" alt="take a survey, win money." width="523" height="134" />
+                </p>                
+                <p>
+                    <span class="catMenus">Take Survey. &nbsp; Win Contest. &nbsp; Save Princess.</span>
+                </p>
+                <p><small>( Complete this page to enter contest. ~5-10 minutes depending on your IQ. )</small></p>
             </div>
         </div>
         
@@ -83,7 +88,11 @@
         
         <div class="row">
             <div class="col col_16 align_center">
-                <span class="catMenus">Allow myself to introduce..  Myself.. ಠ_ಠ</span>
+                <p>
+                    <span class="catMenus">Allow myself to introduce..  Myself.. ಠ_ಠ</span>
+                </p>
+                <br/>
+                <iframe width="640" height="390" src="http://www.youtube.com/embed/PeXDIemR_o4?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         
@@ -165,7 +174,7 @@
                     <?php if ($showREF == true) { ?>
                         <div style="width:300px; margin:0 auto" class="addthis_toolbox addthis_default_style addthis_32x32_style align_center"
                             addthis:url="http://pungle.me/survey/?id=<?php echo $id; ?>"
-                            addthis:title="Are you feeling lucky? 10 Questions for a chance at $20 to Amazon.">                            
+                            addthis:title="Are you feeling lucky? 10 Questions for a chance at $50 at Amazon.">                            
                             <a class="addthis_button_facebook"></a>
                             <a class="addthis_button_twitter"></a>
                             <a class="addthis_button_compact"></a>
@@ -203,6 +212,7 @@
         
         <div class="row">
             <div class="col col_16 align_center">
+                <p><span class="catMenus">Survey Time!</span></p><br/>
                 <iframe src="https://spreadsheets.google.com/spreadsheet/embeddedform?formkey=dHI2Z3ZhNW1qV0s3UGFHT1NVLU8zR2c6MQ" width="940" height="2150" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
         </div>
