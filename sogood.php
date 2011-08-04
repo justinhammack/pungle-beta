@@ -102,10 +102,10 @@
         
         <div class="row">
             <div class="col col_10 align_right">
-                <h3>Pretty easy, eh? Let's get you setup..</h3>
+                <h3>Pretty easy, eh? Let's watch the tutorial..</h3>
             </div>
             <div class="col col_6">
-                <a class="dribbble" href="/shop/" title="Setup the shopping tool!">Shop Tool ></a>
+                <a class="dribbble" href="/tutorial/" title="Watch the tutorial!">Next ></a>
             </div>
         </div>
         

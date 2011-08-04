@@ -8,8 +8,8 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
-    <title></title>
-    <meta name="description" content="Take a brief survey, possibly win $20!">
+    <title>Survey</title>
+    <meta name="description" content="Take a brief survey, possibly win $50!">
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
 
@@ -34,7 +34,7 @@
 
     <div id="subheader" class="clearfix">
         <div class="row">
-            <div class="col col_16 align_center"><!-- <h1 style="display: inline-block"><b>CONTEST:</b> $50 Amazon & ltd. T-Shirt</h1>--> <br/></div>
+            <div class="col col_16"><h1 style="display: inline-block"><b>SURVEY</b></h1></div>
         </div>
     </div>
     

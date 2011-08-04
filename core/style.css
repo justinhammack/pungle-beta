@@ -427,7 +427,7 @@ button {  width: auto; overflow: visible; }
 	
 	/* Store Overview */
 	#ulOverview { list-style-type: none;  margin: 0; }
-	#overviewContainer {width: 940px; margin: 0px;}
+	#overviewContainer { width: 940px; }
 	.storeButton img {display: block;}
 	.storeButton {
 		position: relative;
@@ -1384,6 +1384,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 ----------------------------------*/
 .ui-selectmenu { display: block; display: inline-block; position: relative; /* height: 2.2em; */ vertical-align: middle; text-decoration: none; overflow: hidden; zoom: 1; }
 a.ui-selectmenu { color: #444; }
+a.ui-selectmenu:active { font-weight: normal; }
 .ui-selectmenu-icon { position:absolute; right:6px; margin-top:-8px; top: 50%; }
 .ui-selectmenu-menu { padding:0; margin:0; list-style:none; position:absolute; top: 0; display: none; overflow: auto; z-index: 1005;} 
 .ui-selectmenu-open { display: block; }
@@ -1411,6 +1412,32 @@ a.ui-selectmenu { color: #444; }
 * html .ui-selectmenu-menu li a { position: relative }
 
 
+
+/*
+ *
+ * Custom Cause Buttons
+ *
+*/
+
+
+#causeRadio .ui-widget .ui-button-text { 
+    font-size: 13px;
+    line-height: 24px;
+    padding: 11px 1.3em;
+} 
+#causeRadio .ui-state-default {
+    border: 1px solid #bbbbbb;
+    background: #fff2d8 url(/images/ca_gradient1x46.png) repeat-x;
+}
+#causeRadio .ui-state-hover { background: #e6e6e6; }
+#causeRadio .ui-state-active { 
+    background: #ffffff;
+    -webkit-box-shadow: inset 1px 1px 3px 0px #d6d6d6;
+    -moz-box-shadow: inset 1px 1px 3px 0px #d6d6d6;
+    box-shadow: inset 1px 1px 3px 0px #d6d6d6;
+}
+#causeRadio.ui-buttonset { margin: 0; }
+ 
 /*
  * Media queries for responsive design
  * These follow after primary styles so they will successfully override. 

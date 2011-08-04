@@ -73,13 +73,37 @@
 	    .tagFavIcon.ui-state-active { background-image: url('/images/star16x16.png'); background-position: center; background-repeat: no-repeat; }
 	    .tagAfflIcon.ui-state-active { background-image: url('/images/highfive16x16.png'); background-position: center; background-repeat: no-repeat; }
 	    
+	    .radioEMPicon, .radioPOTicon, .radioTECicon, .radioNATicon, .radioEDUicon, .radioVACicon, .radioCLEicon {
+	        display: inline-block;
+	        width: 24px;
+	        height: 24px;
+	        text-indent: -999999px;
+	        margin-right: 5px;
+	    }
+	    
+	    .radioEMPicon { background: url('/images/ca_emp_ico24x24.png') -24px 0 no-repeat; }
+	    .radioPOTicon { background: url('/images/ca_water_ico24x24.png') -24px 0 no-repeat; }
+	    .radioTECicon { background: url('/images/ca_tech_ico24x24.png') -24px 0 no-repeat; }
+	    .radioNATicon { background: url('/images/ca_nature_ico24x24.png') -24px 0 no-repeat; }
+	    .radioEDUicon { background: url('/images/ca_edu_ico24x24.png') -24px 0 no-repeat; }
+	    .radioVACicon { background: url('/images/ca_vacc_ico24x24.png') -24px 0 no-repeat; }
+	    .radioCLEicon { background: url('/images/ca_energy_ico24x24.png') -24px 0 no-repeat; }
+	    
+	    label:hover .radioEMPicon, label.ui-state-active .radioEMPicon { background: url('/images/ca_emp_ico24x24.png') 0 0 no-repeat; }
+	    label:hover .radioPOTicon, label.ui-state-active .radioPOTicon { background: url('/images/ca_water_ico24x24.png') 0 0 no-repeat; }
+	    label:hover .radioTECicon, label.ui-state-active .radioTECicon { background: url('/images/ca_tech_ico24x24.png') 0 0 no-repeat; }
+	    label:hover .radioNATicon, label.ui-state-active .radioNATicon { background: url('/images/ca_nature_ico24x24.png') 0 0 no-repeat; }
+	    label:hover .radioEDUicon, label.ui-state-active .radioEDUicon { background: url('/images/ca_edu_ico24x24.png') 0 0 no-repeat; }
+	    label:hover .radioVACicon, label.ui-state-active .radioVACicon { background: url('/images/ca_vacc_ico24x24.png') 0 0 no-repeat; }
+	    label:hover .radioCLEicon, label.ui-state-active .radioCLEicon { background: url('/images/ca_energy_ico24x24.png') 0 0 no-repeat; }	    
+	    
 	    #dragit { 
 	        display: none;
 	        background: transparent url('/images/bookmarklet_drag206x109.png') center center no-repeat;
 	        width: 206px;
 	        height: 109px;
 	        position: absolute;
-	        right: 5px;
+	        right: 10px;
 	        bottom: 15px;
 	        z-index: 8000;
         }
@@ -124,22 +148,26 @@
 
     <div class="row">
         <div class="col col_16 align_center">
-            <div style="display: inline-block; line-height: 24px; padding-top: 1px;">Pick a Cause: </div>
+            <!-- <div style="display: inline-block; line-height: 24px; padding-top: 1px;">Pick a Cause: </div> -->
             <div style="display: inline-block; vertical-align: top;" id="causeRadio">
-	            <input type="radio" id="radioEMP" name="radio" value="EMP" checked="checked" /><label for="radioEMP">Empowerment</label><input type="radio" id="radioPOT" name="radio" value="POT" /><label for="radioPOT">Potable Water</label><input type="radio" id="radioTEC" name="radio" value="TEC" /><label for="radioTEC">Technology</label><input type="radio" id="radioNAT" name="radio" value="NAT" /><label for="radioNAT">Nature</label><input type="radio" id="radioEDU" name="radio" value="EDU" /><label for="radioEDU">Education</label><input type="radio" id="radioVAC" name="radio" value="VAC" /><label for="radioVAC">Vaccination</label><input type="radio" id="radioCLE" name="radio" value="CLE" /><label for="radioCLE">Clean Energy</label>
+	            <input type="radio" id="radioEMP" name="radio" value="0" checked="checked" /><label for="radioEMP" title="Create social enterprises that strengthen developing communities."><span class="radioEMPicon">icon</span>Empowerment</label><input type="radio" id="radioPOT" name="radio" value="1" /><label for="radioPOT" title="Provide clean water as a basic human right."><span class="radioPOTicon">icon</span>Potable Water</label><input type="radio" id="radioTEC" name="radio" value="2" /><label for="radioTEC" title="Support development of life changing technologies."><span class="radioTECicon">icon</span>Technology</label><input type="radio" id="radioNAT" name="radio" value="3" /><label for="radioNAT" title="Preserve plants, animals and natural ecosystems."><span class="radioNATicon">icon</span>Nature</label><input type="radio" id="radioEDU" name="radio" value="4" /><label for="radioEDU" title="Create opportunities for American students to succeed."><span class="radioEDUicon">icon</span>Education</label><input type="radio" id="radioVAC" name="radio" value="5" /><label for="radioVAC" title="Stop the spread of life threatening diseases."><span class="radioVACicon">icon</span>Vaccination</label><input type="radio" id="radioCLE" name="radio" value="6" /><label for="radioCLE" title="Offset carbon emissions."><span class="radioCLEicon">icon</span>Clean Energy</label>
+	            <p><img src="/images/940x15.png" width="940" height="15" /></p>
             </div>
-            <br/><br/>            
         </div>
     </div>
+    
+    
 	<!-- container for overview to hold store buttons -->	
 	<div class="row">
-		<div id="overviewContainer" class="col col_16">
+	    <div id="overviewContainer" class="col col_16">
 			<ul id="ulOverview"></ul>				
 		</div>			
 	</div>
     
 	<div class="row">
 		<div class="col col_16">
+			
+		    <br/>
 			
 		    <!-- <a id="pungleBookmarklet" href="javascript:(function(e,a,g,h,f,c,b,d){if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){c=a.createElement(&quot;script&quot;);c.type=&quot;text/javascript&quot;;c.src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/&quot;+g+&quot;/jquery.min.js&quot;;c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d==&quot;loaded&quot;||d==&quot;complete&quot;)){h((f=e.jQuery).noConflict(1),b=1);f(c).remove()}};a.documentElement.childNodes[0].appendChild(c)}})(window,document,&quot;1.3.2&quot;,function($,L){
 		        pungleBKMRKLTSavedStores = 'hi fag';
@@ -211,14 +239,14 @@
 	</div>
 	
 	
-	<div class="row">
+	<!-- <div class="row">
         <div class="col col_10 align_right">
             <h3>Want to watch the tutorial?</h3>
         </div>
         <div class="col col_6">
             <a class="dribbble" href="/tutorial/" title="Check out the tutorial">Tutorial ></a>
         </div>
-    </div>
+    </div> -->
     
 	</div>
     
@@ -247,8 +275,6 @@
 	    $(document).ready(function(){
 	        
 	        pungle.init();
-
-	        $( "#causeRadio" ).buttonset();	        
 	        
 	    });	    
 	</script>

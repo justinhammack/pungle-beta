@@ -10,7 +10,7 @@ var pungle = (function ($) {
 	var imagePath = '/images/'; // set path for images (can swap with CDN)
 	var imageStoresPath = 'http://c190157.r57.cf1.rackcdn.com/'; // set path for images (can swap with CDN)
 	var cookieStore = 'storeorder'; // cookie to hold the user specified store order
-    
+    var cookieCause = 'cause'; // cookie to hold the user specified cause
 	
 	// set up pungle & overview for use
 	function init() {
@@ -18,6 +18,7 @@ var pungle = (function ($) {
 		// use CSS for image properties.. background and object sizes image_props.png, one object for all properties (handle, deal, no deal, normal i, social good i)
 		
 		var htmlStore = ''; // blank variable to hold HTML		
+		var causeID = getCauseID(); // check cause Id
 		
 		// create linked sortable lists after data is loaded (does order matter?)
 		$("#ulOverview").sortable({
@@ -30,6 +31,9 @@ var pungle = (function ($) {
 			handle: '.storeButtonUtility',
 			update: function() { $.cookie(cookieStore, $("#ulOverview").sortable("toArray"), { expires: 365, path: "/" }); updateStoreOrder(); }
 		});
+		
+		// setup cause radio buttons
+		$( "#causeRadio" ).buttonset();
 		
 		// setup drop down menu
 		$('select#dropList').selectmenu();
@@ -58,7 +62,7 @@ var pungle = (function ($) {
 			if(entry['live']){				
 			    
 			    // setup the list object				
-				htmlStore = '<tr><th><a href="/inject/#id=' + entry['id'] + '" target="_blank" title="' + entry['name'] + '">' + entry['name'] + '</a></th>';
+				htmlStore = '<tr><th><a href="/inject/#id=' + entry['id'] + '&c=' + causeID + '" target="_blank" title="' + entry['name'] + '">' + entry['name'] + '</a></th>';
 				htmlStore += '<td>' + entry['desc'] + '<span class="hidden">';
 			    
 				$.each(entry['tags'], function(tagsIndex, tags) {
@@ -100,6 +104,9 @@ var pungle = (function ($) {
         // import all the stores to overview
 		getStoreOrder();
 		
+		$("input[name=radio]").click(function() {
+		   pungle.causeUpdate();
+		});
 	}
 	
 	
@@ -122,6 +129,7 @@ var pungle = (function ($) {
 		else {
 		    
 		    var htmlStore = ''; // blank variable to hold HTML
+		    var causeID = $("input[name=radio]:checked").val(); // get cause ID
 		    
     		// loop to search database for store's unique ID
     		for ( var i=0, len=pungleJSON.store.length; i<len; ++i ){
@@ -131,15 +139,12 @@ var pungle = (function ($) {
     		        
     		        // build the button for the overview
     		        htmlStore = '<li id="pS' + pungleJSON.store[i].id + '" class="storeButton">';
-        			htmlStore += '<a href="/inject/#id=' + pungleJSON.store[i].id + '" title="' + pungleJSON.store[i].desc + '" target="_blank"><img class="storeLink" src="' + imageStoresPath + pungleJSON.store[i].img + '" /></a>';
+        			htmlStore += '<a href="/inject/#id=' + pungleJSON.store[i].id + '&c=' + causeID + '" title="' + pungleJSON.store[i].desc + '" target="_blank"><img class="storeLink" src="' + imageStoresPath + pungleJSON.store[i].img + '" /></a>';
         			htmlStore += '<span class="storeButtonUtility">';
         			htmlStore += '<span class="ui-icon ui-icon-arrow-4" title="Drag & Drop"></span>';
         			htmlStore += '</span>';
         			htmlStore += '<span class="storeButtonBottom">';        			
-        			
-    				// if( pungleJSON.store[i].aff ) htmlStore += '<span class="pungleRedIcon ui-icon ui-icon-heart" title="High impact donations enabled."></span>';
-    				
-    				htmlStore += '</span>';
+        			htmlStore += '</span>';
         			htmlStore += '</li>';        			
         			
         			$('#ulOverview').append(htmlStore);
@@ -167,13 +172,17 @@ var pungle = (function ($) {
 	
 	
 	// passes ids to injector for dom clicks
-	function shopNow(storeID) {
+	function shopNow(storeID, causeID) {
 		
 	    var storeLINK = null;
 	    var storeTIMER = 2500;
 	    
 	    var storeFound = false;	    
 	    var storeHtml = 'uhm.. yeah. store not found. our bad?<br/><br/><a href="http://pungle.me/">go back to pungle.me</a><br/><br/>';
+	    
+	    var causes = ["ca_emp_ico64x64.png","ca_water_ico64x64.png","ca_tech_ico64x64.png","ca_nature_ico64x64.png","ca_edu_ico64x64.png","ca_vacc_ico64x64.png","ca_energy_ico64x64.png"];
+	    
+	    var noCause = "";
 	    
 	    for ( var i=0, len=pungleJSON.store.length; i<len; ++i ){
     		// else found ID is not a favorite yet
@@ -182,10 +191,14 @@ var pungle = (function ($) {
     	        storeLINK = pungleJSON.store[i].link;
     	        
     	        if(pungleJSON.store[i].aff === true) {
-    	            storeHtml = '<h3 style="color: #f0b02a;">Enjoy ' + pungleJSON.store[i].name + ' served with Cookies & Karma!</h3><br/>Leaving so soon!? The party is just getting started...<br/><br/>';
+    	            storeHtml = '<h3>' + pungleJSON.store[i].name + ' is social good enabled!</h3>';
+    	            storeHtml += '<p><span class="yourCause">Your Cause:</span></p>';
+    	            storeHtml += '<p><img src="/images/' + causes[causeID] + '" width="64" height="64" /></p><br/>';
     	        }
     	        else {
-    	            storeHtml = '<h3>' + pungleJSON.store[i].name + ' = plain old shopping..</h3><br/>Don\'t worry, we\'re adding new stores all the time!<br/><br/>';
+    	            storeHtml = '<h3>' + pungleJSON.store[i].name + '</h3>';
+    	            storeHtml += '<p><span class="yourCause">Social Good is in negotiations..</span></p>';
+    	            storeHtml += '<p><img src="/images/ca_nothing_ico64x64.png" width="64" height="64" /></p><br/>';
     	            storeTIMER = 3750;
     	        }
     	        
@@ -255,6 +268,21 @@ var pungle = (function ($) {
 	}
 	
 	
+	// check for causeID
+	function getCauseID() {
+	    var cCause = $.cookie(cookieCause); // fetch the cause cookie if it exists
+	    
+	    // set cause to cookie
+		if (cCause && cCause >= 0 && cCause <= 6) {
+		    $("input[name=radio]:checked").attr('checked', false);
+		    $("input[value='" + cCause + "']").attr('checked', true);
+		    $( "#causeRadio" ).buttonset("refresh");
+		}
+		
+		return $("input[name=radio]:checked").val();
+	}
+	
+	
 	// update the variable store order
 	function updateStoreOrder() {
 		var storeOrderString = $("#ulOverview").sortable("toArray");		
@@ -297,11 +325,24 @@ var pungle = (function ($) {
 		window.location.hash = "#"; // just to be safe we clear any hash
 	}
 	
+	
 	// resets the cookie and reloads the page
 	function restoreDefaults() {
 		$.cookie(cookieStore, null, {path: "/"}); // clear the cookie
 		window.location.hash = "#"; // just to be safe we clear any hash
 		window.location.reload();
+	}
+	
+	
+	// add cause link to a.href 
+	function causeUpdate() {
+	    var causeID = $("input[name=radio]:checked").val();
+	    $('.storeButton a, #allStores tr th a').each(function() {
+	        var html = $(this).attr('href').replace(/&c=[0-9]/, '');
+	        $(this).attr('href', html + '&c=' + causeID);
+	    });
+	    $.cookie(cookieCause, causeID, { expires: 365, path: "/" });
+	    updateBookmarklet();
 	}
 	
 	
@@ -319,7 +360,9 @@ var pungle = (function ($) {
 		
 		/* var benalmanScript = 'javascript:(function(e,a,g,h,f,c,b,d){if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){c=a.createElement("script");c.type="text/javascript";c.src="http://ajax.googleapis.com/ajax/libs/jquery/"+g+"/jquery.min.js";c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d=="loaded"||d=="complete")){h((f=e.jQuery).noConflict(1),b=1);f(c).remove()}};a.documentElement.childNodes[0].appendChild(c)}})(window,document,"1.3.2",function($,L){pungleBKMRKLTSavedStores=[' + storeOrder + '];var jsCodePungleBKMRKLT=document.createElement("script");jsCodePungleBKMRKLT.setAttribute("src","http://localhost/core/pungleBKMRKLT.js");document.body.appendChild(jsCodePungleBKMRKLT);});'; */
 		var bookHeight = 140 + (48 * Math.ceil(storeOrder.length / 3));
-		var pungleScript = "javascript:(function(){var w=510,h=" + bookHeight + ",l=Math.round((screen.width-w)/2),t=Math.round((screen.height-h)/2),d=document,s=w.getSelection?w.getSelection():d.title;if(s=='')s=d.title;window.ft=window.open('http://" + document.domain + "/bookmarklet/#id=" + storeOrder + "','','left='+l+',top='+(t>0?t:0)+',width='+w+',height='+h+',personalbar=0,toolbar=0,scrollbars=0,resizable=1');})();";
+		var causeID = $("input[name=radio]:checked").val();
+		
+		var pungleScript = "javascript:(function(){var w=510,h=" + bookHeight + ",l=Math.round((screen.width-w)/2),t=Math.round((screen.height-h)/2),d=document,s=w.getSelection?w.getSelection():d.title;if(s=='')s=d.title;window.ft=window.open('http://" + document.domain + "/bookmarklet/#id=" + storeOrder + "&c=" + causeID + "','','left='+l+',top='+(t>0?t:0)+',width='+w+',height='+h+',personalbar=0,toolbar=0,scrollbars=0,resizable=1');})();";
 		
 		// $('#pungleBookmarklet').replaceWith(insertBookmarklet);
 		$('#pungleBookmarklet').attr('href', pungleScript);
@@ -327,10 +370,13 @@ var pungle = (function ($) {
 	}
 	
 	
+	// builds the bookmarklet page
 	function bookmarklet() {
 	    
 	    var storesBookmarklet = $.url.param("id").split(",");
+	    var causeID = $.url.param("c");
 	    var buttonHtml = '';
+	    var causes = ["EMP","POT","TEC","NAT","EDU","VAC","CLE"];
 	    
 	    pungleAutocomplete = new Array();
 	    
@@ -338,6 +384,13 @@ var pungle = (function ($) {
             pungleAutocomplete[i] = { value:pungleJSON.store[i].id, label:pungleJSON.store[i].name };
         }
 	    
+        // set the cause icon & add buttons
+        if (causeID >= 0 && causeID <= 6) {}
+        else { causeID = 0; }
+        
+        $("#causeIcon").addClass(causes[causeID]);
+        $("#causeIcon").attr("href","/cause-portfolio/#" + causes[causeID]);
+        
 	    // loop to search database for store's unique ID
     	$.each(storesBookmarklet, function(hashIndex, hashValue) {
     	    
@@ -350,7 +403,7 @@ var pungle = (function ($) {
     		        
     		        if( pungleJSON.store[i].name.length > 14) { buttonHtml += ' smallButton'; }
     		        
-    		        buttonHtml += '" href="/inject/#id=' + pungleJSON.store[i].id + '" title="' + pungleJSON.store[i].desc + '" target="_blank">' + pungleJSON.store[i].name + '</a>';
+    		        buttonHtml += '" href="/inject/#id=' + pungleJSON.store[i].id + '&c=' + causeID + '" title="' + pungleJSON.store[i].desc + '" target="_blank">' + pungleJSON.store[i].name + '</a>';
     		        
         			// if we're here, we found it, no need to search the rest of the DB
     		        break;
@@ -363,7 +416,7 @@ var pungle = (function ($) {
     	
     	$('#bookmarkletButtons').html(buttonHtml);
 		
-    	$(".dribbble, #addRemoveStores, #storeBtn, #mbpRating").click(function() { window.close(); });
+    	$(".dribbble, #addRemoveStores, #storeBtn, #mbpRating, #causeIcon").click(function() { window.close(); });
     	
     	$( "#quickSearch" ).autocomplete({
 			source: pungleAutocomplete,
@@ -382,7 +435,8 @@ var pungle = (function ($) {
 		clearStores:clearStores,
 		shopNow:shopNow,
 		bookmarklet:bookmarklet,
-		modStoreOverview:modStoreOverview		
+		modStoreOverview:modStoreOverview,
+		causeUpdate:causeUpdate
 	}
 }(jQuery));
 

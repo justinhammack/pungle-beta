@@ -14,6 +14,11 @@
 <?php require("include/head.php"); ?>
 
     <link rel="canonical" href="http://pungle.me/inject/" />
+    
+    <style type="text/css">
+        h3 { letter-spacing: 1px; }
+        .yourCause { font-size: 16px; color: #666666; letter-spacing: 1px; }
+    </style>
 </head>
 
 <body>
@@ -25,7 +30,7 @@
         </div>
     </div>
     
-    <div style="padding: 175px 0 225px;" id="content" class="clearfix">
+    <div style="padding: 75px 0 175px;" id="content" class="clearfix">
         
         <div class="row">
             <div class="col col_16">
@@ -64,7 +69,9 @@
 	    $(document).ready(function(){
 	        
 	        var injectorID = parseInt($.url.param("id"), 10);
-	        var injectorRETURN = pungle.shopNow(injectorID);	        
+	        var causeID = parseInt($.url.param("c"), 10);
+	        
+	        var injectorRETURN = pungle.shopNow(injectorID, causeID);	        
 	        
 	        if (injectorRETURN.storeLINK !== null) {
 	            $("#progressBarValue").animate({ width: "100%" }, injectorRETURN.storeTIMER, function (){

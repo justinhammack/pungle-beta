@@ -26,7 +26,7 @@
 			<nav>
 				<ul class="navigation">
 					<li>
-					    <a class="navAnvil" title="Maximize your impact when you shop online." href="/shop/">Shop</a>					    
+					    <a class="navAnvil" title="Maximize your impact when you shop online." href="/shop/">Shop Tool</a>	    
 				    </li>				    
 				    <li class="parentNav">
 					    <a href="/how-it-works/">Learn More</a>

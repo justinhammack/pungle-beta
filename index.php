@@ -23,7 +23,7 @@
 	    body {
             padding: 0;
             margin: 0;
-            background: url('/images/PUkittycorn_frontpage.jpg') center 402px no-repeat;
+            background: url('/images/PUkittycorn_frontpage.jpg') center 340px no-repeat;
             
             width: 100%;
             display: table;
@@ -51,6 +51,7 @@
         
         .imageBuffer { margin: 26px 0 8px;}
         
+        #fb-root { margin-top: 8px; }
 	</style>
 	
 </head>
@@ -74,8 +75,22 @@
 	        </div>
 	        
 	        <div class="col indexForm">
-	            <img src="/images/PU_step1.png" width="169" height="28" alt="Step 1" title="Step 1"/><br/>
-	            <small>Sign up to get exclusive goodies & treats we only share with our favorite people.</small>
+	            
+	            <!-- Step 1 Facebook -->
+	            <img src="/images/PU_step1a.png" width="125" height="30" alt="Step 1" title="Step 1" /><br/>
+                <small>Join our community and grow with us:</small><br/>
+	            <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=179859935402175&amp;xfbml=1"></script><fb:like href="https://www.facebook.com/pungleDOTorg" send="false" width="300" show_faces="true" font="arial"></fb:like>
+	            
+	            <!-- Step 2 Shopping Tool -->
+	            <img src="/images/PU_step2b.png" width="192" height="30" alt="Step 2" title="Step 2" class="imageBuffer" />
+	            <a style="margin: 0 75px;" class="dribbble" href="/how-it-works/" title="How it Works!">Start ></a>
+	            <br/>
+	            
+	            <img style="margin-top: 8px;" src="/images/300x5.png" width="300" height="5" alt="split" />
+	            <!-- Optional -->
+	            <img style="margin-top: 8px;" src="/images/PU_step3a.png" width="250" height="33" alt="Step 3" title="Step 3" /><br/>
+	            <small>We're working out the kinks and looking for a few users to try our experimental features. If that's you, enter your email below and we'll be in touch.</small>
+	            
 	            <!-- Begin MailChimp Signup Form -->
 	            
                     <script type="text/javascript">
@@ -88,12 +103,12 @@
                         <form action="http://pungle.us2.list-manage1.com/subscribe/post?u=49a938eaff3e75d15622b305b&amp;id=4705aa678e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                             <fieldset>
                                 
-                                <div class="mc-field-group">
+                                <!-- <div class="mc-field-group">
                                     <input type="text" placeholder="Full Name" value="" name="FNAME" class="" id="mce-FNAME">
-                                </div>
+                                </div> -->
                                 <div class="mc-field-group">
                                     <input type="text" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">                                    
-                                    <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="signup">
+                                    <input type="submit" value="Invite" name="subscribe" id="mc-embedded-subscribe" class="signup">
                                 </div>
                 		        <div id="mce-responses">
                 		            
@@ -109,11 +124,6 @@
                 
                 <!--End mc_embed_signup-->
 	            
-                <img src="/images/PU_step2.png" width="115" height="23" alt="Step 2" title="Step 2" class="imageBuffer" />
-	                <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=179859935402175&amp;xfbml=1"></script><fb:like href="https://www.facebook.com/pungleDOTorg" send="false" width="300" show_faces="true" font="arial"></fb:like>
-	                
-	            <img src="/images/PU_step3.png" width="270" height="28" alt="Step 3" title="Step 3" class="imageBuffer" />	            
-	            <a style="margin: 0 75px;" class="dribbble" href="/tutorial/" title="Setup the shopping tool!">Next ></a>
 	        </div>
 		</div>
 		

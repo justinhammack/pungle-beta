@@ -39,7 +39,7 @@
       	
             <div class="col col_10 align_right">
                 <br/>
-                <h3>Done watching the video? Let's get started.</h3>
+                <h3>Done watching the video?</h3>
             </div>
             <div class="col col_6">
                 <br/>

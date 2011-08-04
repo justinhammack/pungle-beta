@@ -159,6 +159,34 @@
         
         .dribbble.smallButton { font-size: 10px; line-height: 16px; }
         
+        #causeIconFrame {
+            display: inline-block;
+	        background: #e3e3e3;
+	        float: left;	        
+            border: 1px solid #bbb;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            -moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+            -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+            box-shadow: inset 0 0 1px 1px #f6f6f6;
+            padding: 6px;
+            margin: 8px;
+        }
+        #causeIcon {
+            display: block;
+            width: 24px;
+	        height: 24px;
+	        text-indent: -999999px;
+        }
+        .EMP { background: url('/images/ca_emp_ico24x24.png') 0 0 no-repeat; }
+        .POT { background: url('/images/ca_water_ico24x24.png') 0 0 no-repeat; }
+        .TEC { background: url('/images/ca_tech_ico24x24.png') 0 0 no-repeat; }
+        .NAT { background: url('/images/ca_nature_ico24x24.png') 0 0 no-repeat; }
+        .EDU { background: url('/images/ca_edu_ico24x24.png') 0 0 no-repeat; }
+        .VAC { background: url('/images/ca_vacc_ico24x24.png') 0 0 no-repeat; }
+        .CLE { background: url('/images/ca_energy_ico24x24.png') 0 0 no-repeat; }        
+        
     </style>
     
 </head>
@@ -175,6 +203,10 @@
                 <img style="float: left; margin-right: 4px; vertical-align: middle;" src="/images/highfive24x24.png" width="24" height="24" />Pungle Products
             </a>
             
+        </div>
+        
+        <div id="causeIconFrame">
+            <a id="causeIcon" href="/cause-portfolio/#" title="Check on the progress of your cause!" target="_blank">Cause</a>
         </div>
         
         <!-- <div id="mbp">            
