@@ -63,7 +63,7 @@
 	
 	<!-- version this file to force reload -->
 	<script src="/core/pungleJSON.js"></script>
-	<script src="/core/pungle.js?v=4"></script>
+	<script src="/core/pungle.js?v=5"></script>
 	
 	<script type="text/javascript">
 	    $(document).ready(function(){

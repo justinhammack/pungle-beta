@@ -238,7 +238,7 @@
 	<script>!$.ui && document.write('<script src="/core/libs/jquery-ui-1.8.9.min.js" type="text/javascript"><\/script>')</script>
 	
     <script src="/core/pungleJSON.js"></script>
-	<script src="/core/pungle.js?v=3"></script>
+	<script src="/core/pungle.js?v=5"></script>
 	    
 	<script type="text/javascript">
 	    $(document).ready(function(){

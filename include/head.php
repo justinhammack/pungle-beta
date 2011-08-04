@@ -19,7 +19,7 @@
   
     <!-- CSS : implied media="all" -->
     <!-- 4/15/11 set v=4 -->
-    <link rel="stylesheet" href="/core/style.css?v=5">
+    <link rel="stylesheet" href="/core/style.css?v=6">
     <!-- <link rel="stylesheet" href="core/style-min.css?v=2"> -->
 
     <!--[if lt IE 9]>
