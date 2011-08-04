@@ -29,24 +29,35 @@
     <div id="content" class="clearfix">
       
         <div class="row">
-            <div class="col col_16 align_center">
+            <div class="col col_10 align_center">
                 <br/><br/>
-                <iframe width="853" height="510" src="http://www.youtube.com/embed/qeyHQrszeC8?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="349" src="http://www.youtube.com/embed/qeyHQrszeC8?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>                
+            </div>
+            <div class="col col_6">
+                <br/><br/>
+                <h3>Quick Tutorial Video (81s.)</h3>
+                <br/><br/>
+                <b>Learn:</b>
+                <ul>
+                    <li>How to pick a cause.</li>
+                    <li>How to setup the tool.</li>
+                    <li>What the cool icons mean.</li>
+                    <li>How to spell: "DICK".</li>
+                </ul>
+                <br/>
+                <br/>
+                <p><a class="dribbble" style="margin: 0 auto;" href="/shop/" title="Go to Shopping Tool">Shop Tool ></a></p>
+                <p class="align_center">Bored? Go shop already.</p>
             </div>
         </div>
         
         <div class="row">
-      	
-            <div class="col col_10 align_right">
-                <br/>
-                <h3>Done watching the video?</h3>
+            <div class="col col_16">
+                <img src="/images/940x15.png" width="940" height="15" />
             </div>
-            <div class="col col_6">
-                <br/>
-                <a class="dribbble" href="/shop/" title="Go to Shopping Tool">Shop Tool ></a>
-            </div>
-        
         </div>
+        
+        
         
       <div class="row">
       	

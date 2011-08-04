@@ -1621,9 +1621,9 @@ var pungleJSON =
 		"tags": [6,8,7],
 		"name": "Toys R Us",
 		"desc": "Leading online retailer for kids toys.",
-		"link": "http://www.pntrac.com/t/RUBGSUhIREBITEpITEBISkNJRQ",
+		"link": "http://www.toysrus.com/",
 		"img": "toysrus.png",
-		"aff": true,
+		"aff": false,
 		"live": true
 	},
 	{

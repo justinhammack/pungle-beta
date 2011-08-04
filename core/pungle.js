@@ -180,6 +180,10 @@ var pungle = (function ($) {
 	    var storeFound = false;	    
 	    var storeHtml = 'uhm.. yeah. store not found. our bad?<br/><br/><a href="http://pungle.me/">go back to pungle.me</a><br/><br/>';
 	    
+	    // set the cause icon & add buttons
+        if (causeID >= 0 && causeID <= 6) {}
+        else { causeID = 0; }
+        
 	    var causes = ["ca_emp_ico64x64.png","ca_water_ico64x64.png","ca_tech_ico64x64.png","ca_nature_ico64x64.png","ca_edu_ico64x64.png","ca_vacc_ico64x64.png","ca_energy_ico64x64.png"];
 	    
 	    var noCause = "";
@@ -194,6 +198,7 @@ var pungle = (function ($) {
     	            storeHtml = '<h3>' + pungleJSON.store[i].name + ' is social good enabled!</h3>';
     	            storeHtml += '<p><span class="yourCause">Your Cause:</span></p>';
     	            storeHtml += '<p><img src="/images/' + causes[causeID] + '" width="64" height="64" /></p><br/>';
+    	            $.ajax({ type: "POST", url: "/include/pushvote.php", data: "c=" + causeID });
     	        }
     	        else {
     	            storeHtml = '<h3>' + pungleJSON.store[i].name + '</h3>';
