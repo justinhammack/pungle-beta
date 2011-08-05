@@ -225,7 +225,7 @@ var pungleJSON =
 		"tags": [3,13,8],
 		"name": "Barnes & Noble",
 		"desc": "Books, DVDs, Music, Toys & Games and More.",
-		"link": "http://gan.doubleclick.net/gan_click?lid=41000000027828850&pubid=21000000000316594",
+		"link": "http://click.linksynergy.com/fs-bin/click?id=GU*lP9Glm/0&offerid=229293.54&type=3&subid=0",
 		"img": "barnesandnoble.png",
 		"aff": true,
 		"live": true

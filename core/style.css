@@ -449,7 +449,7 @@ button {  width: auto; overflow: visible; }
 	}
 	.storeButton img {opacity: 0.8;}
 	.storeButton img:hover {opacity: 1.0;}
-	.storeButtonUtility {position: absolute; top:-3px; right:1px; cursor: move;}	
+	.storeButtonUtility {position: absolute; top: 1px; right: 2px; line-height: 16px; width: 16px; height: 16px;}	
 	.storeButtonBottom {position: absolute; left:5px; bottom:3px;}	
 
 	

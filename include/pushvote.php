@@ -1,6 +1,6 @@
 <?php 
 
-if (!isset($_SERVER['HTTP_X_REQUESTED_WITH']) || $_SERVER['HTTP_REFERER']!="http://dev.pungle.org/inject/") {
+if (!isset($_SERVER['HTTP_X_REQUESTED_WITH']) || $_SERVER['HTTP_REFERER']!="http://pungle.me/inject/") {
     die();
 }
 

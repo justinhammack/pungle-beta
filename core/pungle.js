@@ -26,9 +26,9 @@ var pungle = (function ($) {
 			revert: 100,
 			// scroll: false,
 			tolerance: 'pointer',
-			helper: 'clone',
+			// helper: 'clone',
 			placeholder: 'storePlaceHolder',			
-			handle: '.storeButtonUtility',
+			// handle: '.storeButtonUtility',
 			update: function() { $.cookie(cookieStore, $("#ulOverview").sortable("toArray"), { expires: 365, path: "/" }); updateStoreOrder(); }
 		});
 		
@@ -141,16 +141,21 @@ var pungle = (function ($) {
     		        htmlStore = '<li id="pS' + pungleJSON.store[i].id + '" class="storeButton">';
         			htmlStore += '<a href="/inject/#id=' + pungleJSON.store[i].id + '&c=' + causeID + '" title="' + pungleJSON.store[i].desc + '" target="_blank"><img class="storeLink" src="' + imageStoresPath + pungleJSON.store[i].img + '" /></a>';
         			htmlStore += '<span class="storeButtonUtility">';
-        			htmlStore += '<span class="ui-icon ui-icon-arrow-4" title="Drag & Drop"></span>';
+        			htmlStore += '<span class="ui-icon ui-icon-close" title="Remove Store"></span>';
         			htmlStore += '</span>';
-        			htmlStore += '<span class="storeButtonBottom">';        			
-        			htmlStore += '</span>';
+        			// htmlStore += '<span class="storeButtonBottom">';        			
+        			// htmlStore += '</span>';
         			htmlStore += '</li>';        			
         			
         			$('#ulOverview').append(htmlStore);
         			
     		        // adjust the list fav icon
         	        $('#listS' + storeID).removeClass('favNoImage').addClass('favImage').html('FVS');
+        	        
+        	        // add remove button
+        	        $('#pS' + pungleJSON.store[i].id + ' .storeButtonUtility').click(function() {
+        	            pungle.modStoreOverview(pungleJSON.store[i].id);
+        	        });
         	        
     		        // if we're here, we found it, no need to search the rest of the DB
     		        break;
