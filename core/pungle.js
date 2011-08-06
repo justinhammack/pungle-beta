@@ -433,7 +433,7 @@ var pungle = (function ($) {
 			minLength: 2,
 			autoFocus: true,
 			select: function(event, ui) {
-			    window.open('http://' + document.domain + '/inject/#id=' + ui.item.value);
+			    window.open('http://' + document.domain + '/inject/#id=' + ui.item.value + '&c=' + causeID);
 			    window.close();
 			}
 		});

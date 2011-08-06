@@ -55,15 +55,17 @@
 	    .ui-selectmenu { margin-right: 5px; }
 	    
 	    #KTLOStore {
-	        background: url('/images/PU_shoppungle.png') 0 0;
+	        background: url('/images/PU_shoppungle152x42.png') 0 0;
 	        display: block;
-	        height: 80px;
-	        width: 137px;
+	        height: 42px;
+	        width: 152px;
 	        position: absolute;
-	        top: -80px;
-	        right: 30px;
+	        top: -65px;
+	        right: 0px;
 	        text-indent: -999999px;
 	    }
+	    #KTLOStore:hover { background-position: 0 -42px; }
+	    #KTLOStore:active { background-position: 0 -84px; }
 	    
 	    #pungleBookmarklet.dribbble, #pungleBookmarklet.dribbble:hover, #pungleBookmarklet.dribbble:visited, #pungleBookmarklet.dribbble:active {color: #716028;}
 	    
@@ -123,8 +125,7 @@
             <div class="col col_6"><h1 style="display: inline-block"><b>Shop</b> Tool</h1></div>
             <div class="col col_10" style="padding-top: 8px; overflow: visible;">
                 <img style="align: middle;" src="/images/PU_bookmarklet_text.png" width="187" height="30" alt="After setting up your stores, drag the button to your bookmarks.">
-                <a id="pungleBookmarklet" class="dribbble" style="display: inline-block; margin-left: 0px;" title="Shop bookmarklet, drag to your bookmark bar!"  href="#" >+ Pungle
-                    <span id="dragit"></span>
+                <a id="pungleBookmarklet" class="dribbble" style="display: inline-block; margin-left: 0px;" title="Shop bookmarklet, drag to your bookmark bar!"  href="#" >Shop Tool<span id="dragit"></span>
                 </a>                
             </div>
         </div>

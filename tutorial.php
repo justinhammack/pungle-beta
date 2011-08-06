@@ -40,14 +40,13 @@
                 <b>Learn:</b>
                 <ul>
                     <li>How to pick a cause.</li>
-                    <li>How to setup the tool.</li>
+                    <li>How to use the tool.</li>
                     <li>What the cool icons mean.</li>
-                    <li>How to spell: "DICK".</li>
                 </ul>
                 <br/>
                 <br/>
                 <p><a class="dribbble" style="margin: 0 auto;" href="/shop/" title="Go to Shopping Tool">Shop Tool ></a></p>
-                <p class="align_center">Bored? Go shop already.</p>
+                <p class="align_center">Done? Let's shop.</p>
             </div>
         </div>
         
