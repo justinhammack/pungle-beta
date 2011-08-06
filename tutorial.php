@@ -31,11 +31,11 @@
         <div class="row">
             <div class="col col_10 align_center">
                 <br/><br/>
-                <iframe width="560" height="349" src="http://www.youtube.com/embed/qeyHQrszeC8?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>                
+                <iframe width="560" height="349" src="http://www.youtube.com/embed/wK8WElb1v-E?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>                
             </div>
             <div class="col col_6">
                 <br/><br/>
-                <h3>Quick Tutorial Video (81s.)</h3>
+                <h3>Quick Tutorial Video</h3>
                 <br/><br/>
                 <b>Learn:</b>
                 <ul>
