@@ -17,10 +17,10 @@
 			</div> -->
 			
 			<?php if ($pfile!="index.php") { ?>
-    			<!-- PIR frame on top bar -->
+    			<!-- PIR frame on top bar 
     			<div id="mbp">            
     			    <a id="mbpRating" href="/financial/" title="Current donation efficiency, help us raise it.">35% PIR</a>
-                </div>
+                </div>-->
             <?php } ?>
             
 			<nav>
