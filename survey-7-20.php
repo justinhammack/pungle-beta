@@ -120,10 +120,10 @@
             <div class="col col_16 align_center">
                 <p>
                     <!-- <img style="vertical-align: middle;" src="/images/PU_srvy_ship64x64.png" width="64" height="64" title="Expore Pungle.me" /> -->
-                    <span class="catMenus">Quick Tutorial Video (81s.)</span>
+                    <span class="catMenus">Quick Tutorial Video</span>
                 </p>
                 <br/>
-                <iframe width="640" height="390" src="http://www.youtube.com/embed/qeyHQrszeC8?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+                <iframe width="640" height="390" src="http://www.youtube.com/embed/wK8WElb1v-E?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
                 <!-- <br/>
                 <ul>
                     <li>Watch Tutorial Video</li>

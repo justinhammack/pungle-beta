@@ -18,6 +18,7 @@
 	<!-- need to load the javascript at the top, since we load the graph in-line -->
 	<script src="/core/libs/raphael-min.js" type="text/javascript" charset="utf-8"></script> 
     <script src="/core/libs/g.raphael-min.js" type="text/javascript" charset="utf-8"></script> 
+    <!-- modified g.pie.js to sort options relative to order -->
     <script src="/core/libs/g.pie-min.js" type="text/javascript" charset="utf-8"></script>
     
     <!-- stylize the graph here -->
@@ -27,6 +28,8 @@
         	width: 580px;
         	height: 340px;
 		}
+		
+		#pungleCount { text-transform: none; }
     </style>
     
 </head>
@@ -44,7 +47,8 @@
         
         <!-- build graph of distribution -->
       	<div class="row">
-      		<div class="col col_16">
+      		<div class="col col_16 align_center">
+      		    <h2 id="pungleCount">&nbsp;</h2>
       		    <i>Pungle takes the hard work out of finding & supporting great causes!</i>
       		</div>
       	    <div class="col col_10">
@@ -199,123 +203,6 @@
             </div>
         </div>
         
-        <!-- charity discussion below         
-        <div class="row">
-        	
-        	<div class="col col_10 align_center">
-        		<p><img src="/images/charitywater.jpg" title="charity: water" width="580" height="387" /></p>
-        	</div>
-        	
-        	<div class="col col_6">
-        		<p><h3>charity: water</h3></p>
-        		<iframe src="http://player.vimeo.com/video/2942875?title=0&amp;byline=0&amp;portrait=0" width="340" height="191" frameborder="0"></iframe>
-        		<p>
-        			Right now, almost one BILLION people on the planet don’t have access to clean, safe drinking water. That’s one in eight of us. charity: water is a non-profit organization bringing clean, safe drinking water to people in developing nations. They use 100% of pungle's donations to directly fund sustainable water solutions in areas of greatest need.<br/>
-        			<p><a href="http://www.charitywater.org/whywater/" title="Visit charity: water" target="_blank">charity: water ></a></p>
-    			</p>
-        	</div>
-        	
-        </div>
-        
-        <div id="adventure" class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
-        </div>
-        
-        <div class="row">
-        	
-        	<div class="col col_6">
-        		<p><h3>The Adventure Project</h3></p>
-        		<iframe src="http://player.vimeo.com/video/21305603?title=0&amp;byline=0&amp;portrait=0" width="340" height="191" frameborder="0"></iframe>
-        		<p>
-        			The Adventure Project increases investments in positive social enterprises around the world. They believe we can end extreme poverty in our lifetime by reinventing how we give and provide solutions that spur economic opportunity, promote dignity, & save lives. Amazing.<br/>
-        			<p class="align_right"><a href="http://theadventureproject.org" title="Visit The Advneture Project" target="_blank">The Adventure Project ></a></p>
-    			</p>
-        	</div>
-        	
-        	<div class="col col_10 align_center">
-        		<p><img src="/images/adventure_project.jpg" title="The Adventure Project" width="580" height="387" /></p>
-        	</div>
-        	
-        </div>
-        
-        <div id="POP" class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
-        </div>
-        
-        <div class="row">
-        	
-        	<div class="col col_10 align_center">
-        		<p><img src="/images/pencilsofpromise.jpg" title="Pencils of Promise" width="580" height="387" /></p>
-        	</div>
-        	
-        	<div class="col col_6">
-        		<h3>Pencils of Promise</h3>
-        		<br/>
-        		<iframe src="http://player.vimeo.com/video/9190756?title=0&amp;byline=0&amp;portrait=0" width="340" height="191" frameborder="0"></iframe>
-        		<p>
-        			Pencils of Promise is a global movement of passionate individuals committed to supporting a world with greater educational opportunity for all. There are more than 75 million children without access to education, and we intend to help change this by supporting Pencils of Promise.<br/>
-        			<p><a href="http://www.pencilsofpromise.org/our-projects" title="Visit Pencils of Promise" target="_blank">Pencils of Promise ></a></p>
-        		</p>
-        	</div>
-        	
-        </div>
-        
-        <div id="NBN" class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
-        </div>
-        
-        <div class="row">
-        	
-        	<div class="col col_6">
-        		<p><h3>Nothing But Nets</h3></p>
-        		<p>
-        			Nothing But Nets is a global, grassroots campaign to raise awareness and funding to combat malaria, one of the largest killers of children in Africa. pungle donates to Nothing But Nets because they have a proven track record of efficiently delivering mosquito nets to people who need them.<br />
-        			<p class="align_right"><a href="http://www.nothingbutnets.net/nets-save-lives/net-distributions/" title="Visit Nothing But Nets" target="_blank">Nothing But Nets ></a></p>
-    			</p>
-        	</div>
-        	
-        	<div class="col col_10 align_center">
-        		<p><img src="/images/nothingbutnets.jpg" title="Nothing But Nets" width="580" height="387" /></p>
-        	</div>
-        	
-        </div>
-        
-        <div id="darmang" class="row">
-        	
-        	<div class="col col_16 align_center">
-        		<img src="/images/1060x1.png" title="Ouch!" width="940" height="1" />
-        	</div>
-        	
-        </div>
-        
-        <div class="row">
-        	
-        	<div class="col col_10 align_center">
-        		<p><img src="/images/projectdarmang.jpg" title="Project Darmang" width="580" height="387" /></p>
-        	</div>
-        	
-        	<div class="col col_6">
-        		<p><h3>Project Darmang</h3></p>
-        		<p>
-        			Project Darmang is a local charity focused on clean water solutions specifically in Darmang. Working with a small local charity allows us to participate and volunteer our own time beyond the scope of pungle's donations. It gives us an intimate understanding of charities and how we can best fund sustainable solutions to people in need. Additionally, it's a great platform to allow local punglers an opportunity to get involved.<br/>
-        			<p><a href="http://projectdarmang.blogspot.com/" title="Project Darmang" target="_blank">Project Darmang ></a></p>
-        		</p>
-        	</div>
-        	
-        </div>-->
-        
     </div>
 
 <?php require("include/footer.php"); ?>
@@ -327,26 +214,38 @@
     <script type="text/javascript">
 		
     window.onload = function () {
-    	 var r = Raphael("npoGraph");
-                r.g.txtattr.font = "13px Arial, Verdana, Helvetica, sans-serif";
-                
-                /* colors 3fb1f3 68dc72 3cece2 e3e948 ff849e cb92e9 ffa250 eb6f4e */
-                var pie = r.g.piechart(180, 170, 150, [15, 15, 15, 15, 15, 15, 10], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Empowerment", "%% Potable Water", "%% Technology", "%% Nature", "%% Education", "%% Vaccinations", "%% Clean Energy"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCLE"]});
-                pie.hover(function () {
-                    this.sector.stop();
-                    this.sector.scale(1.1, 1.1, this.cx, this.cy);
-                    if (this.label) {
-                        this.label[0].stop();
-                        this.label[0].scale(1.5);
-                        this.label[1].attr({"font-weight": 800});
-                    }
-                }, function () {
-                    this.sector.animate({scale: [1, 1, this.cx, this.cy]}, 500, "bounce");
-                    if (this.label) {
-                        this.label[0].animate({scale: 1}, 500, "bounce");
-                        this.label[1].attr({"font-weight": 400});
-                    }
-                });
+    	
+        var pCauses = [];
+        var pCount = 0;
+        
+        $.ajax({ url: '/core/pungleCAUSES.json', dataType: 'json', async: false, success: function(data) { pCauses = data.slice(); } });
+        
+        $.each(pCauses, function(){
+            pCount += this;
+        });
+        
+        $('#pungleCount').html(pCount + ' pungles');
+        
+        var r = Raphael("npoGraph");
+        
+    	r.g.txtattr.font = "13px Arial, Verdana, Helvetica, sans-serif";
+        
+        var pie = r.g.piechart(180, 170, 150, [pCauses[0], pCauses[1], pCauses[2], pCauses[3], pCauses[4], pCauses[5], pCauses[6]], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Empowerment", "%% Potable Water", "%% Technology", "%% Nature", "%% Education", "%% Vaccinations", "%% Clean Energy"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCLE"]});
+        pie.hover(function () {
+            this.sector.stop();
+            this.sector.scale(1.1, 1.1, this.cx, this.cy);
+            if (this.label) {
+                this.label[0].stop();
+                this.label[0].scale(1.5);
+                this.label[1].attr({"font-weight": 800});
+            }
+        }, function () {
+            this.sector.animate({scale: [1, 1, this.cx, this.cy]}, 500, "bounce");
+            if (this.label) {
+                this.label[0].animate({scale: 1}, 500, "bounce");
+                this.label[1].attr({"font-weight": 400});
+            }
+        });
         
         $('a[href=#scrollEMP]').click(function(){
 			$('html, body').animate({
