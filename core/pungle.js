@@ -389,9 +389,13 @@ var pungle = (function ($) {
 	    var causes = ["EMP","POT","TEC","NAT","EDU","VAC","CLE"];
 	    
 	    pungleAutocomplete = new Array();
+	    var countComplete = 0;
 	    
         for(var i=0; i<pungleJSON.store.length; i++){
-            pungleAutocomplete[i] = { value:pungleJSON.store[i].id, label:pungleJSON.store[i].name };
+            if (pungleJSON.store[i].live == true) { 
+                pungleAutocomplete[countComplete] = { value:pungleJSON.store[i].id, label:pungleJSON.store[i].name }; 
+                countComplete++;
+            }
         }
 	    
         // set the cause icon & add buttons
