@@ -159,6 +159,17 @@
         
         google.setOnLoadCallback(drawVisualization);
         
+        function addCommas(nStr) {
+        	nStr += '';
+        	x = nStr.split('.');
+        	x1 = x[0];
+        	x2 = x.length > 1 ? '.' + x[1] : '';
+        	var rgx = /(\d+)(\d{3})/;
+        	while (rgx.test(x1)) {
+        		x1 = x1.replace(rgx, '$1' + ',' + '$2');
+        	}
+        	return x1 + x2;
+        }
     </script>
     
     
@@ -235,7 +246,7 @@
                     <b>Goal: </b>To create social enterprises that strengthen individuals and communities by providing solutions that spur economic opportunity, promote dignity, & save lives.
                 </p>
                 <p>                    
-                    <b>Campaign: </b>~$60/person, creates opportunity to end poverty for an individual by providing agricultural tools. Rate of economic stimulation projected at 15($N).
+                    <b>Campaign: </b>Affordable irrigation pumps that turn subsistent farmers into profitable entrepreneurs. Rate of economic stimulation projected at $15(N donations) in profits & wages.
                 </p>
                 <p>
                     <b>NPO: <a href="http://theadventureproject.org/" target="_blank">The Adventure Project</a></b>
@@ -263,7 +274,7 @@
                     <b>Goal: </b>To provide clean water as a basic human right to the ~1 BILLION people who don't have access to it. To be used for drinking, agriculture and sanitation.
                 </p>
                 <p>                    
-                    <b>Campaign: </b>$20/person or $5,000/village, trains technicians, build wells & creates sustainable water infrastructure.
+                    <b>Campaign: </b>$20/person or $5,000/village, trains technicians, build wells & creates sustainable water infrastructure for health, food and gender equality.
                 </p>
                 <p>
                     <b>NPO: <a href="http://www.charitywater.org/" target="_blank">charity: water</a></b>
@@ -291,7 +302,7 @@
                     <b>Goal: </b>To support development & distribution of innovative, life-changing technologies.
                 </p>
                 <p>  
-                    <b>Campaign: </b>$30/unit, provides solar powered light and electricity for remote areas.
+                    <b>Campaign: </b>$12.75/unit, biomass stoves that facilitates green technology adoption and creates new business opportunities and economic growth.
                 </p>
                 <p>
                     <b>NPO: <a href="http://kopernik.info/" target="_blank">Kopernik</a></b>
@@ -347,7 +358,7 @@
                     <b>Goal: </b>To create the best possible opportunities for our students to succeed by providing the necessary tools to teachers and classrooms in need.
                 </p>
                 <p>  
-                    <b>Campaign: </b>~$100-$500/classroom, multiple projects handled simultaneously.
+                    <b>Campaign: </b>~$100-$400/classroom, multiple projects handled simultaneously.
                 </p>
                 <p>
                     <b>NPO: <a href="http://www.donorschoose.org/" target="_blank">Donors Choose</a></b>
@@ -438,17 +449,18 @@
             }
         }); */
         
-        $.each(pCauses, function(){
-            pCount += this;
+        $.each(pCauses, function(index){
+            pCauses[index] -= 3000;
+            pCount += pCauses[index];
         });
         
-        $('#pungleCount').html(pCount + ' &nbsp;pungles');
+        $('#pungleCount').html(addCommas(pCount) + ' &nbsp;pungles');
         
         var r = Raphael("npoGraph");
         
     	r.g.txtattr.font = "13px Arial, Verdana, Helvetica, sans-serif";
         
-        var pie = r.g.piechart(180, 170, 150, [pCauses[0], pCauses[1], pCauses[2], pCauses[3], pCauses[4], pCauses[5], pCauses[6]], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Empowerment", "%% Potable Water", "%% Technology", "%% Nature", "%% Education", "%% Vaccinations", "%% Clean Energy"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCLE"]});
+        var pie = r.g.piechart(180, 170, 150, [pCauses[0], pCauses[1], pCauses[2], pCauses[3], pCauses[4], pCauses[5], pCauses[6]], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Social Ventures", "%% Potable Water", "%% Technology", "%% Nature", "%% Education", "%% Vaccinations", "%% Clean Energy"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCLE"]});
         pie.hover(function () {
             this.sector.stop();
             this.sector.scale(1.1, 1.1, this.cx, this.cy);
