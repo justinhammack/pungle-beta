@@ -450,7 +450,7 @@
         }); */
         
         $.each(pCauses, function(index){
-            pCauses[index] -= 3000;
+            pCauses[index] -= 2750;
             pCount += pCauses[index];
         });
         
@@ -460,7 +460,7 @@
         
     	r.g.txtattr.font = "13px Arial, Verdana, Helvetica, sans-serif";
         
-        var pie = r.g.piechart(180, 170, 150, [pCauses[0], pCauses[1], pCauses[2], pCauses[3], pCauses[4], pCauses[5], pCauses[6]], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Social Ventures", "%% Potable Water", "%% Technology", "%% Nature", "%% Education", "%% Vaccinations", "%% Clean Energy"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCLE"]});
+        var pie = r.g.piechart(180, 170, 150, [pCauses[0], pCauses[1], pCauses[2], pCauses[3], pCauses[4], pCauses[5], pCauses[6]], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Empowerment", "%% Potable Water", "%% Technology", "%% Nature", "%% Education", "%% Vaccinations", "%% Clean Energy"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCLE"]});
         pie.hover(function () {
             this.sector.stop();
             this.sector.scale(1.1, 1.1, this.cx, this.cy);
