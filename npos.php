@@ -202,7 +202,7 @@
         <!-- build graph of distribution -->
       	<div class="row">
             <div class="col col_16 align_center">
-                <h2 id="pungleCount">&nbsp;</h2>
+                <!-- <h2 id="pungleCount">&nbsp;</h2> -->
                 <br/><i>Pungle takes the hard work out of finding & supporting great causes!</i>
             </div>
             <div class="col col_10">
@@ -454,7 +454,7 @@
             pCount += pCauses[index];
         });
         
-        $('#pungleCount').html(addCommas(pCount) + ' &nbsp;pungles');
+        // $('#pungleCount').html(addCommas(pCount) + ' &nbsp;pungles');
         
         var r = Raphael("npoGraph");
         

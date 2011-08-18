@@ -64,17 +64,18 @@
         	<br/>
         	<b>Read Along:</b>
     	    <ol>
-    	        <li>This is the Pungle shopping tool setup page.</li>
-    	        <li>The large store buttons at the top are your favorite stores. You can change their order by dragging them by the + icon in their upper right corner.</li>
-    	        <li>You can add and remove stores as you please by clicking the star icon in the list of stores below.</li>
+    	        <li>This is the pungle shopping tool setup page.</li>
+    	        <li>The large store buttons are your favorite stores. To add/remove stores from your favorites, click the star icon.</li>
+    	        <li>You can also remove stores by clicking the “x” on the store button.</li>
+    	        <li>Dragging the buttons allows you to organize them how you like.</li>
     	        <li>The high five icon indicates if that store has an agreement with pungle that will result in a high impact donation.</li>
-    	        <li>When you get your favorite stores selected, and ordered how you like, simply drag the bookmark button up to your bookmark bar.</li>
-    	        <li>By clicking this bookmark, your personalized pungle shop tool will open, displaying your favorite stores in your chosen sequence.</li>
-    	        <li>When you change your favorites, delete the old bookmark, and drag the new bookmark button to your bookmark bar.</li>
+    	        <li>The buttons at the top are the cause selection buttons.  Just click the cause you want to support.</li>
+    	        <li>When you have your cause and favorite stores selected, simply drag the bookmark button up to your bookmark bar.</li>
+    	        <li>By clicking this bookmark, your personalized pungle shop tool will open, displaying your favorite stores and selected cause.</li>
+    	        <li>If you change your cause or your favorites, delete the old bookmark, and drag the new bookmark to your bookmark bar.</li>
     	        <li>To use the shop tool, simply open your browser, click the pungle bookmark and click through to the site of your choice.</li>
-    	        <li>That's all it takes. Any purchases you make in that visit will create a percentage-based high impact donation to the causes in our portfolio.</li>
-    	        <li>You can still shop from any of the other stores by using the search tool.</li>
-    	        <li>Its as easy as that. Set up your tool, and start pungling today.</li>
+    	        <li>Any purchases you make in that visit will create a percentage-based high impact donation to the cause you choose.</li>
+    	        <li>You can still shop from any of the stores by using the search tool. Its as easy as that. Set up your tool, and start pungling today.</li>
     	    </ol>        	
         </div>
     </div>
