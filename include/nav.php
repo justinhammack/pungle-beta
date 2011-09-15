@@ -26,23 +26,25 @@
 			<nav>
 				<ul class="navigation">
 					<li>
-					    <a class="navAnvil" title="Maximize your impact when you shop online." href="/shop/">Shop Tool</a>	    
-				    </li>				    
-				    <li class="parentNav">
+					    <a class="navAnvil" title="Browse available stores." href="/shop/">Browse Stores</a>
+			    </li>
+			    <li>
+		        <a <?php if ($pfile=="sogood.php") { ?>class="subSelected"<?php } ?> href="/how-it-works/" title="Check out how it works.">How It Works</a>
+		      </li>
+		      <li>
+	          <a <?php if ($pfile=="npos.php") { ?>class="subSelected"<?php } ?> href="/cause-portfolio/" title="See the difference Punglers have made.">View Progress</a>
+	        </li>
+				    <!-- <li class="parentNav">
 					    <a href="/how-it-works/">Learn More</a>
 					    <ul>
-					        <!-- <li>
+					       <li>
 					            <a href="http://pungle.storenvy.com/" title="Pungle loot to show off your hero status!">Store</a>					    
-				            </li> -->
-					        <li>
-					            <a <?php if ($pfile=="sogood.php") { ?>class="subSelected"<?php } ?> href="/how-it-works/" title="Find out how you are helping nonprofits.">How It Works</a>
-					        </li>
-				            <li>
+				         </li> 
+					        
+				          <li>
 					            <a <?php if ($pfile=="tutorial.php") { ?>class="subSelected"<?php } ?> href="/tutorial/" title="Learn how to use the shopping tool.">Shop Tutorial</a>
-					        </li>					        
-				            <li>
-					            <a <?php if ($pfile=="npos.php") { ?>class="subSelected"<?php } ?> href="/cause-portfolio/" title="See the Nonprofits and progress.">Cause Progress</a>
-					        </li>
+					        </li> -->
+				          
 					        <!-- <li>
 					            <a <?php if ($pfile=="about.php") { ?>class="subSelected"<?php } ?> href="/about-us/" title="Who are the people behind the scenes?">About Pungle</a>
 					        </li>
@@ -54,12 +56,12 @@
 					        </li>					        
 					        <li>
 					            <a <?php if ($pfile=="anvilfaq.php") { ?>class="subSelected"<?php } ?> href="/anvil/faq/" title="Answers to some common questions.">FAQ</a>
-					        </li> -->					        
+					        </li> 
 					    </ul>
 				    </li>
 				    <li>
 					    <a href="http://blog.pungle.me" title="Facts, Opinions, Comics, Satire." target="_blank">Blog</a>
-				    </li>
+				    </li>-->
 					<!-- <li class="parentNav">
 					    <a href="/social-good/">Learn More</a>
 					    <ul>

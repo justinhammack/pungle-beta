@@ -106,7 +106,7 @@ nav {
     display:block; 
     position: absolute; 
     right: 52px; 
-    bottom: 0px;
+    bottom: 7px;
     z-index: 10000; 
 	-moz-border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -117,7 +117,7 @@ nav ul, nav li { margin: 0; }
 nav ul li { float:left; padding: 8px 8px 13px 10px; }
 nav ul li.parentNav { padding: 8px 7px 13px 0px; }
 nav ul.navigation li.parentNav > a { background: url('/images/arrow.gif') no-repeat center right; }
-nav ul li a, nav ul li a:active, nav ul li a:visited { display:block; padding:0 8px; color: #444; font-weight: bold; font: 20px/26px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;}
+nav ul li a, nav ul li a:active, nav ul li a:visited { display:block; padding:0 8px; color: #444; font-weight: bold; font: 18px/26px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;}
 nav ul.navigation li.parentNav a, nav ul.navigation li.parentNav a:active, nav ul.navigation li.parentNav a:visited { padding:0 15px 0 8px; }
 nav ul li a:hover, nav ul li.active a { 
     /* -moz-border-radius: 5px;
