@@ -169,12 +169,12 @@
 	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
 	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
-
+  <script src="core/libs/jquery.browser.min.js"></script>
 	
 	<script type="text/javascript">
 	    $(document).ready(function(){
             
-            $('.readMoreButton, .readMoreImage').click(function(){
+        $('.readMoreButton, .readMoreImage').click(function(){
 				$('html, body').animate({
 					scrollTop: $("#whatispungle").offset().top
 				}, 800);
