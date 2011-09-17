@@ -55,7 +55,7 @@
                 containerId: 'chart_div'
             }); */
             
-            var EMPquery = new google.visualization.ChartWrapper({
+            /* var EMPquery = new google.visualization.ChartWrapper({
                 chartType: 'AreaChart',
                 dataSourceUrl: 'http://spreadsheets.google.com/spreadsheet/tq?key=0AknpySUykwdpdDJpZFFTSXFSRTczVDJTUmNMSlNCcVE&range=I1:I40,R1:R40',
                 options: {  
@@ -67,7 +67,7 @@
                     hAxis: { title: "Date" }
                 },
                 containerId: 'chart_EMP'
-            });
+            }); */
             
             var POTquery = new google.visualization.ChartWrapper({
                 chartType: 'AreaChart',
@@ -89,7 +89,7 @@
                     width: 640,
                     height: 180,
                     legend: 'in',
-                    colors: ["#bdcacc"],
+                    colors: ["#ff0f53"],
                     hAxis: { title: "Date" }
                 },
                 containerId: 'chart_TEC'
@@ -115,13 +115,13 @@
                     width: 640,
                     height: 180,
                     legend: 'in',
-                    colors: ["#ffd824"],
+                    colors: ["#a024ff"],
                     hAxis: { title: "Date" }
                 },
                 containerId: 'chart_EDU'
             });
             
-            var VACquery = new google.visualization.ChartWrapper({
+            /* var VACquery = new google.visualization.ChartWrapper({
                 chartType: 'AreaChart',
                 dataSourceUrl: 'http://spreadsheets.google.com/spreadsheet/tq?key=0AknpySUykwdpdDJpZFFTSXFSRTczVDJTUmNMSlNCcVE&range=I1:I40,W1:W40',
                 options: {  
@@ -132,7 +132,7 @@
                     hAxis: { title: "Date" }
                 },
                 containerId: 'chart_VAC'
-            });
+            }); */
             
             var CLEquery = new google.visualization.ChartWrapper({
                 chartType: 'AreaChart',
@@ -148,12 +148,12 @@
             });
             
             // query.draw();
-            EMPquery.draw();
+            // EMPquery.draw();
             POTquery.draw();
             TECquery.draw();
             NATquery.draw();
             EDUquery.draw();
-            VACquery.draw();
+            // VACquery.draw();
             CLEquery.draw();
         }
         
@@ -203,7 +203,7 @@
       	<div class="row">
             <div class="col col_16 align_center">
                 <!-- <h2 id="pungleCount">&nbsp;</h2> -->
-                <br/><i>Pungle takes the hard work out of finding & supporting great causes!</i>
+                <br/><i>Pungle takes the hard work out of supporting great causes!</i>
             </div>
             <div class="col col_10">
                 <div id="npoGraph"></div>
@@ -232,7 +232,7 @@
             </div>
         </div>
         
-        <!-- empowerment -->
+        <!-- empowerment 
         <div id="EMP" class="row">
             <div class="col col_5 align_center">
                 <h3>Empowerment</h3>
@@ -252,14 +252,14 @@
                     <b>NPO: <a href="http://theadventureproject.org/" target="_blank">The Adventure Project</a></b>
                 </p>
             </div>
-        </div>
+        </div> 
         
         <div class="row">
             <div class="col col_16">
                 <p><img src="/images/940x15.png" width="940" height="15" /></p>
                 <br/>
             </div>
-        </div>
+        </div> -->
         
         <!-- potable water -->
         <div id="POT" class="row">
@@ -302,10 +302,10 @@
                     <b>Goal: </b>To support development & distribution of innovative, life-changing technologies.
                 </p>
                 <p>  
-                    <b>Campaign: </b>$12.75/unit, biomass stoves that facilitates green technology adoption and creates new business opportunities and economic growth.
+                    <b>Campaign: </b>Affordable irrigation pumps that turn subsistent farmers into profitable entrepreneurs. Rate of economic stimulation projected at $15 per N donations in profits & wages.
                 </p>
                 <p>
-                    <b>NPO: <a href="http://kopernik.info/" target="_blank">Kopernik</a></b>
+                    <b>NPO: <a href="http://theadventureproject.org/" target="_blank">The Adventure Project</a></b>
                 </p>
             </div>
         </div>
@@ -373,7 +373,7 @@
             </div>
         </div>
         
-        <!-- vaccinations -->
+        <!-- vaccinations 
         <div id="VAC" class="row">
             <div class="col col_5 align_center">
                 <h3>Vaccinations</h3><br/>
@@ -399,7 +399,7 @@
                 <p><img src="/images/940x15.png" width="940" height="15" /></p>
                 <br/>
             </div>
-        </div>
+        </div> -->
         
         <!-- clean energy -->
         <div id="CLE" class="row">
@@ -458,9 +458,9 @@
         
         var r = Raphael("npoGraph");
         
-    	r.g.txtattr.font = "13px Arial, Verdana, Helvetica, sans-serif";
+    	  r.g.txtattr.font = "13px Arial, Verdana, Helvetica, sans-serif";
         
-        var pie = r.g.piechart(180, 170, 150, [pCauses[0], pCauses[1], pCauses[2], pCauses[3], pCauses[4], pCauses[5], pCauses[6]], {strokewidth: "4", colors: ["#a024ff", "#2f91ff", "#bdcacc", "#79da38", "#ffd824", "#ff0f53", "#404040"], legend: ["%% Empowerment", "%% Potable Water", "%% Technology", "%% Nature", "%% Education", "%% Vaccinations", "%% Clean Energy"], legendpos: "east", href: ["#scrollEMP", "#scrollPOT", "#scrollTEC", "#scrollNAT", "#scrollEDU", "#scrollVAC", "#scrollCLE"]});
+        var pie = r.g.piechart(180, 170, 150, [pCauses[0], pCauses[1], pCauses[2], pCauses[3], pCauses[4]], {strokewidth: "4", colors: ["#2f91ff", "#FF0F53", "#79da38", "#a024ff", "#404040"], legend: ["%% Potable Water", "%% Technology", "%% Nature", "%% Education", "%% Clean Energy"], legendpos: "east", href: ["#scrollPOT", "#scrollTEC", "#scrollNAT", "#scrollEDU", "#scrollCLE"]});
         pie.hover(function () {
             this.sector.stop();
             this.sector.scale(1.1, 1.1, this.cx, this.cy);
@@ -477,12 +477,6 @@
             }
         });
         
-        $('a[href=#scrollEMP]').click(function(){
-			$('html, body').animate({
-				scrollTop: $("#EMP").offset().top
-			}, 800);
-		});
-		
 		$('a[href=#scrollPOT]').click(function(){
 			$('html, body').animate({
 				scrollTop: $("#POT").offset().top
@@ -510,12 +504,6 @@
 		$('a[href=#scrollEDU]').click(function(){
 			$('html, body').animate({
 				scrollTop: $("#EDU").offset().top
-			}, 800);
-		});
-		
-		$('a[href=#scrollVAC]').click(function(){
-			$('html, body').animate({
-				scrollTop: $("#VAC").offset().top
 			}, 800);
 		});
 		
