@@ -18,10 +18,12 @@
     <style type="text/css">
         table { width: 100%; border-collapse: collapse; margin: 0 0 1em; font-size: 10px; line-height: 13px; }
         thead th { background: #FABE00; color: #444; font-size:12px; line-height: 14px; }
-        tbody th { text-align: left; font-size:15px; line-height: 26px; }
+        tbody th, tbody td { text-align: left; font-size:15px; line-height: 26px; }
+        tbody td { text-align: center; }
         tbody th a, tbody th a:visited { color: #444; }
         tbody th a:hover { color: #E6B000 }
         table th, table td { border: 1px solid #ddd; padding: 2px 5px; }
+        tbody th { padding-left: 20px; }
         
         .odd, .r1 { background: #FFF; }
         .even, .r2 { background: #EFEFEF; }
@@ -34,12 +36,13 @@
         }
         
         #storeSearch { width: 245px; height: 20px; line-height: 20px; margin-right: 5px; }
+      
+      /*
+      .ui-widget, .ui-button-text { font-size: 12px; }     
         
-        .ui-widget, .ui-button-text { font-size: 12px; }     
+      .ui-widget { margin-right: 5px; }
         
-        .ui-widget { margin-right: 5px; }
-        
-        .afflImage, .afflNoImage, .favNoImage, .favImage {
+      .afflImage, .afflNoImage, .favNoImage, .favImage {
 		    display: block;
 		    text-align:center;
 		    width: 24px;
@@ -83,6 +86,7 @@
 	        margin-right: 5px;
 	    }
 	    
+	    
 	    .radioEMPicon { background: url('/images/ca_emp_ico24x24.png') -24px 0 no-repeat; }
 	    .radioPOTicon { background: url('/images/ca_water_ico24x24.png') -24px 0 no-repeat; }
 	    .radioTECicon { background: url('/images/ca_tech_ico24x24.png') -24px 0 no-repeat; }
@@ -99,6 +103,7 @@
 	    label:hover .radioVACicon, label.ui-state-active .radioVACicon { background: url('/images/ca_vacc_ico24x24.png') 0 0 no-repeat; }
 	    label:hover .radioCLEicon, label.ui-state-active .radioCLEicon { background: url('/images/ca_energy_ico24x24.png') 0 0 no-repeat; }	    
 	    
+	    
 	    #dragit { 
 	        display: none;
 	        background: transparent url('/images/bookmarklet_drag206x109.png') center center no-repeat;
@@ -112,7 +117,7 @@
         
         #pungleBookmarklet { position: relative; z-index: 9000; }
         #pungleBookmarklet.dribbble:hover #dragit { display: block; }
-        
+       */ 
     </style>
     
 </head>
@@ -122,18 +127,19 @@
 
     <div id="subheader" class="clearfix">
         <div class="row" style="overflow: visible;">
-            <div class="col col_6"><h1 style="display: inline-block"><b>Shop</b> Tool</h1></div>
-            <div class="col col_10" style="padding-top: 8px; overflow: visible;">
+            <div class="col col_16"><h1 style="display: inline-block"><b>Stores</b></h1></div>
+            <!-- <div class="col col_10" style="padding-top: 8px; overflow: visible;">
                 <img style="align: middle;" src="/images/PU_bookmarklet_text.png" width="187" height="30" alt="After setting up your stores, drag the button to your bookmarks.">
                 <a id="pungleBookmarklet" class="dribbble" style="display: inline-block; margin-left: 0px;" title="Shop bookmarklet, drag to your bookmark bar!"  href="#" >Shop Tool<span id="dragit"></span>
                 </a>                
-            </div>
+            </div> -->
         </div>
     </div>
     
 	<div id="content" class="clearfix">
 		
-	<a id="KTLOStore" href="http://pungle.storenvy.com/" target="_blank" title="Help us keep the lights on; buy pungle products!">Pungle Products</a>
+	<!-- <a id="KTLOStore" href="http://pungle.storenvy.com/" target="_blank" title="Help us keep the lights on; buy pungle products!">Pungle Products</a>-->
+	
 	<!-- <div class="row">
       <div class="col col_16">      		
       	<a id="pungleBookmarklet" class="right" href="">bookmarklet</a>
@@ -147,23 +153,22 @@
 		</div>
 	</div> -->
 
-    <div class="row">
+    <!--<div class="row">
         <div class="col col_16 align_center">
-            <!-- <div style="display: inline-block; line-height: 24px; padding-top: 1px;">Pick a Cause: </div> -->
             <div style="display: inline-block; vertical-align: top;" id="causeRadio">
 	            <input type="radio" id="radioEMP" name="radio" value="0" checked="checked" /><label for="radioEMP" title="Create social enterprises that strengthen developing communities."><span class="radioEMPicon">icon</span>Empowerment</label><input type="radio" id="radioPOT" name="radio" value="1" /><label for="radioPOT" title="Provide clean water as a basic human right."><span class="radioPOTicon">icon</span>Potable Water</label><input type="radio" id="radioTEC" name="radio" value="2" /><label for="radioTEC" title="Support development of life changing technologies."><span class="radioTECicon">icon</span>Technology</label><input type="radio" id="radioNAT" name="radio" value="3" /><label for="radioNAT" title="Preserve plants, animals and natural ecosystems."><span class="radioNATicon">icon</span>Nature</label><input type="radio" id="radioEDU" name="radio" value="4" /><label for="radioEDU" title="Create opportunities for American students to succeed."><span class="radioEDUicon">icon</span>Education</label><input type="radio" id="radioVAC" name="radio" value="5" /><label for="radioVAC" title="Stop the spread of life threatening diseases."><span class="radioVACicon">icon</span>Vaccination</label><input type="radio" id="radioCLE" name="radio" value="6" /><label for="radioCLE" title="Offset carbon emissions."><span class="radioCLEicon">icon</span>Clean Energy</label>
 	            <p><img src="/images/940x15.png" width="940" height="15" /></p>
             </div>
         </div>
-    </div>
+    </div>-->
     
     
-	<!-- container for overview to hold store buttons -->	
+	<!-- container for overview to hold store buttons 	
 	<div class="row">
 	    <div id="overviewContainer" class="col col_16">
 			<ul id="ulOverview"></ul>				
 		</div>			
-	</div>
+	</div>-->
     
 	<div class="row">
 		<div class="col col_16">
@@ -179,7 +184,7 @@
 		    
 		    <input type="text" placeholder="Search.." id="storeSearch">
 		    
-		    <select id="dropList">
+		    <!-- <select id="dropList">
 		        
 		        <option value="" selected="selected">All Categories</option>
 		        <option value="c1|">Accessories</option>
@@ -209,7 +214,7 @@
 	        
 	        <button id="buttonClearStores" title="Clear all favorite stores from overview.">Clear Favorites</button>
 	        <button id="buttonRestoreDefaults" title="Restore default favorite stores to overview.">Restore Defaults</button>
-		    
+		    -->
 	    </div>
 	</div>
 	
@@ -221,15 +226,15 @@
 		    <table>
     			<thead>
     				<tr>
-    					<th width="25%">STORE</th>
-    					<th width="65%">DESCRIPTION</th>
-    					<th width="5%" title="High impact shopping!">=]</th>
-    					<th width="5%" title="Favorite a store!"><3</th>
+    					<th width="65%">STORE</th>
+    					<th width="35%">IMPACT</th>
+    					<!-- <th width="5%" title="High impact shopping!">=]</th>
+    					<th width="5%" title="Favorite a store!"><3</th>-->
     				</tr>
     			</thead>
     			<tbody id="allStores">
     				<tr id="noresults">
-		                <td colspan="4">No Results.. <a href="http://localhost/about-us/contact/" title="Suggest a store!">Suggest a store?</a></td>
+		                <td colspan="2">No Results.. <a href="http://localhost/about-us/contact/" title="Suggest a store!">Suggest a store?</a></td>
 	                </tr>    			    
     			</tbody>
 			</table>			
@@ -269,7 +274,7 @@
 	<script src="/core/pungleJSON.js"></script>
 	<script src="/core/pungle.js?v=5"></script>
 	    
-	<script src="/core/libs/jquery.ui.selectmenu.js"></script>
+	<!-- <script src="/core/libs/jquery.ui.selectmenu.js"></script> -->
 	<script src="/core/jquery.quicksearch.js"></script>
 	
 	<script type="text/javascript">

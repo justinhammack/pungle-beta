@@ -141,9 +141,9 @@
 		this.sorted = function () {
 			val = $(this).val();
 				/* ADDED TO CAPTURE MULTIPLE FIELDS */
-				if ($('select#dropList').val() !== "") { val += ' ' + $('select#dropList').val(); }
-				if ($('input#tagFav:checked').val()) { val += ' ' + $('input#tagFav:checked').val(); }
-				if ($('input#tagAffl:checked').val()) { val += ' ' + $('input#tagAffl:checked').val(); }
+				//if ($('select#dropList').val() !== "") { val += ' ' + $('select#dropList').val(); }
+				//if ($('input#tagFav:checked').val()) { val += ' ' + $('input#tagFav:checked').val(); }
+				//if ($('input#tagAffl:checked').val()) { val += ' ' + $('input#tagAffl:checked').val(); }
 			e.trigger();
 			return this;
 		}

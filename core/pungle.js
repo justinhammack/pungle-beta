@@ -5,12 +5,12 @@ var pungle = (function ($) {
 	
 	
     // namespace variables
-	var storeOrder = [];
-	var storeOrderDefault = [0,140,115,114,84,5]; // default store order if no cookie or hash
-	var imagePath = '/images/'; // set path for images (can swap with CDN)
-	var imageStoresPath = 'http://c190157.r57.cf1.rackcdn.com/'; // set path for images (can swap with CDN)
-	var cookieStore = 'storeorder'; // cookie to hold the user specified store order
-    var cookieCause = 'cause'; // cookie to hold the user specified cause
+	//var storeOrder = [];
+	//var storeOrderDefault = [0,140,115,114,84,5]; // default store order if no cookie or hash
+	//var imagePath = '/images/'; // set path for images (can swap with CDN)
+	//var imageStoresPath = 'http://c190157.r57.cf1.rackcdn.com/'; // set path for images (can swap with CDN)
+	//var cookieStore = 'storeorder'; // cookie to hold the user specified store order
+    //var cookieCause = 'cause'; // cookie to hold the user specified cause
 	
 	// set up pungle & overview for use
 	function init() {
@@ -18,10 +18,10 @@ var pungle = (function ($) {
 		// use CSS for image properties.. background and object sizes image_props.png, one object for all properties (handle, deal, no deal, normal i, social good i)
 		
 		var htmlStore = ''; // blank variable to hold HTML		
-		var causeID = getCauseID(); // check cause Id
+		//var causeID = getCauseID(); // check cause Id
 		
 		// create linked sortable lists after data is loaded (does order matter?)
-		$("#ulOverview").sortable({
+		/*$("#ulOverview").sortable({
 			opacity: 0.6,
 			revert: 100,
 			// scroll: false,
@@ -30,64 +30,66 @@ var pungle = (function ($) {
 			placeholder: 'storePlaceHolder',			
 			// handle: '.storeButtonUtility',
 			update: function() { $.cookie(cookieStore, $("#ulOverview").sortable("toArray"), { expires: 365, path: "/" }); updateStoreOrder(); }
-		});
+		});*/
 		
 		// setup cause radio buttons
-		$( "#causeRadio" ).buttonset();
+		//$( "#causeRadio" ).buttonset();
 		
 		// setup drop down menu
-		$('select#dropList').selectmenu();
+		//$('select#dropList').selectmenu();
         
 		// setup check boxes for affiliate / favorites
-		$('#storeCheckbox').buttonset(); 
+		//$('#storeCheckbox').buttonset(); 
 		
 		// setup clear store button
-		$("#buttonClearStores").button({
+		/*$("#buttonClearStores").button({
             icons: { primary: "ui-icon-document-b" }
         }).click(function() { 
         	clearStores();
-    	});
+    	});*/
 		
     	// setup restore defaults button
-    	$("#buttonRestoreDefaults").button({
+    	/*$("#buttonRestoreDefaults").button({
             icons: { primary: "ui-icon-refresh" }
         }).click(function() { 
         	restoreDefaults();
-    	});
+    	});*/
 		
 		// parse the database, setup all stores
 		$.each(pungleJSON.store, function(entryIndex, entry) {
 			
 			// is the store live?
-			if(entry['live']){				
+			//if(entry['live']){				
 			    
 			    // setup the list object				
-				htmlStore = '<tr><th><a href="/inject/#id=' + entry['id'] + '&c=' + causeID + '" target="_blank" title="' + entry['name'] + '">' + entry['name'] + '</a></th>';
-				htmlStore += '<td>' + entry['desc'] + '<span class="hidden">';
+				htmlStore = '<tr><th><a href="/inject/#id=' + entry['domain'] + '" target="_blank" title="' + entry['name'] + '">' + entry['name'] + '</a></th>';
+				htmlStore += '<td>' + entry['desc'];
+				/* + '<span class="hidden">';
 			    
 				$.each(entry['tags'], function(tagsIndex, tags) {
 				    htmlStore += 'c' + tags + '|';
-				});
+				});*/
 				
-			    htmlStore += '</span></td><td>';
+			    //htmlStore += '</span></td><td>';
+				htmlStore += '</td></tr>';
 			    
 				// check if they are an affiliate or not
-				if(entry['aff']) htmlStore += '<div class="afflImage" title="High impact shopping enabled!">AFFL</div>';
+				//if(entry['aff']) htmlStore += '<div class="afflImage" title="High impact shopping enabled!">AFFL</div>';
 				
-				htmlStore += '</td>';				
+				//htmlStore += '</td>';				
 				
 				// add / remove store should be a funciton call! (to simplify scalability, not that list objects are modified..)
-				htmlStore += '<td><div id="listS' + entry['id'] + '"  class="favNoImage" title="Add/remove your favorites!"></div></td></tr>';
+				//htmlStore += '<td><div id="listS' + entry['id'] + '"  class="favNoImage" title="Add/remove your favorites!"></div></td></tr>';
 				
 				// add store to accordion
 				$('#allStores').append(htmlStore);
 				
 				// event to add store to overview
-				$("#listS" + entry['id']).click(function () {
+				/*$("#listS" + entry['id']).click(function () {
 				    pungle.modStoreOverview(entry['id']);				    
-				});				
+				});*/
 				
-			}
+			//}
 		});			
 		
 		// setup quick search
@@ -97,16 +99,16 @@ var pungle = (function ($) {
         });
 	    
         // bind quick search update to all fields
-        $('select#dropList,input#tagFav,input#tagAffl').bind('change', function() {
+        /* $('select#dropList,input#tagFav,input#tagAffl').bind('change', function() {
             qsStores.sorted();
-        });
+        });*/
         
         // import all the stores to overview
-		getStoreOrder();
+		//getStoreOrder();
 		
-		$("input[name=radio]").click(function() {
+		/*$("input[name=radio]").click(function() {
 		   pungle.causeUpdate();
-		});
+		});*/
 	}
 	
 	
@@ -180,48 +182,34 @@ var pungle = (function ($) {
 	function shopNow(storeID, causeID) {
 		
 	    var storeLINK = null;
-	    var storeTIMER = 2500;
+	    // var storeTIMER = 2500;
 	    
 	    var storeFound = false;	    
-	    var storeHtml = 'uhm.. yeah. store not found. our bad?<br/><br/><a href="http://pungle.me/">go back to pungle.me</a><br/><br/>';
+	    // var storeHtml = 'uhm.. yeah. store not found. our bad?<br/><br/><a href="http://pungle.me/">go back to pungle.me</a><br/><br/>';
 	    
 	    // set the cause icon & add buttons
         if (causeID >= 0 && causeID <= 6) {}
         else { causeID = 0; }
         
-	    var causes = ["ca_emp_ico64x64.png","ca_water_ico64x64.png","ca_tech_ico64x64.png","ca_nature_ico64x64.png","ca_edu_ico64x64.png","ca_vacc_ico64x64.png","ca_energy_ico64x64.png"];
+	    // var causes = ["ca_emp_ico64x64.png","ca_water_ico64x64.png","ca_tech_ico64x64.png","ca_nature_ico64x64.png","ca_edu_ico64x64.png","ca_vacc_ico64x64.png","ca_energy_ico64x64.png"];
 	    
 	    var noCause = "";
 	    
 	    for ( var i=0, len=pungleJSON.store.length; i<len; ++i ){
     		// else found ID is not a favorite yet
-    	    if( pungleJSON.store[i].id == storeID && pungleJSON.store[i].live == true ) {
-    	        storeFound = true;    	        
+    	    if( pungleJSON.store[i].domain == storeID) {
+    	        storeFound = true;
     	        storeLINK = pungleJSON.store[i].link;
-    	        
-    	        if(pungleJSON.store[i].aff === true) {
-    	            storeHtml = '<h3>' + pungleJSON.store[i].name + ' is social good enabled!</h3>';
-    	            storeHtml += '<p><span class="yourCause">Your Cause:</span></p>';
-    	            storeHtml += '<p><img src="/images/' + causes[causeID] + '" width="64" height="64" /></p><br/>';
-    	            $.ajax({ type: "POST", url: "/include/pushvote.php", data: "c=" + causeID });
-    	        }
-    	        else {
-    	            storeHtml = '<h3>' + pungleJSON.store[i].name + '</h3>';
-    	            storeHtml += '<p><span class="yourCause">Social Good is in negotiations..</span></p>';
-    	            storeHtml += '<p><img src="/images/ca_nothing_ico64x64.png" width="64" height="64" /></p><br/>';
-    	            storeTIMER = 3750;
-    	        }
-    	        
+				
+				// save cause selected
+				$.ajax({ type: "POST", url: "/include/pushvote.php", data: "c=" + causeID });
+				
     	        // found, break out
     	        break;
     	    }    	    
     	}
     	
-    	if (storeFound == true) $("#pungleSteps").html(storeHtml);
-    	
-    	else $("#pungleSteps").html(storeHtml);
-    	
-    	return {storeLINK:storeLINK, storeTIMER:storeTIMER};
+    	return {storeLINK:storeLINK};
 	}
 	
 	
