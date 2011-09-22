@@ -23,7 +23,6 @@
 	    body {
             padding: 0;
             margin: 0;
-            background: url('/images/PUkittycorn_frontpage.jpg') center 340px no-repeat;
             
             width: 100%;
             display: table;
@@ -64,34 +63,42 @@
 		<!-- text header -->
 	    <div class="row">
 	        
-	        <div class="col col_10 align_center">
-	            <br/><br/><br/>
-	            <img src="/images/PU_headline446x130.png" width="446" height="130" alt="Use our shopping tool to support the causes you choose." title="Use our shopping tool to support the causes you choose." />	            
-	            
+	        <div class="col col_8 align_left">
+	            <br/>
+	            <h1>6,709 people agree.</h1><br>
+	            <h3>pungle is the easiest way to support causes when you shop online. free.</h3>
+	            <br></br>
+	            <div class="ctabutton">Install App
+	            </div> <br>      
+	        </div>	 
+	        <div class="col col_8 align_right">
+	            <img src="images/thumbsUpCat385x485.png"></img>
+	        </div>
+	    	                   
 	            <!-- <p>
 	                <span style="font: 16px/23px 'helvetica neue', Helvetica, Arial, Verdana, sans-serif;">Use our <a style="color: #0664bb" href="/shop/" title="Shopping Tool">Shopping Tool</a> to turn your<br/> purchases into donations.</span>
 	            </p> -->
 	            
-	        </div>
+
 	        
-	        <div class="col indexForm">
+	       <!-- <div class="col indexForm">
 	            
-	            <!-- Step 1 Facebook -->
+	            <!-- Step 1 Facebook 
 	            <img src="/images/PU_step1a.png" width="125" height="30" alt="Step 1" title="Step 1" /><br/>
                 <small>Join our community and grow with us:</small><br/>
 	            <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=179859935402175&amp;xfbml=1"></script><fb:like href="https://www.facebook.com/pungleDOTorg" send="false" width="300" show_faces="true" font="arial"></fb:like>
 	            
-	            <!-- Step 2 Shopping Tool -->
+	            <!-- Step 2 Shopping Tool 
 	            <img src="/images/PU_step2b.png" width="192" height="30" alt="Step 2" title="Step 2" class="imageBuffer" />
 	            <a style="margin: 0 75px;" class="dribbble" href="/how-it-works/" title="How it Works!">Start ></a>
 	            <br/>
 	            
 	            <img style="margin-top: 8px;" src="/images/300x5.png" width="300" height="5" alt="split" />
-	            <!-- Optional -->
+	            <!-- Optional 
 	            <img style="margin-top: 8px;" src="/images/PU_step3a.png" width="250" height="33" alt="Step 3" title="Step 3" /><br/>
 	            <small>We're working out the kinks and looking for a few users to try our experimental features. If that's you, enter your email below and we'll be in touch.</small>
 	            
-	            <!-- Begin MailChimp Signup Form -->
+	            <!-- Begin MailChimp Signup Form 
 	            
                     <script type="text/javascript">
                     // delete this script tag and use a "div.mce_inline_error{ XXX !important}" selector
@@ -105,7 +112,7 @@
                                 
                                 <!-- <div class="mc-field-group">
                                     <input type="text" placeholder="Full Name" value="" name="FNAME" class="" id="mce-FNAME">
-                                </div> -->
+                                </div> 
                                 <div class="mc-field-group">
                                     <input type="text" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">                                    
                                     <input type="submit" value="Invite" name="subscribe" id="mc-embedded-subscribe" class="signup">
@@ -118,14 +125,14 @@
                 		        </div>                		        
                 		        
                     	    </fieldset>	
-                    	    <!-- <a href="#" id="mc_embed_close" class="mc_embed_close">Close</a> -->
+                    	    <!-- <a href="#" id="mc_embed_close" class="mc_embed_close">Close</a> 
                         </form>
                     </div>
                 
-                <!--End mc_embed_signup-->
+                <!--End mc_embed_signup
 	            
-	        </div>
-		</div>
+	        </div> 
+		</div> -->
 		
 		<div class="row" style="background-color: #FFF">
 		  <div class="col col_16">
