@@ -203,7 +203,7 @@
       	<div class="row">
             <div class="col col_16 align_center">
                 <!-- <h2 id="pungleCount">&nbsp;</h2> -->
-                <br/><i>Pungle takes the hard work out of supporting great causes!</i>
+                <br/><i>With the pungle.me app installed, you are supporting one of these causes for free every time you shop at a <a href="/shop/">participating store</a>.</i>
             </div>
             <div class="col col_10">
                 <div id="npoGraph"></div>

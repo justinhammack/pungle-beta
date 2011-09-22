@@ -127,7 +127,7 @@
 
     <div id="subheader" class="clearfix">
         <div class="row" style="overflow: visible;">
-            <div class="col col_16"><h1 style="display: inline-block"><b>Stores</b></h1></div>
+            <div class="col col_16"><h1 style="display: inline-block"><b>Supported</b> Stores</h1></div>
             <!-- <div class="col col_10" style="padding-top: 8px; overflow: visible;">
                 <img style="align: middle;" src="/images/PU_bookmarklet_text.png" width="187" height="30" alt="After setting up your stores, drag the button to your bookmarks.">
                 <a id="pungleBookmarklet" class="dribbble" style="display: inline-block; margin-left: 0px;" title="Shop bookmarklet, drag to your bookmark bar!"  href="#" >Shop Tool<span id="dragit"></span>
@@ -172,7 +172,7 @@
     
 	<div class="row">
 		<div class="col col_16">
-			
+			  <p>Any time you shop at one of these online stores, you’re supporting a good cause for free with the pungle.me App. The amount donated is listed below.</p>
 		    <br/>
 			
 		    <!-- <a id="pungleBookmarklet" href="javascript:(function(e,a,g,h,f,c,b,d){if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){c=a.createElement(&quot;script&quot;);c.type=&quot;text/javascript&quot;;c.src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/&quot;+g+&quot;/jquery.min.js&quot;;c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d==&quot;loaded&quot;||d==&quot;complete&quot;)){h((f=e.jQuery).noConflict(1),b=1);f(c).remove()}};a.documentElement.childNodes[0].appendChild(c)}})(window,document,&quot;1.3.2&quot;,function($,L){
@@ -227,7 +227,7 @@
     			<thead>
     				<tr>
     					<th width="65%">STORE</th>
-    					<th width="35%">IMPACT</th>
+    					<th width="35%">DONATION</th>
     					<!-- <th width="5%" title="High impact shopping!">=]</th>
     					<th width="5%" title="Favorite a store!"><3</th>-->
     				</tr>

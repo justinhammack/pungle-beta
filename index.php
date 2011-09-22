@@ -127,6 +127,18 @@
 	        </div>
 		</div>
 		
+		<div class="row" style="background-color: #FFF">
+		  <div class="col col_16">
+		    <h3>Answers</h3>
+		    <p>First time here? You're probably wondering...</p>
+		    <p><strong>All I have to do is install the app?</strong> Yep, we take care of the rest.</p>
+		    <p><strong>What does the app do?</strong> The app generates referral revenue (at no cost to you) any time you shop at <a href="/shop/">stores we support</a>. That referral revenue is donated to the cause you choose. Learn <a href="/how-it-works/">how it works</a>.</p>
+		    <p><strong>What’s in it for me?</strong> The pungle app makes it ridiculously easy for you to give back to a good <a href="/cause-portfolio/">cause</a>. It’s free and there’s no hassle, just install the app and we take care of the rest.</p>
+		    <p><strong>Ok, I’ve installed the app, how do I know it’s working?</strong> Look for the high-five icon <img src="/images/icon.png" alt="pungle icon"> in the address bar (Chrome) or lower right corner (Firefox) when you are at a <a href="/shop/">supported store</a>.</p>
+		    <p><strong>How much is donated?</strong> The amount donated is on the <a href="/shop/">store list</a> page (it’s typically a % of your purchase).</p>
+		  </div>
+		</div>
+		
 	    <!-- introducing pungle 
 		<div class="row">
 			<div class="col col_6">
