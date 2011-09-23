@@ -87,7 +87,10 @@
 
     <div id="subheader" class="clearfix">
         <div class="row">
-            <div class="col col_16"><h1 style="display: inline-block"><b>How</b> it Works</h1></div>
+            <div class="col col_16">
+              <a id="extInstall" class="ctabutton2 right" href="#">Install Now</a>
+              <h1 style="display: inline-block"><b>How</b> it Works</h1>
+            </div>
         </div>
     </div>
     

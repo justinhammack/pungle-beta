@@ -89,3 +89,24 @@
             s.parentNode.insertBefore(g, s);
         })(document, 'script');
     </script>
+    
+    <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
+  	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
+    <script src="/core/libs/jquery.browser.min.js"></script>
+    
+    <script type="text/javascript">
+  	    $(document).ready(function(){
+
+          if($.browser.name == 'chrome') {
+            $("#extInstall").attr('href', 'http://pungle.me/extensions/chrome1.0.5.crx');
+          } else if ($.browser.name == 'firefox') {
+            $("#extInstall").attr('href', 'http://pungle.me/extensions/firefox0.5.24.xpi');
+          } else {
+            $('#extInstall').click(function() {
+              alert('Sorry, we only support Chrome & Firefox.');
+            });
+          }
+        
+  	    });
+  	</script>

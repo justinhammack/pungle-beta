@@ -64,11 +64,16 @@
 	        
 	        <div class="col col_8 align_left">
 	            <br/>
-	            <h1>6,709 people agree.</h1>
-	            <h3>pungle is the easiest way to support causes when you shop online. free.</h3>
+	            <h1 id="pungleCount">6,709 people agree.</h1>
 	            <br/>
-	            <a id="extInstall" class="ctabutton" href="#">Install App</a>
+	            <h3>The pungle.me app is the easiest way to support a good cause for free when you shop online.</h3>
 	            <br/>
+	            <a id="extInstall" class="ctabutton" href="#">Install Now</a>
+	            <br/>
+	            <p>
+	               2 clicks and you're done installing the pungle.me app, takes less than 5 seconds. Give it a whirl!
+	            </p>
+	            <p>Have questions? We have <a href="#scrollAnswers">answers</a>.</p>
 	        </div>	 
 	        
 	        <div class="col col_8 align_right">
@@ -126,7 +131,8 @@
 		</div>
 		
 		<div class="row">
-		  <div class="col col_16">
+		  <div class="col col_16" id="gotAnswers">
+		    <br/>
 		    <h3>Answers</h3>
 		    <p>First time here? You're probably wondering...</p>
 		    <p><strong>All I have to do is install the app?</strong> Yep, we take care of the rest.</p>
@@ -134,6 +140,7 @@
 		    <p><strong>What’s in it for me?</strong> The pungle app makes it ridiculously easy for you to give back to a good <a href="/cause-portfolio/">cause</a>. It’s free and there’s no hassle, just install the app and we take care of the rest.</p>
 		    <p><strong>Ok, I’ve installed the app, how do I know it’s working?</strong> Look for the high-five icon <img src="/images/icon.png" alt="pungle icon"> in the address bar (Chrome) or lower right corner (Firefox) when you are at a <a href="/shop/">supported store</a>.</p>
 		    <p><strong>How much is donated?</strong> The amount donated is on the <a href="/shop/">store list</a> page (it’s typically a % of your purchase).</p>
+		    <br/><br/>
 		  </div>
 		</div>
 		
@@ -143,31 +150,39 @@
 
 <?php require("include/footer.php"); ?>
 
-	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
-	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
-  <script src="core/libs/jquery.browser.min.js"></script>
+
 	
 	<script type="text/javascript">
+	    function addCommas(nStr) {
+      	nStr += '';
+      	x = nStr.split('.');
+      	x1 = x[0];
+      	x2 = x.length > 1 ? '.' + x[1] : '';
+      	var rgx = /(\d+)(\d{3})/;
+      	while (rgx.test(x1)) {
+      		x1 = x1.replace(rgx, '$1' + ',' + '$2');
+      	}
+      	return x1 + x2;
+      }
+      
 	    $(document).ready(function(){
+        var pCauses = [];
+        var pCount = 0;
         
-        if($.browser.name == 'chrome') {
-          $("#extInstall").attr('href', 'http://pungle.me/extensions/chrome1.0.5.crx');
-        } else if ($.browser.name == 'firefox') {
-          $("#extInstall").attr('href', 'http://pungle.me/extensions/firefox0.5.24.xpi');
-        } else {
-          $('#extInstall').click(function() {
-            alert('Sorry, we only support Chrome & Firefox.');
-          });
-        }
+        $.ajax({ url: '/core/pungleCAUSES.json', dataType: 'json', async: false, success: function(data) { pCauses = data.slice(); } });
         
+        $.each(pCauses, function(index){
+            pCauses[index] -= 2750;
+            pCount += pCauses[index];
+        });
         
-        $('.readMoreButton, .readMoreImage').click(function(){
+        $('#pungleCount').html(addCommas(pCount) + ' People Agree.');
+        
+        $('a[href=#scrollAnswers]').click(function(){
 				  $('html, body').animate({
-				    scrollTop: $("#whatispungle").offset().top
+				    scrollTop: $("#gotAnswers").offset().top
 				  }, 800);
 			  });
-			  
 	    });
 	</script>
 

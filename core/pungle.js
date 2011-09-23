@@ -188,7 +188,7 @@ var pungle = (function ($) {
 	    // var storeHtml = 'uhm.. yeah. store not found. our bad?<br/><br/><a href="http://pungle.me/">go back to pungle.me</a><br/><br/>';
 	    
 	    // set the cause icon & add buttons
-        if (causeID >= 0 && causeID <= 6) {}
+        if (causeID >= 0 && causeID <= 4) {}
         else { causeID = 0; }
         
 	    // var causes = ["ca_emp_ico64x64.png","ca_water_ico64x64.png","ca_tech_ico64x64.png","ca_nature_ico64x64.png","ca_edu_ico64x64.png","ca_vacc_ico64x64.png","ca_energy_ico64x64.png"];

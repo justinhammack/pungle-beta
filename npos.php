@@ -193,7 +193,10 @@
 
     <div id="subheader" class="clearfix">
         <div class="row">
-            <div class="col col_16"><h1 style="display: inline-block"><b>Cause</b> Progress</h1></div>
+            <div class="col col_16">
+              <a id="extInstall" class="ctabutton2 right" href="#">Install Now</a>
+              <h1 style="display: inline-block"><b>Cause</b> Progress</h1>
+            </div>
         </div>
     </div>
     
@@ -426,10 +429,6 @@
 
 <?php require("include/footer.php"); ?>
 
-	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
-	<script>!window.jQuery && document.write('<script src="/core/libs/jquery.min.js" type="text/javascript"><\/script>')</script>
-	
     <script type="text/javascript">
 		
     window.onload = function () {

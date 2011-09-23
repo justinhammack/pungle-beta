@@ -26,14 +26,14 @@
 			<nav>
 				<ul class="navigation">
 					<li>
-					    <a class="navAnvil" title="Browse available stores." href="/shop/">Browse Stores</a>
+					    <a title="Browse available stores." href="/shop/">Stores</a>
 			    </li>
+			    <li>
+	          <a <?php if ($pfile=="npos.php") { ?>class="subSelected"<?php } ?> href="/cause-portfolio/" title="See the difference Punglers have made.">Causes</a>
+	        </li>
 			    <li>
 		        <a <?php if ($pfile=="sogood.php") { ?>class="subSelected"<?php } ?> href="/how-it-works/" title="Check out how it works.">How It Works</a>
 		      </li>
-		      <li>
-	          <a <?php if ($pfile=="npos.php") { ?>class="subSelected"<?php } ?> href="/cause-portfolio/" title="See the difference Punglers have made.">View Progress</a>
-	        </li>
 				    <!-- <li class="parentNav">
 					    <a href="/how-it-works/">Learn More</a>
 					    <ul>
