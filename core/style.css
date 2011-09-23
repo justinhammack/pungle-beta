@@ -505,36 +505,38 @@ button {  width: auto; overflow: visible; }
 	/* #footer .ui-icon:hover { background-image: url(/images/ui-icons_f0b02a_256x240.png); } */
 
     /* BUTTONS, BUTTONS, BUTTONS! */
-	    .ctabutton {
-	   border-top: 1px solid #c7f9b4;
-	   background: #4dea10;
-	   background: -webkit-gradient(linear, left top, left bottom, from(#91f569), to(#4dea10));
-	   background: -webkit-linear-gradient(top, #91f569, #4dea10);
-	   background: -moz-linear-gradient(top, #91f569, #4dea10);
-	   background: -ms-linear-gradient(top, #91f569, #4dea10);
-	   background: -o-linear-gradient(top, #91f569, #4dea10);
-	   padding: 25px 40px 29px 40px;
-	   -webkit-border-radius: 12px;
-	   -moz-border-radius: 12px;
-	   border-radius: 12px;
-	   -webkit-box-shadow: rgba(0,0,0,1) 0 2px 2px;
-	   -moz-box-shadow: rgba(0,0,0,.4) 0 2px 2px;
-	   box-shadow: rgba(0,0,0,.4) 0 2px 2px;
-	   text-shadow: rgba(0,0,0,.2) 0 2px 1px;
-	   color: white;
-	   font-size: 38px;
-	   font-family: Helvetica, Arial, Sans-Serif;
-	   font-weight: bold;
-	   text-decoration: none;
-	   vertical-align: middle;
-	   /* display: inline-block;*/
-	   width: 195px;
-	   }
-	   
-	.ctabutton:hover {
-	   border-top-color: #69f700;
-	   background: #5ede00;
-	   color: #f6ffee;
+	  .ctabutton {
+      border-top: 1px solid #c7f9b4;
+      background: #4dea10;
+      background: -webkit-gradient(linear, left top, left bottom, from(#91f569), to(#4dea10));
+      background: -webkit-linear-gradient(top, #91f569, #4dea10);
+      background: -moz-linear-gradient(top, #91f569, #4dea10);
+      background: -ms-linear-gradient(top, #91f569, #4dea10);
+      background: -o-linear-gradient(top, #91f569, #4dea10);
+      padding: 25px 40px 29px 40px;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      border-radius: 12px;
+      -webkit-box-shadow: rgba(0,0,0,1) 0 2px 2px;
+      -moz-box-shadow: rgba(0,0,0,.4) 0 2px 2px;
+      box-shadow: rgba(0,0,0,.4) 0 2px 2px;
+      text-shadow: rgba(0,0,0,.2) 0 2px 1px;
+      color: white;
+      font-size: 38px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      font-weight: bold;
+      text-decoration: none;
+      vertical-align: middle;
+      display: inline-block;
+      margin-bottom: 5px;
+      width: 195px;
+	  }
+	  a.ctabutton { color: #FFF; }
+	  .ctabutton:hover {
+	     border-top-color: #69f700;
+	     background: #5ede00;
+	     color: #f6ffee;
+	     cursor: pointer;
 	   }
    
     

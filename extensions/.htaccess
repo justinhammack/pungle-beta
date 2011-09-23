@@ -1,0 +1,3 @@
+AddType text/xml rdf
+AddType application/x-xpinstall xpi
+AddType application/x-chrome-extension crx

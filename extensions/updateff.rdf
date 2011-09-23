@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="rdf:#$Oa1+T3">
+    <RDF:li RDF:resource="rdf:#$Pa1+T3"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$Pa1+T3"
+                   em:version="0.5.24">
+    <em:targetApplication RDF:resource="rdf:#$Sa1+T3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Sa1+T3"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="4.0b7"
+                   em:maxVersion="8.0a1"
+                   em:updateLink="http://pungle.me/extensions/firefox0.5.24.xpi"
+                   em:updateHash="sha1:ae0bb9f976a755eb3dc6f27491484be725f172cb" />
+  <RDF:Description RDF:about="urn:mozilla:extension:jid0-GnhxmzpYXsDKDchOe7nVWAnhuJQ@jetpack"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAHgDJHvOOL5nFZR9jRO3pUrVFz4oyTikop/y29poajyE9yH84Fv31YQAm+6P29z/ocTkucHARVg3fOY8fDL4o8xRfXO/OHsZpLv0CSJ2V1JK73lpRFMCE8jyT1rvqUTgUBjRNMG1T8Hh/YDCXIHuO/M4x4BV9n+TVdBPtg8hjIbQ">
+    <em:updates RDF:resource="rdf:#$Oa1+T3"/>
+  </RDF:Description>
+</RDF:RDF>
