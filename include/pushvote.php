@@ -9,7 +9,7 @@ $cause = json_decode(file_get_contents($jsonPATH),true);
 
 $causeID = (int)$_POST["c"];
 
-if ($causeID >= 0 && $causeID <= 6) {
+if ($causeID >= 0 && $causeID <= 5) {
     $cause[$causeID]++;
     file_put_contents($jsonPATH, json_encode($cause));
 }

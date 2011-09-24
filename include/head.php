@@ -18,9 +18,7 @@
     <link rel="apple-touch-icon" href="/favicon.png">
   
     <!-- CSS : implied media="all" -->
-    <!-- 4/15/11 set v=4 -->
-    <link rel="stylesheet" href="/core/style.css?v=6">
-    <!-- <link rel="stylesheet" href="core/style-min.css?v=2"> -->
+    <link rel="stylesheet" href="/core/style.css?v=7">
 
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
