@@ -99,7 +99,7 @@
   	    $(document).ready(function(){
 
           if($.browser.name == 'chrome') {
-            $("#extInstall").attr('href', 'http://pungle.me/extensions/chrome1.0.5.crx');
+            $("#extInstall").attr('href', 'http://pungle.me/extensions/chrome1.0.6.crx');
           } else if ($.browser.name == 'firefox') {
             $("#extInstall").attr('href', 'http://pungle.me/extensions/firefox0.5.24.xpi');
           } else {
