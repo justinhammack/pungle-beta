@@ -88,7 +88,6 @@
     <div id="subheader" class="clearfix">
         <div class="row">
             <div class="col col_16">
-              <a id="extInstall" class="ctabutton2 right" href="#">Install Now</a>
               <h1 style="display: inline-block"><b>How</b> it Works</h1>
             </div>
         </div>
@@ -104,11 +103,12 @@
         </div>
         
         <div class="row">
-            <div class="col col_10 align_right">
-                <h3>Pretty easy, eh? Let's watch the tutorial..</h3>
+            <div class="col col_16 align_center">
+                <h3>Pretty easy, eh? Want to try it?</h3>
             </div>
-            <div class="col col_6">
-                <a class="dribbble" href="/tutorial/" title="Watch the tutorial!">Next ></a>
+            <div class="col col_16 align_center">
+                <br/>
+                <a id="extInstall" class="ctabutton2" href="#">Install Now</a>
             </div>
         </div>
         
