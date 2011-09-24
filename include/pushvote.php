@@ -1,8 +1,8 @@
 <?php 
 
-if (!isset($_SERVER['HTTP_X_REQUESTED_WITH']) || $_SERVER['HTTP_REFERER']!="http://pungle.me/inject/") {
+/* if (!isset($_SERVER['HTTP_X_REQUESTED_WITH']) || $_SERVER['HTTP_REFERER']!="http://pungle.me/inject/") {
     die();
-}
+} */
 
 $jsonPATH = "../core/pungleCAUSES.json";
 $cause = json_decode(file_get_contents($jsonPATH),true);
