@@ -168,14 +168,10 @@
       
 	    $(document).ready(function(){
         var pCauses = [];
-        var pCount = 0;
         
         $.ajax({ url: '/core/pungleCAUSES.json', dataType: 'json', async: false, success: function(data) { pCauses = data.slice(); } });
         
-        $.each(pCauses, function(index){
-            pCauses[index] -= 2750;
-            pCount += pCauses[index];
-        });
+        var pCount = pCauses[5];
         
         $('#pungleCount').html(addCommas(pCount) + ' People Agree.');
         

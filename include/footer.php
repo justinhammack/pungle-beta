@@ -100,8 +100,10 @@
 
           if($.browser.name == 'chrome') {
             $("#extInstall").attr('href', 'http://pungle.me/extensions/chrome1.0.6.crx');
+            $("#extInstall").attr('onclick', "$.ajax({ type: 'POST', url: '/include/pushvote.php', data: 'c=5' });");
           } else if ($.browser.name == 'firefox') {
             $("#extInstall").attr('href', 'http://pungle.me/extensions/firefox0.5.24.xpi');
+            $("#extInstall").attr('onclick', "$.ajax({ type: 'POST', url: '/include/pushvote.php', data: 'c=5' });");
           } else {
             $('#extInstall').click(function() {
               alert('Sorry, we only support Chrome & Firefox.');

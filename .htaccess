@@ -4,6 +4,7 @@
 # pungle.me specific
 Redirect 301 /deals/ /
 Redirect 301 /deals.htm /
+Redirect 301 /survey/ /
 Redirect 301 /anvil/faq/ /faq/
 Redirect 301 /anvil/tutorial/ /tutorial/
 Redirect 301 /anvil/ /shop/
@@ -246,7 +247,7 @@ FileETag None
   
   RewriteRule ^bookmarklet/ ./bookmarklet.php
   
-  RewriteRule ^survey/ ./survey-7-20.php
+  # RewriteRule ^survey/ ./survey-7-20.php
   
   # RewriteRule ^social-good/goals-progress/ ./progress.php
   # RewriteRule ^threads/(\d+)*$ ./thread.php?id=$1
