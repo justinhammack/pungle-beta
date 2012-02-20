@@ -3,8 +3,8 @@
 	
     <meta name="google-site-verification" content="md946IN13FSC3e2OGYEp6nV146DZr0wlyWEoJWWth8A" />
     
-    <meta property="og:title" content="I'm a pungler!" />
-    <meta property="og:description" content="Where social good is free, easy, and makes a difference." />
+    <meta property="og:title" content="Install the pungle.me App!" />
+    <meta property="og:description" content="Give back, it's free and easy." />
     <meta property="og:image" content="http://pungle.me/images/PRfbshareimage72x72.jpg" />
 
     <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->

@@ -8,12 +8,12 @@
 			?>
 			
 			<!-- <a id="headerImage" href="/" title="pungle time!">pungle<img src="/images/pungle_me_logo.png" width="199" height="58" /></a> -->
-			<?php if ($pfile=="index.php") { ?> <a href="/" title="Social Good"><h1 class="headerBannerInterior">Social Good</h1></a> <?php }
-			else { ?> <a class="headerBannerInterior" href="/" title="Time to save the world..">pungle</a> <?php } ?>
+			<?php if ($pfile=="index.php") { ?> <a href="/" title="Give Back"><h1 class="headerBannerInterior">Give Back</h1></a> <?php }
+			else { ?> <a class="headerBannerInterior" href="/" title="Give Back">pungle</a> <?php } ?>
 			
 			<!-- <div class="header_social">
 				<a class="fbButtonLink" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on facebook.">Facebook</a>
-				<a class="twButtonLink" href="http://twitter.com/JustinHammack" target="_blank" title="Follow our founder on Twitter.">Twitter</a>
+				<a class="twButtonLink" href="http://twitter.com/pungleme" target="_blank" title="Follow pungle on Twitter.">Twitter</a>
 			</div> -->
 			
 			<?php if ($pfile!="index.php") { ?>

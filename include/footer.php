@@ -7,9 +7,9 @@
         <div class="row">
         	<div class="col col_3">
           	<p class="align_center">
-          		<a class="fbButtonBig" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on facebook.">Facebook</a>
-          		<a class="twButtonBig" href="http://twitter.com/JustinHammack" target="_blank" title="Follow our founder on Twitter.">Twitter</a>          		
-          		<a class="emButtonBig" href="mailto:contact@pungle.me" title="Email us!">Email</a>
+          		<a class="fbButtonBig" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on Facebook.">Facebook</a>
+          		<a class="twButtonBig" href="http://twitter.com/pungleME" target="_blank" title="Follow pungle on Twitter.">Twitter</a>          		
+          		<a class="emButtonBig" href="mailto:contact@pungle.me" title="Email us.">Email</a>
           	</p>
         	</div>
         	<div class="col col_1">
@@ -18,9 +18,9 @@
         	<div class="col col_3">
           	<p>
           		<small>
-          			<a href="/" title="Back to pungle time!"><span class="ui-icon ui-icon-home pungleWhiteIcon"></span><b> Home</b></a><br/>
-          		    <a href="/shop/" title="Go to our shopping tool!"><span class="ui-icon ui-icon-cart pungleWhiteIcon"></span><b> Stores</b></a><br/>
-          			<a href="http://blog.pungle.me" title="A piñata of awesome content!" target="_blank"><span class="ui-icon ui-icon-signal-diag pungleWhiteIcon"></span><b> Blog</b></a>          		    
+          			<a href="/" title="There's no place like home."><span class="ui-icon ui-icon-home pungleWhiteIcon"></span><b> Home</b></a><br/>
+          		    <a href="/shop/" title="View our store list."><span class="ui-icon ui-icon-cart pungleWhiteIcon"></span><b> Stores</b></a><br/>
+          			<a href="http://blog.pungle.me" title="A piñata of awesome." target="_blank"><span class="ui-icon ui-icon-signal-diag pungleWhiteIcon"></span><b> Blog</b></a>          		    
           		</small>
           	</p>
         	</div>
@@ -28,9 +28,9 @@
           	<p>
           		<small>
             		<b>Learn More</b><br/>
-          			<a href="/how-it-works/" title="Find out how you are helping nonprofits."><span class="ui-icon ui-icon-lightbulb pungleWhiteIcon"></span> How It Works</a><br/>
+          			<a href="/how-it-works/" title="Find out how you are helping give back."><span class="ui-icon ui-icon-lightbulb pungleWhiteIcon"></span> How It Works</a><br/>
             		<!-- <a href="/tutorial/" title="Learn how to use the anvil in 5 easy steps."><span class="ui-icon ui-icon-video pungleWhiteIcon"></span> Shop Tutorial</a><br/> -->
-            		<a href="/cause-portfolio/" title="See what Nonprofits we currently fund."><span class="ui-icon ui-icon-folder-open pungleWhiteIcon"></span> View Progress</a><br/>
+            		<a href="/cause-portfolio/" title="See the status of our causes."><span class="ui-icon ui-icon-folder-open pungleWhiteIcon"></span> View Progress</a><br/>
           		</small>
           	</p>
         	</div>
@@ -38,7 +38,7 @@
           	<p>
           		<small>
           		    <b>Information</b><br/>
-            		<a href="/about-us/contact/" title="Contact us, it's super pal time!"><span class="ui-icon ui-icon-comment pungleWhiteIcon"></span> Contact</a><br/>
+            		<a href="/about-us/contact/" title="The dreaded contact page!"><span class="ui-icon ui-icon-comment pungleWhiteIcon"></span> Contact</a><br/>
           			<a href="/faq/" title="Answers to some common questions."><span class="ui-icon ui-icon-help pungleWhiteIcon"></span> FAQ</a><br/>
           		  <!--<a href="/financial/" title="Get the gory details on our financial policy."><span class="ui-icon ui-icon-image pungleWhiteIcon"></span> Financial</a><br/>-->
           		</small>
@@ -48,8 +48,8 @@
           	<p>
           		<small>
             		<b>Company</b><br/>
-            		<a href="/about-us/" title="Do you love reading mission statements?"><span class="ui-icon ui-icon-suitcase pungleWhiteIcon"></span> About Pungle</a><br/>
-            		<a href="/about-us/our-team/" title="Who are the people behind the scenes?"><span class="ui-icon ui-icon-person pungleWhiteIcon"></span> Our Team</a><br/>
+            		<a href="/about-us/" title="You're the investigative type, aren't you?"><span class="ui-icon ui-icon-suitcase pungleWhiteIcon"></span> About Pungle</a><br/>
+            		<a href="/about-us/our-team/" title="The people behind the scenes."><span class="ui-icon ui-icon-person pungleWhiteIcon"></span> Our Team</a><br/>
           		</small>
           	</p>
         	</div>
