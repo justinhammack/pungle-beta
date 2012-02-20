@@ -36,7 +36,7 @@
         	
         </div>
         
-    <!-- Justin Hammack -->
+    <!-- Justin Hammack 
 		<div class="row">
 			<div class="col col_6">
 				<img src="/images/justin_hammack.jpg" title="Justin Hammack" width="340" height="210" />
@@ -49,7 +49,8 @@
 					I'm an entrepreneur, vegetarian foodie, coffee addict, ex-pro PC gamer, lover of cult movies, and driver of insane turbo-2.0L. I'm based out of Seattle, where the pungle secrets are kept. Yes, I'd love to grab some happy hour, glad you asked.
 				</p>
 			</div>
-		</div>
+		</div> 
+		-->
 		
 		<!-- Ben Andrews -->
 		<div class="row">
@@ -65,7 +66,7 @@
 			</div>
 		</div>
 		
-		<!-- Madeline Puckette -->
+		<!-- Madeline Puckette 
 		<div class="row">
 			<div class="col col_6">
 				<img src="/images/madeline_puckette.jpg" title="Madeline Puckette" width="340" height="210" />
@@ -77,9 +78,10 @@
 					In addition to being a designer, I'm an avid FPS gamer and an electro-pop singer. My vocals are featured on a few awesome electronica albums. I also drink wine professionally. Recently, I was awarded a wine sommelier certificate by CoM and placed runner-up in a national blind tasting competition. Salut!
 				</p>
 			</div>
-		</div>
+		</div> 
+		-->
 		
-		<!-- Chad Wasser -->
+		<!-- Chad Wasser 
 		<div class="row">
 			<div class="col col_6">
 				<img src="/images/chad_wasser.jpg" title="Chad Wasser" width="340" height="210" />
@@ -91,9 +93,10 @@
 					I like abstract strategy mechanics, amateur woodworking, recreational nonviolent conflict, invisible forces, and double short americanos. I live in Seattle, where I touch really fragile things with kid gloves for a living.
 				</p>
 			</div>
-		</div>
+		</div> 
+		-->
 		
-		<!-- Jourdan McGinn -->
+		<!-- Jourdan McGinn 
 		<div class="row">
 			<div class="col col_6">
 				<img src="/images/jourdan_mcginn.jpg" title="Jourdan McGinn" width="340" height="210" />
@@ -105,9 +108,10 @@
 					An avid tea drinker who is wildly addicted to strawberry jam. I am afraid of fish and driving over forty but live an uncharacteristically risky life on the side, travelling the dark continent alone and escaping a near kidnapping in West Africa. I am a technologically inept Seattlite working for a tech startup, a bit of a conundrum, no?
 				</p>
 			</div>
-		</div>
+		</div> 
+		-->
 		
-		<!-- Micah Huerta -->
+		<!-- Micah Huerta 
 		<div class="row">
 			<div class="col col_6">
 				<img src="/images/micah_huerta.jpg" title="Micah Huerta" width="340" height="210" />
@@ -120,6 +124,7 @@
 				</p>
 			</div>
 		</div>
+		-->
 		
 		<!-- Katie Andrews -->
 		<div class="row">
