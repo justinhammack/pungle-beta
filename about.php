@@ -39,7 +39,7 @@
         		    <br/><br/><h3>What's a pungler?</h3><br/>
         		    <b>pun·gler</b> [<b>puhng</b>-<i>guh</i>ler] <i>n. slang</i>
         		    <ol>
-        		        <li>One who uses pungle. A gender neutral term for a person (or people: punglers) who believe in leveraging their buying power to create synergy between businesses and nonprofits.</li>
+        		        <li>One who uses pungle. A gender neutral term for a person (or people: punglers) who believe in leveraging their online purchases to create synergy between businesses and nonprofits.</li>
         		        <li>Super great people who are intelligent, thoughtful and ready to start improving upon the status quo.</li>
         		        <li>You. Your friends. Your family.</li>
         		    </ol>
