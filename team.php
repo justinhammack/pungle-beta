@@ -61,7 +61,7 @@
 				<h3>Ben Andrews (<a href="http://about.me/bandrews" target="_blank" title="Details on http://about.me" />contact</a>)</h3>
 				<p><em>Director of marketing & propaganda. Puts the sass in sassy.</em><br/>
 					<br/>
-					I grew up playing the original Nintendo. My generation invented gaming, sorry, you can't top that. I have an elementary school degree in Oregon Trail. You know what, forget this, I can't be bothered to talk too much about myself, because frankly I'm busy being unbelievably awesome. How awesome am I? <a href="http://www.google.com/images?q=unicorns" target="_blank">THIS AWESOME</a>
+					I grew up playing the original Nintendo. My generation invented gaming, sorry, you can't top that. Who else has an elementary school degree in Oregon Trail? You know what, forget this, I can't be bothered to talk too much about myself, because frankly I'm busy being unbelievably awesome. How awesome? <a href="http://www.google.com/images?q=unicorns" target="_blank">This awesome.</a>
 				</p>
 			</div>
 		</div>
