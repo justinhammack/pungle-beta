@@ -9,7 +9,7 @@
 
 <head>
     <title>pungle - contact us</title>
-    <meta name="description" content="Contact us? What, you want to chat? Mmmkay.">
+    <meta name="description" content="Contact us. So, you want to chat? Mmmkay.">
     <meta name="author" content="pungle.me">
 <?php require("include/head.php"); ?>
 
@@ -31,18 +31,16 @@
         <div class="row">
             <div class="col col_16">
             	<p>
-          			<a class="fbButtonBig" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with punglers on facebook.">Facebook</a>
-          			<a class="twButtonBig" href="http://twitter.com/JustinHammack" target="_blank" title="Follow our founder on Twitter.">Twitter</a>          		
-          			<a class="emButtonBig" href="mailto:contact@pungle.me" title="Email us!">Email</a>
+          			<a class="fbButtonBig" href="http://www.facebook.com/pungleDOTorg" target="_blank" title="Connect with Punglers on Facebook.">Facebook</a>
+          			<a class="twButtonBig" href="http://twitter.com/pungleME" target="_blank" title="Follow pungle on Twitter.">Twitter</a>          		
+          			<a class="emButtonBig" href="mailto:contact@pungle.me" title="Email us.">Email</a>
           		</p>
             	<br/>
-          		<h3>phone: 206-550-6349</h3>
-          		<br/>
           		<h3>address:</h3>
           		<p style="margin-left:50px;">
-          		    pungle.me<br/>
-          		    1823 Terry Ave Unit 715<br/>
-          		    Seattle, WA 98101
+          		    pungle, LLC<br/>
+          		    4513 Greenwood Ave N #4<br/>
+          		    Seattle, WA 98103
           		</p>
           		<br/><br/>
           		<iframe src="https://spreadsheets.google.com/embeddedform?formkey=dHoyVFBpZ1V3YzVfT3U2OEpkLVdjV1E6MQ" width="760" height="850" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
