@@ -29,7 +29,7 @@
     <div class="row">
         <div class="col col_16">
         	
-            <h3>Shopping</h3>
+            <h3>pungle.me App</h3>
         	<p>
         		<b>If it's free to use, where does the money come from?</b><br/>
         		Pungle collects advertising revenue by promoting vendors through our shopping tool; at absolutely <b>no expense</b> to our community. We also make/source our own awesome products, check out our <a href="http://pungle.storenvy.com/" target="_blank" title="Pungle Products!">Pungle Products</a>!
